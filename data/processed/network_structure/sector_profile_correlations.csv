@@ -1,0 +1,589 @@
+layer,period,node_a,node_b,profile_correlation
+sector,all,Politics,Administration & Law,0.5972781579118576
+sector,all,Politics,Military,0.3068373467811146
+sector,all,Politics,Religion,-0.27652938765271967
+sector,all,Politics,Nobility,0.23120781543308772
+sector,all,Politics,Kinship,-0.15017883474738736
+sector,all,Politics,Big business,-0.04020807912383862
+sector,all,Politics,Small business,-0.3243785707125154
+sector,all,Politics,Academia,-0.22278317340924947
+sector,all,Politics,Exploration & Invention,0.10296736175264752
+sector,all,Politics,Culture (core),-0.7100083030727652
+sector,all,Politics,Culture (periphery),-0.7056405826596308
+sector,all,Politics,Sport & Games,0.09895350097861275
+sector,all,Administration & Law,Military,0.43620058849366244
+sector,all,Administration & Law,Religion,0.21236187291535086
+sector,all,Administration & Law,Nobility,0.2657000081467804
+sector,all,Administration & Law,Kinship,0.27223359353211607
+sector,all,Administration & Law,Big business,0.0974578816753759
+sector,all,Administration & Law,Small business,0.26625729446972
+sector,all,Administration & Law,Academia,-0.19311441438887034
+sector,all,Administration & Law,Exploration & Invention,0.2051781963907549
+sector,all,Administration & Law,Culture (core),-0.6127033688061594
+sector,all,Administration & Law,Culture (periphery),-0.3029315365794378
+sector,all,Administration & Law,Sport & Games,-0.3746825440522899
+sector,all,Military,Religion,0.24678430048747194
+sector,all,Military,Nobility,0.39689966638500757
+sector,all,Military,Kinship,0.5760097564404921
+sector,all,Military,Big business,0.45298499004055437
+sector,all,Military,Small business,0.007920026777172587
+sector,all,Military,Academia,-0.28124778553644064
+sector,all,Military,Exploration & Invention,-0.0344203983063049
+sector,all,Military,Culture (core),-0.7590325677006308
+sector,all,Military,Culture (periphery),-0.5396044462691899
+sector,all,Military,Sport & Games,0.10307794171174177
+sector,all,Religion,Nobility,0.2838337543894839
+sector,all,Religion,Kinship,0.4294359188959327
+sector,all,Religion,Big business,-0.16607595092510125
+sector,all,Religion,Small business,-0.19447281905673983
+sector,all,Religion,Academia,-0.31294493035396587
+sector,all,Religion,Exploration & Invention,-0.057489813084848844
+sector,all,Religion,Culture (core),0.1641627060796134
+sector,all,Religion,Culture (periphery),0.0865002977890705
+sector,all,Religion,Sport & Games,-0.4377227811059159
+sector,all,Nobility,Kinship,0.5551149511865389
+sector,all,Nobility,Big business,-0.0831049788492124
+sector,all,Nobility,Small business,-0.46497248192946294
+sector,all,Nobility,Academia,-0.2827289917703593
+sector,all,Nobility,Exploration & Invention,-0.07666381820662893
+sector,all,Nobility,Culture (core),-0.30932079776989174
+sector,all,Nobility,Culture (periphery),-0.525162119095886
+sector,all,Nobility,Sport & Games,0.4272383819139096
+sector,all,Kinship,Big business,-0.1469744252711397
+sector,all,Kinship,Small business,-0.11954913360297975
+sector,all,Kinship,Academia,-0.44620749006912186
+sector,all,Kinship,Exploration & Invention,-0.09904777405072065
+sector,all,Kinship,Culture (core),-0.23329887326561766
+sector,all,Kinship,Culture (periphery),-0.1886299878447592
+sector,all,Kinship,Sport & Games,0.15512040248690118
+sector,all,Big business,Small business,0.5896903422940981
+sector,all,Big business,Academia,-0.06999721553800169
+sector,all,Big business,Exploration & Invention,0.5793058834568372
+sector,all,Big business,Culture (core),-0.23655117915628965
+sector,all,Big business,Culture (periphery),0.2062249773117562
+sector,all,Big business,Sport & Games,0.1274908522109191
+sector,all,Small business,Academia,0.30073270766510457
+sector,all,Small business,Exploration & Invention,0.7296745964937034
+sector,all,Small business,Culture (core),-0.059091930930413115
+sector,all,Small business,Culture (periphery),0.5915893342226163
+sector,all,Small business,Sport & Games,0.0578487946262256
+sector,all,Academia,Exploration & Invention,-0.1395787773884221
+sector,all,Academia,Culture (core),-0.0010689332553471614
+sector,all,Academia,Culture (periphery),0.37996257316848364
+sector,all,Academia,Sport & Games,0.052271255135383395
+sector,all,Exploration & Invention,Culture (core),0.10344839678809745
+sector,all,Exploration & Invention,Culture (periphery),0.2231127929184145
+sector,all,Exploration & Invention,Sport & Games,0.31389772995939086
+sector,all,Culture (core),Culture (periphery),0.4538097660242997
+sector,all,Culture (core),Sport & Games,-0.06986462616648743
+sector,all,Culture (periphery),Sport & Games,-0.107157885454756
+sector,Pre-1000,Politics,Administration & Law,-0.32711992133952916
+sector,Pre-1000,Politics,Military,0.03650120422645868
+sector,Pre-1000,Politics,Religion,-0.6380537615330352
+sector,Pre-1000,Politics,Nobility,0.1926086250085898
+sector,Pre-1000,Politics,Kinship,-0.0017783365079166605
+sector,Pre-1000,Politics,Big business,-0.4297354176616883
+sector,Pre-1000,Politics,Small business,-0.5003696791731567
+sector,Pre-1000,Politics,Academia,-0.5427368051727922
+sector,Pre-1000,Politics,Exploration & Invention,-0.11516964685406357
+sector,Pre-1000,Politics,Culture (core),-0.44758288384598716
+sector,Pre-1000,Politics,Culture (periphery),-0.004604804249791486
+sector,Pre-1000,Politics,Sport & Games,-0.061925590562409476
+sector,Pre-1000,Administration & Law,Military,-0.09462450598018075
+sector,Pre-1000,Administration & Law,Religion,0.15871505437423408
+sector,Pre-1000,Administration & Law,Nobility,-0.5378567770463197
+sector,Pre-1000,Administration & Law,Kinship,-0.552789950174502
+sector,Pre-1000,Administration & Law,Big business,0.4286734090526275
+sector,Pre-1000,Administration & Law,Small business,0.2382301878873104
+sector,Pre-1000,Administration & Law,Academia,0.612973173014509
+sector,Pre-1000,Administration & Law,Exploration & Invention,0.04147114081698703
+sector,Pre-1000,Administration & Law,Culture (core),0.6311242521344753
+sector,Pre-1000,Administration & Law,Culture (periphery),0.47836485773560344
+sector,Pre-1000,Administration & Law,Sport & Games,-0.07270868257676145
+sector,Pre-1000,Military,Religion,-0.5307514712091135
+sector,Pre-1000,Military,Nobility,0.5239259745386314
+sector,Pre-1000,Military,Kinship,0.5238290662105414
+sector,Pre-1000,Military,Big business,-0.13304856235675527
+sector,Pre-1000,Military,Small business,-0.16917027256704883
+sector,Pre-1000,Military,Academia,-0.4156765542256429
+sector,Pre-1000,Military,Exploration & Invention,-0.49166844353950706
+sector,Pre-1000,Military,Culture (core),-0.7211670085301458
+sector,Pre-1000,Military,Culture (periphery),-0.40882888288854213
+sector,Pre-1000,Military,Sport & Games,-0.5029156938537381
+sector,Pre-1000,Religion,Nobility,-0.6426143689425139
+sector,Pre-1000,Religion,Kinship,-0.3217204085815025
+sector,Pre-1000,Religion,Big business,0.2920196271052251
+sector,Pre-1000,Religion,Small business,0.8073524760863272
+sector,Pre-1000,Religion,Academia,0.7486229958086659
+sector,Pre-1000,Religion,Exploration & Invention,0.3932710102466294
+sector,Pre-1000,Religion,Culture (core),0.6124586145048789
+sector,Pre-1000,Religion,Culture (periphery),0.4716403564674182
+sector,Pre-1000,Religion,Sport & Games,0.6450218301806099
+sector,Pre-1000,Nobility,Kinship,0.28513890422950644
+sector,Pre-1000,Nobility,Big business,-0.518857761887164
+sector,Pre-1000,Nobility,Small business,-0.5152293623434457
+sector,Pre-1000,Nobility,Academia,-0.66183335716623
+sector,Pre-1000,Nobility,Exploration & Invention,-0.4700399647537834
+sector,Pre-1000,Nobility,Culture (core),-0.7655027859945099
+sector,Pre-1000,Nobility,Culture (periphery),-0.4603567585958538
+sector,Pre-1000,Nobility,Sport & Games,-0.41080726336108825
+sector,Pre-1000,Kinship,Big business,-0.1592609522934969
+sector,Pre-1000,Kinship,Small business,0.13271956531332052
+sector,Pre-1000,Kinship,Academia,-0.5401423145826459
+sector,Pre-1000,Kinship,Exploration & Invention,-0.47169964425870736
+sector,Pre-1000,Kinship,Culture (core),-0.7143543402838628
+sector,Pre-1000,Kinship,Culture (periphery),-0.5654768687588135
+sector,Pre-1000,Kinship,Sport & Games,-0.2747637766381515
+sector,Pre-1000,Big business,Small business,0.3480402800841273
+sector,Pre-1000,Big business,Academia,0.608419831311695
+sector,Pre-1000,Big business,Exploration & Invention,0.677431636202563
+sector,Pre-1000,Big business,Culture (core),0.6270683209246215
+sector,Pre-1000,Big business,Culture (periphery),0.4375742105398509
+sector,Pre-1000,Big business,Sport & Games,-0.17035411646863344
+sector,Pre-1000,Small business,Academia,0.5656783710367465
+sector,Pre-1000,Small business,Exploration & Invention,0.1588752049899144
+sector,Pre-1000,Small business,Culture (core),0.30023115033751585
+sector,Pre-1000,Small business,Culture (periphery),0.4945041567766739
+sector,Pre-1000,Small business,Sport & Games,0.44014948456835357
+sector,Pre-1000,Academia,Exploration & Invention,0.39383140910961173
+sector,Pre-1000,Academia,Culture (core),0.8737344967781207
+sector,Pre-1000,Academia,Culture (periphery),0.5873138940481447
+sector,Pre-1000,Academia,Sport & Games,0.3771293426434401
+sector,Pre-1000,Exploration & Invention,Culture (core),0.5632114015016221
+sector,Pre-1000,Exploration & Invention,Culture (periphery),0.436773436673996
+sector,Pre-1000,Exploration & Invention,Sport & Games,0.1945778322648046
+sector,Pre-1000,Culture (core),Culture (periphery),0.6062790165055971
+sector,Pre-1000,Culture (core),Sport & Games,0.32119432327459163
+sector,Pre-1000,Culture (periphery),Sport & Games,-0.013842283855118905
+sector,1000-1399,Politics,Administration & Law,0.23115841134420684
+sector,1000-1399,Politics,Military,0.5356196972975996
+sector,1000-1399,Politics,Religion,-0.16025282180795744
+sector,1000-1399,Politics,Nobility,0.3558388094081721
+sector,1000-1399,Politics,Kinship,0.4064806803139638
+sector,1000-1399,Politics,Big business,0.320158130710365
+sector,1000-1399,Politics,Small business,0.4070561688062056
+sector,1000-1399,Politics,Academia,-0.10797714096364136
+sector,1000-1399,Politics,Exploration & Invention,0.34175128924125736
+sector,1000-1399,Politics,Culture (core),-0.39982462413618036
+sector,1000-1399,Politics,Culture (periphery),0.2072340565913388
+sector,1000-1399,Politics,Sport & Games,0.25992351879176684
+sector,1000-1399,Administration & Law,Military,-0.15754405517184555
+sector,1000-1399,Administration & Law,Religion,0.5811759683574769
+sector,1000-1399,Administration & Law,Nobility,-0.2896381595232234
+sector,1000-1399,Administration & Law,Kinship,-0.2614179155548933
+sector,1000-1399,Administration & Law,Big business,0.20085654839313313
+sector,1000-1399,Administration & Law,Small business,0.5565914978387134
+sector,1000-1399,Administration & Law,Academia,0.6674345837884696
+sector,1000-1399,Administration & Law,Exploration & Invention,0.5265651435077304
+sector,1000-1399,Administration & Law,Culture (core),0.4604546716195455
+sector,1000-1399,Administration & Law,Culture (periphery),0.5870187351973277
+sector,1000-1399,Administration & Law,Sport & Games,0.5938141974666031
+sector,1000-1399,Military,Religion,-0.5288379836203133
+sector,1000-1399,Military,Nobility,0.7534932076047314
+sector,1000-1399,Military,Kinship,0.5775540085464297
+sector,1000-1399,Military,Big business,0.373217374848946
+sector,1000-1399,Military,Small business,0.06509346653670306
+sector,1000-1399,Military,Academia,-0.24752127964821755
+sector,1000-1399,Military,Exploration & Invention,-0.13653283072783498
+sector,1000-1399,Military,Culture (core),-0.5685724250420952
+sector,1000-1399,Military,Culture (periphery),-0.23802353865392098
+sector,1000-1399,Military,Sport & Games,-0.07388484110753393
+sector,1000-1399,Religion,Nobility,-0.8161422216436665
+sector,1000-1399,Religion,Kinship,-0.8487909266212292
+sector,1000-1399,Religion,Big business,0.09365649687765781
+sector,1000-1399,Religion,Small business,0.4725725431559333
+sector,1000-1399,Religion,Academia,0.952376844986698
+sector,1000-1399,Religion,Exploration & Invention,0.39295501985576553
+sector,1000-1399,Religion,Culture (core),0.8516813367974152
+sector,1000-1399,Religion,Culture (periphery),0.7456615912339511
+sector,1000-1399,Religion,Sport & Games,0.40238603486941316
+sector,1000-1399,Nobility,Kinship,0.8909578672801913
+sector,1000-1399,Nobility,Big business,0.07171535353910466
+sector,1000-1399,Nobility,Small business,-0.3843004387193193
+sector,1000-1399,Nobility,Academia,-0.6242110301282727
+sector,1000-1399,Nobility,Exploration & Invention,-0.4619397664524569
+sector,1000-1399,Nobility,Culture (core),-0.8481114784522272
+sector,1000-1399,Nobility,Culture (periphery),-0.5923333687206315
+sector,1000-1399,Nobility,Sport & Games,-0.08643185764570625
+sector,1000-1399,Kinship,Big business,-0.240217222730124
+sector,1000-1399,Kinship,Small business,-0.31363521587739546
+sector,1000-1399,Kinship,Academia,-0.6973715515976192
+sector,1000-1399,Kinship,Exploration & Invention,-0.4263638737963752
+sector,1000-1399,Kinship,Culture (core),-0.8579668258370768
+sector,1000-1399,Kinship,Culture (periphery),-0.6790207518233126
+sector,1000-1399,Kinship,Sport & Games,-0.09200832373015025
+sector,1000-1399,Big business,Small business,0.36272190118374736
+sector,1000-1399,Big business,Academia,0.3306953429810476
+sector,1000-1399,Big business,Exploration & Invention,0.3637027448631295
+sector,1000-1399,Big business,Culture (core),0.35752717624986724
+sector,1000-1399,Big business,Culture (periphery),0.346534955233997
+sector,1000-1399,Big business,Sport & Games,0.09949931871771783
+sector,1000-1399,Small business,Academia,0.5168653322174076
+sector,1000-1399,Small business,Exploration & Invention,0.8826661545370033
+sector,1000-1399,Small business,Culture (core),0.36614602198237023
+sector,1000-1399,Small business,Culture (periphery),0.6167609038393733
+sector,1000-1399,Small business,Sport & Games,0.00413302402968663
+sector,1000-1399,Academia,Exploration & Invention,0.42777013733985464
+sector,1000-1399,Academia,Culture (core),0.8472534691353256
+sector,1000-1399,Academia,Culture (periphery),0.769836066296274
+sector,1000-1399,Academia,Sport & Games,0.39374212983889806
+sector,1000-1399,Exploration & Invention,Culture (core),0.42880013686779583
+sector,1000-1399,Exploration & Invention,Culture (periphery),0.6664311650830059
+sector,1000-1399,Exploration & Invention,Sport & Games,0.08119396698796247
+sector,1000-1399,Culture (core),Culture (periphery),0.7188354964115087
+sector,1000-1399,Culture (core),Sport & Games,0.2747945398836745
+sector,1000-1399,Culture (periphery),Sport & Games,0.49428560088951645
+sector,1400-1599,Politics,Administration & Law,0.25212245875643746
+sector,1400-1599,Politics,Military,0.390266421559746
+sector,1400-1599,Politics,Religion,-0.42498346817374927
+sector,1400-1599,Politics,Nobility,0.4397106691783978
+sector,1400-1599,Politics,Kinship,0.46007946471600153
+sector,1400-1599,Politics,Big business,0.4828026387989852
+sector,1400-1599,Politics,Small business,-0.3680917483970181
+sector,1400-1599,Politics,Academia,-0.20815301920626264
+sector,1400-1599,Politics,Exploration & Invention,-0.10297542659984844
+sector,1400-1599,Politics,Culture (core),-0.7947323980217408
+sector,1400-1599,Politics,Culture (periphery),-0.43220042812585213
+sector,1400-1599,Politics,Sport & Games,-0.2429881000218908
+sector,1400-1599,Administration & Law,Military,0.1285974016487491
+sector,1400-1599,Administration & Law,Religion,0.26155825330557037
+sector,1400-1599,Administration & Law,Nobility,0.22134344331390765
+sector,1400-1599,Administration & Law,Kinship,0.03842702511541663
+sector,1400-1599,Administration & Law,Big business,-0.11476078864480829
+sector,1400-1599,Administration & Law,Small business,-0.09410341966883506
+sector,1400-1599,Administration & Law,Academia,0.071251873900709
+sector,1400-1599,Administration & Law,Exploration & Invention,0.008644710092583071
+sector,1400-1599,Administration & Law,Culture (core),-0.3147259364181453
+sector,1400-1599,Administration & Law,Culture (periphery),-0.348706546405582
+sector,1400-1599,Administration & Law,Sport & Games,-0.4018103278817716
+sector,1400-1599,Military,Religion,-0.39147807255753003
+sector,1400-1599,Military,Nobility,0.6377213878353536
+sector,1400-1599,Military,Kinship,0.5634803075153926
+sector,1400-1599,Military,Big business,0.393352047666354
+sector,1400-1599,Military,Small business,-0.39667446718638866
+sector,1400-1599,Military,Academia,-0.5073217930567977
+sector,1400-1599,Military,Exploration & Invention,-0.1648489218050205
+sector,1400-1599,Military,Culture (core),-0.662392394796926
+sector,1400-1599,Military,Culture (periphery),-0.3042452868804508
+sector,1400-1599,Military,Sport & Games,-0.24293664212464133
+sector,1400-1599,Religion,Nobility,-0.3519082869914358
+sector,1400-1599,Religion,Kinship,-0.5394830416640432
+sector,1400-1599,Religion,Big business,-0.3000135373842415
+sector,1400-1599,Religion,Small business,-0.1679261907198492
+sector,1400-1599,Religion,Academia,0.6330410708973455
+sector,1400-1599,Religion,Exploration & Invention,-0.5502426162404218
+sector,1400-1599,Religion,Culture (core),0.3726721011902076
+sector,1400-1599,Religion,Culture (periphery),0.23860189455995282
+sector,1400-1599,Religion,Sport & Games,0.3146669945794766
+sector,1400-1599,Nobility,Kinship,0.7089624945698207
+sector,1400-1599,Nobility,Big business,0.12990437819419962
+sector,1400-1599,Nobility,Small business,-0.60220617566393
+sector,1400-1599,Nobility,Academia,-0.6001618382581883
+sector,1400-1599,Nobility,Exploration & Invention,-0.045873675260061635
+sector,1400-1599,Nobility,Culture (core),-0.8005718168827713
+sector,1400-1599,Nobility,Culture (periphery),-0.6240945073926238
+sector,1400-1599,Nobility,Sport & Games,-0.3330599169560082
+sector,1400-1599,Kinship,Big business,0.13615159826012982
+sector,1400-1599,Kinship,Small business,-0.3537366025304425
+sector,1400-1599,Kinship,Academia,-0.6992508220005497
+sector,1400-1599,Kinship,Exploration & Invention,-0.08628589899850557
+sector,1400-1599,Kinship,Culture (core),-0.7672629963394813
+sector,1400-1599,Kinship,Culture (periphery),-0.4327184371044818
+sector,1400-1599,Kinship,Sport & Games,-0.15259746510315705
+sector,1400-1599,Big business,Small business,-0.07849785617421792
+sector,1400-1599,Big business,Academia,-0.06008597212097579
+sector,1400-1599,Big business,Exploration & Invention,0.09073819715346725
+sector,1400-1599,Big business,Culture (core),-0.3158323742269647
+sector,1400-1599,Big business,Culture (periphery),0.19117998715840215
+sector,1400-1599,Big business,Sport & Games,-0.09580723963224376
+sector,1400-1599,Small business,Academia,0.20815286104010441
+sector,1400-1599,Small business,Exploration & Invention,0.5801172923048272
+sector,1400-1599,Small business,Culture (core),0.5089202684978364
+sector,1400-1599,Small business,Culture (periphery),0.4257703209443622
+sector,1400-1599,Small business,Sport & Games,-0.32589347458762447
+sector,1400-1599,Academia,Exploration & Invention,-0.2756247084279842
+sector,1400-1599,Academia,Culture (core),0.5678834136643554
+sector,1400-1599,Academia,Culture (periphery),0.5412564690335213
+sector,1400-1599,Academia,Sport & Games,0.4048777795995072
+sector,1400-1599,Exploration & Invention,Culture (core),0.0588326828048309
+sector,1400-1599,Exploration & Invention,Culture (periphery),0.06494260477657006
+sector,1400-1599,Exploration & Invention,Sport & Games,-0.20408549191990522
+sector,1400-1599,Culture (core),Culture (periphery),0.7434625601491768
+sector,1400-1599,Culture (core),Sport & Games,0.30235748731870665
+sector,1400-1599,Culture (periphery),Sport & Games,0.4836041090376798
+sector,1600-1799,Politics,Administration & Law,0.2273879316383392
+sector,1600-1799,Politics,Military,0.27187594688197253
+sector,1600-1799,Politics,Religion,-0.7269665463982437
+sector,1600-1799,Politics,Nobility,0.41865134601808496
+sector,1600-1799,Politics,Kinship,-0.009171035531871584
+sector,1600-1799,Politics,Big business,-0.09519626332996885
+sector,1600-1799,Politics,Small business,-0.5882547129718125
+sector,1600-1799,Politics,Academia,-0.4605955145492242
+sector,1600-1799,Politics,Exploration & Invention,-0.18986389451694097
+sector,1600-1799,Politics,Culture (core),-0.8328621823812885
+sector,1600-1799,Politics,Culture (periphery),-0.8006242432791384
+sector,1600-1799,Politics,Sport & Games,-0.20877272562978125
+sector,1600-1799,Administration & Law,Military,0.3179039909365688
+sector,1600-1799,Administration & Law,Religion,0.15145017746365214
+sector,1600-1799,Administration & Law,Nobility,0.19155695534263772
+sector,1600-1799,Administration & Law,Kinship,0.09891259966709805
+sector,1600-1799,Administration & Law,Big business,0.004156081585436712
+sector,1600-1799,Administration & Law,Small business,-0.24111671177976193
+sector,1600-1799,Administration & Law,Academia,-0.5176211577259464
+sector,1600-1799,Administration & Law,Exploration & Invention,-0.2240795841273895
+sector,1600-1799,Administration & Law,Culture (core),-0.5719938629293091
+sector,1600-1799,Administration & Law,Culture (periphery),-0.5180405140384079
+sector,1600-1799,Administration & Law,Sport & Games,-0.7262507782158565
+sector,1600-1799,Military,Religion,-0.1946523862008564
+sector,1600-1799,Military,Nobility,0.37847466470665003
+sector,1600-1799,Military,Kinship,0.4501987339225486
+sector,1600-1799,Military,Big business,0.5088696515026427
+sector,1600-1799,Military,Small business,-0.31568840443372
+sector,1600-1799,Military,Academia,-0.5613795847923158
+sector,1600-1799,Military,Exploration & Invention,-0.35915401353926596
+sector,1600-1799,Military,Culture (core),-0.7440375070330001
+sector,1600-1799,Military,Culture (periphery),-0.32543949859853805
+sector,1600-1799,Military,Sport & Games,-0.022747668977585365
+sector,1600-1799,Religion,Nobility,-0.26733273149337256
+sector,1600-1799,Religion,Kinship,-0.05611867258547117
+sector,1600-1799,Religion,Big business,-0.03409952916698066
+sector,1600-1799,Religion,Small business,0.18245562194148274
+sector,1600-1799,Religion,Academia,0.4752008145513813
+sector,1600-1799,Religion,Exploration & Invention,-0.10023627814709572
+sector,1600-1799,Religion,Culture (core),0.5142331308483454
+sector,1600-1799,Religion,Culture (periphery),0.5386109898151978
+sector,1600-1799,Religion,Sport & Games,-0.15377775271683108
+sector,1600-1799,Nobility,Kinship,0.38871921771990386
+sector,1600-1799,Nobility,Big business,-0.015828514000088636
+sector,1600-1799,Nobility,Small business,-0.6962762873444498
+sector,1600-1799,Nobility,Academia,-0.6315649699056108
+sector,1600-1799,Nobility,Exploration & Invention,-0.19265531098446925
+sector,1600-1799,Nobility,Culture (core),-0.4146134254519661
+sector,1600-1799,Nobility,Culture (periphery),-0.5787090863446361
+sector,1600-1799,Nobility,Sport & Games,0.06410487317375495
+sector,1600-1799,Kinship,Big business,-0.13945314018915572
+sector,1600-1799,Kinship,Small business,-0.1233320415046907
+sector,1600-1799,Kinship,Academia,-0.4751329594896717
+sector,1600-1799,Kinship,Exploration & Invention,-0.13860420477466562
+sector,1600-1799,Kinship,Culture (core),-0.1992018021901431
+sector,1600-1799,Kinship,Culture (periphery),-0.12657961065079007
+sector,1600-1799,Kinship,Sport & Games,0.17973313844459435
+sector,1600-1799,Big business,Small business,0.29102958418890373
+sector,1600-1799,Big business,Academia,-0.10901612507593517
+sector,1600-1799,Big business,Exploration & Invention,0.32483447778294683
+sector,1600-1799,Big business,Culture (core),-0.18820440374964215
+sector,1600-1799,Big business,Culture (periphery),0.3257961860976857
+sector,1600-1799,Big business,Sport & Games,0.2922533898007614
+sector,1600-1799,Small business,Academia,0.33676404402144516
+sector,1600-1799,Small business,Exploration & Invention,0.5991654371182183
+sector,1600-1799,Small business,Culture (core),0.4358869150941601
+sector,1600-1799,Small business,Culture (periphery),0.6804272140406575
+sector,1600-1799,Small business,Sport & Games,0.4047670695279752
+sector,1600-1799,Academia,Exploration & Invention,-0.10695781586798604
+sector,1600-1799,Academia,Culture (core),0.5319122526518952
+sector,1600-1799,Academia,Culture (periphery),0.6882023296216915
+sector,1600-1799,Academia,Sport & Games,0.17985329782860543
+sector,1600-1799,Exploration & Invention,Culture (core),0.37269402804842316
+sector,1600-1799,Exploration & Invention,Culture (periphery),0.22668091100339338
+sector,1600-1799,Exploration & Invention,Sport & Games,0.46536850169828037
+sector,1600-1799,Culture (core),Culture (periphery),0.679224495126166
+sector,1600-1799,Culture (core),Sport & Games,0.12214824499548932
+sector,1600-1799,Culture (periphery),Sport & Games,0.5247185200524547
+sector,1800-1899,Politics,Administration & Law,0.1927501676836645
+sector,1800-1899,Politics,Military,-0.1583871638675127
+sector,1800-1899,Politics,Religion,-0.6540726086859282
+sector,1800-1899,Politics,Nobility,0.1522634889854402
+sector,1800-1899,Politics,Kinship,-0.38329311857570836
+sector,1800-1899,Politics,Big business,-0.1866134735361656
+sector,1800-1899,Politics,Small business,-0.4055512699163542
+sector,1800-1899,Politics,Academia,-0.6182470487622135
+sector,1800-1899,Politics,Exploration & Invention,0.03511852159797571
+sector,1800-1899,Politics,Culture (core),-0.5129354499816727
+sector,1800-1899,Politics,Culture (periphery),-0.7344857850727103
+sector,1800-1899,Politics,Sport & Games,0.1459716010959118
+sector,1800-1899,Administration & Law,Military,0.3364094084499172
+sector,1800-1899,Administration & Law,Religion,0.07417581715476285
+sector,1800-1899,Administration & Law,Nobility,0.2289433941542596
+sector,1800-1899,Administration & Law,Kinship,0.12474680216661406
+sector,1800-1899,Administration & Law,Big business,0.12290232537085968
+sector,1800-1899,Administration & Law,Small business,0.0973077368518707
+sector,1800-1899,Administration & Law,Academia,-0.5268542796118901
+sector,1800-1899,Administration & Law,Exploration & Invention,-0.09898491912648691
+sector,1800-1899,Administration & Law,Culture (core),-0.5271022652399397
+sector,1800-1899,Administration & Law,Culture (periphery),-0.31783861493604404
+sector,1800-1899,Administration & Law,Sport & Games,-0.4000560770132851
+sector,1800-1899,Military,Religion,0.06484159716041506
+sector,1800-1899,Military,Nobility,0.21630512816414962
+sector,1800-1899,Military,Kinship,0.5194224415660252
+sector,1800-1899,Military,Big business,0.5528603144607843
+sector,1800-1899,Military,Small business,-0.07239115698572855
+sector,1800-1899,Military,Academia,-0.20073092492300013
+sector,1800-1899,Military,Exploration & Invention,-0.159971920234126
+sector,1800-1899,Military,Culture (core),-0.5174926182031169
+sector,1800-1899,Military,Culture (periphery),-0.3580385864458542
+sector,1800-1899,Military,Sport & Games,0.0776743310887778
+sector,1800-1899,Religion,Nobility,0.1887517478149543
+sector,1800-1899,Religion,Kinship,0.3036904021642167
+sector,1800-1899,Religion,Big business,-0.06665039652360016
+sector,1800-1899,Religion,Small business,-0.08698950683320252
+sector,1800-1899,Religion,Academia,0.36430736944157777
+sector,1800-1899,Religion,Exploration & Invention,0.09074954841170145
+sector,1800-1899,Religion,Culture (core),0.5670241143562121
+sector,1800-1899,Religion,Culture (periphery),0.4551059950288149
+sector,1800-1899,Religion,Sport & Games,-0.31372788282125574
+sector,1800-1899,Nobility,Kinship,0.20913737035986335
+sector,1800-1899,Nobility,Big business,0.009831223537234502
+sector,1800-1899,Nobility,Small business,-0.47791567319256745
+sector,1800-1899,Nobility,Academia,-0.19211062333038037
+sector,1800-1899,Nobility,Exploration & Invention,0.11844563576397758
+sector,1800-1899,Nobility,Culture (core),-0.14616041287022263
+sector,1800-1899,Nobility,Culture (periphery),-0.3201199409687293
+sector,1800-1899,Nobility,Sport & Games,0.46831452295113585
+sector,1800-1899,Kinship,Big business,-0.10920741208490559
+sector,1800-1899,Kinship,Small business,-0.021056763849127292
+sector,1800-1899,Kinship,Academia,-0.10967180403749466
+sector,1800-1899,Kinship,Exploration & Invention,-0.05082178037950202
+sector,1800-1899,Kinship,Culture (core),0.09436014090214566
+sector,1800-1899,Kinship,Culture (periphery),-0.018498611868361985
+sector,1800-1899,Kinship,Sport & Games,0.2644654294202218
+sector,1800-1899,Big business,Small business,0.4435928500185299
+sector,1800-1899,Big business,Academia,-0.08337449279024985
+sector,1800-1899,Big business,Exploration & Invention,0.3879622207974559
+sector,1800-1899,Big business,Culture (core),-0.3670019507743381
+sector,1800-1899,Big business,Culture (periphery),-0.001389863737626437
+sector,1800-1899,Big business,Sport & Games,-0.04813937589760178
+sector,1800-1899,Small business,Academia,0.15457970384974903
+sector,1800-1899,Small business,Exploration & Invention,0.5327069994287355
+sector,1800-1899,Small business,Culture (core),-0.13542554849057592
+sector,1800-1899,Small business,Culture (periphery),0.3832005540129669
+sector,1800-1899,Small business,Sport & Games,0.009109617477305786
+sector,1800-1899,Academia,Exploration & Invention,-0.16805306963541713
+sector,1800-1899,Academia,Culture (core),0.32346687814137143
+sector,1800-1899,Academia,Culture (periphery),0.6536734699305607
+sector,1800-1899,Academia,Sport & Games,0.14575673371719378
+sector,1800-1899,Exploration & Invention,Culture (core),0.18004594608397098
+sector,1800-1899,Exploration & Invention,Culture (periphery),-0.10345144979187985
+sector,1800-1899,Exploration & Invention,Sport & Games,0.4402039306389644
+sector,1800-1899,Culture (core),Culture (periphery),0.4652648218229591
+sector,1800-1899,Culture (core),Sport & Games,-0.06367589822189793
+sector,1800-1899,Culture (periphery),Sport & Games,-0.29274119148754135
+sector,1900-2020,Politics,Administration & Law,0.6554379194160067
+sector,1900-2020,Politics,Military,0.542910533033202
+sector,1900-2020,Politics,Religion,-0.03529323199654629
+sector,1900-2020,Politics,Nobility,0.05297046298970457
+sector,1900-2020,Politics,Kinship,-0.2920030644866763
+sector,1900-2020,Politics,Big business,0.14855411325395468
+sector,1900-2020,Politics,Small business,-0.1793326120215161
+sector,1900-2020,Politics,Academia,0.017447116420967964
+sector,1900-2020,Politics,Exploration & Invention,0.07602315661682385
+sector,1900-2020,Politics,Culture (core),-0.7392566469822553
+sector,1900-2020,Politics,Culture (periphery),-0.738355164471407
+sector,1900-2020,Politics,Sport & Games,0.17144210416587582
+sector,1900-2020,Administration & Law,Military,0.6267146849842973
+sector,1900-2020,Administration & Law,Religion,0.446558155349532
+sector,1900-2020,Administration & Law,Nobility,0.34421659673189725
+sector,1900-2020,Administration & Law,Kinship,0.2792151879292432
+sector,1900-2020,Administration & Law,Big business,0.2018464250745793
+sector,1900-2020,Administration & Law,Small business,0.43746211685205
+sector,1900-2020,Administration & Law,Academia,0.0040710815221351206
+sector,1900-2020,Administration & Law,Exploration & Invention,0.3894510110118226
+sector,1900-2020,Administration & Law,Culture (core),-0.6350129003140961
+sector,1900-2020,Administration & Law,Culture (periphery),-0.2504910063954947
+sector,1900-2020,Administration & Law,Sport & Games,-0.17478062291974955
+sector,1900-2020,Military,Religion,0.29369652755673753
+sector,1900-2020,Military,Nobility,0.22608600294078707
+sector,1900-2020,Military,Kinship,0.43553964340090096
+sector,1900-2020,Military,Big business,0.6107697968709258
+sector,1900-2020,Military,Small business,0.2226266972428123
+sector,1900-2020,Military,Academia,0.051370750025610964
+sector,1900-2020,Military,Exploration & Invention,0.22550068285654903
+sector,1900-2020,Military,Culture (core),-0.7481031034802023
+sector,1900-2020,Military,Culture (periphery),-0.41884886076850925
+sector,1900-2020,Military,Sport & Games,0.23167845676735013
+sector,1900-2020,Religion,Nobility,0.558152515529915
+sector,1900-2020,Religion,Kinship,0.46558530348534205
+sector,1900-2020,Religion,Big business,-0.0021758139108814167
+sector,1900-2020,Religion,Small business,0.12492405315705406
+sector,1900-2020,Religion,Academia,-0.4121550454994502
+sector,1900-2020,Religion,Exploration & Invention,0.26511051833361327
+sector,1900-2020,Religion,Culture (core),0.05405513077425749
+sector,1900-2020,Religion,Culture (periphery),0.09114488955295243
+sector,1900-2020,Religion,Sport & Games,-0.2800299356579253
+sector,1900-2020,Nobility,Kinship,0.7686696912380473
+sector,1900-2020,Nobility,Big business,0.08656969669429017
+sector,1900-2020,Nobility,Small business,-0.11334404169267073
+sector,1900-2020,Nobility,Academia,-0.5474213283907082
+sector,1900-2020,Nobility,Exploration & Invention,0.08548272743416663
+sector,1900-2020,Nobility,Culture (core),-0.08757814494113197
+sector,1900-2020,Nobility,Culture (periphery),-0.11496550278059817
+sector,1900-2020,Nobility,Sport & Games,0.42918315678846336
+sector,1900-2020,Kinship,Big business,0.10877146445474144
+sector,1900-2020,Kinship,Small business,0.014133917719396809
+sector,1900-2020,Kinship,Academia,-0.39395334153002093
+sector,1900-2020,Kinship,Exploration & Invention,-0.0038704509878965472
+sector,1900-2020,Kinship,Culture (core),-0.008533778475985252
+sector,1900-2020,Kinship,Culture (periphery),0.25071574189387535
+sector,1900-2020,Kinship,Sport & Games,0.37697024568694953
+sector,1900-2020,Big business,Small business,0.4996338236234387
+sector,1900-2020,Big business,Academia,-0.20609086157182122
+sector,1900-2020,Big business,Exploration & Invention,0.5922000472536655
+sector,1900-2020,Big business,Culture (core),-0.4006963365488242
+sector,1900-2020,Big business,Culture (periphery),0.0031698172199897358
+sector,1900-2020,Big business,Sport & Games,0.1401151772268075
+sector,1900-2020,Small business,Academia,0.163259694161643
+sector,1900-2020,Small business,Exploration & Invention,0.8645258877837815
+sector,1900-2020,Small business,Culture (core),-0.31686312050843807
+sector,1900-2020,Small business,Culture (periphery),0.4680829865367319
+sector,1900-2020,Small business,Sport & Games,-0.30904710478917174
+sector,1900-2020,Academia,Exploration & Invention,-0.23159750668760318
+sector,1900-2020,Academia,Culture (core),-0.3902412405161212
+sector,1900-2020,Academia,Culture (periphery),-0.02490494776545656
+sector,1900-2020,Academia,Sport & Games,-0.09773708949346661
+sector,1900-2020,Exploration & Invention,Culture (core),-0.08267422874519566
+sector,1900-2020,Exploration & Invention,Culture (periphery),0.2990587707786306
+sector,1900-2020,Exploration & Invention,Sport & Games,-0.1134459651746556
+sector,1900-2020,Culture (core),Culture (periphery),0.31094697368217966
+sector,1900-2020,Culture (core),Sport & Games,-0.057821152058772494
+sector,1900-2020,Culture (periphery),Sport & Games,-0.3201551404757251
+domain,all,Political,Ideational,
+domain,all,Political,Economic,
+domain,all,Political,Security,
+domain,all,Ideational,Economic,
+domain,all,Ideational,Security,
+domain,all,Economic,Security,
+domain,Pre-1000,Political,Ideational,
+domain,Pre-1000,Political,Economic,
+domain,Pre-1000,Political,Security,
+domain,Pre-1000,Ideational,Economic,
+domain,Pre-1000,Ideational,Security,
+domain,Pre-1000,Economic,Security,
+domain,1000-1399,Political,Ideational,
+domain,1000-1399,Political,Economic,
+domain,1000-1399,Political,Security,
+domain,1000-1399,Ideational,Economic,
+domain,1000-1399,Ideational,Security,
+domain,1000-1399,Economic,Security,
+domain,1400-1599,Political,Ideational,
+domain,1400-1599,Political,Economic,
+domain,1400-1599,Political,Security,
+domain,1400-1599,Ideational,Economic,
+domain,1400-1599,Ideational,Security,
+domain,1400-1599,Economic,Security,
+domain,1600-1799,Political,Ideational,
+domain,1600-1799,Political,Economic,
+domain,1600-1799,Political,Security,
+domain,1600-1799,Ideational,Economic,
+domain,1600-1799,Ideational,Security,
+domain,1600-1799,Economic,Security,
+domain,1800-1899,Political,Ideational,
+domain,1800-1899,Political,Economic,
+domain,1800-1899,Political,Security,
+domain,1800-1899,Ideational,Economic,
+domain,1800-1899,Ideational,Security,
+domain,1800-1899,Economic,Security,
+domain,1900-2020,Political,Ideational,
+domain,1900-2020,Political,Economic,
+domain,1900-2020,Political,Security,
+domain,1900-2020,Ideational,Economic,
+domain,1900-2020,Ideational,Security,
+domain,1900-2020,Economic,Security,

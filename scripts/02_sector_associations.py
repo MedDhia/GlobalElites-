@@ -14,6 +14,7 @@ Outputs (data/processed/):
   sector_pair_association_overall.csv
   sector_pair_association_by_era.csv
   sector_pair_association_by_century.csv
+  sector_pair_association_by_halfcentury.csv
   sector_pair_association_by_era_region.csv
   sector_pair_trends.csv
 """
@@ -39,6 +40,7 @@ SECTOR_ORDER = [
 ERA_ORDER = ["Pre-1000", "1000-1399", "1400-1599", "1600-1799", "1800-1899", "1900-2020"]
 
 CENTURY_MIN, CENTURY_MAX = 800, 1900
+HALF_MIN, HALF_MAX = 1400, 1950     # half-century cohorts, matching the domain layer
 MIN_DIVERSIFIED = 300
 RNG = np.random.default_rng(20260902)
 
@@ -122,6 +124,13 @@ def main() -> None:
         by_er[["era", "region"]] = by_er["period"].str.split(" | ", regex=False, expand=True)
     by_er.to_csv(OUTDIR / "sector_pair_association_by_era_region.csv", index=False)
     print(f"era x region rows: {len(by_er)}")
+
+    df["birth_halfcentury"] = (df["birth"] // 50).astype(int) * 50
+    halves = list(range(HALF_MIN, HALF_MAX, 50))
+    by_half = build_period_table(df, "birth_halfcentury", "halfcentury", keep=halves)
+    by_half.to_csv(OUTDIR / "sector_pair_association_by_halfcentury.csv", index=False)
+    print(f"half-century rows: {len(by_half)} over {by_half['period'].nunique()} cohorts")
+
 
     # ---- trend of each pair across centuries -------------------------------
     trends = []

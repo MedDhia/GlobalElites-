@@ -1,0 +1,113 @@
+layer,period,block_a,block_b,n_cells,mean_assoc
+sector,all,Academia block,Academia block,6,0.38936759043659075
+sector,all,Academia block,Big business block,12,-0.4419463606326737
+sector,all,Academia block,Military block,12,-1.0175621469483918
+sector,all,Academia block,Politics block,6,-1.1683742842153562
+sector,all,Big business block,Academia block,12,-0.4419463606326737
+sector,all,Big business block,Big business block,12,0.8905990530539191
+sector,all,Big business block,Military block,16,-0.5268127017713233
+sector,all,Big business block,Politics block,8,-0.6262443597392662
+sector,all,Military block,Academia block,12,-1.0175621469483918
+sector,all,Military block,Big business block,16,-0.5268127017713233
+sector,all,Military block,Military block,12,0.7718497790611569
+sector,all,Military block,Politics block,8,-0.34794422401462105
+sector,all,Politics block,Academia block,6,-1.1683742842153562
+sector,all,Politics block,Big business block,8,-0.6262443597392662
+sector,all,Politics block,Military block,8,-0.34794422401462105
+sector,all,Politics block,Politics block,2,1.7389131983960655
+sector,Pre-1000,Academia block,Academia block,30,1.1081375801220341
+sector,Pre-1000,Academia block,Big business block,18,0.39848376665826435
+sector,Pre-1000,Academia block,Military block,18,-1.3918485501176785
+sector,Pre-1000,Academia block,Politics block,6,-0.303013037592613
+sector,Pre-1000,Big business block,Academia block,18,0.39848376665826435
+sector,Pre-1000,Big business block,Big business block,6,1.3484681836989356
+sector,Pre-1000,Big business block,Military block,9,-0.638364134952739
+sector,Pre-1000,Big business block,Politics block,3,-1.2397742948036192
+sector,Pre-1000,Military block,Academia block,18,-1.3918485501176785
+sector,Pre-1000,Military block,Big business block,9,-0.6383641349527389
+sector,Pre-1000,Military block,Military block,6,0.0008686036634783142
+sector,Pre-1000,Military block,Politics block,3,0.33432763357269984
+sector,Pre-1000,Politics block,Academia block,6,-0.303013037592613
+sector,Pre-1000,Politics block,Big business block,3,-1.2397742948036192
+sector,Pre-1000,Politics block,Military block,3,0.33432763357269984
+sector,Pre-1000,Politics block,Politics block,0,
+sector,1000-1399,Academia block,Academia block,30,1.259826369304528
+sector,1000-1399,Academia block,Big business block,6,0.8643557987834214
+sector,1000-1399,Academia block,Military block,24,-1.1760916582220553
+sector,1000-1399,Academia block,Politics block,12,0.49681590893245975
+sector,1000-1399,Big business block,Academia block,6,0.8643557987834214
+sector,1000-1399,Big business block,Big business block,0,
+sector,1000-1399,Big business block,Military block,4,0.01845618249140457
+sector,1000-1399,Big business block,Politics block,2,-0.15608884163885936
+sector,1000-1399,Military block,Academia block,24,-1.1760916582220555
+sector,1000-1399,Military block,Big business block,4,0.01845618249140457
+sector,1000-1399,Military block,Military block,12,0.07814322826221633
+sector,1000-1399,Military block,Politics block,8,-0.2745662896022953
+sector,1000-1399,Politics block,Academia block,12,0.49681590893245975
+sector,1000-1399,Politics block,Big business block,2,-0.15608884163885936
+sector,1000-1399,Politics block,Military block,8,-0.2745662896022953
+sector,1000-1399,Politics block,Politics block,2,0.6987894309421403
+sector,1400-1599,Academia block,Academia block,20,0.36842684760160754
+sector,1400-1599,Academia block,Big business block,10,0.271367303971797
+sector,1400-1599,Academia block,Military block,25,-1.6106797269056126
+sector,1400-1599,Academia block,Politics block,5,-0.39342257390266067
+sector,1400-1599,Big business block,Academia block,10,0.271367303971797
+sector,1400-1599,Big business block,Big business block,2,-0.2908412264055561
+sector,1400-1599,Big business block,Military block,10,0.06066522325037775
+sector,1400-1599,Big business block,Politics block,2,-0.7634620256830787
+sector,1400-1599,Military block,Academia block,25,-1.6106797269056128
+sector,1400-1599,Military block,Big business block,10,0.06066522325037775
+sector,1400-1599,Military block,Military block,20,0.34467709795473966
+sector,1400-1599,Military block,Politics block,5,-0.20693874781994367
+sector,1400-1599,Politics block,Academia block,5,-0.39342257390266067
+sector,1400-1599,Politics block,Big business block,2,-0.7634620256830787
+sector,1400-1599,Politics block,Military block,5,-0.20693874781994367
+sector,1400-1599,Politics block,Politics block,0,
+sector,1600-1799,Academia block,Academia block,42,0.39308311222724074
+sector,1600-1799,Academia block,Big business block,14,-0.6155568676850357
+sector,1600-1799,Academia block,Military block,7,-0.339265239921688
+sector,1600-1799,Academia block,Politics block,21,-1.196755425475226
+sector,1600-1799,Big business block,Academia block,14,-0.6155568676850357
+sector,1600-1799,Big business block,Big business block,2,-0.9840890914618334
+sector,1600-1799,Big business block,Military block,2,0.0297693316090395
+sector,1600-1799,Big business block,Politics block,6,0.06376783971777587
+sector,1600-1799,Military block,Academia block,7,-0.339265239921688
+sector,1600-1799,Military block,Big business block,2,0.0297693316090395
+sector,1600-1799,Military block,Military block,0,
+sector,1600-1799,Military block,Politics block,3,0.003815468539520269
+sector,1600-1799,Politics block,Academia block,21,-1.196755425475226
+sector,1600-1799,Politics block,Big business block,6,0.06376783971777587
+sector,1600-1799,Politics block,Military block,3,0.003815468539520269
+sector,1600-1799,Politics block,Politics block,6,0.2808804361867381
+sector,1800-1899,Academia block,Academia block,12,0.5507584488467293
+sector,1800-1899,Academia block,Big business block,20,-0.8826097092545476
+sector,1800-1899,Academia block,Military block,12,-0.35431295659883416
+sector,1800-1899,Academia block,Politics block,4,-0.8898311141515374
+sector,1800-1899,Big business block,Academia block,20,-0.8826097092545474
+sector,1800-1899,Big business block,Big business block,20,-0.262116456566985
+sector,1800-1899,Big business block,Military block,15,-0.19747543964494527
+sector,1800-1899,Big business block,Politics block,5,0.37957176256465947
+sector,1800-1899,Military block,Academia block,12,-0.35431295659883427
+sector,1800-1899,Military block,Big business block,15,-0.19747543964494527
+sector,1800-1899,Military block,Military block,6,1.0500262306313282
+sector,1800-1899,Military block,Politics block,3,-0.5166511531480421
+sector,1800-1899,Politics block,Academia block,4,-0.8898311141515374
+sector,1800-1899,Politics block,Big business block,5,0.37957176256465947
+sector,1800-1899,Politics block,Military block,3,-0.5166511531480421
+sector,1800-1899,Politics block,Politics block,0,
+sector,1900-2020,Academia block,Academia block,6,0.1589714426211323
+sector,1900-2020,Academia block,Big business block,18,-0.8332902401153207
+sector,1900-2020,Academia block,Military block,12,-0.703837282958661
+sector,1900-2020,Big business block,Academia block,18,-0.8332902401153208
+sector,1900-2020,Big business block,Big business block,30,0.19627641036328744
+sector,1900-2020,Big business block,Military block,24,-0.5526426636433507
+sector,1900-2020,Military block,Academia block,12,-0.703837282958661
+sector,1900-2020,Military block,Big business block,24,-0.5526426636433507
+sector,1900-2020,Military block,Military block,12,1.0413448771338047
+domain,all,Political block,Political block,12,-0.0634850070256169
+domain,Pre-1000,Political block,Political block,12,-0.2884642086332411
+domain,1000-1399,Political block,Political block,12,-0.029676553388186793
+domain,1400-1599,Political block,Political block,12,-0.05697193963994546
+domain,1600-1799,Political block,Political block,12,-0.16689210394980636
+domain,1800-1899,Political block,Political block,12,-0.03775538854931415
+domain,1900-2020,Political block,Political block,12,-0.042238982649310995

@@ -1,0 +1,27 @@
+k,node,block
+2,Politics,Politics block
+2,Administration & Law,Politics block
+2,Military,Politics block
+2,Religion,Politics block
+2,Nobility,Politics block
+2,Kinship,Politics block
+2,Big business,Big business block
+2,Small business,Big business block
+2,Academia,Big business block
+2,Exploration & Invention,Big business block
+2,Culture (core),Big business block
+2,Culture (periphery),Big business block
+2,Sport & Games,Big business block
+6,Politics,Politics block
+6,Administration & Law,Politics block
+6,Military,Military block
+6,Religion,Military block
+6,Nobility,Military block
+6,Kinship,Military block
+6,Big business,Big business block
+6,Small business,Big business block
+6,Academia,Academia block
+6,Exploration & Invention,Big business block
+6,Culture (core),Culture (core) block
+6,Culture (periphery),Culture (core) block
+6,Sport & Games,Sport & Games block

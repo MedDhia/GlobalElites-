@@ -329,3 +329,128 @@ Ideational + Economic is 34,182, exactly as under `culture_out`, yet the score i
 -0.41 against +0.28: nothing about those elites changed, only the reference model
 they are measured against, which now has ten cells to distribute expectations over
 instead of six.
+
+---
+
+# The network-structure layer
+
+`scripts/09_network_structure.py` runs two analyses that the pairwise tables cannot
+carry on their own. Outputs live in `data/processed/network_structure/`.
+
+## Part A: positions and blocks
+
+Two sectors occupy the same position when they combine with the same partners,
+whether or not they combine with each other. Distance between two sectors is one
+minus the correlation between their rows of the association matrix, with the two
+sectors' own cells left out of the comparison; linkage is average.
+
+### `sector_profile_correlations.csv`
+
+One row per unordered node pair per period, for both layers.
+
+| Column | Description |
+|---|---|
+| `layer` | `sector` (13 nodes) or `domain` (4 nodes) |
+| `period` | `all` or one of the six eras |
+| `node_a`, `node_b` | The pair |
+| `profile_correlation` | Correlation between their association profiles |
+
+### `sector_blocks_by_era.csv`
+
+Block membership of every node in every period. Blocks are refitted inside each
+period and matched to the pooled solution by best overlap (Hungarian assignment on
+Jaccard), so a block name means the same position throughout. The number of blocks
+is fixed at four, which is a choice: the silhouette curve is close to flat across
+two to six blocks. The cut can return fewer than four; the 1900-2020 sector cut
+returns three.
+
+### `block_count_silhouette.csv` and `block_alternatives_pooled.csv`
+
+The silhouette value for two to six blocks on the pooled matrix, and the membership
+of the two- and six-block partitions, so the choice of four stays visible.
+
+### `blockmodel_image_by_era.csv`
+
+Mean association within and between blocks.
+
+| Column | Description |
+|---|---|
+| `layer`, `period` | Identifiers |
+| `block_a`, `block_b` | Row and column block |
+| `n_cells` | Pairs contributing to the mean; the diagonal excludes self-pairs |
+| `mean_assoc` | Mean `assoc_log2` over those pairs |
+
+### `coreness_by_era.csv`
+
+| Column | Description |
+|---|---|
+| `layer`, `period`, `node` | Identifiers |
+| `coreness` | Leading eigenvector of the positive part of the association matrix, its best rank-one approximation, rescaled so the largest score is one |
+| `cp_fit` | Correlation between the positive matrix and the outer product of the coreness vector: how well one core with a periphery around it describes that period at all |
+
+Coreness reads as membership of the tightest positive cluster, not as importance.
+
+### `network_indices_by_era.csv`
+
+One row per layer per period.
+
+| Column | Description |
+|---|---|
+| `n_nodes`, `n_pairs`, `n_crossings` | Size of the network and of the population behind it |
+| `share_associated`, `share_dissociated`, `share_indistinguishable` | Composition of the matrix at BH q < 0.05 |
+| `mean_abs_assoc`, `sd_assoc` | Size and spread of the scores |
+| `degree_centralization` | Freeman centralization of the significant positive ties |
+| `transitivity`, `modularity`, `n_communities` | Greedy modularity partition of the significant positive ties, weighted by the score |
+| `core_periphery_fit` | As `cp_fit` above |
+
+The domain layer has four nodes and six cells, so its centralization, transitivity,
+modularity and core-periphery fit carry little information. Read `sd_assoc` and the
+composition columns there and the rest on the sector layer.
+
+## Part B: one level shift at an unknown date
+
+The trend fits reported elsewhere are linear, and a linear trend cannot see a level
+shift. Each pair is fitted with a common slope plus one shift at an unknown date:
+
+```
+assoc(t) = level_at_centre
+         + slope_per_century * (t - centre) / 100
+         + shift * 1{t > break_date}
+```
+
+Every admissible date is scanned (two cohorts are held out at each end) and the
+largest Wald statistic on `shift` is the test statistic. Its null distribution is
+simulated 2,000 times under a no-shift model, drawing each cohort with its own
+bootstrap standard error inflated by the overdispersion the no-shift fit leaves
+behind, so period-to-period variation beyond sampling error is carried into the
+null instead of being assumed away.
+
+### `breakpoints_sector_pairs.csv` and `breakpoints_domain_pairs.csv`
+
+| Column | Description |
+|---|---|
+| `layer` | `sector centuries` (800-1900), `sector half-centuries` (1400-1949) or `domain half-centuries` (1400-1949) |
+| `pair`, `n_points` | The pair and the cohorts behind the fit |
+| `break_date` | Best-fitting date of the shift |
+| `shift`, `shift_se`, `shift_ci_low`, `shift_ci_high` | Size of the shift and its Wald interval |
+| `centre`, `level_at_centre`, `slope_per_century` | The rest of the shift model, enough to redraw the fitted line |
+| `level_no_break`, `slope_no_break_per_century`, `rmse_no_break` | The no-shift model it is compared against |
+| `sup_wald`, `p_value`, `q_value`, `has_break` | Test statistic, simulated p, BH-adjusted q within layer, and whether q < 0.05 |
+| `overdispersion` | Scale inflation used in the null, never below 1 |
+
+The sector layer is fitted on two grids. The century grid covers the whole record
+but leans on pre-1100 cohorts of a few thousand people spread over 78 pairs; the
+half-century grid runs over the same 1400 to 1949 window as the domain layer, where
+the counts are large. The half-century rows are the comparable ones.
+
+### `breakpoint_common_date.csv`
+
+The pooled scan: at each candidate date, the Wald statistic summed over every pair
+of that layer, asking whether one date fits the whole system.
+
+| Column | Description |
+|---|---|
+| `layer`, `date` | Identifiers |
+| `sum_wald` | Summed Wald statistic at that date |
+| `is_best` | Whether this is the maximising date |
+| `p_value_best` | On the maximising row only: simulated p for the pooled supremum, with every pair drawn under its own no-shift model |

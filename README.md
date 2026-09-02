@@ -21,6 +21,10 @@ file and the same estimator:
 The domain layer rests on a reading of where each sector belongs, so it is rerun
 under five such readings in `data/processed/robustness/`, figures prefixed `figR`.
 
+On top of both layers sits a network-structure pass in
+`data/processed/network_structure/`, figures prefixed `figS`: positions and blocks,
+whole-network indices, and a scan for level shifts that a linear trend cannot see.
+
 Read together they answer a question neither answers alone: how much of the
 movement in elite career combinations is reorganisation *inside* a domain of
 power, and how much is a change in which domains get combined at all.
@@ -137,6 +141,17 @@ And for the robustness run:
 | `figR02_five_domain_pooled` | The five-domain matrix and its ten crossings, pooled |
 | `figR03_five_domain_by_era` | The five-domain matrix refitted in each of six eras |
 | `figR04_core_pairs_across_readings` | Each core crossing over time, one line per reading |
+
+And for the network-structure pass:
+
+| Figure | Content |
+|---|---|
+| `figS01_positions_and_blocks` | Dendrogram of sectors by association profile, and the matrix reordered by block |
+| `figS02_blocks_over_time` | Which block each sector sits in era by era, and the blockmodel image |
+| `figS03_network_indices` | Composition, spread, centralization, transitivity, modularity, core-periphery fit |
+| `figS04_coreness` | Who sits at the centre of the positive ties, era by era |
+| `figS05_break_scan` | The pooled scan for a common date, and where each pair puts its own shift |
+| `figS06_domain_steps` | The six domain crossings with the fitted step model overlaid |
 
 Every figure is written as both PDF and 300-dpi PNG.
 
@@ -268,6 +283,76 @@ artefact of where culture was put.
 0.12 across all five. **Most sensitive:** economic with security, which varies by
 0.89.
 
+## Network structure
+
+Two questions the pairwise tables cannot answer on their own.
+
+### Positions
+
+Two sectors occupy the same position when they combine with the same partners,
+whether or not they combine with each other. Correlating the rows of the pooled
+association matrix and clustering gives four blocks:
+
+| Block | Members |
+|---|---|
+| Politics | Politics, Administration & Law |
+| Military | Military, Religion, Nobility, Kinship |
+| Academia | Academia, Culture (core), Culture (periphery) |
+| Big business | Big business, Small business, Exploration & Invention, Sport & Games |
+
+**The data recover the domain scheme without being told it.** The four blocks are
+close to the four domains imposed earlier, with two differences that are themselves
+informative: nobility and kinship attach to the military and not to politics,
+and sport attaches to business. Within-block association exceeds between-block
+association in every era, by 1.64 pooled and by as little as 0.24 in 1600-1799.
+
+Four blocks is a choice, not a finding: the silhouette curve is close to flat from
+two to six blocks (0.29 to 0.34). Six blocks scores highest by a hair and splits the
+academy from cultural production, which is the same seam the `culture_own` reading
+opened in the robustness run.
+
+**Positions hold at the edges and churn in the middle.** Academia and both culture
+sectors never leave their block in any era, and kinship never leaves the military
+one. Sport, big business, small business and exploration each move three times or
+more. Politics itself sits with the business block in 1900-2020.
+
+**The centre changes hands and never gets tight.** Coreness on the positive ties
+belongs to culture and the academy before 1400 and to nobility, kinship and the
+military after 1800. But the core-periphery fit runs between 0.39 and 0.65 across
+the eras, never high enough to say the positive ties form one core with a periphery
+around it. Centralization ends at 0.28 against 0.33 before 1000 and modularity at
+0.31 against 0.30: as the record thickens the matrix resolves, with the share of
+pairs indistinguishable from the reference model falling from 44% before 1000 to
+under 3% after 1800, but it does not concentrate.
+
+### Level shifts
+
+The trend fits reported above are linear, and a linear trend cannot see a step.
+Fitting each pair with a common slope plus one level shift at an unknown date, and
+simulating the null distribution of the largest Wald statistic 2,000 times, changes
+one of the earlier conclusions.
+
+**The domain structure does not drift. It steps.** None of the six crossings carried
+a linear trend distinguishable from flat. Five of the six carry a level shift: three
+dated at 1750 (ideational with economic, ideational with security, political with
+economic), two at 1550 (political with ideational, economic with security). Only
+political with security has no detectable shift, which is the crossing that was
+already the most stable thing in the analysis. The pooled scan puts one common date
+at 1750 (p = 0.001). The two results are not in tension: a structure that holds a
+level and then moves to another has no trend to find.
+
+**The sectors move together where no single pair moves alone.** Over the same 1400
+to 1949 window, only 2 of 78 sector pairs carry a shift that survives adjustment,
+yet the pooled scan finds a system-wide date at 1700 (p = 0.0005), and 57 of the 78
+pairs put their own best-fitting date between 1650 and 1750. Many small coordinated
+shifts, none large enough to detect on its own.
+
+**The whole-record sector scan should be read with care.** On century cohorts from
+800, 15 of 78 pairs carry a shift and the pooled date is 1100 (p = 0.0005), but the
+cohorts before 1100 hold a few thousand people spread over 78 pairs and the fitted
+shifts there run to five and six log points. That result is about how thin the early
+record is at least as much as about the eleventh century.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -315,9 +400,11 @@ python scripts/05_domain_associations.py   # four-domain layer
 python scripts/06_domain_figures.py
 python scripts/07_robustness_culture.py    # five readings of the domain mapping
 python scripts/08_robustness_figures.py
+python scripts/09_network_structure.py     # positions, blocks, level shifts
+python scripts/10_network_structure_figures.py
 ```
 
-Total runtime is about nine minutes after the download. Run the scripts from the
+Total runtime is about fifteen minutes after the download. Run the scripts from the
 repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 
 ## Layout
@@ -326,10 +413,12 @@ repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 data/raw/         source archive (git-ignored)
 data/processed/   person-level extract and all derived tables
 docs/CODEBOOK.md  variable-by-variable description of every output file
-data/processed/robustness/   the same domain analysis under five mappings
-figures/          twenty-two figures, PDF and PNG
-scripts/          the pipeline, plus assoc_core.py (the estimator, shared by every
-                  layer), domainmap.py (the named sector-to-domain mappings) and
+data/processed/robustness/          the domain analysis under five mappings
+data/processed/network_structure/   positions, blocks, indices and level shifts
+figures/          twenty-eight figures, PDF and PNG
+scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
+                  netstruct.py (positions, blocks, coreness, network indices),
+                  domainmap.py (the named sector-to-domain mappings) and
                   plotstyle.py (shared figure styling)
 ```
 

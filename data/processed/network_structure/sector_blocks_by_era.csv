@@ -1,0 +1,120 @@
+layer,period,node,block
+sector,all,Politics,Politics block
+sector,all,Administration & Law,Politics block
+sector,all,Military,Military block
+sector,all,Religion,Military block
+sector,all,Nobility,Military block
+sector,all,Kinship,Military block
+sector,all,Big business,Big business block
+sector,all,Small business,Big business block
+sector,all,Academia,Academia block
+sector,all,Exploration & Invention,Big business block
+sector,all,Culture (core),Academia block
+sector,all,Culture (periphery),Academia block
+sector,all,Sport & Games,Big business block
+sector,Pre-1000,Politics,Politics block
+sector,Pre-1000,Administration & Law,Academia block
+sector,Pre-1000,Military,Military block
+sector,Pre-1000,Religion,Big business block
+sector,Pre-1000,Nobility,Military block
+sector,Pre-1000,Kinship,Military block
+sector,Pre-1000,Big business,Academia block
+sector,Pre-1000,Small business,Big business block
+sector,Pre-1000,Academia,Academia block
+sector,Pre-1000,Exploration & Invention,Academia block
+sector,Pre-1000,Culture (core),Academia block
+sector,Pre-1000,Culture (periphery),Academia block
+sector,Pre-1000,Sport & Games,Big business block
+sector,1000-1399,Politics,Military block
+sector,1000-1399,Administration & Law,Politics block
+sector,1000-1399,Military,Military block
+sector,1000-1399,Religion,Academia block
+sector,1000-1399,Nobility,Military block
+sector,1000-1399,Kinship,Military block
+sector,1000-1399,Big business,Big business block
+sector,1000-1399,Small business,Academia block
+sector,1000-1399,Academia,Academia block
+sector,1000-1399,Exploration & Invention,Academia block
+sector,1000-1399,Culture (core),Academia block
+sector,1000-1399,Culture (periphery),Academia block
+sector,1000-1399,Sport & Games,Politics block
+sector,1400-1599,Politics,Military block
+sector,1400-1599,Administration & Law,Politics block
+sector,1400-1599,Military,Military block
+sector,1400-1599,Religion,Academia block
+sector,1400-1599,Nobility,Military block
+sector,1400-1599,Kinship,Military block
+sector,1400-1599,Big business,Military block
+sector,1400-1599,Small business,Big business block
+sector,1400-1599,Academia,Academia block
+sector,1400-1599,Exploration & Invention,Big business block
+sector,1400-1599,Culture (core),Academia block
+sector,1400-1599,Culture (periphery),Academia block
+sector,1400-1599,Sport & Games,Academia block
+sector,1600-1799,Politics,Politics block
+sector,1600-1799,Administration & Law,Politics block
+sector,1600-1799,Military,Big business block
+sector,1600-1799,Religion,Academia block
+sector,1600-1799,Nobility,Politics block
+sector,1600-1799,Kinship,Military block
+sector,1600-1799,Big business,Big business block
+sector,1600-1799,Small business,Academia block
+sector,1600-1799,Academia,Academia block
+sector,1600-1799,Exploration & Invention,Academia block
+sector,1600-1799,Culture (core),Academia block
+sector,1600-1799,Culture (periphery),Academia block
+sector,1600-1799,Sport & Games,Academia block
+sector,1800-1899,Politics,Politics block
+sector,1800-1899,Administration & Law,Big business block
+sector,1800-1899,Military,Big business block
+sector,1800-1899,Religion,Academia block
+sector,1800-1899,Nobility,Military block
+sector,1800-1899,Kinship,Military block
+sector,1800-1899,Big business,Big business block
+sector,1800-1899,Small business,Big business block
+sector,1800-1899,Academia,Academia block
+sector,1800-1899,Exploration & Invention,Big business block
+sector,1800-1899,Culture (core),Academia block
+sector,1800-1899,Culture (periphery),Academia block
+sector,1800-1899,Sport & Games,Military block
+sector,1900-2020,Politics,Big business block
+sector,1900-2020,Administration & Law,Big business block
+sector,1900-2020,Military,Big business block
+sector,1900-2020,Religion,Military block
+sector,1900-2020,Nobility,Military block
+sector,1900-2020,Kinship,Military block
+sector,1900-2020,Big business,Big business block
+sector,1900-2020,Small business,Big business block
+sector,1900-2020,Academia,Academia block
+sector,1900-2020,Exploration & Invention,Big business block
+sector,1900-2020,Culture (core),Academia block
+sector,1900-2020,Culture (periphery),Academia block
+sector,1900-2020,Sport & Games,Military block
+domain,all,Political,Political block
+domain,all,Ideational,Political block
+domain,all,Economic,Political block
+domain,all,Security,Political block
+domain,Pre-1000,Political,Political block
+domain,Pre-1000,Ideational,Political block
+domain,Pre-1000,Economic,Political block
+domain,Pre-1000,Security,Political block
+domain,1000-1399,Political,Political block
+domain,1000-1399,Ideational,Political block
+domain,1000-1399,Economic,Political block
+domain,1000-1399,Security,Political block
+domain,1400-1599,Political,Political block
+domain,1400-1599,Ideational,Political block
+domain,1400-1599,Economic,Political block
+domain,1400-1599,Security,Political block
+domain,1600-1799,Political,Political block
+domain,1600-1799,Ideational,Political block
+domain,1600-1799,Economic,Political block
+domain,1600-1799,Security,Political block
+domain,1800-1899,Political,Political block
+domain,1800-1899,Ideational,Political block
+domain,1800-1899,Economic,Political block
+domain,1800-1899,Security,Political block
+domain,1900-2020,Political,Political block
+domain,1900-2020,Ideational,Political block
+domain,1900-2020,Economic,Political block
+domain,1900-2020,Security,Political block
