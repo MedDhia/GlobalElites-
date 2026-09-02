@@ -1,0 +1,8 @@
+# Raw source data (large, redownload with scripts/00_download_data.py)
+data/raw/*
+!data/raw/.gitkeep
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
