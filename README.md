@@ -8,6 +8,20 @@ it to a person-by-sector file, measures the association between every pair of
 power sectors within birth cohorts, and produces the figures and derived datasets
 that follow from it.
 
+The analysis runs at two levels of aggregation, both from the same person-level
+file and the same estimator:
+
+- **13 sectors**, 78 pairs. Fine enough to see the church, the academy, the
+  officer corps and the counting house separately. Files and figures with no
+  prefix.
+- **4 domains of power** (political/regulatory, ideational/academic,
+  economic/allocative, security/military), 6 pairs. Files prefixed `domain_`,
+  figures prefixed `figD`.
+
+Read together they answer a question neither answers alone: how much of the
+movement in elite career combinations is reorganisation *inside* a domain of
+power, and how much is a change in which domains get combined at all.
+
 ---
 
 ## The data
@@ -63,6 +77,27 @@ by construction. Plain independence would read that arithmetic as elite behaviou
 The odds ratio is still reported alongside, as `log_or_uncond`, for readers who
 want the unconditional quantity.
 
+## The four domains
+
+The 13 sectors collapse onto four domains. Three sectors are left unclassified
+because they name a mode of transmission or a form of celebrity instead of a
+domain of power.
+
+| Domain | Sectors |
+|---|---|
+| Political / regulatory | Politics, Administration & Law |
+| Ideational / academic | Religion, Academia, Culture (core), Culture (periphery) |
+| Economic / allocative | Big business, Small business, Exploration & Invention |
+| Security / military | Military |
+| *unclassified* | *Nobility, Kinship, Sport & Games* |
+
+Collapsing changes what diversification means. An elite coded Politics plus
+Administration & Law spans two sectors but one domain: consolidation inside the
+political domain, not a second source of power. Only an elite whose two sectors
+fall in two different domains **crosses** a boundary, and the model is fitted to
+those crossings. Of 2,071,452 people, 1,485,223 (71.7%) hold at least one of the
+four domains and 280,761 cross two of them.
+
 ## What the figures show
 
 | Figure | Content |
@@ -77,6 +112,19 @@ want the unconditional quantity.
 | `fig08_sector_composition` | What the recorded elite is made of, century by century |
 | `fig09_destination_profiles` | For each sector, where its diversifiers actually went |
 | `fig10_regional_variation` | The same pair across continents in the two modern eras |
+
+And for the four domains:
+
+| Figure | Content |
+|---|---|
+| `figD01_domain_association_overall` | The 4 x 4 matrix and the six crossings ranked, pooled |
+| `figD02_crossing_trajectories` | Each crossing across half-century cohorts, 1400 to 1949 |
+| `figD03_domain_matrix_by_era` | The 4 x 4 matrix refitted in each of six eras |
+| `figD04_domain_networks_by_era` | The four domains as a network, era by era, with scores on the edges |
+| `figD05_crossing_rates` | Crossing against within-domain consolidation, by region, and by domain |
+| `figD06_domain_reach_by_era` | Of the elites holding one domain, what share also hold each other |
+| `figD07_portfolio_composition` | Portfolios of power, century by century |
+| `figD08_regional_variation` | The same crossing across continents in the two modern eras |
 
 Every figure is written as both PDF and 300-dpi PNG.
 
@@ -115,6 +163,50 @@ and it does not trend.
 
 Read every number alongside the caveats below.
 
+## What comes out of the four domains
+
+**Rule and coercion are the one durable fusion.** Political + Security is the
+only crossing above chance in every era: +0.29 before 1000, +0.66 in 1400-1599,
++0.64 in 1600-1799, +0.67 after 1900, pooled at +0.60 (n = 29,577). Nothing else
+in the four-domain matrix is positive throughout.
+
+**Economic power sits apart from both rule and coercion.** Political + Economic
+is below chance pooled (-0.17, n = 51,656) and Economic + Security is the most
+avoided crossing in the record (-0.50, n = 9,328). The one economic tie above
+chance is to the ideational domain (+0.20, n = 77,656), which is the inventor and
+the professional, not the financier.
+
+**Politics and the ideational domain are at chance.** Political + Ideational is
+the most common crossing in absolute terms (96,140 elites, 34% of all crossings)
+and the closest to zero once size is netted out (-0.06). The two largest domains
+combine about as often as their sizes imply, no more.
+
+**The domain structure is close to stationary while the sector structure moves.**
+Not one of the six crossings carries a trend distinguishable from flat, on either
+the century grid (1100 to 1900) or the half-century grid (1400 to 1949), after
+adjusting the six tests. In the 13-sector layer 47 of 78 pairs move. The
+implication is that most of what looks like historical change in elite career
+combinations is reorganisation inside a domain, not a change in which domains get
+combined.
+
+**The exception is a level shift around 1800.** Four of the six crossings jump
+toward zero between the 1750 and 1800 cohorts: Political + Economic from -0.32 to
+-0.04, Ideational + Security from -0.77 to -0.18, Ideational + Economic from
++0.70 to +0.16, Political + Security from +0.53 to +0.31. A linear trend does not
+capture it, and it coincides with the point where the recorded population
+multiplies, so it should be treated as a candidate for a source effect as much as
+a candidate for a real reordering.
+
+**Crossing peaks in the eighteenth century.** The share of classified elites
+holding two domains runs at 10% to 13% before 1200, climbs to 25% for the 1700
+cohort, then falls back to 17% after 1900. Consolidation is the mirror: in every
+century, roughly half of all two-sector elites combine two sectors inside one
+domain.
+
+**Economic and security elites reach furthest; ideational elites least.** After
+1900, 67% of economic elites and 56% of security elites also hold another domain,
+against 39% of political elites and 17% of ideational ones.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -138,6 +230,17 @@ Century cohorts before 1400 rest on a few thousand people spread over 78 pairs.
 The bootstrap intervals reflect that, and the pre-1000 panels carry the widest
 intervals in every figure.
 
+The four-domain layer inherits all of this and adds one decision of its own. The
+assignment of sectors to domains is a reading, not a measurement. Placing
+Culture in the ideational domain makes that domain the largest of the four and
+shapes every score it appears in; placing Exploration & Invention in the
+economic domain instead of the ideational one moves about 20,000 elites.
+Nobility and Kinship are excluded, which removes the strongest association in
+the sector layer from the domain layer entirely.
+`scripts/05_domain_associations.py` holds the mapping in a single dictionary at
+the top of the file, so an alternative reading is a three-line change and a
+rerun.
+
 ## Running it
 
 ```bash
@@ -147,9 +250,12 @@ python scripts/01_build_person_level.py # person-level extract
 python scripts/02_sector_associations.py
 python scripts/03_figures.py
 python scripts/04_summary_table.py
+python scripts/05_domain_associations.py   # four-domain layer
+python scripts/06_domain_figures.py
 ```
 
-Total runtime is about three minutes after the download.
+Total runtime is about six minutes after the download. Run the scripts from the
+repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 
 ## Layout
 
@@ -157,8 +263,9 @@ Total runtime is about three minutes after the download.
 data/raw/         source archive (git-ignored)
 data/processed/   person-level extract and all derived tables
 docs/CODEBOOK.md  variable-by-variable description of every output file
-figures/          ten figures, PDF and PNG
-scripts/          the four-step pipeline
+figures/          eighteen figures, PDF and PNG
+scripts/          the pipeline, plus assoc_core.py (the estimator, shared by both
+                  layers) and plotstyle.py (shared figure styling)
 ```
 
 `data/processed/elites_person_level.csv.gz` is 59 MB. It is committed so the

@@ -135,3 +135,133 @@ One row per sector per period (eras and centuries stacked).
 
 Counts of elites and of two-sector elites by birth century, with their ratio,
 overall and split by UN region.
+
+---
+
+# The four-domain layer
+
+The 13 sectors are collapsed onto four domains of power. Three sectors are left
+unclassified because they name a mode of transmission or a form of celebrity
+instead of a domain: Nobility, Kinship and Sport & Games.
+
+| Domain | Label in the files | Sectors |
+|---|---|---|
+| Political / regulatory | `Political` | Politics, Administration & Law |
+| Ideational / academic | `Ideational` | Religion, Academia, Culture (core), Culture (periphery) |
+| Economic / allocative | `Economic` | Big business, Small business, Exploration & Invention |
+| Security / military | `Security` | Military |
+
+Collapsing changes what diversification means. An elite coded Politics plus
+Administration & Law spans two sectors but one domain: consolidation inside the
+political domain, not a second source of power. Only an elite whose two sectors
+fall in two different domains **crosses** a domain boundary, and the association
+model is fitted to those crossings.
+
+Of 2,071,452 people, 1,485,223 (71.7%) hold at least one of the four domains and
+280,761 cross two of them.
+
+---
+
+## `elites_domain_person_level.csv.gz`  (2,071,452 rows)
+
+The person-level file with the domain recode attached.
+
+| Column | Description |
+|---|---|
+| `wikidata_code`, `name`, `birth`, `death`, `gender`, `region`, `subregion` | As in the sector file |
+| `sector_main`, `sector_second` | The 13-sector coding this layer is built from |
+| `domain_main`, `domain_second` | Domain of each slot; empty when the sector is unclassified |
+| `n_domains` | 0, 1 or 2 distinct domains held |
+| `crosses_domains` | True when `n_domains` == 2 |
+| `portfolio` | "Political only", "Political + Security", ..., or "Unclassified" |
+| `sector_span` | How the two coded sectors relate once collapsed: one sector / two sectors, one domain / two sectors, two domains / two sectors, one classified / two sectors, none classified |
+| `birth_century`, `birth_halfcentury`, `era` | Cohort identifiers |
+
+Counts of `sector_span` over the whole file:
+
+| Value | n |
+|---|---|
+| one sector | 1,348,192 |
+| two sectors, one domain | 287,986 |
+| two sectors, two domains | 280,761 |
+| two sectors, one classified | 132,633 |
+| two sectors, none classified | 21,880 |
+
+---
+
+## `domain_pair_association_*.csv`
+
+Same columns as the sector files, with `domain_a` and `domain_b` in place of
+`sector_a` and `sector_b`, and `n_diversified_period` counting crossings.
+
+| File | Rows | Periods |
+|---|---|---|
+| `domain_pair_association_overall.csv` | 6 | pooled |
+| `domain_pair_association_by_era.csv` | 36 | 6 eras |
+| `domain_pair_association_by_century.csv` | 54 | 9 centuries, 1100 to 1900 |
+| `domain_pair_association_by_halfcentury.csv` | 66 | 11 half-centuries, 1400 to 1949 |
+| `domain_pair_association_by_era_region.csv` | 96 | era x UN region |
+
+A period needs 150 crossings to be estimated, which is why the century series
+starts at 1100 and the half-century series at 1400. The half-century grid gives
+the modern period the resolution the counts there can support.
+
+Because the model is refitted on four categories, `expected_qi` is not comparable
+across the two layers; the association scores are.
+
+## `domain_pair_trends.csv`  (12 rows)
+
+Two rows per pair: one fitted on the century grid, one on the half-century grid.
+
+| Column | Description |
+|---|---|
+| `grid` | `century` or `halfcentury` |
+| `pair`, `domain_a`, `domain_b` | The pair |
+| `n_points`, `first_period`, `last_period` | Cohorts contributing to the fit |
+| `assoc_first`, `assoc_last`, `assoc_mean` | First, last and weighted mean score |
+| `slope_per_century` and companions | Inverse-variance weighted slope, standard error, 95% interval, p, and BH q computed within grid |
+| `trend` | converging / diverging / flat |
+
+## `domain_pair_summary.csv`  (6 rows)
+
+Pooled score, per-era scores and counts, and the half-century trend, one wide row
+per pair.
+
+## `domain_marginals_by_period.csv`
+
+| Column | Description |
+|---|---|
+| `period_type`, `period`, `domain` | Identifiers; period types are `era`, `century` and `all` |
+| `n_holders` | Elites holding the domain in either slot |
+| `share_of_classified` | n_holders over elites with at least one domain. These sum to more than 1 because crossers are counted in two domains |
+| `cross_domain_rate` | Among the domain's holders, the share who also hold another domain |
+
+## `domain_portfolio_by_period.csv`
+
+One row per portfolio per period: `n`, `share_of_classified`, and `kind`
+(single domain / cross-domain).
+
+## `domain_reach_by_period.csv`
+
+Directional. One row per ordered domain pair per period.
+
+| Column | Description |
+|---|---|
+| `from_domain`, `to_domain` | Ordered pair |
+| `n_from` | Elites holding `from_domain` |
+| `n_both` | Of those, how many also hold `to_domain` |
+| `reach` | n_both / n_from |
+
+Reach is unnormalised, so a large domain draws high reach from everywhere. Read
+it next to the association matrices, which remove that size effect.
+
+## `crossing_by_period.csv`, `crossing_by_region_period.csv`
+
+Elites with at least one domain, how many of them cross two, and the ratio, by
+birth century and by birth century and UN region.
+
+## `consolidation_by_period.csv`
+
+Among two-sector elites whose sectors are both classified: how many stayed inside
+one domain (`n_within_domain`) against how many crossed (`n_cross_domain`), with
+`share_within_domain`, by birth century.
