@@ -40,27 +40,15 @@ import numpy as np
 import pandas as pd
 
 from assoc_core import bh, pair_statistics, weighted_trend
+from domainmap import SPECS, derive
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 IN = ROOT / "data" / "processed" / "elites_person_level.csv.gz"
 OUTDIR = ROOT / "data" / "processed"
 
-SECTOR_TO_DOMAIN = {
-    "Politics": "Political",
-    "Administration & Law": "Political",
-    "Religion": "Ideational",
-    "Academia": "Ideational",
-    "Culture (core)": "Ideational",
-    "Culture (periphery)": "Ideational",
-    "Big business": "Economic",
-    "Small business": "Economic",
-    "Exploration & Invention": "Economic",
-    "Military": "Security",
-    # left unclassified: Nobility, Kinship, Sport & Games
-}
-UNCLASSIFIED = ["Nobility", "Kinship", "Sport & Games"]
-
-DOMAIN_ORDER = ["Political", "Ideational", "Economic", "Security"]
+SPEC = SPECS["main"]
+SECTOR_TO_DOMAIN = SPEC["mapping"]      # left unclassified: Nobility, Kinship, Sport & Games
+DOMAIN_ORDER = SPEC["domains"]
 DOMAIN_LONG = {
     "Political": "Political / regulatory",
     "Ideational": "Ideational / academic",
@@ -78,42 +66,8 @@ RENAME = {"cat_a": "domain_a", "cat_b": "domain_b"}
 
 
 def build_person_level() -> pd.DataFrame:
-    df = pd.read_csv(IN, compression="gzip", low_memory=False)
-    df["domain_main"] = df["sector_main"].map(SECTOR_TO_DOMAIN)
-    df["domain_second"] = df["sector_second"].map(SECTOR_TO_DOMAIN)
-
-    has_main = df["domain_main"].notna()
-    has_second = df["domain_second"].notna()
-    same = has_main & has_second & (df["domain_main"] == df["domain_second"])
-    df["n_domains"] = (has_main.astype(int) + has_second.astype(int) - same.astype(int))
-
-    df["crosses_domains"] = df["n_domains"] == 2
-    df["both_sectors_classified"] = df["sector_second"].isna() | has_second
-
-    # Portfolio label: the domain, or the pair, held by the person.
-    only = df["domain_main"].where(has_main, df["domain_second"])
-    lo = np.minimum(df["domain_main"].map({d: k for k, d in enumerate(DOMAIN_ORDER)}),
-                    df["domain_second"].map({d: k for k, d in enumerate(DOMAIN_ORDER)}))
-    hi = np.maximum(df["domain_main"].map({d: k for k, d in enumerate(DOMAIN_ORDER)}),
-                    df["domain_second"].map({d: k for k, d in enumerate(DOMAIN_ORDER)}))
-    pair_label = pd.Series(np.where(df["crosses_domains"],
-                                    [f"{DOMAIN_ORDER[int(a)]} + {DOMAIN_ORDER[int(b)]}"
-                                     if np.isfinite(a) and np.isfinite(b) else ""
-                                     for a, b in zip(lo, hi)],
-                                    ""), index=df.index)
-    df["portfolio"] = np.where(df["n_domains"] == 0, "Unclassified",
-                      np.where(df["n_domains"] == 1, only.fillna("") + " only", pair_label))
-
-    # How the two coded sectors relate once collapsed onto domains.
+    df = derive(pd.read_csv(IN, compression="gzip", low_memory=False), SPEC)
     df["birth_halfcentury"] = (df["birth"] // 50).astype(int) * 50
-    df["sector_span"] = np.select(
-        [df["sector_second"].isna(),
-         df["n_domains"] == 2,
-         has_main & has_second & same,
-         df["n_domains"] == 1],
-        ["one sector", "two sectors, two domains", "two sectors, one domain",
-         "two sectors, one classified"],
-        default="two sectors, none classified")
     return df
 
 
@@ -148,8 +102,8 @@ def main() -> None:
                  "sector_main", "sector_second", "domain_main", "domain_second",
                  "n_domains", "crosses_domains", "portfolio", "sector_span",
                  "birth_century", "birth_halfcentury", "era"]
-    df[keep_cols].to_csv(OUTDIR / "elites_domain_person_level.csv.gz",
-                         index=False, compression="gzip")
+    df[keep_cols].to_csv(OUTDIR / "elites_domain_person_level.csv.gz", index=False,
+                         compression={"method": "gzip", "mtime": 0})
 
     # ---- marginals, portfolios, reach --------------------------------------
     marg, portfolio, reach = [], [], []

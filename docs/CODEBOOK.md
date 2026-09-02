@@ -265,3 +265,67 @@ birth century and by birth century and UN region.
 Among two-sector elites whose sectors are both classified: how many stayed inside
 one domain (`n_within_domain`) against how many crossed (`n_cross_domain`), with
 `share_within_domain`, by birth century.
+
+---
+
+# The culture-placement robustness run
+
+`scripts/07_robustness_culture.py` reruns the whole domain analysis under five
+readings of where cultural production belongs, holding the estimator and every
+other choice constant. The mappings live in `scripts/domainmap.py`.
+
+| Spec | Ideational domain contains | Domains | Other change |
+|---|---|---|---|
+| `main` | Religion, Academia, Culture (core), Culture (periphery) | 4 | none |
+| `culture_out` | Religion, Academia | 4 | both Culture sectors unclassified |
+| `culture_own` | Religion, Academia | 5 | both Culture sectors form a `Cultural` domain |
+| `culture_core_only` | Religion, Academia, Culture (core) | 4 | Culture (periphery) unclassified |
+| `invention_ideational` | Religion, Academia, both Culture sectors, Exploration & Invention | 4 | Exploration & Invention leaves the economic domain |
+
+Outputs live in `data/processed/robustness/`.
+
+## `<spec>_pair_association_overall.csv`, `_by_era.csv`, `_by_halfcentury.csv`
+
+Identical in structure to the domain files, one set per specification. Under
+`culture_own` there are 10 pairs instead of 6, and `Cultural` appears in
+`domain_a` and `domain_b`.
+
+## `<spec>_crossing_by_period.csv`
+
+Elites with at least one domain, how many cross two, and the ratio, by birth
+century, computed under that specification.
+
+## `<spec>_pair_trends.csv`
+
+Inverse-variance weighted slope of the association score on the half-century
+grid, 1400 to 1949, with BH q computed within the specification.
+
+## `robustness_universe.csv`  (5 rows)
+
+How each reading changes what is being measured.
+
+| Column | Description |
+|---|---|
+| `spec`, `label`, `note` | Identifier and prose description |
+| `n_domains_in_spec`, `sectors_classified` | Size of the scheme |
+| `n_persons`, `n_classified`, `share_classified` | Universe |
+| `n_crossing`, `crossing_share_of_classified` | Elites crossing a domain boundary |
+| `n_two_sectors_one_domain` | Elites whose two sectors collapse to one domain |
+| `n_pairs` | 6 for a four-domain reading, 10 for the five-domain one |
+
+## `robustness_pair_comparison.csv`  (34 rows)
+
+Every pair under every reading, pooled over the whole record: `spec`,
+`spec_short`, `spec_label`, `pair`, `is_core_pair` (whether the pair is one of the
+six that exist in all five readings), and the usual association columns.
+
+## `robustness_core_by_era.csv`  (180 rows)
+
+The six core pairs under every reading, by era.
+
+Scores are comparable **within** a reading, not across readings with different
+numbers of domains. Under `culture_own` the observed count for
+Ideational + Economic is 34,182, exactly as under `culture_out`, yet the score is
+-0.41 against +0.28: nothing about those elites changed, only the reference model
+they are measured against, which now has ten cells to distribute expectations over
+instead of six.

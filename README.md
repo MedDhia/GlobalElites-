@@ -18,6 +18,9 @@ file and the same estimator:
   economic/allocative, security/military), 6 pairs. Files prefixed `domain_`,
   figures prefixed `figD`.
 
+The domain layer rests on a reading of where each sector belongs, so it is rerun
+under five such readings in `data/processed/robustness/`, figures prefixed `figR`.
+
 Read together they answer a question neither answers alone: how much of the
 movement in elite career combinations is reorganisation *inside* a domain of
 power, and how much is a change in which domains get combined at all.
@@ -126,6 +129,15 @@ And for the four domains:
 | `figD07_portfolio_composition` | Portfolios of power, century by century |
 | `figD08_regional_variation` | The same crossing across continents in the two modern eras |
 
+And for the robustness run:
+
+| Figure | Content |
+|---|---|
+| `figR01_culture_robustness` | The six crossings under all five readings, with what each reading leaves in |
+| `figR02_five_domain_pooled` | The five-domain matrix and its ten crossings, pooled |
+| `figR03_five_domain_by_era` | The five-domain matrix refitted in each of six eras |
+| `figR04_core_pairs_across_readings` | Each core crossing over time, one line per reading |
+
 Every figure is written as both PDF and 300-dpi PNG.
 
 ## What comes out of it
@@ -207,6 +219,55 @@ domain.
 1900, 67% of economic elites and 56% of security elites also hold another domain,
 against 39% of political elites and 17% of ideational ones.
 
+## Robustness: where does cultural production belong?
+
+Putting Culture in the ideational domain makes it the largest of the four and
+gives it a hand in every score it enters, so the whole domain analysis is rerun
+under five readings with the estimator and everything else held constant:
+
+| Reading | Ideational domain is | Classified | Crossings |
+|---|---|---|---|
+| `main` | religion, academy, culture | 1.49M | 280,761 (19%) |
+| `culture_out` | religion and academy only | 0.95M | 188,810 (20%) |
+| `culture_own` | religion and academy; culture is a fifth domain | 1.49M | 374,703 (25%) |
+| `culture_core_only` | religion, academy, Culture (core) | 1.44M | 249,650 (17%) |
+| `invention_ideational` | main, plus Exploration & Invention | 1.49M | 270,160 (18%) |
+
+**Four of the six crossings keep their sign under every reading.** Political with
+security stays positive across the full range (+0.33 to +1.07). Political with
+ideational stays small and negative (-0.06 to -0.18), ideational with security
+negative (-0.23 to -0.96), economic with security negative (-0.12 to -1.01). The
+two headline claims about coercion, that rule and coercion fuse and that economic
+power keeps its distance from coercion, do not depend on the placement of culture.
+
+**The two that flip do so only under the five-domain reading**, and for a reason
+worth stating plainly. Ideational with economic runs +0.20 in the main reading and
++0.28, +0.22, +0.21 in the other three four-domain readings, but -0.41 when culture
+becomes a fifth domain. Its observed count under `culture_own` is 34,182, exactly
+the same 34,182 as under `culture_out`: nothing about those elites changed. What
+changed is the reference model, which now spreads its expectations over ten cells
+instead of six. Scores are comparable within a reading, not across readings with
+different numbers of domains. Political with economic flips the same way and for
+the same reason.
+
+**Culture as a fifth domain is worth looking at on its own terms.** It sits close
+to the church and the academy (+0.47, n = 93,942), away from politics (-0.57,
+n = 40,288) and furthest of all from the military (-0.89, n = 8,189), while
+combining with economic power at almost exactly chance (+0.01, n = 43,474). In
+that reading political with security reaches +1.07, the tightest fusion anywhere
+in the analysis.
+
+**Stationarity survives all five readings.** Of the 34 pair-by-reading trends
+fitted on half-century cohorts from 1400 to 1949, 32 are flat after adjustment.
+The two exceptions are political with cultural under `culture_own` (+0.18 per
+century, q = 0.031) and one pair under `invention_ideational`. The finding that
+the domain structure barely moves while the sector structure does is not an
+artefact of where culture was put.
+
+**Least sensitive to the reading:** political with ideational, which varies by
+0.12 across all five. **Most sensitive:** economic with security, which varies by
+0.89.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -252,9 +313,11 @@ python scripts/03_figures.py
 python scripts/04_summary_table.py
 python scripts/05_domain_associations.py   # four-domain layer
 python scripts/06_domain_figures.py
+python scripts/07_robustness_culture.py    # five readings of the domain mapping
+python scripts/08_robustness_figures.py
 ```
 
-Total runtime is about six minutes after the download. Run the scripts from the
+Total runtime is about nine minutes after the download. Run the scripts from the
 repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 
 ## Layout
@@ -263,9 +326,11 @@ repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 data/raw/         source archive (git-ignored)
 data/processed/   person-level extract and all derived tables
 docs/CODEBOOK.md  variable-by-variable description of every output file
-figures/          eighteen figures, PDF and PNG
-scripts/          the pipeline, plus assoc_core.py (the estimator, shared by both
-                  layers) and plotstyle.py (shared figure styling)
+data/processed/robustness/   the same domain analysis under five mappings
+figures/          twenty-two figures, PDF and PNG
+scripts/          the pipeline, plus assoc_core.py (the estimator, shared by every
+                  layer), domainmap.py (the named sector-to-domain mappings) and
+                  plotstyle.py (shared figure styling)
 ```
 
 `data/processed/elites_person_level.csv.gz` is 59 MB. It is committed so the

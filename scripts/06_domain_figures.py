@@ -398,7 +398,7 @@ def figD08(by_er):
                        label=region if era == "1800-1899" else None, zorder=3)
         ax.axvline(0, color=GREY, lw=0.9, ls=(0, (4, 3)))
         for yi in y:
-            ax.axhline(yi, color="#f0f0f0", lw=22, zorder=0)
+            ax.axhspan(yi - 0.42, yi + 0.42, color="#f0f0f0", zorder=0, linewidth=0)
         ax.set_yticks(y)
         ax.set_yticklabels([p.replace(" + ", "  +  ") for p in order], fontsize=8.4)
         ax.set_title(era, fontsize=10.5, loc="left")

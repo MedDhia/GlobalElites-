@@ -133,7 +133,9 @@ def main() -> None:
                        "sum_visib_ln_5criteria": "visibility"})
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    out.to_csv(OUT, index=False, compression="gzip")
+    # mtime=0 keeps the archive byte-identical across reruns, so an unchanged
+    # extract does not show up as a new 60 MB blob in git.
+    out.to_csv(OUT, index=False, compression={"method": "gzip", "mtime": 0})
     print(f"wrote {OUT} ({OUT.stat().st_size / 1e6:.1f} MB), {len(out):,} rows")
     print(f"  spanning two sectors: {out['diversified'].sum():,} "
           f"({out['diversified'].mean():.1%})")
