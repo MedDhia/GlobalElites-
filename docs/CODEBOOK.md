@@ -792,3 +792,75 @@ The head-to-head Brewer actually draws, and the EXPOSED to POST change.
 
 Each unit's group shares and elite count by phase, so the change in the recorded
 population can be read next to the change in the association scores.
+
+---
+
+# The Tilly path test
+
+`scripts/20_tilly_paths.py` tests Tilly's coercion and capital paths;
+`scripts/21_tilly_figures.py` draws it. Outputs live in `data/processed/tilly/`.
+
+## Design
+
+Tilly's claim is typological and cross-sectional, so there is no dating problem and
+no exposure lag. What it predicts is an ordering of countries, which is what this
+repository measures country by country.
+
+Nothing here identifies a causal effect. Countries do not receive their endowment
+of cities and capital at random; that endowment is Tilly's explanatory variable and
+it is inherited from centuries of geography and trade. What can be tested is
+whether the ordering he predicts is the ordering the record shows, against a null
+in which the path labels are shuffled across countries.
+
+Sectors use the same seven groups as the fiscal-military test. Association scores
+are refitted inside each country and era, with a 150-pair floor. The main era is
+1600-1799, where the panel is balanced at five countries per path. Ordering is
+tested with a Jonckheere-Terpstra statistic against a permutation null over the
+path labels, 100,000 draws, which is the right null at five countries per cell.
+
+## `path_coding.csv`  (17 rows)
+
+Tilly's own examples mapped onto the modern states the source codes, with the
+alternative coding alongside. The mapping is lossy and the lossiest case is Italy,
+which merges Venice and Genoa with the papal and southern states. The alternative
+coding moves the three cases Tilly is least explicit about: Denmark to
+capital-intensive, Sweden to capitalized coercion, Germany to coercion-intensive.
+
+## `predictions.csv`  (5 rows)
+
+`quantity`, `predicted_order` running from the path predicted lowest to the path
+predicted highest, and `claim`. Four pair predictions plus a composite, the
+coercion index, defined as the association of politics with the military minus the
+association of politics with business.
+
+## `country_era_pairs.csv`
+
+The 21 group-pair association scores refitted inside each country and era.
+
+## `ordering_tests.csv`  (20 rows)
+
+| Column | Description |
+|---|---|
+| `coding`, `era`, `quantity`, `predicted_order`, `claim` | Identifiers |
+| `jt`, `jt_null_mean` | Jonckheere-Terpstra statistic and its permutation mean |
+| `p_permutation` | Share of 100,000 label shuffles reaching the observed statistic |
+| `q_within_era`, `q_all_tests` | Benjamini-Hochberg over the five tests in the era, and over all twenty. The pre-specification names 1600-1799 as the main era, so the era family is the intended one |
+| `n_countries`, `monotone_as_predicted` | Countries in the test, and whether the three path means run in the predicted order |
+| `mean_<path>` | Each path's mean |
+
+## `group_means.csv`, `coercion_index.csv`
+
+Each path's mean per quantity and era; and the composite index country by country.
+
+## `leave_one_out.csv`, `alternative_coding.csv`
+
+The composite test dropping each country in turn; and every test rerun under the
+alternative coding.
+
+## `manipulation_check.csv`
+
+Whether the coded paths separate countries on the raw mix of elites, measured as
+the military share minus the business share. This is not independent of the
+outcome data and is not offered as validation of the thesis; it checks that the
+coding is not arbitrary, so that a null on the association scores can be read as a
+null about association and not about the coding.

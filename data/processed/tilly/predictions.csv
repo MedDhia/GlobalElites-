@@ -1,0 +1,6 @@
+quantity,predicted_order,claim
+Politics + Military,capital-intensive < capitalized coercion < coercion-intensive,Direct rule through armed force where capital is thin
+Politics + Business,coercion-intensive < capitalized coercion < capital-intensive,"Rulers bargain with, and are drawn from, merchant oligarchies where capital is thick"
+Military + Nobility & Kinship,capital-intensive < capitalized coercion < coercion-intensive,Coercion-intensive rulers coopt landlords into the officer corps
+Administration & Law + Business,coercion-intensive < capitalized coercion < capital-intensive,"Negotiated, contractual, city-based administration"
+coercion index,capital-intensive < capitalized coercion < coercion-intensive,assoc(Politics + Military) minus assoc(Politics + Business): Tilly's axis in one number

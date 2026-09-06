@@ -1,0 +1,49 @@
+coding,era,quantity,path,mean
+main,1400-1599,Politics + Military,capital-intensive,1.1035169415710944
+main,1400-1599,Politics + Military,capitalized coercion,0.441101023509405
+main,1400-1599,Politics + Military,coercion-intensive,0.01990605185314486
+main,1400-1599,Politics + Business,coercion-intensive,-0.6298822550138741
+main,1400-1599,Politics + Business,capitalized coercion,0.14604671128682273
+main,1400-1599,Politics + Business,capital-intensive,-0.18173846966880228
+main,1400-1599,Military + Nobility & Kinship,capital-intensive,1.3046082718571825
+main,1400-1599,Military + Nobility & Kinship,capitalized coercion,1.2950919772954887
+main,1400-1599,Military + Nobility & Kinship,coercion-intensive,1.0027560288565258
+main,1400-1599,Administration & Law + Business,coercion-intensive,-0.473415714889449
+main,1400-1599,Administration & Law + Business,capitalized coercion,-1.099456877548777
+main,1400-1599,Administration & Law + Business,capital-intensive,-1.0227859203385736
+main,1600-1799,Politics + Military,capital-intensive,0.9272778009741952
+main,1600-1799,Politics + Military,capitalized coercion,0.6299350773039729
+main,1600-1799,Politics + Military,coercion-intensive,0.6730431324599865
+main,1600-1799,Politics + Business,coercion-intensive,-0.7090809418160405
+main,1600-1799,Politics + Business,capitalized coercion,0.030721339836877658
+main,1600-1799,Politics + Business,capital-intensive,0.14234261956502375
+main,1600-1799,Military + Nobility & Kinship,capital-intensive,1.140696159366295
+main,1600-1799,Military + Nobility & Kinship,capitalized coercion,0.7897850713915877
+main,1600-1799,Military + Nobility & Kinship,coercion-intensive,0.8247012274397243
+main,1600-1799,Administration & Law + Business,coercion-intensive,-0.3563301180851934
+main,1600-1799,Administration & Law + Business,capitalized coercion,-0.9056991476239435
+main,1600-1799,Administration & Law + Business,capital-intensive,-1.3792352068363936
+main,1800-1899,Politics + Military,capital-intensive,0.2175263818887545
+main,1800-1899,Politics + Military,capitalized coercion,0.33814761332456045
+main,1800-1899,Politics + Military,coercion-intensive,0.45006233155565306
+main,1800-1899,Politics + Business,coercion-intensive,-0.3424742252954633
+main,1800-1899,Politics + Business,capitalized coercion,0.2741005753923048
+main,1800-1899,Politics + Business,capital-intensive,-0.09355955871104457
+main,1800-1899,Military + Nobility & Kinship,capital-intensive,0.47758332895991673
+main,1800-1899,Military + Nobility & Kinship,capitalized coercion,0.5554186859044765
+main,1800-1899,Military + Nobility & Kinship,coercion-intensive,0.9042963059900698
+main,1800-1899,Administration & Law + Business,coercion-intensive,-1.4505819103025466
+main,1800-1899,Administration & Law + Business,capitalized coercion,-1.2036037412934022
+main,1800-1899,Administration & Law + Business,capital-intensive,-1.9199785885163252
+main,1900-2020,Politics + Military,capital-intensive,0.28955213020956366
+main,1900-2020,Politics + Military,capitalized coercion,0.7308938032761636
+main,1900-2020,Politics + Military,coercion-intensive,0.6136892648866248
+main,1900-2020,Politics + Business,coercion-intensive,-0.16392961994229371
+main,1900-2020,Politics + Business,capitalized coercion,-0.11651148600851866
+main,1900-2020,Politics + Business,capital-intensive,-0.1568388575970233
+main,1900-2020,Military + Nobility & Kinship,capital-intensive,0.015795652891422218
+main,1900-2020,Military + Nobility & Kinship,capitalized coercion,0.28164435780676245
+main,1900-2020,Military + Nobility & Kinship,coercion-intensive,-0.16113680576242886
+main,1900-2020,Administration & Law + Business,coercion-intensive,-1.8092663753980742
+main,1900-2020,Administration & Law + Business,capitalized coercion,-1.1043527804743671
+main,1900-2020,Administration & Law + Business,capital-intensive,-2.018611239824266

@@ -30,9 +30,10 @@ figures prefixed `figC`. A pass in `data/processed/shocks/`, figures prefixed `f
 country-level shocks leave a persistent mark. The answer is that this data cannot
 say, and the section below shows why. Two last passes test named theses that do make datable, directional predictions
 about these sectors: the military revolution in
-`data/processed/military_revolution/`, figures prefixed `figM`, and Brewer's
+`data/processed/military_revolution/`, figures prefixed `figM`, Brewer's
 fiscal-military state in `data/processed/fiscal_military/`, figures prefixed
-`figF`.
+`figF`, and Tilly's coercion and capital paths in `data/processed/tilly/`, figures
+prefixed `figT`.
 
 Read together they answer a question neither answers alone: how much of the
 movement in elite career combinations is reorganisation *inside* a domain of
@@ -199,6 +200,14 @@ And for the fiscal-military state test:
 | `figF01_britain_vs_donors` | Britain against the donor pool on the six predictions, and each unit treated in turn |
 | `figF02_predicted_trajectories` | Each predicted pair cohort by cohort, Britain against four donors |
 | `figF03_france_and_persistence` | The Britain-France head-to-head, and what happens after 1783 |
+
+And for the Tilly path test:
+
+| Figure | Content |
+|---|---|
+| `figT01_paths_main_era` | Each prediction across the three paths, country by country, 1600-1799 |
+| `figT02_axes_and_timing` | Countries on the two axes, and when each prediction holds |
+| `figT03_coding_checks` | The manipulation check, leave-one-out, and the alternative coding |
 
 Every figure is written as both PDF and 300-dpi PNG.
 
@@ -639,6 +648,59 @@ structure of the state apparatus, and the finding here is narrower: elite career
 recorded in this database do not show Britain combining these fields more than its
 neighbours did over the same century.
 
+## Tilly's coercion and capital paths
+
+Tilly (1990) argues that rulers had to extract the means of war from whoever held
+them, and that what they held determined the state. Where capital sat in cities and
+merchants, rulers bargained and built negotiated structures; where capital was
+thin, they coerced directly and absorbed landlords into the officer corps; between
+them lies capitalized coercion. The claim is typological and cross-sectional, which
+suits this data better than any dated shock: there is no exposure lag, and what is
+predicted is an ordering of countries.
+
+Nothing here identifies a causal effect. Countries do not receive their endowment
+of cities and capital at random, and that endowment is Tilly's explanatory
+variable. What is tested is whether the predicted ordering is the observed one,
+against a null that shuffles the path labels. Four orderings plus a composite were
+written down with Tilly's own examples coded onto modern states, before the series
+was computed. The main era is 1600-1799, where the panel is balanced at five
+countries per path.
+
+**The capital side holds.** Politics with business runs exactly as Tilly says:
++0.14 among the capital-intensive states, +0.03 among the capitalized-coercion
+ones, -0.71 among the coercion-intensive ones. Monotone across all three paths,
+permutation p = 0.006, and it survives adjustment for the five tests in the era
+(q = 0.031). It also survives moving Denmark, Sweden and Germany to other paths
+(p = 0.013).
+
+**The coercion side does not.** Politics with the military is not ordered
+(p = 0.46) and is in fact *highest* among the capital-intensive states. Military
+with nobility is not ordered (p = 0.90) and is also highest there. Administration
+with business is the reverse of the prediction (p = 0.99): highest among the
+coercion-intensive states at -0.36 against -1.38 among the capital-intensive ones.
+The composite index reaches p = 0.086 but is not monotone, and dropping one country
+at a time leaves the means ordered as predicted in only one of seventeen drops.
+
+**The coding is not what fails.** Running the same ordering test on the raw mix of
+elites, the military share minus the business share, the three paths separate
+exactly as the typology says at p = 0.008. The coded coercion-intensive states
+really do produce more soldiers and fewer merchants. What they do not produce is a
+tighter bond between politics and the military once that difference in size is
+netted out.
+
+That is the finding, and it fits what the country layer already showed. Rule and
+coercion are fused nearly everywhere, positive in 34 of 36 countries, so there is
+little room for the coercion-intensive states to be more fused than anyone else.
+The variance that Tilly's axis actually predicts sits on the capital side: what
+distinguishes a thinly capitalised state is not that politics and arms are joined
+but that politics and money are kept apart.
+
+**The timing is against him too.** The capital-side ordering holds only in
+1600-1799, his formative period, and is gone by 1800-1899 (p = 0.30). The
+coercion-side orderings come closest in 1800-1899 (p = 0.10 for politics with the
+military), a century after the period the thesis is about, and never reach 0.05.
+By the twentieth-century cohorts nothing holds.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -704,6 +766,8 @@ python scripts/16_military_revolution.py   # slowest step, about 25 minutes
 python scripts/17_military_revolution_figures.py
 python scripts/18_fiscal_military_state.py
 python scripts/19_fiscal_military_figures.py
+python scripts/20_tilly_paths.py           # slow: 100,000 permutations per test
+python scripts/21_tilly_figures.py
 ```
 
 Total runtime is about an hour after the download. Run the scripts from the
@@ -721,7 +785,8 @@ data/processed/countries/           the same analyses inside each of 36 countrie
 data/processed/shocks/              the cohort panel, the coded shocks, the event study
 data/processed/military_revolution/ a pre-specified test of one named thesis
 data/processed/fiscal_military/     a pre-specified test of another
-figures/          forty-six figures, PDF and PNG
+data/processed/tilly/               a pre-specified test of a third
+figures/          forty-nine figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),
                   breaks.py (the level-shift scan), domainmap.py (the named

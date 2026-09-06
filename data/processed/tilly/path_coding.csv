@@ -1,0 +1,18 @@
+country,path,alternative_path
+Netherlands,capital-intensive,capital-intensive
+Italy,capital-intensive,capital-intensive
+Switzerland,capital-intensive,capital-intensive
+Belgium,capital-intensive,capital-intensive
+Portugal,capital-intensive,capital-intensive
+France,capitalized coercion,capitalized coercion
+United Kingdom,capitalized coercion,capitalized coercion
+Germany,capitalized coercion,coercion-intensive
+Spain,capitalized coercion,capitalized coercion
+Denmark,capitalized coercion,capital-intensive
+Russia,coercion-intensive,coercion-intensive
+Poland,coercion-intensive,coercion-intensive
+Hungary,coercion-intensive,coercion-intensive
+Sweden,coercion-intensive,capitalized coercion
+Austria,coercion-intensive,coercion-intensive
+Romania,coercion-intensive,coercion-intensive
+Turkey,coercion-intensive,coercion-intensive
