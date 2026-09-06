@@ -454,3 +454,77 @@ of that layer, asking whether one date fits the whole system.
 | `sum_wald` | Summed Wald statistic at that date |
 | `is_best` | Whether this is the maximising date |
 | `p_value_best` | On the maximising row only: simulated p for the pooled supremum, with every pair drawn under its own no-shift model |
+
+---
+
+# The country layer
+
+`scripts/11_country_comparisons.py` repeats the domain and sector analyses inside
+each country. Every score is fitted within the country, so it is net of that
+country's own sector sizes and comparable with another country's. Outputs live in
+`data/processed/countries/`.
+
+Country comes from `citizenship_1_b` in the source, which maps historical polities
+onto modern states. It is preferred over `area1_of_rattachment`, which keeps
+separate codes for entities such as "Old (before year 1990 AD) Germany" and would
+split a country's elites in two. Two consequences: the label is anachronistic for
+anyone born before the state existed, and how many elites a country contributes
+reflects which Wikipedia editions write about it as much as anything else.
+
+Two panels are used:
+
+| Panel | Threshold | Countries | Coverage |
+|---|---|---|---|
+| domain | 1,000 elites crossing two domains | 36 | 90% of all crossings |
+| sector | 5,000 elites spanning two sectors | 24 | |
+
+## `country_coverage.csv`  (233 rows)
+
+One row per country, including those below the thresholds.
+
+| Column | Description |
+|---|---|
+| `country` | Cross-verified citizenship, underscores replaced by spaces |
+| `n_elites`, `n_classified` | Elites, and those holding at least one of the four domains |
+| `n_crossings`, `n_sector_diversified` | Crossing two domains; spanning two of the 13 sectors |
+| `crossing_rate`, `crossing_rate_ci_low/high` | Crossings over classified, with a 95% Wilson interval |
+| `median_birth` | Median birth year, a rough guide to how modern a country's record is |
+| `share_of_all_elites` | Share of everyone with a country |
+| `in_domain_panel`, `in_sector_panel` | Whether the country clears each threshold |
+
+## `country_crossing_by_era.csv`
+
+Crossing rate per country per era, for eras with at least 200 classified elites,
+with Wilson intervals.
+
+## `country_domain_composition.csv`
+
+| Column | Description |
+|---|---|
+| `country`, `domain` | Identifiers |
+| `n_holders`, `share_of_classified` | Elites holding the domain in either slot. Shares sum above one because a crosser counts in two domains |
+| `cross_domain_rate` | Of that domain's holders, the share also holding another |
+
+## `country_domain_pairs.csv`  (216 rows) and `country_domain_pairs_by_era.csv`
+
+The six crossings, per country and per country and modern era, with the same
+columns as the other pair tables (`n_pair`, `expected_qi`, `assoc_log2`, bootstrap
+interval, `p_value`, `q_value`, `direction`). The era file needs 400 crossings in
+the country and era, and covers 1800-1899 and 1900-2020.
+
+## `country_sector_pairs.csv`  (1,872 rows)
+
+The 78 sector pairs for each of the 24 countries in the sector panel.
+
+## `country_clusters.csv` and `country_cluster_profile.csv`
+
+Countries grouped by Ward clustering on Euclidean distance between their six
+crossing scores, into four groups named after their largest member. The profile
+file gives each group's mean score on each crossing and its size.
+
+| Group | Members |
+|---|---|
+| US group (12) | US, Italy, Canada, Brazil, Australia, Norway, Ireland, Portugal, Chile, Belgium, New Zealand, Lithuania |
+| Germany group (16) | Germany, United Kingdom, France, Spain, India, Russia, Switzerland, Argentina, Mexico, Poland, Netherlands, Japan, Denmark, Israel, Hungary, Peru |
+| Sweden group (3) | Sweden, Austria, Finland |
+| China group (5) | China, Turkey, Iran, Greece, Romania |

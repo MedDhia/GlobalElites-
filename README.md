@@ -25,6 +25,9 @@ On top of both layers sits a network-structure pass in
 `data/processed/network_structure/`, figures prefixed `figS`: positions and blocks,
 whole-network indices, and a scan for level shifts that a linear trend cannot see.
 
+Both layers are then refitted inside each country in `data/processed/countries/`,
+figures prefixed `figC`.
+
 Read together they answer a question neither answers alone: how much of the
 movement in elite career combinations is reorganisation *inside* a domain of
 power, and how much is a change in which domains get combined at all.
@@ -152,6 +155,18 @@ And for the network-structure pass:
 | `figS04_coreness` | Who sits at the centre of the positive ties, era by era |
 | `figS05_break_scan` | The pooled scan for a common date, and where each pair puts its own shift |
 | `figS06_domain_steps` | The six domain crossings with the fitted step model overlaid |
+
+And for the country comparisons:
+
+| Figure | Content |
+|---|---|
+| `figC01_country_coverage` | What each country contributes, and how often its elites cross a boundary |
+| `figC02_country_composition` | What each country's elite is made of, and how far each domain reaches |
+| `figC03_country_crossing_matrix` | The six crossings for all 36 countries, grouped by profile |
+| `figC04_country_map` | Countries placed on rule-with-coercion against rule-with-money, and on the two axes where they differ most |
+| `figC05_crossings_ranked` | Every crossing, every country, ranked with intervals |
+| `figC06_country_sector_pairs` | The sector pairs on which countries differ most |
+| `figC07_country_change` | An arrow per country from the nineteenth-century cohort to the twentieth |
 
 Every figure is written as both PDF and 300-dpi PNG.
 
@@ -353,6 +368,55 @@ cohorts before 1100 hold a few thousand people spread over 78 pairs and the fitt
 shifts there run to five and six log points. That result is about how thin the early
 record is at least as much as about the eleventh century.
 
+## Comparing countries
+
+Every score is refitted inside the country, so it is net of that country's own
+sector sizes. Thirty-six countries clear 1,000 elites crossing two domains and hold
+90% of all crossings; 24 clear 5,000 elites spanning two sectors.
+
+**Rule fuses with coercion nearly everywhere.** Political with security is positive
+in 34 of the 36 countries and distinguishable from the reference model in 32. It
+runs from +1.17 in Iran, +1.10 in Hungary and +1.08 in Japan down to +0.11 in
+Australia. Only Canada (-0.14) and New Zealand (-0.17) are negative.
+
+**Three countries sit in the unusual corner of every panel.** Canada, Australia and
+New Zealand are the only countries where rule combines with money more often than
+chance, the only three where coercion combines with the ideational domain more
+often than chance, and two of them are the only ones where rule does not combine
+with coercion. Everywhere else money is the domain that keeps its distance from
+both rule and coercion.
+
+**Countries differ most on money and coercion, least on rule and ideas.** Economic
+with security spans 1.97 across the 36, from -1.96 in Greece to +0.01 in Chile.
+Political with ideational spans 0.19, from -0.19 to 0.00: on the crossing that is
+the largest in absolute numbers, every country in the panel looks the same.
+
+**Four groups fall out of the six scores.** Ward clustering gives a *US group* (12
+countries) with weak associations across the board, political with security only
++0.23; a *Germany group* (16, including the UK, France, India, Russia and Japan)
+with the classic pattern, +0.75 on rule with coercion and -0.66 on ideas with
+coercion; a *Sweden group* (3: Sweden, Austria, Finland) that separates money from
+coercion hardest of all (-1.16) while leaving ideas and coercion nearly free of
+each other (-0.11); and a *China group* (5: China, Turkey, Iran, Greece, Romania)
+with the tightest rule-coercion fusion (+0.82), the strongest ideas-money tie
+(+0.58) and the most emphatic separation of money from coercion (-1.69).
+
+**Specialisation varies more than three-fold.** Japan's elites cross a domain
+boundary least often (10%), against 33% in Lithuania, 31% in Peru and 28% in Chile.
+The 19% average hides a divide between the large western European records at
+15-19% and the smaller Latin American and eastern European ones above 22%, which is
+a candidate for a coverage effect as much as a behavioural one.
+
+**The twentieth century tightened rule and coercion almost everywhere.** Between
+the 1800-1899 and 1900-2020 cohorts the political-security score rises in 25 of the
+30 countries estimable in both, with a median gain of +0.38. It is the only crossing
+that moves one way: money with coercion falls in 20 of the 30 (median -0.34), and
+the other four split about evenly.
+
+**At sector level the state is where countries part company.** Politics with
+administration and law runs from +3.2 in Japan to +1.2 in Canada and Australia; the
+Japanese value is the single largest country-sector score in the panel.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -371,6 +435,13 @@ long fall in the two-sector share (69% for cohorts born in the 800s, 29% after
 that dominate the modern file. The level of that series should be read cautiously;
 the ordering across sectors and the association scores, which condition on the
 period, are on firmer ground.
+
+Country is the cross-verified citizenship of the source, projected onto modern
+states. The label is anachronistic for anyone born before the state existed: a
+fifteenth-century Florentine is filed under Italy. And how many elites a country
+contributes reflects which Wikipedia editions write about it, so the cross-country
+differences in how often elites cross a boundary should be read more cautiously
+than the association scores, which condition on the country's own composition.
 
 Century cohorts before 1400 rest on a few thousand people spread over 78 pairs.
 The bootstrap intervals reflect that, and the pre-1000 panels carry the widest
@@ -402,9 +473,11 @@ python scripts/07_robustness_culture.py    # five readings of the domain mapping
 python scripts/08_robustness_figures.py
 python scripts/09_network_structure.py     # positions, blocks, level shifts
 python scripts/10_network_structure_figures.py
+python scripts/11_country_comparisons.py   # the same analyses inside each country
+python scripts/12_country_figures.py
 ```
 
-Total runtime is about fifteen minutes after the download. Run the scripts from the
+Total runtime is about seventeen minutes after the download. Run the scripts from the
 repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 
 ## Layout
@@ -415,7 +488,8 @@ data/processed/   person-level extract and all derived tables
 docs/CODEBOOK.md  variable-by-variable description of every output file
 data/processed/robustness/          the domain analysis under five mappings
 data/processed/network_structure/   positions, blocks, indices and level shifts
-figures/          twenty-eight figures, PDF and PNG
+data/processed/countries/           the same analyses inside each of 36 countries
+figures/          thirty-five figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),
                   domainmap.py (the named sector-to-domain mappings) and

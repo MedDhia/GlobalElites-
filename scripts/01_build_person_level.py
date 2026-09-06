@@ -63,6 +63,8 @@ USECOLS = [
     "gender",
     "un_region",
     "un_subregion",
+    "citizenship_1_b",
+    "area1_of_rattachment",
     "level1_main_occ",
     "level2_main_occ",
     "level2_second_occ",
@@ -123,8 +125,21 @@ def main() -> None:
     df["region"] = df["un_region"].replace("", pd.NA).fillna("Unknown")
     df["subregion"] = df["un_subregion"].replace("", pd.NA).fillna("Unknown")
 
+    # Country comes from the cross-verified citizenship rather than the area of
+    # attachment: the latter keeps separate codes for historical polities
+    # ("Old_(before_year_1990_AD)_Germany"), which would split a country's elites
+    # in two. Citizenship maps those onto the modern country instead.
+    country = (df["citizenship_1_b"].astype("string").str.strip()
+               .replace({"": pd.NA, "Missing": pd.NA})
+               .str.replace("_", " ", regex=False))
+    df["country"] = country.fillna("Unknown")
+    df["area_of_attachment"] = (df["area1_of_rattachment"].astype("string").str.strip()
+                                .replace({"": pd.NA, "Missing": pd.NA})
+                                .str.replace("_", " ", regex=False).fillna("Unknown"))
+
     out = df[[
-        "wikidata_code", "name", "birth", "death", "gender", "region", "subregion",
+        "wikidata_code", "name", "birth", "death", "gender",
+        "country", "area_of_attachment", "region", "subregion",
         "level1_main_occ", "sector_main", "sector_second", "level3_main_occ",
         "freq_main_occ", "freq_second_occ", "sum_visib_ln_5criteria",
         "birth_century", "era", "diversified",

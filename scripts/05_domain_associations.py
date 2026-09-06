@@ -98,7 +98,8 @@ def main() -> None:
           f"({df['crosses_domains'].sum() / len(classified):.1%} of classified)")
     print(df["sector_span"].value_counts().to_string())
 
-    keep_cols = ["wikidata_code", "name", "birth", "death", "gender", "region", "subregion",
+    keep_cols = ["wikidata_code", "name", "birth", "death", "gender",
+                 "country", "region", "subregion",
                  "sector_main", "sector_second", "domain_main", "domain_second",
                  "n_domains", "crosses_domains", "portfolio", "sector_span",
                  "birth_century", "birth_halfcentury", "era"]
