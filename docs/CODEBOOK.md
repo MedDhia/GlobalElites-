@@ -617,3 +617,93 @@ be traced to the comparisons behind it.
 
 The same estimator on the composition outcomes; on shocks shifted 100 years
 earlier; and dropping one country at a time.
+
+---
+
+# The military revolution test
+
+`scripts/16_military_revolution.py` tests the military revolution thesis against
+the association between sectors of elite power; `scripts/17_military_revolution_figures.py`
+draws it. Outputs live in `data/processed/military_revolution/`.
+
+## Design
+
+A period effect, so there are no untreated units in time. The control group is
+internal: the 71 sector pairs the thesis says nothing about. That controls for
+anything moving all pairs together, coverage change included, but not for anything
+moving military pairs for a non-military reason. This is an interrupted time series
+with within-sample controls, not an identified experiment.
+
+**Exposure.** A cohort born in year b has its main career in [b+25, b+65]. Against
+Roberts' 1560-1660 dating a cohort is PRE if that career closes before the window
+opens (cohorts to 1475), POST if it opens after the window closes (cohorts from
+1650), TRANSITION otherwise (1500 to 1625). Transition cohorts are held out of the
+contrast, not assigned to a side.
+
+**Predictions** are written into the script before the series was computed, each
+with the claim and its source. Six carry a signed direction; Military + Nobility is
+recorded as contested and excluded from the sign test, because professionalisation
+implies loosening (Roberts) while absorption of the nobility into the officer corps
+implies tightening (Downing, Ertman).
+
+## `predictions.csv`  (6 rows)
+
+`pair`, `direction` (+1 or -1), `claim`, `source`.
+
+## `europe_sector_pairs_by_cohort.csv`
+
+The series everything rests on: the 78 sector-pair association scores refitted
+inside each 25-year European birth cohort from 1350 to 1825, with the usual
+columns plus `phase` (pre / transition / post).
+
+## `prepost_contrast.csv`  (78 rows)
+
+Each pair's PRE to POST change.
+
+| Column | Description |
+|---|---|
+| `pair`, `change`, `change_se` | The change in log2(observed/expected) and its standard error |
+| `change_long_post` | The same with the post window extended to 1825 |
+| `n_pre_cohorts`, `n_post_cohorts` | Cohorts behind each side |
+| `predicted`, `contested`, `direction`, `claim`, `source` | Whether the thesis speaks to this pair |
+| `signed_change`, `rank_of_change`, `z` | Change in the predicted direction, rank among all 78, and change over its standard error |
+
+## `test_summary.csv`  (4 rows)
+
+T1 and T2 for the real window, the long-post sensitivity, and two placebo windows
+moved 100 years each way. A wider shift leaves no cohorts on one side.
+
+| Column | Description |
+|---|---|
+| `window`, `pre_cohorts`, `post_cohorts` | Which contrast |
+| `n_predictions`, `n_correct_sign`, `p_sign_test` | T1 |
+| `mean_signed_change`, `p_permutation` | T2, against 100,000 random six-pair sets drawn from the 78 changes with random signs |
+
+## `breaks_predicted_pairs.csv`  (7 rows)
+
+T3. One level shift at an unknown cohort, fitted per predicted pair with the
+machinery in `scripts/breaks.py`. `in_window` is whether the dated cohort falls
+between 1495 and 1635, the cohorts exposed to 1560-1660. The model finds the single
+largest step, so a series that rises early and falls later is dated by the fall;
+read it as "no predicted pair has its dominant step inside the window", not as
+"nothing happened inside the window".
+
+## `military_centrality_by_cohort.csv`
+
+T6. Per cohort: the military sector's mean and maximum association with the other
+twelve, its coreness among the positive ties, the number of positive ties in the
+network, and the core-periphery fit.
+
+## `composition_placebo.csv` and `europe_composition_by_cohort.csv`
+
+T5. The share of European elites in each sector, the diversification rate and the
+log elite count, per cohort and contrasted PRE to POST.
+
+## `bloc_did.csv` and `bloc_sector_pairs_by_cohort.csv`
+
+T7. High military pressure is France, Germany, Spain, Austria and Russia; low is
+the United Kingdom, the Netherlands, Switzerland and Sweden, following Downing's
+contrast between military-bureaucratic absolutism and constitutional survival. The
+contrast is run inside each bloc on 50-year cohorts and differenced. Two blocs is
+two clusters, so `p_permutation` comes from reassigning which countries sit in
+which bloc, 300 draws.

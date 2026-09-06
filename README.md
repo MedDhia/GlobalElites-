@@ -26,9 +26,11 @@ On top of both layers sits a network-structure pass in
 whole-network indices, and a scan for level shifts that a linear trend cannot see.
 
 Both layers are then refitted inside each country in `data/processed/countries/`,
-figures prefixed `figC`. A final pass in `data/processed/shocks/`, figures prefixed
-`figE`, asks whether dated country-level shocks leave a persistent mark. The answer
-is that this data cannot say, and the section below shows why.
+figures prefixed `figC`. A pass in `data/processed/shocks/`, figures prefixed `figE`, asks whether dated
+country-level shocks leave a persistent mark. The answer is that this data cannot
+say, and the section below shows why. A last pass in
+`data/processed/military_revolution/`, figures prefixed `figM`, tests one named
+thesis that does make datable, directional predictions about these sectors.
 
 Read together they answer a question neither answers alone: how much of the
 movement in elite career combinations is reorganisation *inside* a domain of
@@ -178,6 +180,15 @@ And for the shock event study:
 | `figE02_event_study` | ATT by event time against the randomization null, for both shock types and all six crossings |
 | `figE03_falsification` | Pre-trends, composition placebos, and shocks moved 100 years earlier |
 | `figE04_rupture_trajectories` | The four rupture cases against the four never-exposed countries |
+
+And for the military revolution test:
+
+| Figure | Content |
+|---|---|
+| `figM01_predictions` | All 78 pairs' before-and-after change, with the six predicted ones marked |
+| `figM02_predicted_trajectories` | Each predicted pair cohort by cohort, with the exposed cohorts shaded |
+| `figM03_timing` | Where each shift dates, and the military sector's position in the network |
+| `figM04_placebo_and_intensity` | Placebo windows, and high against low military pressure |
 
 Every figure is written as both PDF and 300-dpi PNG.
 
@@ -487,6 +498,75 @@ can be reused where they do.
 
 Read `figE01` before `figE02`. The first shows why the second is flat.
 
+## The military revolution
+
+Roberts (1955) and Parker (1988) date a transformation of European warfare to about
+1560-1660; Downing (1992), Tilly (1990) and Ertman (1997) carry it into state
+formation. Every version of the claim is a claim about which fields of power get
+combined in the same career, so the predictions can be written down in advance and
+tested. Six were, each with its source, before the series was computed:
+
+| Pair | Predicted | Claim |
+|---|---|---|
+| Politics + Military | tighten | Standing armies fused to rule |
+| Administration & Law + Military | tighten | The fiscal-military state |
+| Politics + Administration & Law | tighten | Permanent taxation turns rule into administration |
+| Military + Exploration & Invention | tighten | The trace italienne makes the military engineer |
+| Military + Big business | tighten | Military entrepreneurs and war finance |
+| Military + Religion | loosen | Command secularises as the confessional wars close |
+
+Military + Nobility is recorded as contested and left out of the sign test:
+professionalisation implies loosening, absorption of the nobility into the officer
+corps implies tightening.
+
+**The directional predictions mostly hold.** Five of the six move as the thesis
+says, which a sign test puts at p = 0.11 and a permutation test on the size of the
+moves at p = 0.12. Suggestive, not significant. The largest moves are the military
+engineer (+0.92) and rule with command (+0.61); the fall in the military-religion
+tie is the fifth largest fall of all 78 pairs (-1.06).
+
+**The one that fails is the thesis's central claim.** Administration and law with
+the military moves the wrong way (-0.29). The fiscal-military state's core
+proposition, that paying for armies built the office-holding bureaucracy, is the
+prediction this record does not support.
+
+**The contested pair sides against Roberts.** Military with nobility tightens
+(+0.14, z = 2.65). That is the Downing and Ertman reading, the nobility absorbed
+into the officer corps, and not the Roberts reading in which the professional
+officer displaces the noble warrior.
+
+**The dating does not fit.** No predicted pair has its dominant level shift inside
+the exposed cohorts. Two of the six do rise across the window, both about the fusion
+of rule with command and with administration. The rest move earlier: the
+military-engineer tie is made between the 1425 and 1500 cohorts, before the window
+opens, and so is the fall in the military-religion tie. Administration with the
+military is flat through the window and then falls after 1700. A placebo window a
+century earlier than Roberts' fits better than his own, 6 of 6 correct against 5 of
+6, though it rests on only two pre-window cohorts. A window a century later fits
+worst. The ordering says the contrast is medieval against early modern and is not
+sensitive to where in that span the cut falls.
+
+**There is no gradient by military pressure.** Splitting into high pressure (France,
+Germany, Spain, Austria, Russia) and low (the United Kingdom, the Netherlands,
+Switzerland, Sweden), following Downing's contrast, the high bloc did not move
+further on any of the seven pairs. The two largest gaps run the wrong way, and a
+permutation test over which countries sit in which bloc clears 0.28 everywhere. The
+comparative mechanism every version of the thesis relies on leaves no trace here.
+
+**One thing fits cleanly.** The military sector moves to the centre of the
+network across the exposed cohorts, its coreness among the positive ties rising
+from about 0.3 in the fifteenth-century cohorts to 0.9 by 1500 and staying high
+for three hundred years. Arms did become a hub of elite careers. The record
+dates it before Roberts does.
+
+**Read all of it against the composition change.** Between the two ends of the
+contrast the European recorded elite is transformed: nobility falls from 35% of
+memberships to 12%, kinship from 19% to 7%, politics rises from 14% to 24%, the
+military from 9% to 14%, and the number of recorded elites grows eightfold. The
+association scores condition on those sizes within each cohort, which is what the
+quasi-independence model is for, but a change of that size means the two ends are
+not the same population. Selection into the record is not netted out and cannot be.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -548,9 +628,11 @@ python scripts/12_country_figures.py
 python scripts/13_shock_panel.py           # country x cohort panel and shock coding
 python scripts/14_shock_event_study.py     # slowest step, about 10 minutes
 python scripts/15_shock_figures.py
+python scripts/16_military_revolution.py   # slowest step, about 25 minutes
+python scripts/17_military_revolution_figures.py
 ```
 
-Total runtime is about thirty minutes after the download. Run the scripts from the
+Total runtime is about an hour after the download. Run the scripts from the
 repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 
 ## Layout
@@ -563,11 +645,12 @@ data/processed/robustness/          the domain analysis under five mappings
 data/processed/network_structure/   positions, blocks, indices and level shifts
 data/processed/countries/           the same analyses inside each of 36 countries
 data/processed/shocks/              the cohort panel, the coded shocks, the event study
-figures/          thirty-nine figures, PDF and PNG
+data/processed/military_revolution/ the pre-specified test of one named thesis
+figures/          forty-three figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),
-                  domainmap.py (the named sector-to-domain mappings) and
-                  plotstyle.py (shared figure styling)
+                  breaks.py (the level-shift scan), domainmap.py (the named
+                  sector-to-domain mappings) and plotstyle.py (figure styling)
 ```
 
 `data/processed/elites_person_level.csv.gz` is 59 MB. It is committed so the
