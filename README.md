@@ -708,8 +708,8 @@ By the twentieth-century cohorts nothing holds.
 
 A person is in a cohort when their coded country is one of the countries where the
 political order was at stake, they were at least 20 years old at some point inside
-the window, and they were alive when the window opened. Death is missing for just
-over half the source rows, so a missing death year is imputed as birth plus 80 for
+the window, and they were alive when the window opened. Death is missing for more
+than half the source rows, so a missing death year is imputed as birth plus 80 for
 the alive test only, and `death_imputed` marks every row where that was used. The
 imputation is generous, so the cohorts are upper bounds on membership.
 
@@ -756,6 +756,13 @@ Russian and German ones through Poland and Austria.
 These are descriptive cohorts, not treatment groups. Living through a revolution
 is not an assignment and the windows are conventional dates. The event study is
 where the causal question is put.
+
+**The figures.** `figV01` places the sixteen cohorts in time and shows their size and
+age composition. `figV02` is the whole comparison in one panel, 21 pairs by 16
+cohorts. `figV03` counts how each pair reads across the set. `figV04` takes the pair
+that divides it. `figV05` splits each cohort by age at the window midpoint. `figV06`
+puts each cohort inside its own country's series of 40-year birth cohorts.
+
 
 ## Caveats
 
@@ -825,6 +832,7 @@ python scripts/19_fiscal_military_figures.py
 python scripts/20_tilly_paths.py           # slow: 100,000 permutations per test
 python scripts/21_tilly_figures.py
 python scripts/22_revolution_cohorts.py # cohort folders, one per revolution
+python scripts/23_revolution_figures.py
 ```
 
 Total runtime is about an hour after the download. Run the scripts from the
@@ -844,7 +852,7 @@ data/processed/military_revolution/ a pre-specified test of one named thesis
 data/processed/fiscal_military/     a pre-specified test of another
 data/processed/tilly/               a pre-specified test of a third
 data/processed/revolutions/         one folder per revolution, and who lived through it
-figures/          forty-nine figures, PDF and PNG
+figures/          fifty-five figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),
                   breaks.py (the level-shift scan), domainmap.py (the named

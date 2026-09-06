@@ -968,3 +968,16 @@ The same countries by 40-year birth cohort, from 120 years before the window to
 `birth_cohort_end` bound the block and `overlaps_window` marks the blocks that
 contribute members to the revolutionary cohort. Blocks below the 100-pair floor
 are absent, so the series is not balanced across revolutions.
+
+## Figures
+
+`scripts/23_revolution_figures.py` draws six, from the tables above.
+
+| Figure | What it shows |
+|---|---|
+| `figV01_cohorts` | The sixteen cohorts in time, their size and their age composition |
+| `figV02_pair_heatmap` | Every group pair by every cohort, ordered by date and by mean association |
+| `figV03_what_repeats` | Each pair's spread across cohorts, with the associated / dissociated / not distinguishable counts |
+| `figV04_politics_business` | Politics with business cohort by cohort, and against politics with the military |
+| `figV05_age_bands` | The four politics pairs refitted inside each age band |
+| `figV06_birth_cohorts` | The four politics pairs by 40-year birth cohort, with the revolutionary window marked |
