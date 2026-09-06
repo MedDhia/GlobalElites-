@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+Meiji Restoration,Politics,126,0.24324324324324326,85,0.1640926640926641,sector
+Meiji Restoration,Administration & Law,41,0.07915057915057915,16,0.03088803088803089,sector
+Meiji Restoration,Military,198,0.38223938223938225,133,0.25675675675675674,sector
+Meiji Restoration,Religion,16,0.03088803088803089,9,0.017374517374517374,sector
+Meiji Restoration,Nobility,147,0.28378378378378377,60,0.11583011583011583,sector
+Meiji Restoration,Kinship,37,0.07142857142857142,11,0.021235521235521235,sector
+Meiji Restoration,Big business,35,0.06756756756756757,23,0.0444015444015444,sector
+Meiji Restoration,Small business,26,0.05019305019305019,4,0.007722007722007722,sector
+Meiji Restoration,Academia,72,0.138996138996139,46,0.0888030888030888,sector
+Meiji Restoration,Exploration & Invention,13,0.025096525096525095,8,0.015444015444015444,sector
+Meiji Restoration,Culture (core),104,0.20077220077220076,93,0.17953667953667954,sector
+Meiji Restoration,Culture (periphery),24,0.04633204633204633,7,0.013513513513513514,sector
+Meiji Restoration,Sport & Games,23,0.0444015444015444,23,0.0444015444015444,sector
+Meiji Restoration,Politics,126,0.24324324324324326,85,0.1640926640926641,group
+Meiji Restoration,Administration & Law,41,0.07915057915057915,16,0.03088803088803089,group
+Meiji Restoration,Military,198,0.38223938223938225,133,0.25675675675675674,group
+Meiji Restoration,Business,59,0.1138996138996139,27,0.052123552123552123,group
+Meiji Restoration,Nobility & Kinship,172,0.33204633204633205,71,0.13706563706563707,group
+Meiji Restoration,Religion,16,0.03088803088803089,9,0.017374517374517374,group
+Meiji Restoration,Learning & Culture,178,0.3436293436293436,154,0.2972972972972973,group

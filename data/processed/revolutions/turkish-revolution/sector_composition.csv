@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+Turkish revolution,Politics,331,0.4584487534626039,206,0.2853185595567867,sector
+Turkish revolution,Administration & Law,85,0.11772853185595568,31,0.04293628808864266,sector
+Turkish revolution,Military,217,0.30055401662049863,152,0.21052631578947367,sector
+Turkish revolution,Religion,44,0.060941828254847646,25,0.03462603878116344,sector
+Turkish revolution,Nobility,34,0.04709141274238227,13,0.018005540166204988,sector
+Turkish revolution,Kinship,35,0.04847645429362881,8,0.0110803324099723,sector
+Turkish revolution,Big business,13,0.018005540166204988,4,0.00554016620498615,sector
+Turkish revolution,Small business,12,0.01662049861495845,2,0.002770083102493075,sector
+Turkish revolution,Academia,105,0.14542936288088643,66,0.09141274238227147,sector
+Turkish revolution,Exploration & Invention,6,0.008310249307479225,2,0.002770083102493075,sector
+Turkish revolution,Culture (core),178,0.24653739612188366,142,0.19667590027700832,sector
+Turkish revolution,Culture (periphery),57,0.07894736842105263,21,0.029085872576177285,sector
+Turkish revolution,Sport & Games,54,0.07479224376731301,50,0.06925207756232687,sector
+Turkish revolution,Politics,331,0.4584487534626039,206,0.2853185595567867,group
+Turkish revolution,Administration & Law,85,0.11772853185595568,31,0.04293628808864266,group
+Turkish revolution,Military,217,0.30055401662049863,152,0.21052631578947367,group
+Turkish revolution,Business,25,0.03462603878116344,6,0.008310249307479225,group
+Turkish revolution,Nobility & Kinship,57,0.07894736842105263,21,0.029085872576177285,group
+Turkish revolution,Religion,44,0.060941828254847646,25,0.03462603878116344,group
+Turkish revolution,Learning & Culture,285,0.39473684210526316,231,0.31994459833795014,group

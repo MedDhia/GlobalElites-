@@ -864,3 +864,107 @@ the military share minus the business share. This is not independent of the
 outcome data and is not offered as validation of the thesis; it checks that the
 coding is not arbitrary, so that a null on the association scores can be read as a
 null about association and not about the coding.
+
+---
+
+# Revolutionary cohorts
+
+`scripts/22_revolution_cohorts.py` builds them. Outputs live in
+`data/processed/revolutions/`, one subfolder per revolution.
+
+## Membership
+
+A person is in a revolution's cohort when their coded country is one of the
+countries where the political order was at stake, they were at least 20 years old
+at some point inside the window, and they were alive when the window opened.
+Death is missing for more than half the source rows, so a missing death year is
+imputed as birth plus 80 for the alive test only; `death_imputed` marks every row
+where that was used. The imputation is generous, so the cohorts are upper bounds
+on membership.
+
+Countries are scoped to the states whose own order was in question, not every
+state that took an interest: France is not in the Haitian cohort and the United
+Kingdom is not in the Irish cohort. Country is coded as present-day citizenship,
+the only country field the database carries, so the mapping is anachronistic by
+construction. Germany stands for the German states, Italy for the Italian ones,
+and the successor republics stand for the territory of the Russian empire.
+
+A revolution is kept when its cohort holds at least 500 elites and at least 200
+who span two sectors, the floor the pair estimator needs. Sixteen of the
+seventeen considered are kept; the Haitian Revolution is not, at 39 elites.
+
+Sectors use the same seven groups as the fiscal-military and Tilly tests.
+Association scores are refitted inside each cohort, which makes cohorts of very
+different size comparable in a way the raw counts are not.
+
+These are descriptive cohorts, not treatment groups. Cohorts overlap where
+windows are close in the same countries, and coverage of the database rises
+steeply with time.
+
+## `revolutions_index.csv`  (17 rows)
+
+| Column | Description |
+|---|---|
+| `revolution`, `slug` | Name and the folder that holds it |
+| `window_start`, `window_end` | The conventional dates used |
+| `countries`, `n_countries` | The states whose political order was at stake |
+| `n_elites`, `n_two_sector` | Cohort size, and how many span two sectors |
+| `kept`, `reason` | Whether the cohort clears the floor, and why not when it does not |
+
+## `cohort_summary.csv`  (16 rows)
+
+One row per kept revolution: the index columns plus `n_two_group`,
+`share_two_sector`, `n_death_imputed` and `share_death_imputed`, `birth_min` and
+`birth_max`, `median_age_at_start`, `share_women`, `median_visibility`, the four
+age-band counts (`n_under_20`, `n_20-35`, `n_36-55`, `n_56plus`) and
+`top_countries`.
+
+## `cohort_composition.csv`, `cohort_group_pairs.csv`
+
+Every cohort's `sector_composition.csv` and `group_pairs.csv` stacked, for
+cross-revolution comparison.
+
+## `<slug>/elites.csv.gz`
+
+The cohort person by person. The person-level columns documented above, plus:
+
+| Column | Description |
+|---|---|
+| `death_imputed` | True where the death year was missing and birth plus 80 was used for the alive test |
+| `group_main`, `group_second` | The seven-group coarsening of the two sectors |
+| `revolution`, `revolution_slug` | Which cohort this row belongs to |
+| `window_start`, `window_end` | The revolution's dates |
+| `age_at_start`, `age_at_end` | Age when the window opened and closed, negative before birth |
+| `age_at_midpoint` | Age at the midpoint of the window, rounded |
+| `age_band` | `under 20`, `20-35`, `36-55` or `56+`, banded on `age_at_midpoint`. `under 20` are those who reached adulthood inside the window |
+
+## `<slug>/summary.csv`
+
+The one row for this revolution from `cohort_summary.csv`.
+
+## `<slug>/sector_composition.csv`
+
+| Column | Description |
+|---|---|
+| `revolution`, `category`, `level` | `level` is `sector` for the 13 sectors and `group` for the 7 groups |
+| `n_holding`, `share_holding` | Cohort members holding the category in either slot |
+| `n_primary`, `share_primary` | Cohort members whose primary sector it is |
+
+## `<slug>/group_pairs.csv`
+
+The 21 group-pair association scores fitted inside the cohort. Columns are those
+of `sector_pair_association_*.csv` documented above, with `cat_a`/`cat_b` renamed
+`group_a`/`group_b` and `period` renamed `slug`.
+
+## `<slug>/group_pairs_by_age_band.csv`
+
+The same, refitted inside each age band, where the band clears a 100-pair floor.
+`age_band` names the band.
+
+## `<slug>/birth_cohort_pairs.csv`
+
+The same countries by 40-year birth cohort, from 120 years before the window to
+120 years after, as context either side. `birth_cohort_start` and
+`birth_cohort_end` bound the block and `overlaps_window` marks the blocks that
+contribute members to the revolutionary cohort. Blocks below the 100-pair floor
+are absent, so the series is not balanced across revolutions.

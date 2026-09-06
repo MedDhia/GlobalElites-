@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+Glorious Revolution,Politics,1514,0.48432501599488165,1202,0.38451695457453616,sector
+Glorious Revolution,Administration & Law,373,0.11932181701855406,219,0.07005758157389635,sector
+Glorious Revolution,Military,283,0.09053103007037748,149,0.04766474728087012,sector
+Glorious Revolution,Religion,515,0.16474728087012155,358,0.1145233525271913,sector
+Glorious Revolution,Nobility,477,0.15259117082533588,205,0.06557901471529111,sector
+Glorious Revolution,Kinship,333,0.10652591170825336,93,0.029750479846449136,sector
+Glorious Revolution,Big business,158,0.05054382597568778,64,0.020473448496481125,sector
+Glorious Revolution,Small business,204,0.06525911708253358,98,0.03134996801023673,sector
+Glorious Revolution,Academia,450,0.14395393474088292,307,0.09820857325655791,sector
+Glorious Revolution,Exploration & Invention,75,0.02399232245681382,39,0.012476007677543186,sector
+Glorious Revolution,Culture (core),483,0.15451055662188098,344,0.11004478566858605,sector
+Glorious Revolution,Culture (periphery),89,0.028470889315419065,46,0.01471529110684581,sector
+Glorious Revolution,Sport & Games,9,0.0028790786948176585,2,0.0006397952655150352,sector
+Glorious Revolution,Politics,1514,0.48432501599488165,1202,0.38451695457453616,group
+Glorious Revolution,Administration & Law,373,0.11932181701855406,219,0.07005758157389635,group
+Glorious Revolution,Military,283,0.09053103007037748,149,0.04766474728087012,group
+Glorious Revolution,Business,346,0.11068458093410109,162,0.05182341650671785,group
+Glorious Revolution,Nobility & Kinship,722,0.2309660908509277,298,0.09532949456174024,group
+Glorious Revolution,Religion,515,0.16474728087012155,358,0.1145233525271913,group
+Glorious Revolution,Learning & Culture,977,0.3125399872040947,736,0.23544465770953296,group

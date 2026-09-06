@@ -1,0 +1,18 @@
+revolution,slug,window_start,window_end,countries,n_countries,n_elites,n_two_sector,kept,reason
+German Revolution,german-revolution,1918,1919,Germany; Austria,2,54018,22942,True,
+Revolutions of 1848,revolutions-of-1848,1848,1849,France; Germany; Austria; Hungary; Italy; Poland; Czech Republic; Romania,8,36998,17922,True,
+Russian Revolution,russian-revolution,1917,1923,Russia; Ukraine; Poland; Finland; Latvia; Lithuania; Estonia; Georgia; Belarus; Azerbaijan; Armenia,11,13925,6669,True,
+French Revolution,french-revolution,1789,1799,France,1,12685,5715,True,
+English Revolution,english-revolution,1642,1651,United Kingdom; Ireland,2,4037,2423,True,
+Glorious Revolution,glorious-revolution,1688,1689,United Kingdom; Ireland,2,3126,1837,True,
+Irish revolution,irish-revolution,1916,1923,Ireland,1,3104,1327,True,
+Latin American independence,latin-american-independence,1810,1825,Argentina; Mexico; Colombia; Venezuela; Chile; Peru; Bolivia; Ecuador; Uruguay; Paraguay; Brazil,11,2976,2108,True,
+American Revolution,american-revolution,1775,1783,US,1,2925,2076,True,
+Chinese Communist Revolution,chinese-communist-revolution,1946,1949,China,1,2698,1336,True,
+Iranian Revolution,iranian-revolution,1978,1979,Iran,1,2432,1235,True,
+Mexican Revolution,mexican-revolution,1910,1920,Mexico,1,1923,1213,True,
+Cuban Revolution,cuban-revolution,1953,1959,Cuba,1,1260,490,True,
+Xinhai Revolution,xinhai-revolution,1911,1912,China,1,831,514,True,
+Turkish revolution,turkish-revolution,1919,1923,Turkey,1,722,449,True,
+Meiji Restoration,meiji-restoration,1868,1869,Japan,1,518,344,True,
+Haitian Revolution,haitian-revolution,1791,1804,Haiti,1,39,35,False,only 39 elites

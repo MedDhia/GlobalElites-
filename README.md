@@ -701,6 +701,62 @@ coercion-side orderings come closest in 1800-1899 (p = 0.10 for politics with th
 military), a century after the period the thesis is about, and never reach 0.05.
 By the twentieth-century cohorts nothing holds.
 
+## Revolutionary cohorts
+
+`scripts/22_revolution_cohorts.py` builds one folder per revolution in
+`data/processed/revolutions/`, holding the elites who lived through it.
+
+A person is in a cohort when their coded country is one of the countries where the
+political order was at stake, they were at least 20 years old at some point inside
+the window, and they were alive when the window opened. Death is missing for just
+over half the source rows, so a missing death year is imputed as birth plus 80 for
+the alive test only, and `death_imputed` marks every row where that was used. The
+imputation is generous, so the cohorts are upper bounds on membership.
+
+Countries are scoped to the states whose own order was in question, not every
+state that took an interest. France is not in the Haitian cohort and the United
+Kingdom is not in the Irish cohort, though both intervened: including the
+metropole would swamp the cohort with elites whose regime was never at stake.
+
+Seventeen revolutions were considered and sixteen clear the floor of 500 elites
+with 200 spanning two sectors, for 144,178 people in total. Only the Haitian
+Revolution falls out, at 39 elites, which is a fact about what encyclopaedic
+sources record, not about the revolution. The cohorts run from 518 people
+(the Meiji Restoration) to 54,018 (the German Revolution), so their sizes are not
+comparable; the association scores, refitted inside each cohort, are.
+
+Each folder holds the cohort person by person with ages attached, its sector
+composition at both levels, the 21 group-pair association scores fitted inside it,
+the same scores split by age at the window midpoint, and the same countries by
+40-year birth cohort from 120 years before the window to 120 years after.
+
+**What repeats across all sixteen.** Politics and administration are associated in
+fifteen cohorts and dissociated in none. Politics and the military are associated
+in thirteen and dissociated in none. Politics and learning or culture are
+dissociated in fourteen and associated in none: the people who ran the state and
+the people who wrote and taught were separate populations in nearly every
+revolution in the set, early modern and modern alike. Administration and business
+are dissociated in all eight cohorts where the cell is large enough to read.
+
+**What splits.** Politics with business is the pair that divides the set. It is
+associated in the Russian, German and Irish cohorts and dissociated in the
+American, French, Latin American, Xinhai, Chinese Communist and Iranian ones.
+Military with nobility and kinship is associated in nine cohorts and dissociated
+in none of the readable ones, but the Cuban cohort contains not one person holding
+both, which the table flags as a sparse cell instead of reporting a large
+negative score.
+
+**Read the sparse flag.** 85 of the 336 cohort-by-pair cells hold fewer than ten
+people, and five hold none. In those cells `assoc_log2` is driven by the 0.5
+continuity correction more than by the data, so `sparse_cell` marks them and the
+counts above drop them. Cohorts also overlap where windows are close in the same
+countries: the Xinhai and Chinese Communist cohorts share people, as do the
+Russian and German ones through Poland and Austria.
+
+These are descriptive cohorts, not treatment groups. Living through a revolution
+is not an assignment and the windows are conventional dates. The event study is
+where the causal question is put.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -768,6 +824,7 @@ python scripts/18_fiscal_military_state.py
 python scripts/19_fiscal_military_figures.py
 python scripts/20_tilly_paths.py           # slow: 100,000 permutations per test
 python scripts/21_tilly_figures.py
+python scripts/22_revolution_cohorts.py # cohort folders, one per revolution
 ```
 
 Total runtime is about an hour after the download. Run the scripts from the
@@ -786,6 +843,7 @@ data/processed/shocks/              the cohort panel, the coded shocks, the even
 data/processed/military_revolution/ a pre-specified test of one named thesis
 data/processed/fiscal_military/     a pre-specified test of another
 data/processed/tilly/               a pre-specified test of a third
+data/processed/revolutions/         one folder per revolution, and who lived through it
 figures/          forty-nine figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),

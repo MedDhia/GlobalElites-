@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+Iranian Revolution,Politics,707,0.29070723684210525,524,0.21546052631578946,sector
+Iranian Revolution,Administration & Law,136,0.05592105263157895,55,0.02261513157894737,sector
+Iranian Revolution,Military,110,0.04523026315789474,76,0.03125,sector
+Iranian Revolution,Religion,170,0.06990131578947369,79,0.03248355263157895,sector
+Iranian Revolution,Nobility,29,0.011924342105263159,11,0.004523026315789474,sector
+Iranian Revolution,Kinship,77,0.031661184210526314,21,0.008634868421052632,sector
+Iranian Revolution,Big business,111,0.04564144736842105,50,0.02055921052631579,sector
+Iranian Revolution,Small business,108,0.044407894736842105,10,0.004111842105263158,sector
+Iranian Revolution,Academia,656,0.26973684210526316,391,0.16077302631578946,sector
+Iranian Revolution,Exploration & Invention,80,0.03289473684210526,15,0.006167763157894737,sector
+Iranian Revolution,Culture (core),883,0.36307565789473684,763,0.3137335526315789,sector
+Iranian Revolution,Culture (periphery),207,0.08511513157894737,67,0.027549342105263157,sector
+Iranian Revolution,Sport & Games,393,0.16159539473684212,370,0.15213815789473684,sector
+Iranian Revolution,Politics,707,0.29070723684210525,524,0.21546052631578946,group
+Iranian Revolution,Administration & Law,136,0.05592105263157895,55,0.02261513157894737,group
+Iranian Revolution,Military,110,0.04523026315789474,76,0.03125,group
+Iranian Revolution,Business,218,0.08963815789473684,60,0.024671052631578948,group
+Iranian Revolution,Nobility & Kinship,95,0.0390625,32,0.013157894736842105,group
+Iranian Revolution,Religion,170,0.06990131578947369,79,0.03248355263157895,group
+Iranian Revolution,Learning & Culture,1485,0.610608552631579,1236,0.5082236842105263,group

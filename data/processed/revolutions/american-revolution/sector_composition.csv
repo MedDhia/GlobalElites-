@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+American Revolution,Politics,1957,0.6690598290598291,1326,0.4533333333333333,sector
+American Revolution,Administration & Law,726,0.24820512820512822,416,0.14222222222222222,sector
+American Revolution,Military,744,0.25435897435897437,376,0.12854700854700854,sector
+American Revolution,Religion,189,0.06461538461538462,122,0.04170940170940171,sector
+American Revolution,Nobility,53,0.01811965811965812,17,0.005811965811965812,sector
+American Revolution,Kinship,186,0.06358974358974359,51,0.017435897435897435,sector
+American Revolution,Big business,218,0.07452991452991453,104,0.035555555555555556,sector
+American Revolution,Small business,263,0.08991452991452992,72,0.024615384615384615,sector
+American Revolution,Academia,241,0.0823931623931624,143,0.04888888888888889,sector
+American Revolution,Exploration & Invention,121,0.041367521367521365,70,0.023931623931623933,sector
+American Revolution,Culture (core),219,0.07487179487179488,176,0.06017094017094017,sector
+American Revolution,Culture (periphery),77,0.026324786324786326,48,0.01641025641025641,sector
+American Revolution,Sport & Games,7,0.002393162393162393,4,0.0013675213675213675,sector
+American Revolution,Politics,1957,0.6690598290598291,1326,0.4533333333333333,group
+American Revolution,Administration & Law,726,0.24820512820512822,416,0.14222222222222222,group
+American Revolution,Military,744,0.25435897435897437,376,0.12854700854700854,group
+American Revolution,Business,459,0.15692307692307692,176,0.06017094017094017,group
+American Revolution,Nobility & Kinship,232,0.07931623931623932,68,0.023247863247863248,group
+American Revolution,Religion,189,0.06461538461538462,122,0.04170940170940171,group
+American Revolution,Learning & Culture,602,0.2058119658119658,437,0.1494017094017094,group

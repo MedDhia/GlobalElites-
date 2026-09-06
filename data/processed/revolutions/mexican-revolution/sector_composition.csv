@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+Mexican Revolution,Politics,640,0.3328133125325013,402,0.20904836193447737,sector
+Mexican Revolution,Administration & Law,264,0.1372854914196568,162,0.0842433697347894,sector
+Mexican Revolution,Military,658,0.3421736869474779,488,0.25377015080603227,sector
+Mexican Revolution,Religion,159,0.08268330733229329,117,0.060842433697347896,sector
+Mexican Revolution,Nobility,22,0.011440457618304731,6,0.0031201248049922,sector
+Mexican Revolution,Kinship,120,0.062402496099843996,15,0.0078003120124804995,sector
+Mexican Revolution,Big business,68,0.03536141445657826,27,0.014040561622464899,sector
+Mexican Revolution,Small business,99,0.0514820592823713,12,0.0062402496099844,sector
+Mexican Revolution,Academia,326,0.16952678107124286,179,0.09308372334893396,sector
+Mexican Revolution,Exploration & Invention,45,0.0234009360374415,17,0.008840353614144566,sector
+Mexican Revolution,Culture (core),491,0.25533021320852833,391,0.20332813312532502,sector
+Mexican Revolution,Culture (periphery),156,0.0811232449297972,47,0.024440977639105563,sector
+Mexican Revolution,Sport & Games,88,0.045761830473218926,60,0.031201248049921998,sector
+Mexican Revolution,Politics,640,0.3328133125325013,402,0.20904836193447737,group
+Mexican Revolution,Administration & Law,264,0.1372854914196568,162,0.0842433697347894,group
+Mexican Revolution,Military,658,0.3421736869474779,488,0.25377015080603227,group
+Mexican Revolution,Business,162,0.0842433697347894,39,0.0202808112324493,group
+Mexican Revolution,Nobility & Kinship,137,0.07124284971398856,21,0.0109204368174727,group
+Mexican Revolution,Religion,159,0.08268330733229329,117,0.060842433697347896,group
+Mexican Revolution,Learning & Culture,833,0.4331773270930837,634,0.3296931877275091,group

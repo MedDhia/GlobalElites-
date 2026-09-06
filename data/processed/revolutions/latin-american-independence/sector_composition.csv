@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+Latin American independence,Politics,1893,0.6360887096774194,1286,0.4321236559139785,sector
+Latin American independence,Administration & Law,450,0.15120967741935484,232,0.07795698924731183,sector
+Latin American independence,Military,1087,0.365255376344086,723,0.24294354838709678,sector
+Latin American independence,Religion,272,0.0913978494623656,131,0.04401881720430108,sector
+Latin American independence,Nobility,148,0.04973118279569892,81,0.02721774193548387,sector
+Latin American independence,Kinship,260,0.08736559139784947,55,0.018481182795698926,sector
+Latin American independence,Big business,139,0.04670698924731183,57,0.019153225806451613,sector
+Latin American independence,Small business,180,0.06048387096774194,23,0.007728494623655914,sector
+Latin American independence,Academia,197,0.06619623655913978,128,0.043010752688172046,sector
+Latin American independence,Exploration & Invention,84,0.028225806451612902,35,0.011760752688172043,sector
+Latin American independence,Culture (core),224,0.07526881720430108,166,0.05577956989247312,sector
+Latin American independence,Culture (periphery),112,0.03763440860215054,46,0.015456989247311828,sector
+Latin American independence,Sport & Games,38,0.012768817204301076,13,0.004368279569892473,sector
+Latin American independence,Politics,1893,0.6360887096774194,1286,0.4321236559139785,group
+Latin American independence,Administration & Law,450,0.15120967741935484,232,0.07795698924731183,group
+Latin American independence,Military,1087,0.365255376344086,723,0.24294354838709678,group
+Latin American independence,Business,308,0.10349462365591398,80,0.026881720430107527,group
+Latin American independence,Nobility & Kinship,385,0.12936827956989247,136,0.0456989247311828,group
+Latin American independence,Religion,272,0.0913978494623656,131,0.04401881720430108,group
+Latin American independence,Learning & Culture,535,0.1797715053763441,375,0.12600806451612903,group

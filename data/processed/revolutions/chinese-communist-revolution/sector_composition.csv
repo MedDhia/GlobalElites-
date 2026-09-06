@@ -1,0 +1,21 @@
+revolution,category,n_holding,share_holding,n_primary,share_primary,level
+Chinese Communist Revolution,Politics,1077,0.39918458117123795,772,0.2861378799110452,sector
+Chinese Communist Revolution,Administration & Law,227,0.08413639733135655,115,0.04262416604892513,sector
+Chinese Communist Revolution,Military,364,0.13491475166790215,184,0.0681986656782802,sector
+Chinese Communist Revolution,Religion,200,0.07412898443291327,172,0.06375092661230541,sector
+Chinese Communist Revolution,Nobility,40,0.014825796886582653,14,0.005189028910303929,sector
+Chinese Communist Revolution,Kinship,128,0.04744255003706449,22,0.00815418828762046,sector
+Chinese Communist Revolution,Big business,109,0.04040029651593773,69,0.02557449962935508,sector
+Chinese Communist Revolution,Small business,175,0.06486286137879911,55,0.020385470719051148,sector
+Chinese Communist Revolution,Academia,761,0.282060785767235,568,0.21052631578947367,sector
+Chinese Communist Revolution,Exploration & Invention,69,0.02557449962935508,29,0.010748702742772424,sector
+Chinese Communist Revolution,Culture (core),625,0.23165307635285395,522,0.19347664936990364,sector
+Chinese Communist Revolution,Culture (periphery),121,0.044848035581912526,51,0.018902891030392884,sector
+Chinese Communist Revolution,Sport & Games,138,0.05114899925871016,125,0.046330615270570794,sector
+Chinese Communist Revolution,Politics,1077,0.39918458117123795,772,0.2861378799110452,group
+Chinese Communist Revolution,Administration & Law,227,0.08413639733135655,115,0.04262416604892513,group
+Chinese Communist Revolution,Military,364,0.13491475166790215,184,0.0681986656782802,group
+Chinese Communist Revolution,Business,280,0.10378057820607858,124,0.04595997034840623,group
+Chinese Communist Revolution,Nobility & Kinship,161,0.05967383246849518,36,0.013343217197924388,group
+Chinese Communist Revolution,Religion,200,0.07412898443291327,172,0.06375092661230541,group
+Chinese Communist Revolution,Learning & Culture,1366,0.5063009636767977,1170,0.4336545589325426,group
