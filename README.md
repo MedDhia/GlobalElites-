@@ -28,9 +28,11 @@ whole-network indices, and a scan for level shifts that a linear trend cannot se
 Both layers are then refitted inside each country in `data/processed/countries/`,
 figures prefixed `figC`. A pass in `data/processed/shocks/`, figures prefixed `figE`, asks whether dated
 country-level shocks leave a persistent mark. The answer is that this data cannot
-say, and the section below shows why. A last pass in
-`data/processed/military_revolution/`, figures prefixed `figM`, tests one named
-thesis that does make datable, directional predictions about these sectors.
+say, and the section below shows why. Two last passes test named theses that do make datable, directional predictions
+about these sectors: the military revolution in
+`data/processed/military_revolution/`, figures prefixed `figM`, and Brewer's
+fiscal-military state in `data/processed/fiscal_military/`, figures prefixed
+`figF`.
 
 Read together they answer a question neither answers alone: how much of the
 movement in elite career combinations is reorganisation *inside* a domain of
@@ -189,6 +191,14 @@ And for the military revolution test:
 | `figM02_predicted_trajectories` | Each predicted pair cohort by cohort, with the exposed cohorts shaded |
 | `figM03_timing` | Where each shift dates, and the military sector's position in the network |
 | `figM04_placebo_and_intensity` | Placebo windows, and high against low military pressure |
+
+And for the fiscal-military state test:
+
+| Figure | Content |
+|---|---|
+| `figF01_britain_vs_donors` | Britain against the donor pool on the six predictions, and each unit treated in turn |
+| `figF02_predicted_trajectories` | Each predicted pair cohort by cohort, Britain against four donors |
+| `figF03_france_and_persistence` | The Britain-France head-to-head, and what happens after 1783 |
 
 Every figure is written as both PDF and 300-dpi PNG.
 
@@ -567,6 +577,68 @@ association scores condition on those sizes within each cohort, which is what th
 quasi-independence model is for, but a change of that size means the two ends are
 not the same population. Selection into the record is not netted out and cannot be.
 
+## The fiscal-military state, 1688-1783
+
+Brewer's "Sinews of Power" (1989) is easier to test than the military revolution
+because it is country-specific, dated, and names its counterfactual: after 1688 the
+English state built a salaried, examined Excise in place of venal office, and a
+national debt underwritten by Parliament, while France kept tax farming and
+patrimonial office. That gives a treated unit, a window, and a donor pool. Six
+predictions were written into the script with their sources before the series was
+computed:
+
+| Pair | Predicted | Claim |
+|---|---|---|
+| Politics + Administration & Law | tighten | Office-holding becomes the substance of rule |
+| Administration & Law + Military | tighten | Revenue and command as one system |
+| Politics + Business | tighten | Public credit ties Parliament to the moneyed interest |
+| Administration & Law + Business | tighten | Debt management as an administrative craft |
+| Military + Business | tighten | Contracting, victualling, naval supply |
+| Administration & Law + Nobility & Kinship | loosen | Salaried merit replaces venal office |
+
+Estimator: difference in differences, Britain against France, Germany, Spain and
+Italy, with two placebo distributions. Four donors and five pre-cohorts is too few
+for a synthetic control to mean anything, so none is claimed.
+
+**Britain does move in the predicted direction, and so does everyone else, more.**
+In levels Britain moves as predicted on four of the six. But the donor pool moves
+further on the state-building pairs (politics with administration +0.48 against
+Britain's +0.14; administration with the military +0.71 against Britain's +0.05),
+so the difference in differences favours the thesis on only two of the six. The
+sign test on the differences gives p = 0.89.
+
+**Treating each unit in turn, Britain ranks last of five.** Its mean effect in the
+predicted direction is -0.33; Spain's is +0.36 and France's +0.32. The in-space
+p is 1.00, the worst rank the design can return. A second null, permuting over the
+fifteen pairs the thesis says nothing about, gives p = 0.82.
+
+**The two predictions that are distinctively Brewer's go the wrong way.** Politics
+with business falls 0.71 in Britain and military with business falls 1.35. Public
+credit and war contracting are precisely what separates this thesis from the
+military revolution, and they are where Britain moves hardest against it.
+
+**The flagship contrast with France is a dead heat.** On the tie between office and
+birth, which is the sharpest claim Brewer makes, Britain falls 0.26 and France
+falls 0.22. The largest Britain-France gap runs the other way: the tie between arms
+and money collapses in Britain (-1.35) and tightens in France (+1.55).
+
+**The pattern does appear, a century late.** From the 1688-1783 cohorts to the
+post-1783 ones, Britain pulls away from the donor pool on four of the six, which is
+the shape the thesis predicts in the window it does not predict it in.
+
+Three limits. Four donors means the in-space test cannot return a p below 0.20, so
+this design can rank Britain but not certify a null; Britain sitting at the worst
+possible rank is what makes the result informative and not merely underpowered. The time placebo is not estimable, because a window 200 years earlier
+needs British cohorts born before 1423 and none clears the case floor. And the
+composition of the British record moves a great deal across the phases: learning
+and culture rises from 28% of memberships to 40% to 57%, nobility and kinship falls
+from 29% to 22% to 12%.
+
+None of this touches Brewer's institutional history. His evidence is the size and
+structure of the state apparatus, and the finding here is narrower: elite careers
+recorded in this database do not show Britain combining these fields more than its
+neighbours did over the same century.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -630,6 +702,8 @@ python scripts/14_shock_event_study.py     # slowest step, about 10 minutes
 python scripts/15_shock_figures.py
 python scripts/16_military_revolution.py   # slowest step, about 25 minutes
 python scripts/17_military_revolution_figures.py
+python scripts/18_fiscal_military_state.py
+python scripts/19_fiscal_military_figures.py
 ```
 
 Total runtime is about an hour after the download. Run the scripts from the
@@ -645,8 +719,9 @@ data/processed/robustness/          the domain analysis under five mappings
 data/processed/network_structure/   positions, blocks, indices and level shifts
 data/processed/countries/           the same analyses inside each of 36 countries
 data/processed/shocks/              the cohort panel, the coded shocks, the event study
-data/processed/military_revolution/ the pre-specified test of one named thesis
-figures/          forty-three figures, PDF and PNG
+data/processed/military_revolution/ a pre-specified test of one named thesis
+data/processed/fiscal_military/     a pre-specified test of another
+figures/          forty-six figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),
                   breaks.py (the level-shift scan), domainmap.py (the named

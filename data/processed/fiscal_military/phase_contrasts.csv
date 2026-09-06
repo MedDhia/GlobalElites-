@@ -1,0 +1,106 @@
+country,pair,change,n_pre,n_exposed,change_exposed_to_post
+France,Administration & Law + Business,0.074440575856211,5,2,-1.5982607400771418
+France,Administration & Law + Learning & Culture,-0.3000303285961129,5,2,-0.2799311299528223
+France,Administration & Law + Military,0.5007996245535755,5,2,-1.5900324142031113
+France,Administration & Law + Nobility & Kinship,-0.21782587890916238,5,2,-1.2411228593610808
+France,Administration & Law + Religion,-1.365713102005484,5,2,0.7900219588848141
+France,Business + Learning & Culture,0.06825004031020265,5,2,-0.18802104773031603
+France,Business + Nobility & Kinship,-0.5166071989062051,5,2,-0.16237939133493162
+France,Business + Religion,2.4812427185279207,5,2,-0.6914662801247031
+France,Military + Business,1.5445820731285214,5,2,-0.35645493877279333
+France,Military + Learning & Culture,0.31882648378215006,5,2,0.8637245827716177
+France,Military + Nobility & Kinship,-0.3297868857195245,5,2,-0.6943390177869998
+France,Military + Religion,-0.7825883327578613,5,2,-2.3689526362110342
+France,Nobility & Kinship + Learning & Culture,0.33418713137643946,5,2,0.7605884873295397
+France,Nobility & Kinship + Religion,-0.606270258704602,5,2,1.560722998313178
+France,Politics + Administration & Law,0.2265372897005784,5,2,-0.51870132533838
+France,Politics + Business,-0.989743599472045,5,2,0.731118191081867
+France,Politics + Learning & Culture,-0.4551949329213514,5,2,1.029244845505152
+France,Politics + Military,-0.1872234914658908,5,2,-0.17359113161920248
+France,Politics + Nobility & Kinship,-0.818628961435149,5,2,-0.00750417997227637
+France,Politics + Religion,1.536802209583211,5,2,-2.0830172820119426
+France,Religion + Learning & Culture,0.19385527270099046,5,2,0.11517724219777703
+Germany,Administration & Law + Business,-0.19844625219340095,7,2,-0.23172451536361915
+Germany,Administration & Law + Learning & Culture,-0.02571315347721409,7,2,-0.6660295491167889
+Germany,Administration & Law + Military,-0.32918017591358917,7,2,-0.3841931750602001
+Germany,Administration & Law + Nobility & Kinship,-0.2425891800549864,7,2,-0.08960134424275817
+Germany,Administration & Law + Religion,-0.12458944949155559,7,2,-1.1602752759864865
+Germany,Business + Learning & Culture,0.20875107656642045,7,2,-0.14249177097318577
+Germany,Business + Nobility & Kinship,-0.9120886282121418,7,2,0.2451318046699955
+Germany,Business + Religion,0.10077584250102523,7,2,-0.3447284548655134
+Germany,Military + Business,-1.3075618369757227,7,2,1.3433698201367354
+Germany,Military + Learning & Culture,-0.4724630968207011,7,2,2.3130172892980596
+Germany,Military + Nobility & Kinship,0.1544394198937209,7,2,-0.3956200855826817
+Germany,Military + Religion,0.5088170452913432,7,2,1.1911186002415726
+Germany,Nobility & Kinship + Learning & Culture,0.1923454353222298,7,2,1.0396424477372614
+Germany,Nobility & Kinship + Religion,-0.6408623632779012,7,2,-0.838995747878015
+Germany,Politics + Administration & Law,0.4557996701986444,7,2,-0.5274716997186297
+Germany,Politics + Business,-0.23415518671719998,7,2,0.09977907282768822
+Germany,Politics + Learning & Culture,-1.3665950370147675,7,2,0.8572024232548894
+Germany,Politics + Military,1.4097476683961758,7,2,-0.7156083921092298
+Germany,Politics + Nobility & Kinship,-0.2073324233255215,7,2,-0.750121868234483
+Germany,Politics + Religion,-0.012309492623719498,7,2,0.12194205147689086
+Germany,Religion + Learning & Culture,0.3015177475980859,7,2,0.5766835710035474
+Italy,Administration & Law + Business,-0.3197062327777267,9,2,0.36430892500497847
+Italy,Administration & Law + Learning & Culture,-0.6365462306697435,9,2,-0.3106245898098233
+Italy,Administration & Law + Military,2.68492388138494,9,2,-3.437242387842456
+Italy,Administration & Law + Nobility & Kinship,3.2391461174218517,9,2,-3.9971419101140055
+Italy,Administration & Law + Religion,-1.0544326075727675,9,2,0.39593472198100765
+Italy,Business + Learning & Culture,-0.35078537511790897,9,2,0.27123987636113034
+Italy,Business + Nobility & Kinship,0.41054527581453376,9,2,-0.5406360913607015
+Italy,Business + Religion,-0.10265122285357864,9,2,-0.2134000427825291
+Italy,Military + Business,0.4914610721673711,9,2,-0.7545721276921331
+Italy,Military + Learning & Culture,1.1576543842131943,9,2,0.4609982733660464
+Italy,Military + Nobility & Kinship,-1.1498770285115154,9,2,-0.5720412921386098
+Italy,Military + Religion,3.7465206947984266,9,2,-1.8451763801666488
+Italy,Nobility & Kinship + Learning & Culture,0.3416134481556337,9,2,0.485126737683057
+Italy,Nobility & Kinship + Religion,-0.7154070973323758,9,2,2.2569378910544984
+Italy,Politics + Administration & Law,0.8951276188068042,9,2,-1.4170513384448222
+Italy,Politics + Business,-0.6818118142550353,9,2,0.21152877816494922
+Italy,Politics + Learning & Culture,-0.7418037223251734,9,2,1.1173095258810741
+Italy,Politics + Military,1.6612405535197512,9,2,-1.1581601934622614
+Italy,Politics + Nobility & Kinship,0.7339090128356063,9,2,-1.8689002226500238
+Italy,Politics + Religion,-0.38154902800488166,9,2,-1.02620374607971
+Italy,Religion + Learning & Culture,-0.12200380246277603,9,2,0.7583369408145034
+Spain,Administration & Law + Business,-0.43080929279833113,6,2,0.3614223578664939
+Spain,Administration & Law + Learning & Culture,-0.27730313291031644,6,2,0.6095468671073774
+Spain,Administration & Law + Military,-0.02851902597516004,6,2,-1.2209783914226717
+Spain,Administration & Law + Nobility & Kinship,-0.6928399663178348,6,2,-1.1500253910550757
+Spain,Administration & Law + Religion,1.0224001300234915,6,2,-0.4475136533201294
+Spain,Business + Learning & Culture,0.20618193183249867,6,2,-0.19559534643079668
+Spain,Business + Nobility & Kinship,-0.864643486159799,6,2,0.9431121011640595
+Spain,Business + Religion,0.13253141678718272,6,2,0.36559371196873164
+Spain,Military + Business,1.2172381807065749,6,2,-0.539305397988203
+Spain,Military + Learning & Culture,-0.23275594016477733,6,2,0.0021461939691280185
+Spain,Military + Nobility & Kinship,-0.23754024744718916,6,2,0.03932178585529744
+Spain,Military + Religion,1.5291268850840645,6,2,1.1517176158280373
+Spain,Nobility & Kinship + Learning & Culture,0.3659152119735166,6,2,0.40093770713176446
+Spain,Nobility & Kinship + Religion,0.16822763067394209,6,2,1.2591487369351457
+Spain,Politics + Administration & Law,0.3590006785857781,6,2,-0.4743675406071016
+Spain,Politics + Business,-0.042717628868744306,6,2,1.171118369080861
+Spain,Politics + Learning & Culture,-0.6856410820388326,6,2,1.0794967895360041
+Spain,Politics + Military,-0.3218718819564629,6,2,-0.37876824767953277
+Spain,Politics + Nobility & Kinship,-0.45724210532919946,6,2,-0.5203959518077375
+Spain,Politics + Religion,0.2178135844453165,6,2,-0.511051650057874
+Spain,Religion + Learning & Culture,0.24941680178002545,6,2,-0.05755842080042495
+United Kingdom,Administration & Law + Business,0.07056006179286423,7,2,-0.5285896608775684
+United Kingdom,Administration & Law + Learning & Culture,-0.12841766404415372,7,2,0.48092120613504036
+United Kingdom,Administration & Law + Military,0.04576754573321984,7,2,0.6705605710792379
+United Kingdom,Administration & Law + Nobility & Kinship,-0.2626349654512354,7,2,-0.25577459780525313
+United Kingdom,Administration & Law + Religion,-2.37205327051877,7,2,0.17851532440756324
+United Kingdom,Business + Learning & Culture,0.4060772864604649,7,2,-0.807560918560779
+United Kingdom,Business + Nobility & Kinship,-0.5191404989728432,7,2,0.03491427152275428
+United Kingdom,Business + Religion,0.3178250014245699,7,2,-0.4083585357204457
+United Kingdom,Military + Business,-1.3455680372673064,7,2,0.33270233768656343
+United Kingdom,Military + Learning & Culture,0.0944838094849974,7,2,0.39778084360689125
+United Kingdom,Military + Nobility & Kinship,-0.7426363162481758,7,2,0.6869039172041961
+United Kingdom,Military + Religion,-1.5488529577957153,7,2,2.5338141351439805
+United Kingdom,Nobility & Kinship + Learning & Culture,-0.18988545858548678,7,2,0.6883552386586713
+United Kingdom,Nobility & Kinship + Religion,-0.6266959135778959,7,2,0.689346861041778
+United Kingdom,Politics + Administration & Law,0.1394924328323608,7,2,0.07050913465115882
+United Kingdom,Politics + Business,-0.7112648797317933,7,2,0.9362441877193417
+United Kingdom,Politics + Learning & Culture,-0.01623575990285442,7,2,0.5145400014394719
+United Kingdom,Politics + Military,0.5148097180570026,7,2,-0.24622996423999033
+United Kingdom,Politics + Nobility & Kinship,0.21071984529488835,7,2,-0.16918844039523728
+United Kingdom,Politics + Religion,-0.25114536821436373,7,2,0.3517497880974142
+United Kingdom,Religion + Learning & Culture,0.10204909686792085,7,2,-0.6724732474073464

@@ -1,0 +1,2 @@
+window,estimable,n_correct_sign,n_predictions,mean_signed_did,note
+1488-1583,False,,0,,"needs cohorts born before 1423. The treated unit has no pre-exposure cell there, since Britain's 1400 cohort holds fewer than the 120 cross-group pairs the model needs. Units that do have one: Italy"

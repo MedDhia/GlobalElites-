@@ -707,3 +707,88 @@ contrast between military-bureaucratic absolutism and constitutional survival. T
 contrast is run inside each bloc on 50-year cohorts and differenced. Two blocs is
 two clusters, so `p_permutation` comes from reassigning which countries sit in
 which bloc, 300 draws.
+
+---
+
+# The fiscal-military state test
+
+`scripts/18_fiscal_military_state.py` tests Brewer's "Sinews of Power" thesis;
+`scripts/19_fiscal_military_figures.py` draws it. Outputs live in
+`data/processed/fiscal_military/`.
+
+## Why this thesis is testable where the military revolution was not
+
+Brewer's claim is country-specific, dated, and names its counterfactual, so there
+is a treated unit (Britain), a window (1688-1783) and a donor pool. The military
+revolution is a Europe-wide period with no untreated units, which is why that test
+had to lean on within-sample pair controls alone.
+
+## Design
+
+One treated unit with a long pre-period points at the synthetic control family.
+Four donors and five pre-cohorts is too few for a synthetic control to mean
+anything, since the pre-period fit would be mechanical, so the estimator is a plain
+difference in differences with two placebo distributions:
+
+- **in space**: each donor is treated in turn and Britain is ranked among the five.
+  With four donors the smallest p this can return is 0.20, which is a limit of the
+  panel and is reported as one.
+- **in pairs**: Britain's effect on the six predicted pairs is ranked against its
+  effect on the fifteen the thesis says nothing about.
+
+**Coarsening.** Sectors are collapsed to seven groups so a country-cohort cell has
+enough cases: Politics; Administration & Law; Military; Business (big and small);
+Nobility & Kinship; Religion; Learning & Culture (academia, exploration and
+invention, both culture sectors). Sport & Games is dropped as negligible before
+1800. The coarsening preserves what is particular to the thesis: politics and
+administration stay apart because their fusion is the claim, and business stays
+apart because public credit is what separates Brewer from the military revolution.
+
+**Phases.** A cohort born in b works in [b+25, b+65]. PRE is a career closed before
+1688 (cohorts to 1600), EXPOSED is a career falling entirely inside 1688-1783
+(cohorts 1675 and 1700), POST is a career opening after 1783 (cohorts from 1775).
+Everything else is transition and is held out.
+
+**Panel.** Britain plus France, Germany, Spain and Italy, being the units with at
+least three PRE cohorts, both EXPOSED cohorts and the POST cohorts above the
+120-pair floor.
+
+## `predictions.csv`  (6 rows)
+
+`pair`, `direction`, `claim`, `source`. Politics + Nobility & Kinship is recorded
+in the script as contested and excluded, because Brewer has the apparatus growing
+underneath an aristocratic political order.
+
+## `country_pairs_by_cohort.csv`
+
+The 21 group-pair association scores refitted inside each country and 25-year
+cohort, with the usual columns plus `country`, `cohort` and `phase`.
+
+## `phase_contrasts.csv`
+
+Each unit's PRE to EXPOSED change per pair, and its EXPOSED to POST change.
+
+## `did_results.csv`  (21 rows)
+
+| Column | Description |
+|---|---|
+| `pair` | The group pair |
+| `treated_change`, `donor_mean_change`, `n_donors` | Britain and the donor pool |
+| `did`, `signed_did` | Britain minus the pool, and that in the predicted direction |
+| `direction`, `claim`, `source`, `is_predicted`, `is_contested` | Whether the thesis speaks to this pair |
+
+## `placebo_in_space.csv`, `placebo_in_pairs.csv`, `placebo_in_time.csv`
+
+Each unit treated in turn with its rank and `p_in_space`; the permutation over
+pairs; and the time placebo, which is recorded as **not estimable** with the reason
+in a `note` column, since a window 200 years earlier needs British cohorts born
+before 1423 and none clears the floor.
+
+## `britain_vs_france.csv` and `persistence.csv`
+
+The head-to-head Brewer actually draws, and the EXPOSED to POST change.
+
+## `composition_placebo.csv`
+
+Each unit's group shares and elite count by phase, so the change in the recorded
+population can be read next to the change in the association scores.

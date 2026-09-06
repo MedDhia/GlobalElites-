@@ -1,0 +1,2 @@
+observed_mean_signed_did,n_predictions,n_correct_sign,p_sign_test,p_permutation_over_pairs,n_pairs_in_pool
+-0.3314533404899939,6,2,0.890625,0.8189818101818982,21

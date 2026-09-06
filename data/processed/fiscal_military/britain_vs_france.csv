@@ -1,0 +1,22 @@
+pair,treated_change,france_change,n_donors,britain_minus_france,direction,claim,source,signed_did,is_contested
+Politics + Nobility & Kinship,0.21071984529488835,-0.818628961435149,1,1.0293488067300374,,,,,True
+Politics + Military,0.5148097180570026,-0.1872234914658908,1,0.7020332095228934,,,,,False
+Politics + Learning & Culture,-0.01623575990285442,-0.4551949329213514,1,0.43895917301849696,,,,,False
+Business + Learning & Culture,0.4060772864604649,0.06825004031020265,1,0.3378272461502623,,,,,False
+Politics + Business,-0.7112648797317933,-0.989743599472045,1,0.27847871974025173,1.0,Public credit ties Parliament to the moneyed interest,Brewer 1989 ch. 4,0.27847871974025173,False
+Administration & Law + Learning & Culture,-0.12841766404415372,-0.3000303285961129,1,0.17161266455195917,,,,,False
+Business + Nobility & Kinship,-0.5191404989728432,-0.5166071989062051,1,-0.0025333000666381,,,,,False
+Administration & Law + Business,0.07056006179286423,0.074440575856211,1,-0.003880514063346774,1.0,The Treasury and the Bank: debt management becomes an administrative craft,Brewer 1989 ch. 4; Dickson 1967,-0.003880514063346774,False
+Nobility & Kinship + Religion,-0.6266959135778959,-0.606270258704602,1,-0.02042565487329384,,,,,False
+Administration & Law + Nobility & Kinship,-0.2626349654512354,-0.21782587890916238,1,-0.044809086542072996,-1.0,"Salaried merit replaces venal and patrimonial office, the sharpest contrast Brewer draws with France",Brewer 1989 ch. 3,0.044809086542072996,False
+Politics + Administration & Law,0.1394924328323608,0.2265372897005784,1,-0.08704485686821761,1.0,"Office-holding becomes the substance of rule: the Excise as a salaried, examined service",Brewer 1989 ch. 3,-0.08704485686821761,False
+Religion + Learning & Culture,0.10204909686792085,0.19385527270099046,1,-0.0918061758330696,,,,,False
+Military + Learning & Culture,0.0944838094849974,0.31882648378215006,1,-0.22434267429715266,,,,,False
+Military + Nobility & Kinship,-0.7426363162481758,-0.3297868857195245,1,-0.4128494305286513,,,,,False
+Administration & Law + Military,0.04576754573321984,0.5007996245535755,1,-0.4550320788203557,1.0,The fiscal apparatus exists to fund war; revenue and command are one system,Brewer 1989 ch. 2,-0.4550320788203557,False
+Nobility & Kinship + Learning & Culture,-0.18988545858548678,0.33418713137643946,1,-0.5240725899619263,,,,,False
+Military + Religion,-1.5488529577957153,-0.7825883327578613,1,-0.766264625037854,,,,,False
+Administration & Law + Religion,-2.37205327051877,-1.365713102005484,1,-1.0063401685132858,,,,,False
+Politics + Religion,-0.25114536821436373,1.536802209583211,1,-1.7879475777975746,,,,,False
+Business + Religion,0.3178250014245699,2.4812427185279207,1,-2.163417717103351,,,,,False
+Military + Business,-1.3455680372673064,1.5445820731285214,1,-2.890150110395828,1.0,"Contracting, victualling and naval supply",Brewer 1989 ch. 2; Baugh 1965,-2.890150110395828,False
