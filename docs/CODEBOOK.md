@@ -971,7 +971,8 @@ are absent, so the series is not balanced across revolutions.
 
 ## Figures
 
-`scripts/23_revolution_figures.py` draws six, from the tables above.
+`scripts/23_revolution_figures.py` draws six and
+`scripts/24_revolution_field_figures.py` four more, all from the tables above.
 
 | Figure | What it shows |
 |---|---|
@@ -981,3 +982,7 @@ are absent, so the series is not balanced across revolutions.
 | `figV04_politics_business` | Politics with business cohort by cohort, and against politics with the military |
 | `figV05_age_bands` | The four politics pairs refitted inside each age band |
 | `figV06_birth_cohorts` | The four politics pairs by 40-year birth cohort, with the revolutionary window marked |
+| `figW01_pooled_field_graph` | The pooled shape as a graph, split into what was held together and what was held apart |
+| `figW02_field_graphs_by_revolution` | The same graph inside each cohort, keeping the ties it can separate from chance |
+| `figW03_space_of_power` | The seven fields placed by classical scaling of the association matrix, and how far each moves between cohorts |
+| `figW04_rank_ribbons` | Each tie's position in the cohort's own ordering, across the sixteen |

@@ -15,7 +15,9 @@ from plotstyle import BLUE, CMAP, GREY, RED, SOURCE, save
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 RD = ROOT / "data" / "processed" / "revolutions"
 
-DIR_COLOUR = {"associated": BLUE, "dissociated": RED,
+# Red for association and blue for dissociation, matching the heatmaps and the
+# network figure in scripts/03, which read off the RdBu_r scale.
+DIR_COLOUR = {"associated": RED, "dissociated": BLUE,
               "not distinguishable": "#9e9e9e"}
 BAND_ORDER = ["under 20", "20-35", "36-55", "56+"]
 BAND_COLOUR = {"under 20": "#c6dbef", "20-35": "#6baed6",
@@ -211,7 +213,7 @@ def figV03(pairs):
     ax.spines[["top", "right", "left"]].set_visible(False)
     ax.annotate("associated / dissociated /\nnot distinguishable", (5.35, -1.15),
                 ha="right", fontsize=7.4, color=GREY, annotation_clip=False)
-    handles = [Patch(color=BLUE, label="associated"), Patch(color=RED, label="dissociated"),
+    handles = [Patch(color=RED, label="associated"), Patch(color=BLUE, label="dissociated"),
                Patch(color="#9e9e9e", label="not distinguishable"),
                Patch(facecolor="white", edgecolor="#c6c6c6", label="sparse cell, excluded")]
     ax.legend(handles=handles, fontsize=7.6, ncol=4, loc="upper center",
@@ -251,8 +253,8 @@ def figV04(pairs, index):
     ax.set_xlabel("Politics + Business,  log$_2$(observed / expected)")
     ax.spines[["top", "right", "left"]].set_visible(False)
     ax.set_title("The pair that divides the set", fontsize=10.5, loc="left", pad=10)
-    ax.legend(handles=[Patch(color=BLUE, label="associated"),
-                       Patch(color=RED, label="dissociated"),
+    ax.legend(handles=[Patch(color=RED, label="associated"),
+                       Patch(color=BLUE, label="dissociated"),
                        Patch(color="#9e9e9e", label="not distinguishable")],
               fontsize=7.4, loc="lower right")
 

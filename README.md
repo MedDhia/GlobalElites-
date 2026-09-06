@@ -757,11 +757,30 @@ These are descriptive cohorts, not treatment groups. Living through a revolution
 is not an assignment and the windows are conventional dates. The event study is
 where the causal question is put.
 
-**The figures.** `figV01` places the sixteen cohorts in time and shows their size and
-age composition. `figV02` is the whole comparison in one panel, 21 pairs by 16
-cohorts. `figV03` counts how each pair reads across the set. `figV04` takes the pair
-that divides it. `figV05` splits each cohort by age at the window midpoint. `figV06`
-puts each cohort inside its own country's series of 40-year birth cohorts.
+**The figures.** Two sets. `figV01` places the sixteen cohorts in time and shows
+their size and age composition; `figV02` is the whole comparison in one panel, 21
+pairs by 16 cohorts; `figV03` counts how each pair reads across the set; `figV04`
+takes the pair that divides it; `figV05` splits each cohort by age at the window
+midpoint; `figV06` puts each cohort inside its own country's series of 40-year
+birth cohorts.
+
+The `figW` set draws the same numbers as fields joined by ties instead of rows of
+a table. `figW01` is the pooled shape, split into what was held together and what
+was held apart. `figW02` repeats that graph inside each of the sixteen cohorts,
+keeping only the ties the cohort can separate from chance. `figW03` places the
+seven fields by classical scaling so that association is closeness, and measures
+how far each field moves between revolutions. `figW04` follows each tie's position
+in the cohort's own ordering across the sixteen.
+
+**What the graphs show.** The positive ties form a chain, not a clique:
+administration to politics to the military to the nobility on one arm, learning to
+religion and to business on the other, and one weak contested tie between the two.
+Two fields are attached to a single partner and held apart from all five of the
+others: administration, which goes with politics alone, and religion, which goes
+with learning alone. The strongest tie of either sign is negative, administration
+with business at -1.41. In the space of power, learning, politics and
+administration keep their place across revolutions while business moves furthest,
+more than twice as far as learning, with religion behind it.
 
 
 ## Caveats
@@ -833,6 +852,7 @@ python scripts/20_tilly_paths.py           # slow: 100,000 permutations per test
 python scripts/21_tilly_figures.py
 python scripts/22_revolution_cohorts.py # cohort folders, one per revolution
 python scripts/23_revolution_figures.py
+python scripts/24_revolution_field_figures.py  # the fields as a graph
 ```
 
 Total runtime is about an hour after the download. Run the scripts from the
@@ -852,7 +872,7 @@ data/processed/military_revolution/ a pre-specified test of one named thesis
 data/processed/fiscal_military/     a pre-specified test of another
 data/processed/tilly/               a pre-specified test of a third
 data/processed/revolutions/         one folder per revolution, and who lived through it
-figures/          fifty-five figures, PDF and PNG
+figures/          fifty-nine figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),
                   breaks.py (the level-shift scan), domainmap.py (the named
