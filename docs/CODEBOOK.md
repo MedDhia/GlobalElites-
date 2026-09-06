@@ -528,3 +528,92 @@ file gives each group's mean score on each crossing and its size.
 | Germany group (16) | Germany, United Kingdom, France, Spain, India, Russia, Switzerland, Argentina, Mexico, Poland, Netherlands, Japan, Denmark, Israel, Hungary, Peru |
 | Sweden group (3) | Sweden, Austria, Finland |
 | China group (5) | China, Turkey, Iran, Greece, Romania |
+
+---
+
+# The shock event study
+
+`scripts/13_shock_panel.py` builds a country by birth-cohort panel and codes the
+shocks; `scripts/14_shock_event_study.py` runs the event study and its
+falsification battery. Outputs live in `data/processed/shocks/`.
+
+## Design
+
+Staggered adoption with heterogeneous timing, so the estimator is a
+Callaway-Sant'Anna style group-time average treatment effect. For countries first
+exposed at cohort g and event time e, ATT(g, e) compares the change in the outcome
+from the last pre-exposure cohort (e = -1) to cohort g + e, between those
+countries and countries not yet exposed at that cohort plus those never exposed
+inside the window. Within-country differences are weighted by the inverse of their
+variance, which is the sum of the two cells' bootstrap variances. ATT(e)
+aggregates over groups, weighted by treated cells.
+
+Sixteen countries and four never-exposed ones is far too few clusters for
+standard errors clustered on country, so inference is randomization inference: the
+multiset of shock years is reassigned at random across the panel countries and the
+whole estimator is recomputed 2,000 times. The reported p-value is the share of
+draws whose |ATT(e)| reaches the observed one. This tests the sharp null of no
+effect for any country.
+
+**Exposure.** The panel is birth cohorts, not calendar years. A cohort born in
+[b, b+25) has careers running roughly [b+25, b+90). A shock in year T is taken to
+fall on the first cohort with b >= T - 50. The 30-year and 70-year alternatives
+are written into `shock_list.csv`.
+
+## `shock_panel_pairs.csv`  (912 rows)
+
+Association scores for the six crossings, refitted inside every country and
+25-year birth cohort with at least 120 elites crossing two domains, for the 16
+countries with at least 6 such cohorts. Same columns as the other pair tables.
+
+## `shock_panel_placebo.csv`
+
+Per country and cohort: `n_classified`, `log_n_classified`, `crossing_rate`, and
+the share of classified elites holding each of the four domains. These are the
+placebo outcomes: quantities a change in who gets recorded would move.
+
+## `shock_panel_coverage.csv`
+
+Every country and cohort with `n_classified`, `n_crossings`, whether the cell
+clears the 120-crossing floor (`usable`) and whether the country is in the panel.
+
+## `shock_list.csv`  (12 rows)
+
+The coded shocks. A shock enters only if it is dated to a single year, is a
+rupture in who holds power and not a change of government inside a settled
+order, and sits inside the window. Two types are coded separately because the
+theoretical priors differ: *revolutionary rupture* (France 1789, Russia 1917,
+Germany 1918, Austria 1918) and *state creation* (US 1776, Argentina 1816, Brazil
+1822, Italy 1861, Canada 1867, Australia 1901, Norway 1905, New Zealand 1907).
+Never exposed inside the window, and therefore usable as controls: Spain, Sweden,
+Switzerland, the United Kingdom.
+
+| Column | Description |
+|---|---|
+| `country`, `year`, `type`, `event` | The coded shock |
+| `in_panel` | Whether the country is in the 16-country panel |
+| `first_treated_cohort_main/short/long` | First exposed cohort under a 50, 30 or 70-year lag |
+| `first_cohort`, `last_cohort`, `n_cohorts` | The country's usable cohorts |
+| `n_pre_main`, `n_post_main` | Cohorts on each side of exposure |
+
+## `event_study_att.csv`  (72 rows)
+
+ATT(e) per shock type and crossing.
+
+| Column | Description |
+|---|---|
+| `spec`, `shock_type`, `outcome`, `event_time` | Identifiers |
+| `att` | The aggregated group-time estimate |
+| `n_groups`, `n_treated_cells`, `min_controls` | What the estimate rests on |
+| `p_value_ri` | Randomization p-value over 2,000 reassignments |
+| `null_sd`, `null_ci_low`, `null_ci_high` | Spread and middle 95% of the null draws |
+
+## `event_study_group_time.csv`
+
+The underlying ATT(g, e), with the treated countries named, so any aggregate can
+be traced to the comparisons behind it.
+
+## `event_study_placebo.csv`, `event_study_placebo_time.csv`, `event_study_loo.csv`
+
+The same estimator on the composition outcomes; on shocks shifted 100 years
+earlier; and dropping one country at a time.

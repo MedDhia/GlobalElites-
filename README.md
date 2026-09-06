@@ -26,7 +26,9 @@ On top of both layers sits a network-structure pass in
 whole-network indices, and a scan for level shifts that a linear trend cannot see.
 
 Both layers are then refitted inside each country in `data/processed/countries/`,
-figures prefixed `figC`.
+figures prefixed `figC`. A final pass in `data/processed/shocks/`, figures prefixed
+`figE`, asks whether dated country-level shocks leave a persistent mark. The answer
+is that this data cannot say, and the section below shows why.
 
 Read together they answer a question neither answers alone: how much of the
 movement in elite career combinations is reorganisation *inside* a domain of
@@ -167,6 +169,15 @@ And for the country comparisons:
 | `figC05_crossings_ranked` | Every crossing, every country, ranked with intervals |
 | `figC06_country_sector_pairs` | The sector pairs on which countries differ most |
 | `figC07_country_change` | An arrow per country from the nineteenth-century cohort to the twentieth |
+
+And for the shock event study:
+
+| Figure | Content |
+|---|---|
+| `figE01_shock_panel` | What the panel contains, and where each shock falls in it |
+| `figE02_event_study` | ATT by event time against the randomization null, for both shock types and all six crossings |
+| `figE03_falsification` | Pre-trends, composition placebos, and shocks moved 100 years earlier |
+| `figE04_rupture_trajectories` | The four rupture cases against the four never-exposed countries |
 
 Every figure is written as both PDF and 300-dpi PNG.
 
@@ -417,6 +428,65 @@ the other four split about evenly.
 administration and law runs from +3.2 in Japan to +1.2 in Canada and Australia; the
 Japanese value is the single largest country-sector score in the panel.
 
+## Shocks: what the data can and cannot say
+
+The question is whether dated shocks leave a persistent mark on the association
+between fields of power. The design that fits is a staggered event study, so that
+is what was run: a Callaway-Sant'Anna style group-time estimator on a country by
+25-year-cohort panel, with not-yet-exposed and never-exposed countries as
+controls, and randomization inference over 2,000 reassignments of the shock years,
+because sixteen countries and four never-exposed ones cannot support standard errors clustered on country.
+
+**The finding is that no shock can be credited with a persistent effect, and four
+things say so.**
+
+1. **The estimates are at chance.** Five of the 72 ATT estimates fall outside the
+   randomization null, against 3.6 expected. The smallest p-value is 0.014 and the
+   smallest Benjamini-Hochberg q across the 72 is 0.55. Nothing survives
+   adjustment. Two of the five are at pre-exposure event times, which is a failure
+   and not a finding.
+
+2. **Parallel trends fails.** For eleven of the twelve shock-type by crossing
+   combinations the largest pre-exposure estimate is more than a sixth of the
+   largest post-exposure one, and for one it is larger.
+
+3. **The composition placebos move more than the outcome.** Running the identical
+   estimator on the share of elites in each domain, the crossing rate and the log
+   number of recorded elites returns 13 results at p < 0.05 against 5 for the
+   association scores, and the strongest of them are *before* exposure: for
+   revolutionary rupture, the political share at event time -3 has p = 0.001 and
+   at -2 p < 0.001. Whatever separates the exposed countries, they were already
+   separating before exposure and it shows up in who gets recorded.
+
+4. **A single country moves most estimates more than their own size.** Dropping
+   one country at a time shifts 78% of the estimates by more than the estimate
+   itself.
+
+One test the design passes: shocks moved 100 years earlier produce a similar
+spread of estimates and nothing significant at all. The estimator is not
+manufacturing effects. The problem is the panel, and it is worth naming precisely
+because it is not fixable by a better estimator:
+
+- Argentina and Brazil have no cohort before their shock, so they cannot enter.
+- Only four countries are never exposed inside the window.
+- Three of the four rupture cases are Russia, Germany and Austria in 1918, which
+  is one event, not three. The rupture arm has two independent events.
+- Australia 1901, Norway 1905 and New Zealand 1907 are similarly near-simultaneous.
+- Birth cohorts blur exposure. A shock in year T falls on people born across a
+  forty-year span, so the event is smeared over one or two 25-year cohorts before
+  the estimator ever sees it.
+- Revolutions follow crises in the elite order, so the timing is not exogenous to
+  the outcome.
+
+What would be needed to answer the question: a shock with many independent
+occurrences, dated finely enough to separate cohorts, hitting countries that were
+on a common path beforehand, and an outcome measured on a population whose
+recording rule does not itself change at the shock. None of the four holds here.
+The panel, the shock coding and the whole estimator are committed so the design
+can be reused where they do.
+
+Read `figE01` before `figE02`. The first shows why the second is flat.
+
 ## Caveats
 
 The source population is what encyclopaedic sources record, not what existed.
@@ -475,9 +545,12 @@ python scripts/09_network_structure.py     # positions, blocks, level shifts
 python scripts/10_network_structure_figures.py
 python scripts/11_country_comparisons.py   # the same analyses inside each country
 python scripts/12_country_figures.py
+python scripts/13_shock_panel.py           # country x cohort panel and shock coding
+python scripts/14_shock_event_study.py     # slowest step, about 10 minutes
+python scripts/15_shock_figures.py
 ```
 
-Total runtime is about seventeen minutes after the download. Run the scripts from the
+Total runtime is about thirty minutes after the download. Run the scripts from the
 repository root; they import `assoc_core.py` and `plotstyle.py` from `scripts/`.
 
 ## Layout
@@ -489,7 +562,8 @@ docs/CODEBOOK.md  variable-by-variable description of every output file
 data/processed/robustness/          the domain analysis under five mappings
 data/processed/network_structure/   positions, blocks, indices and level shifts
 data/processed/countries/           the same analyses inside each of 36 countries
-figures/          thirty-five figures, PDF and PNG
+data/processed/shocks/              the cohort panel, the coded shocks, the event study
+figures/          thirty-nine figures, PDF and PNG
 scripts/          the pipeline, plus assoc_core.py (the pairwise estimator),
                   netstruct.py (positions, blocks, coreness, network indices),
                   domainmap.py (the named sector-to-domain mappings) and

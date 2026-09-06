@@ -1,0 +1,2306 @@
+country,cohort,n_classified,n_crossings,usable,country_in_panel
+Abkhazia,1925,6,1,False,False
+Afghanistan,1575,1,0,False,False
+Afghanistan,1600,1,1,False,False
+Afghanistan,1625,1,0,False,False
+Afghanistan,1650,2,0,False,False
+Afghanistan,1675,1,0,False,False
+Afghanistan,1700,3,0,False,False
+Afghanistan,1725,1,0,False,False
+Afghanistan,1750,1,0,False,False
+Afghanistan,1775,4,0,False,False
+Afghanistan,1800,10,2,False,False
+Afghanistan,1825,9,2,False,False
+Afghanistan,1850,12,3,False,False
+Afghanistan,1875,37,5,False,False
+Afghanistan,1900,61,11,False,False
+Afghanistan,1925,161,45,False,False
+Albania,1500,1,0,False,False
+Albania,1550,5,0,False,False
+Albania,1575,3,1,False,False
+Albania,1600,1,0,False,False
+Albania,1625,3,0,False,False
+Albania,1650,1,0,False,False
+Albania,1675,3,1,False,False
+Albania,1700,6,1,False,False
+Albania,1725,6,0,False,False
+Albania,1750,5,3,False,False
+Albania,1775,4,3,False,False
+Albania,1800,17,6,False,False
+Albania,1825,25,6,False,False
+Albania,1850,92,37,False,False
+Albania,1875,164,63,False,False
+Albania,1900,220,64,False,False
+Albania,1925,288,67,False,False
+Algeria,1500,2,1,False,False
+Algeria,1575,1,0,False,False
+Algeria,1625,1,0,False,False
+Algeria,1650,1,0,False,False
+Algeria,1700,2,0,False,False
+Algeria,1725,2,1,False,False
+Algeria,1750,4,1,False,False
+Algeria,1775,5,1,False,False
+Algeria,1800,5,1,False,False
+Algeria,1825,6,0,False,False
+Algeria,1850,19,4,False,False
+Algeria,1875,53,13,False,False
+Algeria,1900,178,49,False,False
+Algeria,1925,472,107,False,False
+Andorra,1500,1,0,False,False
+Andorra,1550,1,0,False,False
+Andorra,1700,1,1,False,False
+Andorra,1725,2,0,False,False
+Andorra,1750,1,0,False,False
+Andorra,1800,2,0,False,False
+Andorra,1850,1,0,False,False
+Andorra,1875,2,0,False,False
+Andorra,1900,2,1,False,False
+Andorra,1925,18,4,False,False
+Angola,1525,1,0,False,False
+Angola,1575,1,0,False,False
+Angola,1600,2,0,False,False
+Angola,1675,1,0,False,False
+Angola,1725,2,2,False,False
+Angola,1825,5,4,False,False
+Angola,1850,2,0,False,False
+Angola,1875,2,2,False,False
+Angola,1900,16,5,False,False
+Angola,1925,97,26,False,False
+Antigua and Barbuda,1700,1,0,False,False
+Antigua and Barbuda,1750,1,0,False,False
+Antigua and Barbuda,1875,1,0,False,False
+Antigua and Barbuda,1900,4,2,False,False
+Antigua and Barbuda,1925,11,1,False,False
+Argentina,1500,7,6,False,True
+Argentina,1525,5,2,False,True
+Argentina,1550,5,3,False,True
+Argentina,1575,7,4,False,True
+Argentina,1600,7,3,False,True
+Argentina,1625,1,0,False,True
+Argentina,1650,6,1,False,True
+Argentina,1675,2,2,False,True
+Argentina,1700,7,4,False,True
+Argentina,1725,34,18,False,True
+Argentina,1750,171,92,False,True
+Argentina,1775,541,326,True,True
+Argentina,1800,431,194,True,True
+Argentina,1825,503,203,True,True
+Argentina,1850,602,205,True,True
+Argentina,1875,1260,293,True,True
+Argentina,1900,2422,464,True,True
+Argentina,1925,3711,676,True,True
+Armenia,1500,1,0,False,False
+Armenia,1550,3,1,False,False
+Armenia,1575,1,0,False,False
+Armenia,1600,3,1,False,False
+Armenia,1625,2,0,False,False
+Armenia,1650,6,2,False,False
+Armenia,1675,3,0,False,False
+Armenia,1700,5,1,False,False
+Armenia,1725,5,0,False,False
+Armenia,1750,7,2,False,False
+Armenia,1775,4,1,False,False
+Armenia,1800,16,2,False,False
+Armenia,1825,39,6,False,False
+Armenia,1850,128,44,False,False
+Armenia,1875,157,42,False,False
+Armenia,1900,185,27,False,False
+Armenia,1925,281,49,False,False
+Australia,1725,8,4,False,True
+Australia,1750,65,25,False,True
+Australia,1775,221,84,False,True
+Australia,1800,834,279,True,True
+Australia,1825,1532,452,True,True
+Australia,1850,2363,652,True,True
+Australia,1875,3190,814,True,True
+Australia,1900,3703,834,True,True
+Australia,1925,5938,1091,True,True
+Austria,1500,22,2,False,True
+Austria,1525,28,4,False,True
+Austria,1550,42,12,False,True
+Austria,1575,49,7,False,True
+Austria,1600,63,15,False,True
+Austria,1625,81,10,False,True
+Austria,1650,152,32,False,True
+Austria,1675,140,12,False,True
+Austria,1700,225,33,False,True
+Austria,1725,377,77,False,True
+Austria,1750,575,104,False,True
+Austria,1775,757,165,True,True
+Austria,1800,1241,258,True,True
+Austria,1825,1546,300,True,True
+Austria,1850,2907,621,True,True
+Austria,1875,4522,964,True,True
+Austria,1900,4453,915,True,True
+Austria,1925,5448,851,True,True
+Austria-Hungary,1625,1,0,False,False
+Austria-Hungary,1725,6,3,False,False
+Austria-Hungary,1750,9,0,False,False
+Austria-Hungary,1775,31,6,False,False
+Austria-Hungary,1800,228,54,False,False
+Austria-Hungary,1825,344,87,False,False
+Austria-Hungary,1850,549,110,False,False
+Austria-Hungary,1875,313,74,False,False
+Austria-Hungary,1900,53,11,False,False
+Azerbaijan,1675,1,0,False,False
+Azerbaijan,1700,3,1,False,False
+Azerbaijan,1725,1,0,False,False
+Azerbaijan,1750,2,0,False,False
+Azerbaijan,1775,5,1,False,False
+Azerbaijan,1800,4,0,False,False
+Azerbaijan,1825,14,1,False,False
+Azerbaijan,1850,26,6,False,False
+Azerbaijan,1875,75,17,False,False
+Azerbaijan,1900,120,17,False,False
+Azerbaijan,1925,223,39,False,False
+Bahrain,1600,1,0,False,False
+Bahrain,1675,2,0,False,False
+Bahrain,1825,1,0,False,False
+Bahrain,1850,2,0,False,False
+Bahrain,1875,3,1,False,False
+Bahrain,1900,3,3,False,False
+Bahrain,1925,32,11,False,False
+Bangladesh,1525,2,1,False,False
+Bangladesh,1550,1,0,False,False
+Bangladesh,1600,3,0,False,False
+Bangladesh,1700,1,1,False,False
+Bangladesh,1725,1,0,False,False
+Bangladesh,1800,1,0,False,False
+Bangladesh,1825,4,1,False,False
+Bangladesh,1850,3,1,False,False
+Bangladesh,1875,35,11,False,False
+Bangladesh,1900,213,53,False,False
+Bangladesh,1925,743,234,True,False
+Barbados,1575,4,2,False,False
+Barbados,1600,3,0,False,False
+Barbados,1625,1,1,False,False
+Barbados,1675,1,0,False,False
+Barbados,1700,2,1,False,False
+Barbados,1725,1,0,False,False
+Barbados,1750,1,0,False,False
+Barbados,1775,6,2,False,False
+Barbados,1800,3,0,False,False
+Barbados,1825,8,0,False,False
+Barbados,1850,8,1,False,False
+Barbados,1875,18,4,False,False
+Barbados,1900,36,7,False,False
+Barbados,1925,61,11,False,False
+Belarus,1600,1,0,False,False
+Belarus,1675,1,0,False,False
+Belarus,1725,3,0,False,False
+Belarus,1750,1,0,False,False
+Belarus,1775,1,0,False,False
+Belarus,1800,4,1,False,False
+Belarus,1825,17,1,False,False
+Belarus,1850,27,5,False,False
+Belarus,1875,69,25,False,False
+Belarus,1900,88,26,False,False
+Belarus,1925,104,33,False,False
+Belgium,1500,75,9,False,False
+Belgium,1525,90,13,False,False
+Belgium,1550,80,9,False,False
+Belgium,1575,128,16,False,False
+Belgium,1600,117,12,False,False
+Belgium,1625,74,13,False,False
+Belgium,1650,51,6,False,False
+Belgium,1675,55,6,False,False
+Belgium,1700,52,5,False,False
+Belgium,1725,73,16,False,False
+Belgium,1750,155,30,False,False
+Belgium,1775,370,86,False,False
+Belgium,1800,600,118,False,False
+Belgium,1825,782,139,True,False
+Belgium,1850,1261,216,True,False
+Belgium,1875,1492,286,True,False
+Belgium,1900,1740,281,True,False
+Belgium,1925,2302,311,True,False
+Belize,1825,2,0,False,False
+Belize,1850,7,0,False,False
+Belize,1875,10,2,False,False
+Belize,1900,19,6,False,False
+Belize,1925,37,8,False,False
+Benin,1650,1,0,False,False
+Benin,1675,1,0,False,False
+Benin,1750,1,0,False,False
+Benin,1825,1,0,False,False
+Benin,1850,2,1,False,False
+Benin,1875,6,1,False,False
+Benin,1900,27,9,False,False
+Benin,1925,85,22,False,False
+Bhutan,1825,1,1,False,False
+Bhutan,1850,1,0,False,False
+Bhutan,1875,1,0,False,False
+Bhutan,1900,4,0,False,False
+Bhutan,1925,5,1,False,False
+Bolivia,1550,1,0,False,False
+Bolivia,1575,1,0,False,False
+Bolivia,1650,1,0,False,False
+Bolivia,1675,2,0,False,False
+Bolivia,1700,3,2,False,False
+Bolivia,1725,2,0,False,False
+Bolivia,1750,20,8,False,False
+Bolivia,1775,29,12,False,False
+Bolivia,1800,31,16,False,False
+Bolivia,1825,36,14,False,False
+Bolivia,1850,30,6,False,False
+Bolivia,1875,64,23,False,False
+Bolivia,1900,115,38,False,False
+Bolivia,1925,208,59,False,False
+Bosnia and Herzegovina,1550,1,1,False,False
+Bosnia and Herzegovina,1625,2,1,False,False
+Bosnia and Herzegovina,1650,2,0,False,False
+Bosnia and Herzegovina,1675,1,0,False,False
+Bosnia and Herzegovina,1700,1,0,False,False
+Bosnia and Herzegovina,1750,1,0,False,False
+Bosnia and Herzegovina,1775,3,0,False,False
+Bosnia and Herzegovina,1800,12,3,False,False
+Bosnia and Herzegovina,1825,7,2,False,False
+Bosnia and Herzegovina,1850,14,4,False,False
+Bosnia and Herzegovina,1875,46,13,False,False
+Bosnia and Herzegovina,1900,66,10,False,False
+Bosnia and Herzegovina,1925,167,37,False,False
+Botswana,1800,1,0,False,False
+Botswana,1825,1,1,False,False
+Botswana,1850,1,0,False,False
+Botswana,1875,2,0,False,False
+Botswana,1900,15,4,False,False
+Botswana,1925,33,9,False,False
+Brazil,1500,6,3,False,True
+Brazil,1525,5,3,False,True
+Brazil,1550,9,3,False,True
+Brazil,1575,12,2,False,True
+Brazil,1600,10,1,False,True
+Brazil,1625,17,7,False,True
+Brazil,1650,24,7,False,True
+Brazil,1675,9,2,False,True
+Brazil,1700,19,5,False,True
+Brazil,1725,52,17,False,True
+Brazil,1750,141,48,False,True
+Brazil,1775,362,98,False,True
+Brazil,1800,675,164,True,True
+Brazil,1825,1037,286,True,True
+Brazil,1850,1211,397,True,True
+Brazil,1875,1905,527,True,True
+Brazil,1900,3870,935,True,True
+Brazil,1925,6524,1424,True,True
+British Empire,1750,2,0,False,False
+British Empire,1775,1,0,False,False
+British Empire,1800,1,0,False,False
+British Empire,1825,3,2,False,False
+British Empire,1850,1,0,False,False
+British North America,1575,1,1,False,False
+British North America,1600,5,3,False,False
+British North America,1625,4,3,False,False
+British North America,1650,1,1,False,False
+British North America,1700,2,1,False,False
+British North America,1725,1,0,False,False
+Brunei,1650,1,0,False,False
+Brunei,1775,2,0,False,False
+Brunei,1850,1,0,False,False
+Brunei,1875,2,0,False,False
+Brunei,1900,7,2,False,False
+Brunei,1925,14,2,False,False
+Bulgaria,1500,1,1,False,False
+Bulgaria,1575,1,0,False,False
+Bulgaria,1600,2,1,False,False
+Bulgaria,1675,1,0,False,False
+Bulgaria,1700,2,0,False,False
+Bulgaria,1725,1,0,False,False
+Bulgaria,1750,3,0,False,False
+Bulgaria,1775,12,2,False,False
+Bulgaria,1800,31,10,False,False
+Bulgaria,1825,67,33,False,False
+Bulgaria,1850,175,76,False,False
+Bulgaria,1875,269,96,False,False
+Bulgaria,1900,278,68,False,False
+Bulgaria,1925,398,67,False,False
+Burkina Faso,1825,1,1,False,False
+Burkina Faso,1875,3,1,False,False
+Burkina Faso,1900,22,6,False,False
+Burkina Faso,1925,54,15,False,False
+Burundi,1900,7,0,False,False
+Burundi,1925,34,7,False,False
+Cambodia,1525,1,0,False,False
+Cambodia,1550,1,0,False,False
+Cambodia,1650,1,0,False,False
+Cambodia,1700,1,0,False,False
+Cambodia,1775,2,0,False,False
+Cambodia,1850,4,0,False,False
+Cambodia,1875,6,2,False,False
+Cambodia,1900,49,8,False,False
+Cambodia,1925,115,23,False,False
+Cameroon,1625,1,0,False,False
+Cameroon,1825,1,1,False,False
+Cameroon,1850,7,3,False,False
+Cameroon,1875,5,1,False,False
+Cameroon,1900,40,13,False,False
+Cameroon,1925,187,37,False,False
+Canada,1550,4,2,False,True
+Canada,1575,6,1,False,True
+Canada,1600,27,6,False,True
+Canada,1625,47,14,False,True
+Canada,1650,65,23,False,True
+Canada,1675,58,19,False,True
+Canada,1700,78,30,False,True
+Canada,1725,187,87,False,True
+Canada,1750,462,243,True,True
+Canada,1775,775,418,True,True
+Canada,1800,1380,674,True,True
+Canada,1825,2466,1267,True,True
+Canada,1850,3267,1314,True,True
+Canada,1875,3904,1171,True,True
+Canada,1900,5177,1266,True,True
+Canada,1925,9783,1903,True,True
+Cape Verde,1575,3,2,False,False
+Cape Verde,1850,2,0,False,False
+Cape Verde,1875,2,0,False,False
+Cape Verde,1900,18,0,False,False
+Cape Verde,1925,41,6,False,False
+Central African Republic,1825,1,0,False,False
+Central African Republic,1875,2,0,False,False
+Central African Republic,1900,11,4,False,False
+Central African Republic,1925,41,6,False,False
+Chad,1900,11,2,False,False
+Chad,1925,43,13,False,False
+Chile,1500,5,2,False,False
+Chile,1525,5,1,False,False
+Chile,1550,7,3,False,False
+Chile,1575,2,1,False,False
+Chile,1600,2,0,False,False
+Chile,1625,9,1,False,False
+Chile,1650,7,5,False,False
+Chile,1675,8,3,False,False
+Chile,1700,10,4,False,False
+Chile,1725,33,16,False,False
+Chile,1750,88,24,False,False
+Chile,1775,207,73,False,False
+Chile,1800,211,66,False,False
+Chile,1825,348,113,False,False
+Chile,1850,443,123,True,False
+Chile,1875,611,151,True,False
+Chile,1900,1017,282,True,False
+Chile,1925,1646,496,True,False
+China,1500,31,10,False,False
+China,1525,31,4,False,False
+China,1550,39,7,False,False
+China,1575,55,7,False,False
+China,1600,73,10,False,False
+China,1625,38,4,False,False
+China,1650,29,6,False,False
+China,1675,45,13,False,False
+China,1700,31,8,False,False
+China,1725,38,7,False,False
+China,1750,45,11,False,False
+China,1775,62,12,False,False
+China,1800,97,23,False,False
+China,1825,143,39,False,False
+China,1850,272,80,False,False
+China,1875,859,322,True,False
+China,1900,1679,497,True,False
+China,1925,1810,451,True,False
+Colombia,1525,1,0,False,False
+Colombia,1550,5,1,False,False
+Colombia,1600,2,0,False,False
+Colombia,1625,2,0,False,False
+Colombia,1650,4,1,False,False
+Colombia,1675,1,1,False,False
+Colombia,1700,1,0,False,False
+Colombia,1725,8,2,False,False
+Colombia,1750,35,14,False,False
+Colombia,1775,70,30,False,False
+Colombia,1800,62,22,False,False
+Colombia,1825,96,34,False,False
+Colombia,1850,116,42,False,False
+Colombia,1875,159,55,False,False
+Colombia,1900,440,121,True,False
+Colombia,1925,958,203,True,False
+Comoros,1800,1,0,False,False
+Comoros,1850,2,0,False,False
+Comoros,1900,5,2,False,False
+Comoros,1925,14,0,False,False
+Congo,1625,1,0,False,False
+Congo,1650,3,0,False,False
+Congo,1675,1,1,False,False
+Congo,1775,1,0,False,False
+Congo,1800,1,1,False,False
+Congo,1825,4,1,False,False
+Congo,1850,16,5,False,False
+Congo,1875,11,3,False,False
+Congo,1900,80,17,False,False
+Congo,1925,354,73,False,False
+Costa Rica,1575,1,0,False,False
+Costa Rica,1600,3,0,False,False
+Costa Rica,1650,3,2,False,False
+Costa Rica,1675,2,2,False,False
+Costa Rica,1700,1,0,False,False
+Costa Rica,1725,3,2,False,False
+Costa Rica,1750,10,4,False,False
+Costa Rica,1775,34,13,False,False
+Costa Rica,1800,45,11,False,False
+Costa Rica,1825,42,13,False,False
+Costa Rica,1850,49,13,False,False
+Costa Rica,1875,72,27,False,False
+Costa Rica,1900,102,32,False,False
+Costa Rica,1925,161,43,False,False
+Croatia,1500,10,1,False,False
+Croatia,1525,6,2,False,False
+Croatia,1550,8,3,False,False
+Croatia,1575,16,1,False,False
+Croatia,1600,14,3,False,False
+Croatia,1625,11,4,False,False
+Croatia,1650,4,0,False,False
+Croatia,1675,10,2,False,False
+Croatia,1700,15,4,False,False
+Croatia,1725,9,4,False,False
+Croatia,1750,20,2,False,False
+Croatia,1775,11,3,False,False
+Croatia,1800,45,13,False,False
+Croatia,1825,69,15,False,False
+Croatia,1850,111,22,False,False
+Croatia,1875,215,47,False,False
+Croatia,1900,327,67,False,False
+Croatia,1925,490,98,False,False
+Cuba,1500,2,0,False,False
+Cuba,1525,1,0,False,False
+Cuba,1550,2,1,False,False
+Cuba,1575,2,0,False,False
+Cuba,1600,1,1,False,False
+Cuba,1625,3,1,False,False
+Cuba,1675,1,0,False,False
+Cuba,1700,3,2,False,False
+Cuba,1725,12,8,False,False
+Cuba,1750,12,6,False,False
+Cuba,1775,13,3,False,False
+Cuba,1800,50,17,False,False
+Cuba,1825,107,47,False,False
+Cuba,1850,140,51,False,False
+Cuba,1875,166,38,False,False
+Cuba,1900,446,61,False,False
+Cuba,1925,751,130,True,False
+Cyprus,1500,1,0,False,False
+Cyprus,1525,1,0,False,False
+Cyprus,1550,1,0,False,False
+Cyprus,1600,1,0,False,False
+Cyprus,1725,1,0,False,False
+Cyprus,1750,1,1,False,False
+Cyprus,1825,2,1,False,False
+Cyprus,1850,8,2,False,False
+Cyprus,1875,9,2,False,False
+Cyprus,1900,34,8,False,False
+Cyprus,1925,108,25,False,False
+Czech Republic,1500,11,2,False,False
+Czech Republic,1525,17,4,False,False
+Czech Republic,1550,22,4,False,False
+Czech Republic,1575,16,2,False,False
+Czech Republic,1600,15,2,False,False
+Czech Republic,1625,15,3,False,False
+Czech Republic,1650,21,5,False,False
+Czech Republic,1675,27,2,False,False
+Czech Republic,1700,39,0,False,False
+Czech Republic,1725,51,7,False,False
+Czech Republic,1750,67,8,False,False
+Czech Republic,1775,64,10,False,False
+Czech Republic,1800,125,26,False,False
+Czech Republic,1825,190,28,False,False
+Czech Republic,1850,300,42,False,False
+Czech Republic,1875,452,77,False,False
+Czech Republic,1900,744,126,True,False
+Czech Republic,1925,1044,163,True,False
+Czechoslovakia,1825,4,1,False,False
+Czechoslovakia,1850,44,16,False,False
+Czechoslovakia,1875,143,46,False,False
+Czechoslovakia,1900,196,30,False,False
+Czechoslovakia,1925,150,27,False,False
+Denmark,1500,28,5,False,False
+Denmark,1525,42,3,False,False
+Denmark,1550,41,7,False,False
+Denmark,1575,62,6,False,False
+Denmark,1600,86,10,False,False
+Denmark,1625,107,16,False,False
+Denmark,1650,97,21,False,False
+Denmark,1675,101,14,False,False
+Denmark,1700,137,26,False,False
+Denmark,1725,201,34,False,False
+Denmark,1750,234,42,False,False
+Denmark,1775,300,64,False,False
+Denmark,1800,635,95,False,False
+Denmark,1825,729,137,True,False
+Denmark,1850,1030,167,True,False
+Denmark,1875,1052,154,True,False
+Denmark,1900,1102,180,True,False
+Denmark,1925,1346,197,True,False
+Denmark-Norway,1550,1,0,False,False
+Denmark-Norway,1575,1,0,False,False
+Denmark-Norway,1600,2,1,False,False
+Denmark-Norway,1650,3,1,False,False
+Denmark-Norway,1675,3,0,False,False
+Denmark-Norway,1700,2,1,False,False
+Denmark-Norway,1725,1,0,False,False
+Denmark-Norway,1750,1,1,False,False
+Djibouti,1875,1,0,False,False
+Djibouti,1900,6,1,False,False
+Djibouti,1925,21,1,False,False
+Dominica,1525,1,0,False,False
+Dominica,1600,1,0,False,False
+Dominica,1650,1,1,False,False
+Dominica,1675,1,1,False,False
+Dominica,1700,3,0,False,False
+Dominica,1725,4,1,False,False
+Dominica,1750,3,2,False,False
+Dominica,1775,10,4,False,False
+Dominica,1800,32,16,False,False
+Dominica,1825,24,14,False,False
+Dominica,1850,29,12,False,False
+Dominica,1875,40,6,False,False
+Dominica,1900,118,24,False,False
+Dominica,1925,191,44,False,False
+Dominican Republic,1900,1,1,False,False
+Dominican Republic,1925,1,0,False,False
+Dominican republic,1725,1,0,False,False
+Dominican republic,1800,4,2,False,False
+Dominican republic,1825,2,1,False,False
+Dominican republic,1850,5,2,False,False
+Dominican republic,1875,5,1,False,False
+Dominican republic,1900,10,4,False,False
+Dominican republic,1925,21,5,False,False
+East Timor,1900,4,1,False,False
+East Timor,1925,28,7,False,False
+Ecuador,1575,2,0,False,False
+Ecuador,1625,2,1,False,False
+Ecuador,1650,1,0,False,False
+Ecuador,1700,4,0,False,False
+Ecuador,1725,7,3,False,False
+Ecuador,1750,10,5,False,False
+Ecuador,1775,20,7,False,False
+Ecuador,1800,32,13,False,False
+Ecuador,1825,42,15,False,False
+Ecuador,1850,51,20,False,False
+Ecuador,1875,84,36,False,False
+Ecuador,1900,172,43,False,False
+Ecuador,1925,369,91,False,False
+Egypt,1500,2,0,False,False
+Egypt,1525,3,1,False,False
+Egypt,1550,1,0,False,False
+Egypt,1575,2,0,False,False
+Egypt,1600,2,0,False,False
+Egypt,1700,3,0,False,False
+Egypt,1725,3,1,False,False
+Egypt,1750,8,1,False,False
+Egypt,1775,10,4,False,False
+Egypt,1800,20,8,False,False
+Egypt,1825,28,9,False,False
+Egypt,1850,67,22,False,False
+Egypt,1875,151,39,False,False
+Egypt,1900,326,69,False,False
+Egypt,1925,550,122,True,False
+El Salvador,1500,1,1,False,False
+El Salvador,1550,3,0,False,False
+El Salvador,1600,2,1,False,False
+El Salvador,1625,1,0,False,False
+El Salvador,1650,2,0,False,False
+El Salvador,1675,1,0,False,False
+El Salvador,1700,2,1,False,False
+El Salvador,1725,2,1,False,False
+El Salvador,1750,14,4,False,False
+El Salvador,1775,19,14,False,False
+El Salvador,1800,21,15,False,False
+El Salvador,1825,17,9,False,False
+El Salvador,1850,15,4,False,False
+El Salvador,1875,37,18,False,False
+El Salvador,1900,63,26,False,False
+El Salvador,1925,112,41,False,False
+England,1575,1,0,False,False
+England,1775,2,1,False,False
+Equatorial Guinea,1825,4,1,False,False
+Equatorial Guinea,1850,1,0,False,False
+Equatorial Guinea,1875,1,1,False,False
+Equatorial Guinea,1900,4,1,False,False
+Equatorial Guinea,1925,27,9,False,False
+Eritrea,1800,1,0,False,False
+Eritrea,1825,2,0,False,False
+Eritrea,1900,14,6,False,False
+Eritrea,1925,34,8,False,False
+Estonia,1500,1,1,False,False
+Estonia,1550,3,0,False,False
+Estonia,1575,2,0,False,False
+Estonia,1600,4,2,False,False
+Estonia,1625,2,1,False,False
+Estonia,1650,8,3,False,False
+Estonia,1675,6,3,False,False
+Estonia,1700,5,1,False,False
+Estonia,1725,9,1,False,False
+Estonia,1750,16,2,False,False
+Estonia,1775,29,8,False,False
+Estonia,1800,31,3,False,False
+Estonia,1825,49,8,False,False
+Estonia,1850,94,15,False,False
+Estonia,1875,295,73,False,False
+Estonia,1900,331,41,False,False
+Estonia,1925,375,82,False,False
+Ethiopia,1525,1,0,False,False
+Ethiopia,1550,1,0,False,False
+Ethiopia,1575,4,0,False,False
+Ethiopia,1600,1,0,False,False
+Ethiopia,1675,1,0,False,False
+Ethiopia,1725,3,0,False,False
+Ethiopia,1750,2,2,False,False
+Ethiopia,1775,6,1,False,False
+Ethiopia,1800,6,0,False,False
+Ethiopia,1825,7,1,False,False
+Ethiopia,1850,19,5,False,False
+Ethiopia,1875,27,8,False,False
+Ethiopia,1900,57,17,False,False
+Ethiopia,1925,111,22,False,False
+Federated States of Micronesia,1925,13,4,False,False
+Fiji,1750,1,0,False,False
+Fiji,1800,3,0,False,False
+Fiji,1825,2,1,False,False
+Fiji,1850,6,2,False,False
+Fiji,1875,10,3,False,False
+Fiji,1900,19,8,False,False
+Fiji,1925,97,30,False,False
+Finland,1500,3,0,False,False
+Finland,1525,4,2,False,False
+Finland,1550,5,0,False,False
+Finland,1575,6,1,False,False
+Finland,1600,19,4,False,False
+Finland,1625,17,2,False,False
+Finland,1650,13,1,False,False
+Finland,1675,30,5,False,False
+Finland,1700,47,8,False,False
+Finland,1725,61,14,False,False
+Finland,1750,65,13,False,False
+Finland,1775,109,17,False,False
+Finland,1800,181,42,False,False
+Finland,1825,318,78,False,False
+Finland,1850,782,273,True,False
+Finland,1875,1388,402,True,False
+Finland,1900,1426,262,True,False
+Finland,1925,1755,335,True,False
+France,1500,399,103,False,True
+France,1525,437,92,False,True
+France,1550,496,105,False,True
+France,1575,761,129,True,True
+France,1600,986,146,True,True
+France,1625,1064,182,True,True
+France,1650,1200,211,True,True
+France,1675,1151,186,True,True
+France,1700,1680,362,True,True
+France,1725,4220,1209,True,True
+France,1750,7048,1709,True,True
+France,1775,4873,1148,True,True
+France,1800,6980,1451,True,True
+France,1825,7099,1428,True,True
+France,1850,8700,1568,True,True
+France,1875,10047,1910,True,True
+France,1900,13805,2769,True,True
+France,1925,17244,2286,True,True
+Gabon,1725,1,1,False,False
+Gabon,1775,1,1,False,False
+Gabon,1800,1,0,False,False
+Gabon,1850,2,0,False,False
+Gabon,1875,3,0,False,False
+Gabon,1900,15,2,False,False
+Gabon,1925,59,13,False,False
+Gambia,1750,1,0,False,False
+Gambia,1775,1,0,False,False
+Gambia,1800,4,3,False,False
+Gambia,1825,5,2,False,False
+Gambia,1850,1,1,False,False
+Gambia,1875,4,3,False,False
+Gambia,1900,26,6,False,False
+Gambia,1925,55,9,False,False
+Georgia,1500,2,0,False,False
+Georgia,1525,2,0,False,False
+Georgia,1550,9,1,False,False
+Georgia,1575,7,1,False,False
+Georgia,1600,2,0,False,False
+Georgia,1625,2,0,False,False
+Georgia,1650,9,0,False,False
+Georgia,1675,9,1,False,False
+Georgia,1700,8,1,False,False
+Georgia,1725,12,3,False,False
+Georgia,1750,24,5,False,False
+Georgia,1775,25,4,False,False
+Georgia,1800,45,13,False,False
+Georgia,1825,44,10,False,False
+Georgia,1850,84,25,False,False
+Georgia,1875,140,31,False,False
+Georgia,1900,126,24,False,False
+Georgia,1925,243,54,False,False
+Germany,1500,673,131,True,True
+Germany,1525,789,119,False,True
+Germany,1550,849,166,True,True
+Germany,1575,1039,175,True,True
+Germany,1600,1082,185,True,True
+Germany,1625,1230,219,True,True
+Germany,1650,1434,283,True,True
+Germany,1675,1749,314,True,True
+Germany,1700,2148,407,True,True
+Germany,1725,2585,490,True,True
+Germany,1750,4084,813,True,True
+Germany,1775,5567,1174,True,True
+Germany,1800,10204,2160,True,True
+Germany,1825,11943,2526,True,True
+Germany,1850,17071,3320,True,True
+Germany,1875,28190,5681,True,True
+Germany,1900,29891,6214,True,True
+Germany,1925,40571,6418,True,True
+Ghana,1625,2,1,False,False
+Ghana,1650,1,1,False,False
+Ghana,1700,3,0,False,False
+Ghana,1725,4,1,False,False
+Ghana,1750,4,1,False,False
+Ghana,1775,3,1,False,False
+Ghana,1800,4,0,False,False
+Ghana,1825,3,2,False,False
+Ghana,1850,12,6,False,False
+Ghana,1875,20,5,False,False
+Ghana,1900,122,25,False,False
+Ghana,1925,292,88,False,False
+Greece,1500,13,2,False,False
+Greece,1525,12,2,False,False
+Greece,1550,14,3,False,False
+Greece,1575,9,2,False,False
+Greece,1600,12,2,False,False
+Greece,1625,11,2,False,False
+Greece,1650,11,2,False,False
+Greece,1675,4,1,False,False
+Greece,1700,13,2,False,False
+Greece,1725,16,2,False,False
+Greece,1750,71,32,False,False
+Greece,1775,133,72,False,False
+Greece,1800,113,34,False,False
+Greece,1825,137,36,False,False
+Greece,1850,262,76,False,False
+Greece,1875,392,126,True,False
+Greece,1900,571,113,False,False
+Greece,1925,860,176,True,False
+Grenada,1500,5,1,False,False
+Grenada,1525,4,1,False,False
+Grenada,1550,1,1,False,False
+Grenada,1575,4,2,False,False
+Grenada,1600,1,1,False,False
+Grenada,1625,5,2,False,False
+Grenada,1650,4,2,False,False
+Grenada,1675,1,0,False,False
+Grenada,1700,1,0,False,False
+Grenada,1725,4,2,False,False
+Grenada,1750,7,4,False,False
+Grenada,1775,5,2,False,False
+Grenada,1800,4,3,False,False
+Grenada,1825,5,2,False,False
+Grenada,1850,4,1,False,False
+Grenada,1875,2,0,False,False
+Grenada,1900,18,5,False,False
+Grenada,1925,30,11,False,False
+Guatemala,1525,1,0,False,False
+Guatemala,1550,2,0,False,False
+Guatemala,1575,2,0,False,False
+Guatemala,1625,2,1,False,False
+Guatemala,1675,2,0,False,False
+Guatemala,1700,1,1,False,False
+Guatemala,1725,3,0,False,False
+Guatemala,1750,7,4,False,False
+Guatemala,1775,19,9,False,False
+Guatemala,1800,22,9,False,False
+Guatemala,1825,18,5,False,False
+Guatemala,1850,33,19,False,False
+Guatemala,1875,60,18,False,False
+Guatemala,1900,102,34,False,False
+Guatemala,1925,156,51,False,False
+Guinea,1675,1,0,False,False
+Guinea,1700,1,0,False,False
+Guinea,1725,1,0,False,False
+Guinea,1750,2,0,False,False
+Guinea,1775,1,0,False,False
+Guinea,1800,1,0,False,False
+Guinea,1825,5,3,False,False
+Guinea,1850,7,2,False,False
+Guinea,1875,1,0,False,False
+Guinea,1900,31,6,False,False
+Guinea,1925,126,32,False,False
+Guinea-Bissau,1900,1,1,False,False
+Guinea-Bissau,1925,10,3,False,False
+Guyana,1875,1,1,False,False
+Guyana,1900,11,3,False,False
+Guyana,1925,30,8,False,False
+Haiti,1725,4,4,False,False
+Haiti,1750,19,16,False,False
+Haiti,1775,22,11,False,False
+Haiti,1800,19,9,False,False
+Haiti,1825,25,10,False,False
+Haiti,1850,36,13,False,False
+Haiti,1875,34,15,False,False
+Haiti,1900,93,30,False,False
+Haiti,1925,178,36,False,False
+Holy Roman Empire,1500,10,2,False,False
+Holy Roman Empire,1525,13,4,False,False
+Holy Roman Empire,1550,17,4,False,False
+Holy Roman Empire,1575,15,1,False,False
+Holy Roman Empire,1600,12,2,False,False
+Holy Roman Empire,1625,11,1,False,False
+Holy Roman Empire,1650,8,2,False,False
+Holy Roman Empire,1675,14,0,False,False
+Holy Roman Empire,1700,22,5,False,False
+Holy Roman Empire,1725,27,6,False,False
+Holy Roman Empire,1750,36,8,False,False
+Holy Roman Empire,1775,421,89,False,False
+Holy Roman Empire,1800,378,67,False,False
+Honduras,1750,1,1,False,False
+Honduras,1775,22,11,False,False
+Honduras,1800,20,8,False,False
+Honduras,1825,15,6,False,False
+Honduras,1850,27,9,False,False
+Honduras,1875,36,13,False,False
+Honduras,1900,31,8,False,False
+Honduras,1925,100,26,False,False
+Hong Kong,1800,13,9,False,False
+Hong Kong,1825,19,12,False,False
+Hong Kong,1850,46,24,False,False
+Hong Kong,1875,52,21,False,False
+Hong Kong,1900,120,43,False,False
+Hong Kong,1925,262,67,False,False
+Hungary,1500,23,4,False,False
+Hungary,1525,21,3,False,False
+Hungary,1550,30,9,False,False
+Hungary,1575,18,1,False,False
+Hungary,1600,15,5,False,False
+Hungary,1625,21,4,False,False
+Hungary,1650,23,2,False,False
+Hungary,1675,19,2,False,False
+Hungary,1700,50,10,False,False
+Hungary,1725,57,13,False,False
+Hungary,1750,80,15,False,False
+Hungary,1775,108,28,False,False
+Hungary,1800,261,74,False,False
+Hungary,1825,350,88,False,False
+Hungary,1850,557,99,False,False
+Hungary,1875,953,195,True,False
+Hungary,1900,1044,206,True,False
+Hungary,1925,1129,198,True,False
+Iceland,1500,3,1,False,False
+Iceland,1525,5,0,False,False
+Iceland,1550,5,0,False,False
+Iceland,1575,5,2,False,False
+Iceland,1600,7,1,False,False
+Iceland,1625,8,2,False,False
+Iceland,1650,7,1,False,False
+Iceland,1675,3,0,False,False
+Iceland,1700,11,1,False,False
+Iceland,1725,13,3,False,False
+Iceland,1750,12,2,False,False
+Iceland,1775,17,5,False,False
+Iceland,1800,22,9,False,False
+Iceland,1825,30,8,False,False
+Iceland,1850,53,15,False,False
+Iceland,1875,83,15,False,False
+Iceland,1900,128,20,False,False
+Iceland,1925,222,36,False,False
+India,1500,27,2,False,False
+India,1525,29,5,False,False
+India,1550,32,4,False,False
+India,1575,22,2,False,False
+India,1600,45,4,False,False
+India,1625,31,4,False,False
+India,1650,38,8,False,False
+India,1675,37,6,False,False
+India,1700,77,18,False,False
+India,1725,90,25,False,False
+India,1750,92,33,False,False
+India,1775,145,36,False,False
+India,1800,226,63,False,False
+India,1825,394,97,False,False
+India,1850,787,186,True,False
+India,1875,1747,433,True,False
+India,1900,4098,774,True,False
+India,1925,7197,1259,True,False
+Indonesia,1575,4,0,False,False
+Indonesia,1600,4,0,False,False
+Indonesia,1625,3,0,False,False
+Indonesia,1650,1,0,False,False
+Indonesia,1700,4,2,False,False
+Indonesia,1725,2,1,False,False
+Indonesia,1750,6,0,False,False
+Indonesia,1775,6,1,False,False
+Indonesia,1800,15,3,False,False
+Indonesia,1825,11,2,False,False
+Indonesia,1850,19,7,False,False
+Indonesia,1875,80,19,False,False
+Indonesia,1900,312,81,False,False
+Indonesia,1925,521,110,False,False
+Iran,1500,10,2,False,False
+Iran,1525,16,2,False,False
+Iran,1550,15,2,False,False
+Iran,1575,12,0,False,False
+Iran,1600,8,1,False,False
+Iran,1625,7,0,False,False
+Iran,1650,5,0,False,False
+Iran,1675,4,2,False,False
+Iran,1700,10,1,False,False
+Iran,1725,11,3,False,False
+Iran,1750,16,1,False,False
+Iran,1775,21,3,False,False
+Iran,1800,39,4,False,False
+Iran,1825,41,18,False,False
+Iran,1850,74,19,False,False
+Iran,1875,192,44,False,False
+Iran,1900,369,99,False,False
+Iran,1925,1010,292,True,False
+Iraq,1500,1,0,False,False
+Iraq,1575,1,0,False,False
+Iraq,1650,1,0,False,False
+Iraq,1725,1,0,False,False
+Iraq,1750,3,0,False,False
+Iraq,1775,4,1,False,False
+Iraq,1800,6,1,False,False
+Iraq,1825,13,1,False,False
+Iraq,1850,17,2,False,False
+Iraq,1875,67,19,False,False
+Iraq,1900,105,25,False,False
+Iraq,1925,306,75,False,False
+Ireland,1500,29,3,False,False
+Ireland,1525,45,6,False,False
+Ireland,1550,73,11,False,False
+Ireland,1575,96,15,False,False
+Ireland,1600,104,17,False,False
+Ireland,1625,132,21,False,False
+Ireland,1650,192,37,False,False
+Ireland,1675,223,27,False,False
+Ireland,1700,264,34,False,False
+Ireland,1725,370,45,False,False
+Ireland,1750,408,86,False,False
+Ireland,1775,402,77,False,False
+Ireland,1800,629,106,False,False
+Ireland,1825,878,186,True,False
+Ireland,1850,890,209,True,False
+Ireland,1875,1225,365,True,False
+Ireland,1900,1138,246,True,False
+Ireland,1925,1734,313,True,False
+Israel,1500,2,0,False,False
+Israel,1550,1,0,False,False
+Israel,1575,1,0,False,False
+Israel,1600,1,0,False,False
+Israel,1625,2,0,False,False
+Israel,1650,1,0,False,False
+Israel,1700,1,0,False,False
+Israel,1725,1,0,False,False
+Israel,1750,2,0,False,False
+Israel,1775,4,0,False,False
+Israel,1800,7,1,False,False
+Israel,1825,13,2,False,False
+Israel,1850,27,8,False,False
+Israel,1875,313,97,False,False
+Israel,1900,1016,288,True,False
+Israel,1925,1902,488,True,False
+Italy,1500,777,111,False,True
+Italy,1525,808,101,False,True
+Italy,1550,907,74,False,True
+Italy,1575,936,70,False,True
+Italy,1600,936,74,False,True
+Italy,1625,771,66,False,True
+Italy,1650,906,89,False,True
+Italy,1675,922,80,False,True
+Italy,1700,981,91,False,True
+Italy,1725,1108,153,True,True
+Italy,1750,1194,167,True,True
+Italy,1775,1004,180,True,True
+Italy,1800,2483,489,True,True
+Italy,1825,3284,682,True,True
+Italy,1850,4278,984,True,True
+Italy,1875,7067,1436,True,True
+Italy,1900,10237,2069,True,True
+Italy,1925,13796,1893,True,True
+Ivory Coast,1700,1,0,False,False
+Ivory Coast,1825,1,0,False,False
+Ivory Coast,1850,1,0,False,False
+Ivory Coast,1875,3,1,False,False
+Ivory Coast,1900,22,7,False,False
+Ivory Coast,1925,113,28,False,False
+Jamaica,1600,1,0,False,False
+Jamaica,1625,3,2,False,False
+Jamaica,1650,1,1,False,False
+Jamaica,1675,1,0,False,False
+Jamaica,1700,4,1,False,False
+Jamaica,1725,5,1,False,False
+Jamaica,1750,4,2,False,False
+Jamaica,1775,12,2,False,False
+Jamaica,1800,6,1,False,False
+Jamaica,1825,8,3,False,False
+Jamaica,1850,15,2,False,False
+Jamaica,1875,37,15,False,False
+Jamaica,1900,105,17,False,False
+Jamaica,1925,368,27,False,False
+Japan,1500,118,7,False,False
+Japan,1525,237,19,False,False
+Japan,1550,194,18,False,False
+Japan,1575,102,9,False,False
+Japan,1600,78,12,False,False
+Japan,1625,70,6,False,False
+Japan,1650,67,6,False,False
+Japan,1675,45,1,False,False
+Japan,1700,60,5,False,False
+Japan,1725,105,12,False,False
+Japan,1750,91,12,False,False
+Japan,1775,117,14,False,False
+Japan,1800,131,18,False,False
+Japan,1825,414,110,False,False
+Japan,1850,734,158,True,False
+Japan,1875,1454,247,True,False
+Japan,1900,1851,280,True,False
+Japan,1925,3691,456,True,False
+Jordan,1525,1,0,False,False
+Jordan,1550,1,0,False,False
+Jordan,1750,2,0,False,False
+Jordan,1775,2,1,False,False
+Jordan,1800,1,0,False,False
+Jordan,1825,3,1,False,False
+Jordan,1850,4,1,False,False
+Jordan,1875,15,4,False,False
+Jordan,1900,41,9,False,False
+Jordan,1925,139,46,False,False
+Kazakhstan,1650,1,0,False,False
+Kazakhstan,1675,3,3,False,False
+Kazakhstan,1700,5,1,False,False
+Kazakhstan,1775,1,0,False,False
+Kazakhstan,1800,2,0,False,False
+Kazakhstan,1825,3,0,False,False
+Kazakhstan,1850,4,2,False,False
+Kazakhstan,1875,12,3,False,False
+Kazakhstan,1900,21,3,False,False
+Kazakhstan,1925,86,28,False,False
+Kenya,1800,1,0,False,False
+Kenya,1825,2,0,False,False
+Kenya,1850,8,1,False,False
+Kenya,1875,10,3,False,False
+Kenya,1900,61,9,False,False
+Kenya,1925,224,50,False,False
+Kiribati,1900,1,0,False,False
+Kiribati,1925,5,0,False,False
+Korean Peninsula,1500,8,1,False,False
+Korean Peninsula,1525,23,9,False,False
+Korean Peninsula,1550,18,8,False,False
+Korean Peninsula,1575,6,3,False,False
+Korean Peninsula,1600,9,5,False,False
+Korean Peninsula,1625,7,5,False,False
+Korean Peninsula,1650,2,0,False,False
+Korean Peninsula,1675,3,1,False,False
+Korean Peninsula,1700,4,2,False,False
+Korean Peninsula,1725,8,0,False,False
+Korean Peninsula,1750,6,1,False,False
+Korean Peninsula,1775,4,0,False,False
+Korean Peninsula,1800,6,1,False,False
+Korean Peninsula,1825,7,3,False,False
+Korean Peninsula,1850,11,7,False,False
+Korean Peninsula,1875,13,6,False,False
+Korean Peninsula,1900,2,2,False,False
+Kosovo,1800,1,1,False,False
+Kosovo,1850,1,0,False,False
+Kosovo,1875,8,3,False,False
+Kosovo,1900,12,3,False,False
+Kosovo,1925,55,18,False,False
+Kurdistan,1575,1,0,False,False
+Kurdistan,1650,1,0,False,False
+Kurdistan,1700,2,0,False,False
+Kurdistan,1725,1,0,False,False
+Kurdistan,1775,3,0,False,False
+Kurdistan,1800,2,0,False,False
+Kurdistan,1825,2,0,False,False
+Kurdistan,1850,6,1,False,False
+Kurdistan,1875,11,2,False,False
+Kurdistan,1900,11,2,False,False
+Kurdistan,1925,30,3,False,False
+Kuwait,1700,1,0,False,False
+Kuwait,1725,1,0,False,False
+Kuwait,1750,2,2,False,False
+Kuwait,1775,1,0,False,False
+Kuwait,1800,1,0,False,False
+Kuwait,1825,2,0,False,False
+Kuwait,1850,4,2,False,False
+Kuwait,1875,5,1,False,False
+Kuwait,1900,7,2,False,False
+Kuwait,1925,73,26,False,False
+Kyrgyzstan,1725,1,1,False,False
+Kyrgyzstan,1825,1,0,False,False
+Kyrgyzstan,1850,1,0,False,False
+Kyrgyzstan,1875,2,0,False,False
+Kyrgyzstan,1900,9,2,False,False
+Kyrgyzstan,1925,31,9,False,False
+Laos,1525,1,0,False,False
+Laos,1725,1,0,False,False
+Laos,1750,1,0,False,False
+Laos,1775,2,1,False,False
+Laos,1800,2,0,False,False
+Laos,1825,2,0,False,False
+Laos,1850,1,1,False,False
+Laos,1875,6,0,False,False
+Laos,1900,16,4,False,False
+Laos,1925,20,4,False,False
+Latvia,1500,3,1,False,False
+Latvia,1525,2,0,False,False
+Latvia,1550,2,1,False,False
+Latvia,1575,3,0,False,False
+Latvia,1600,2,0,False,False
+Latvia,1625,2,1,False,False
+Latvia,1650,5,0,False,False
+Latvia,1675,5,2,False,False
+Latvia,1700,12,4,False,False
+Latvia,1725,15,1,False,False
+Latvia,1750,9,0,False,False
+Latvia,1775,16,5,False,False
+Latvia,1800,24,4,False,False
+Latvia,1825,37,5,False,False
+Latvia,1850,116,15,False,False
+Latvia,1875,212,49,False,False
+Latvia,1900,167,26,False,False
+Latvia,1925,171,34,False,False
+Lebanon,1500,1,0,False,False
+Lebanon,1550,2,1,False,False
+Lebanon,1575,3,1,False,False
+Lebanon,1600,1,0,False,False
+Lebanon,1625,2,0,False,False
+Lebanon,1650,2,1,False,False
+Lebanon,1675,3,1,False,False
+Lebanon,1700,4,0,False,False
+Lebanon,1725,2,0,False,False
+Lebanon,1750,5,1,False,False
+Lebanon,1775,5,0,False,False
+Lebanon,1800,18,5,False,False
+Lebanon,1825,17,2,False,False
+Lebanon,1850,38,17,False,False
+Lebanon,1875,74,14,False,False
+Lebanon,1900,164,33,False,False
+Lebanon,1925,393,92,False,False
+Lesotho,1775,1,0,False,False
+Lesotho,1875,1,0,False,False
+Lesotho,1900,4,0,False,False
+Lesotho,1925,15,4,False,False
+Liberia,1775,10,4,False,False
+Liberia,1800,20,5,False,False
+Liberia,1825,16,7,False,False
+Liberia,1850,15,4,False,False
+Liberia,1875,18,1,False,False
+Liberia,1900,22,6,False,False
+Liberia,1925,58,18,False,False
+Libya,1675,1,1,False,False
+Libya,1725,2,0,False,False
+Libya,1800,2,1,False,False
+Libya,1825,1,0,False,False
+Libya,1850,4,1,False,False
+Libya,1875,7,2,False,False
+Libya,1900,14,1,False,False
+Libya,1925,63,20,False,False
+Liechtenstein,1575,3,0,False,False
+Liechtenstein,1600,1,0,False,False
+Liechtenstein,1625,1,0,False,False
+Liechtenstein,1700,2,1,False,False
+Liechtenstein,1725,2,0,False,False
+Liechtenstein,1775,3,1,False,False
+Liechtenstein,1800,6,4,False,False
+Liechtenstein,1825,11,4,False,False
+Liechtenstein,1850,22,6,False,False
+Liechtenstein,1875,39,7,False,False
+Liechtenstein,1900,34,10,False,False
+Liechtenstein,1925,43,11,False,False
+Lithuania,1500,16,4,False,False
+Lithuania,1525,24,7,False,False
+Lithuania,1550,21,2,False,False
+Lithuania,1575,49,13,False,False
+Lithuania,1600,31,7,False,False
+Lithuania,1625,23,4,False,False
+Lithuania,1650,19,4,False,False
+Lithuania,1675,18,8,False,False
+Lithuania,1700,28,5,False,False
+Lithuania,1725,38,8,False,False
+Lithuania,1750,16,2,False,False
+Lithuania,1775,16,3,False,False
+Lithuania,1800,18,3,False,False
+Lithuania,1825,29,9,False,False
+Lithuania,1850,95,30,False,False
+Lithuania,1875,217,80,False,False
+Lithuania,1900,229,55,False,False
+Lithuania,1925,750,285,True,False
+Luxembourg,1500,4,2,False,False
+Luxembourg,1525,1,0,False,False
+Luxembourg,1575,4,3,False,False
+Luxembourg,1600,2,0,False,False
+Luxembourg,1625,5,1,False,False
+Luxembourg,1650,4,0,False,False
+Luxembourg,1675,4,0,False,False
+Luxembourg,1700,3,2,False,False
+Luxembourg,1725,5,1,False,False
+Luxembourg,1750,12,4,False,False
+Luxembourg,1775,19,3,False,False
+Luxembourg,1800,38,10,False,False
+Luxembourg,1825,32,8,False,False
+Luxembourg,1850,54,9,False,False
+Luxembourg,1875,89,17,False,False
+Luxembourg,1900,109,18,False,False
+Luxembourg,1925,152,30,False,False
+Macedonia,1650,1,0,False,False
+Macedonia,1700,1,0,False,False
+Macedonia,1725,1,0,False,False
+Macedonia,1750,3,0,False,False
+Macedonia,1775,1,0,False,False
+Macedonia,1825,5,2,False,False
+Macedonia,1850,18,9,False,False
+Macedonia,1875,38,18,False,False
+Macedonia,1900,73,17,False,False
+Macedonia,1925,108,26,False,False
+Madagascar,1650,1,0,False,False
+Madagascar,1725,1,0,False,False
+Madagascar,1775,1,0,False,False
+Madagascar,1800,2,0,False,False
+Madagascar,1825,2,0,False,False
+Madagascar,1850,2,0,False,False
+Madagascar,1875,4,1,False,False
+Madagascar,1900,18,4,False,False
+Madagascar,1925,59,17,False,False
+Malawi,1850,7,3,False,False
+Malawi,1875,3,0,False,False
+Malawi,1900,11,3,False,False
+Malawi,1925,64,14,False,False
+Malaysia,1550,1,0,False,False
+Malaysia,1575,1,0,False,False
+Malaysia,1625,1,0,False,False
+Malaysia,1675,2,0,False,False
+Malaysia,1725,1,0,False,False
+Malaysia,1750,1,0,False,False
+Malaysia,1775,4,2,False,False
+Malaysia,1800,16,2,False,False
+Malaysia,1825,17,5,False,False
+Malaysia,1850,20,7,False,False
+Malaysia,1875,45,9,False,False
+Malaysia,1900,159,35,False,False
+Malaysia,1925,397,104,False,False
+Maldives,1575,1,0,False,False
+Maldives,1850,2,0,False,False
+Maldives,1875,2,0,False,False
+Maldives,1900,10,3,False,False
+Maldives,1925,12,1,False,False
+Mali,1500,1,0,False,False
+Mali,1550,2,1,False,False
+Mali,1725,1,0,False,False
+Mali,1750,1,0,False,False
+Mali,1775,1,0,False,False
+Mali,1800,1,0,False,False
+Mali,1825,5,1,False,False
+Mali,1850,2,0,False,False
+Mali,1875,5,1,False,False
+Mali,1900,17,6,False,False
+Mali,1925,108,20,False,False
+Malta,1500,1,0,False,False
+Malta,1525,1,1,False,False
+Malta,1550,3,2,False,False
+Malta,1575,8,0,False,False
+Malta,1600,3,1,False,False
+Malta,1625,7,1,False,False
+Malta,1650,8,0,False,False
+Malta,1675,11,2,False,False
+Malta,1700,11,4,False,False
+Malta,1725,11,4,False,False
+Malta,1750,18,6,False,False
+Malta,1775,12,2,False,False
+Malta,1800,17,2,False,False
+Malta,1825,20,5,False,False
+Malta,1850,34,8,False,False
+Malta,1875,42,7,False,False
+Malta,1900,66,17,False,False
+Malta,1925,123,22,False,False
+Marshall Islands,1850,1,0,False,False
+Marshall Islands,1925,7,5,False,False
+Mauritania,1775,1,0,False,False
+Mauritania,1850,1,0,False,False
+Mauritania,1875,2,1,False,False
+Mauritania,1900,6,2,False,False
+Mauritania,1925,33,13,False,False
+Mauritius,1600,1,1,False,False
+Mauritius,1650,1,0,False,False
+Mauritius,1700,2,2,False,False
+Mauritius,1750,3,1,False,False
+Mauritius,1775,3,0,False,False
+Mauritius,1800,11,1,False,False
+Mauritius,1825,9,1,False,False
+Mauritius,1850,12,2,False,False
+Mauritius,1875,10,2,False,False
+Mauritius,1900,43,9,False,False
+Mauritius,1925,52,10,False,False
+Mexico,1500,10,4,False,False
+Mexico,1525,18,1,False,False
+Mexico,1550,25,4,False,False
+Mexico,1575,8,0,False,False
+Mexico,1600,9,0,False,False
+Mexico,1625,16,1,False,False
+Mexico,1650,9,2,False,False
+Mexico,1675,15,3,False,False
+Mexico,1700,20,5,False,False
+Mexico,1725,26,9,False,False
+Mexico,1750,104,48,False,False
+Mexico,1775,250,117,False,False
+Mexico,1800,307,113,False,False
+Mexico,1825,400,166,True,False
+Mexico,1850,507,192,True,False
+Mexico,1875,1210,464,True,False
+Mexico,1900,1593,343,True,False
+Mexico,1925,2773,515,True,False
+Moldova,1550,1,0,False,False
+Moldova,1575,2,0,False,False
+Moldova,1600,1,0,False,False
+Moldova,1625,1,1,False,False
+Moldova,1675,1,0,False,False
+Moldova,1700,4,0,False,False
+Moldova,1725,3,0,False,False
+Moldova,1750,4,1,False,False
+Moldova,1775,3,1,False,False
+Moldova,1800,10,4,False,False
+Moldova,1825,10,4,False,False
+Moldova,1850,8,3,False,False
+Moldova,1875,26,3,False,False
+Moldova,1900,23,5,False,False
+Moldova,1925,126,50,False,False
+Monaco,1500,3,0,False,False
+Monaco,1550,2,0,False,False
+Monaco,1575,2,0,False,False
+Monaco,1600,3,0,False,False
+Monaco,1650,2,1,False,False
+Monaco,1675,3,1,False,False
+Monaco,1700,5,0,False,False
+Monaco,1725,2,0,False,False
+Monaco,1750,3,0,False,False
+Monaco,1775,1,0,False,False
+Monaco,1800,5,1,False,False
+Monaco,1850,9,1,False,False
+Monaco,1875,8,1,False,False
+Monaco,1900,20,2,False,False
+Monaco,1925,22,8,False,False
+Mongolia,1525,2,1,False,False
+Mongolia,1550,1,0,False,False
+Mongolia,1575,3,0,False,False
+Mongolia,1625,1,0,False,False
+Mongolia,1700,3,1,False,False
+Mongolia,1725,1,0,False,False
+Mongolia,1750,1,1,False,False
+Mongolia,1775,2,0,False,False
+Mongolia,1800,2,0,False,False
+Mongolia,1825,2,0,False,False
+Mongolia,1850,10,5,False,False
+Mongolia,1875,30,5,False,False
+Mongolia,1900,41,10,False,False
+Mongolia,1925,53,6,False,False
+Montenegro,1650,3,2,False,False
+Montenegro,1675,2,2,False,False
+Montenegro,1700,2,0,False,False
+Montenegro,1725,2,0,False,False
+Montenegro,1750,3,1,False,False
+Montenegro,1775,1,1,False,False
+Montenegro,1800,5,2,False,False
+Montenegro,1825,11,2,False,False
+Montenegro,1850,15,7,False,False
+Montenegro,1875,24,9,False,False
+Montenegro,1900,36,11,False,False
+Montenegro,1925,53,12,False,False
+Morocco,1500,3,1,False,False
+Morocco,1525,6,1,False,False
+Morocco,1550,9,5,False,False
+Morocco,1575,8,1,False,False
+Morocco,1600,2,0,False,False
+Morocco,1625,7,1,False,False
+Morocco,1650,5,1,False,False
+Morocco,1675,8,0,False,False
+Morocco,1700,4,0,False,False
+Morocco,1725,11,3,False,False
+Morocco,1750,8,0,False,False
+Morocco,1775,7,3,False,False
+Morocco,1800,5,0,False,False
+Morocco,1825,16,6,False,False
+Morocco,1850,18,8,False,False
+Morocco,1875,31,10,False,False
+Morocco,1900,123,39,False,False
+Morocco,1925,365,82,False,False
+Mozambique,1725,1,0,False,False
+Mozambique,1825,1,0,False,False
+Mozambique,1850,3,0,False,False
+Mozambique,1875,2,0,False,False
+Mozambique,1900,9,1,False,False
+Mozambique,1925,64,12,False,False
+Myanmar,1500,4,0,False,False
+Myanmar,1525,3,0,False,False
+Myanmar,1550,3,0,False,False
+Myanmar,1575,2,0,False,False
+Myanmar,1650,1,0,False,False
+Myanmar,1675,2,1,False,False
+Myanmar,1700,4,0,False,False
+Myanmar,1725,2,0,False,False
+Myanmar,1750,3,1,False,False
+Myanmar,1775,5,2,False,False
+Myanmar,1800,9,0,False,False
+Myanmar,1825,6,0,False,False
+Myanmar,1850,30,8,False,False
+Myanmar,1875,49,13,False,False
+Myanmar,1900,132,41,False,False
+Myanmar,1925,225,70,False,False
+Namibia,1750,2,0,False,False
+Namibia,1775,1,0,False,False
+Namibia,1800,3,0,False,False
+Namibia,1825,2,0,False,False
+Namibia,1850,2,0,False,False
+Namibia,1875,6,4,False,False
+Namibia,1900,22,9,False,False
+Namibia,1925,133,53,False,False
+Nauru,1900,2,1,False,False
+Nauru,1925,12,0,False,False
+Nepal,1700,5,2,False,False
+Nepal,1725,4,2,False,False
+Nepal,1750,6,3,False,False
+Nepal,1775,13,3,False,False
+Nepal,1800,6,3,False,False
+Nepal,1825,5,4,False,False
+Nepal,1850,9,3,False,False
+Nepal,1875,28,8,False,False
+Nepal,1900,93,24,False,False
+Nepal,1925,160,36,False,False
+Netherlands,1500,156,18,False,False
+Netherlands,1525,223,38,False,False
+Netherlands,1550,317,62,False,False
+Netherlands,1575,513,85,False,False
+Netherlands,1600,727,102,False,False
+Netherlands,1625,632,85,False,False
+Netherlands,1650,352,44,False,False
+Netherlands,1675,203,24,False,False
+Netherlands,1700,206,34,False,False
+Netherlands,1725,304,66,False,False
+Netherlands,1750,338,82,False,False
+Netherlands,1775,261,57,False,False
+Netherlands,1800,416,74,False,False
+Netherlands,1825,412,94,False,False
+Netherlands,1850,678,130,True,False
+Netherlands,1875,1001,180,True,False
+Netherlands,1900,1433,274,True,False
+Netherlands,1925,2414,390,True,False
+New Zealand,1750,3,1,False,True
+New Zealand,1775,46,20,False,True
+New Zealand,1800,431,147,True,True
+New Zealand,1825,808,268,True,True
+New Zealand,1850,902,237,True,True
+New Zealand,1875,1174,366,True,True
+New Zealand,1900,1207,290,True,True
+New Zealand,1925,1524,255,True,True
+Nicaragua,1525,2,0,False,False
+Nicaragua,1600,1,0,False,False
+Nicaragua,1750,1,1,False,False
+Nicaragua,1775,17,4,False,False
+Nicaragua,1800,30,7,False,False
+Nicaragua,1825,8,6,False,False
+Nicaragua,1850,28,9,False,False
+Nicaragua,1875,27,7,False,False
+Nicaragua,1900,50,14,False,False
+Nicaragua,1925,118,38,False,False
+Niger,1825,2,0,False,False
+Niger,1850,2,0,False,False
+Niger,1875,2,0,False,False
+Niger,1900,29,8,False,False
+Niger,1925,87,38,False,False
+Nigeria,1525,1,0,False,False
+Nigeria,1550,1,0,False,False
+Nigeria,1575,1,0,False,False
+Nigeria,1700,1,0,False,False
+Nigeria,1725,1,0,False,False
+Nigeria,1750,3,0,False,False
+Nigeria,1775,11,3,False,False
+Nigeria,1800,12,3,False,False
+Nigeria,1825,16,8,False,False
+Nigeria,1850,44,17,False,False
+Nigeria,1875,52,14,False,False
+Nigeria,1900,247,72,False,False
+Nigeria,1925,929,306,True,False
+North Korea,1875,2,1,False,False
+North Korea,1900,44,21,False,False
+North Korea,1925,102,37,False,False
+Northern Cyprus,1900,3,1,False,False
+Northern Cyprus,1925,21,3,False,False
+Norway,1500,9,2,False,True
+Norway,1525,10,1,False,True
+Norway,1550,6,1,False,True
+Norway,1575,9,0,False,True
+Norway,1600,23,7,False,True
+Norway,1625,33,3,False,True
+Norway,1650,34,7,False,True
+Norway,1675,31,7,False,True
+Norway,1700,40,8,False,True
+Norway,1725,83,20,False,True
+Norway,1750,195,96,False,True
+Norway,1775,321,142,True,True
+Norway,1800,457,144,True,True
+Norway,1825,711,195,True,True
+Norway,1850,1247,343,True,True
+Norway,1875,1794,491,True,True
+Norway,1900,2374,561,True,True
+Norway,1925,2916,573,True,True
+Oman,1700,2,0,False,False
+Oman,1775,1,0,False,False
+Oman,1800,1,0,False,False
+Oman,1825,2,0,False,False
+Oman,1850,2,0,False,False
+Oman,1875,1,0,False,False
+Oman,1900,3,1,False,False
+Oman,1925,3,2,False,False
+Overseas Territories of France,1900,1,0,False,False
+Overseas Territories of France,1925,1,0,False,False
+Overseas Territories of Netherlands,1825,1,0,False,False
+Overseas Territories of Netherlands,1875,3,0,False,False
+Overseas Territories of Netherlands,1900,1,0,False,False
+Overseas Territories of Netherlands,1925,1,0,False,False
+Overseas Territories of New Zealand,1900,4,0,False,False
+Overseas Territories of New Zealand,1925,6,2,False,False
+Overseas Territories of US,1775,1,0,False,False
+Overseas Territories of US,1800,1,1,False,False
+Overseas Territories of US,1825,2,0,False,False
+Overseas Territories of US,1850,3,2,False,False
+Overseas Territories of US,1875,1,1,False,False
+Overseas Territories of US,1900,12,1,False,False
+Overseas Territories of US,1925,22,1,False,False
+Overseas Territories of United Kingdom,1650,1,0,False,False
+Overseas Territories of United Kingdom,1850,1,0,False,False
+Overseas Territories of United Kingdom,1875,1,1,False,False
+Overseas Territories of United Kingdom,1900,3,2,False,False
+Overseas Territories of United Kingdom,1925,5,2,False,False
+Pakistan,1525,3,0,False,False
+Pakistan,1550,2,0,False,False
+Pakistan,1600,3,0,False,False
+Pakistan,1625,1,0,False,False
+Pakistan,1675,1,0,False,False
+Pakistan,1700,3,0,False,False
+Pakistan,1725,3,0,False,False
+Pakistan,1750,2,0,False,False
+Pakistan,1775,2,0,False,False
+Pakistan,1800,3,1,False,False
+Pakistan,1825,10,0,False,False
+Pakistan,1850,18,6,False,False
+Pakistan,1875,110,26,False,False
+Pakistan,1900,450,125,True,False
+Pakistan,1925,1185,273,True,False
+Palau,1900,2,1,False,False
+Palau,1925,16,4,False,False
+Palestine,1500,4,0,False,False
+Palestine,1525,1,0,False,False
+Palestine,1550,3,0,False,False
+Palestine,1575,1,1,False,False
+Palestine,1600,4,0,False,False
+Palestine,1625,1,0,False,False
+Palestine,1650,6,1,False,False
+Palestine,1700,1,0,False,False
+Palestine,1725,1,0,False,False
+Palestine,1775,3,2,False,False
+Palestine,1800,7,1,False,False
+Palestine,1825,8,1,False,False
+Palestine,1850,26,10,False,False
+Palestine,1875,51,20,False,False
+Palestine,1900,76,25,False,False
+Palestine,1925,224,79,False,False
+Panama,1575,1,0,False,False
+Panama,1600,1,0,False,False
+Panama,1650,1,0,False,False
+Panama,1750,2,2,False,False
+Panama,1775,2,1,False,False
+Panama,1800,6,0,False,False
+Panama,1825,13,5,False,False
+Panama,1850,38,17,False,False
+Panama,1875,47,19,False,False
+Panama,1900,84,26,False,False
+Panama,1925,133,38,False,False
+Papua New Guinea,1900,2,0,False,False
+Papua New Guinea,1925,17,2,False,False
+Paraguay,1500,4,4,False,False
+Paraguay,1525,5,1,False,False
+Paraguay,1550,10,5,False,False
+Paraguay,1575,1,0,False,False
+Paraguay,1600,1,1,False,False
+Paraguay,1625,2,1,False,False
+Paraguay,1675,2,1,False,False
+Paraguay,1700,2,0,False,False
+Paraguay,1725,3,1,False,False
+Paraguay,1750,3,2,False,False
+Paraguay,1775,11,7,False,False
+Paraguay,1800,5,2,False,False
+Paraguay,1825,28,11,False,False
+Paraguay,1850,26,10,False,False
+Paraguay,1875,77,25,False,False
+Paraguay,1900,104,21,False,False
+Paraguay,1925,139,27,False,False
+Peru,1500,4,1,False,False
+Peru,1525,4,0,False,False
+Peru,1550,11,2,False,False
+Peru,1575,11,1,False,False
+Peru,1600,10,0,False,False
+Peru,1625,10,0,False,False
+Peru,1650,10,2,False,False
+Peru,1675,4,2,False,False
+Peru,1700,19,3,False,False
+Peru,1725,17,4,False,False
+Peru,1750,36,9,False,False
+Peru,1775,85,43,False,False
+Peru,1800,97,50,False,False
+Peru,1825,180,79,False,False
+Peru,1850,187,72,False,False
+Peru,1875,273,107,False,False
+Peru,1900,420,114,False,False
+Peru,1925,789,231,True,False
+Philippines,1500,2,0,False,False
+Philippines,1525,1,1,False,False
+Philippines,1550,4,0,False,False
+Philippines,1575,7,1,False,False
+Philippines,1600,7,2,False,False
+Philippines,1625,6,0,False,False
+Philippines,1650,4,0,False,False
+Philippines,1675,3,0,False,False
+Philippines,1700,5,2,False,False
+Philippines,1725,6,1,False,False
+Philippines,1750,4,0,False,False
+Philippines,1775,9,1,False,False
+Philippines,1800,15,3,False,False
+Philippines,1825,27,7,False,False
+Philippines,1850,145,43,False,False
+Philippines,1875,234,67,False,False
+Philippines,1900,449,90,False,False
+Philippines,1925,1018,202,True,False
+Poland,1500,45,9,False,False
+Poland,1525,66,12,False,False
+Poland,1550,84,15,False,False
+Poland,1575,75,13,False,False
+Poland,1600,83,21,False,False
+Poland,1625,53,16,False,False
+Poland,1650,47,8,False,False
+Poland,1675,42,8,False,False
+Poland,1700,59,15,False,False
+Poland,1725,110,19,False,False
+Poland,1750,179,46,False,False
+Poland,1775,240,59,False,False
+Poland,1800,344,88,False,False
+Poland,1825,375,88,False,False
+Poland,1850,706,182,True,False
+Poland,1875,1540,393,True,False
+Poland,1900,1985,476,True,False
+Poland,1925,2051,359,True,False
+PolishâLithuanian Commonwealth,1525,1,1,False,False
+PolishâLithuanian Commonwealth,1550,1,0,False,False
+PolishâLithuanian Commonwealth,1650,1,1,False,False
+PolishâLithuanian Commonwealth,1675,1,0,False,False
+PolishâLithuanian Commonwealth,1700,1,0,False,False
+PolishâLithuanian Commonwealth,1725,1,0,False,False
+PolishâLithuanian Commonwealth,1750,2,1,False,False
+PolishâLithuanian Commonwealth,1775,1,0,False,False
+Polish–Lithuanian Commonwealth,1500,1,0,False,False
+Polish–Lithuanian Commonwealth,1550,3,0,False,False
+Polish–Lithuanian Commonwealth,1575,5,2,False,False
+Polish–Lithuanian Commonwealth,1600,6,1,False,False
+Polish–Lithuanian Commonwealth,1625,3,1,False,False
+Polish–Lithuanian Commonwealth,1650,4,1,False,False
+Polish–Lithuanian Commonwealth,1675,4,1,False,False
+Polish–Lithuanian Commonwealth,1700,8,2,False,False
+Polish–Lithuanian Commonwealth,1725,3,2,False,False
+Polish–Lithuanian Commonwealth,1750,4,2,False,False
+Polish–Lithuanian Commonwealth,1775,1,0,False,False
+Portugal,1500,102,30,False,False
+Portugal,1525,92,15,False,False
+Portugal,1550,87,20,False,False
+Portugal,1575,93,27,False,False
+Portugal,1600,75,22,False,False
+Portugal,1625,65,11,False,False
+Portugal,1650,54,11,False,False
+Portugal,1675,73,19,False,False
+Portugal,1700,92,23,False,False
+Portugal,1725,114,34,False,False
+Portugal,1750,174,60,False,False
+Portugal,1775,284,119,False,False
+Portugal,1800,332,116,False,False
+Portugal,1825,497,186,True,False
+Portugal,1850,713,270,True,False
+Portugal,1875,837,285,True,False
+Portugal,1900,961,209,True,False
+Portugal,1925,1500,319,True,False
+Qatar,1600,1,0,False,False
+Qatar,1625,2,0,False,False
+Qatar,1650,1,0,False,False
+Qatar,1800,1,0,False,False
+Qatar,1825,2,0,False,False
+Qatar,1850,7,1,False,False
+Qatar,1875,7,0,False,False
+Qatar,1900,16,3,False,False
+Qatar,1925,31,9,False,False
+Roman Empire,1625,1,0,False,False
+Romania,1500,3,0,False,False
+Romania,1525,4,0,False,False
+Romania,1550,6,0,False,False
+Romania,1575,7,1,False,False
+Romania,1600,6,0,False,False
+Romania,1625,6,1,False,False
+Romania,1650,10,0,False,False
+Romania,1675,9,0,False,False
+Romania,1700,8,0,False,False
+Romania,1725,12,0,False,False
+Romania,1750,9,2,False,False
+Romania,1775,27,12,False,False
+Romania,1800,91,27,False,False
+Romania,1825,194,56,False,False
+Romania,1850,363,107,False,False
+Romania,1875,780,229,True,False
+Romania,1900,704,166,True,False
+Romania,1925,893,180,True,False
+Russia,1500,8,1,False,True
+Russia,1525,13,2,False,True
+Russia,1550,10,2,False,True
+Russia,1575,13,4,False,True
+Russia,1600,27,6,False,True
+Russia,1625,33,5,False,True
+Russia,1650,67,20,False,True
+Russia,1675,74,17,False,True
+Russia,1700,124,37,False,True
+Russia,1725,237,66,False,True
+Russia,1750,353,84,False,True
+Russia,1775,629,163,True,True
+Russia,1800,786,178,True,True
+Russia,1825,1119,257,True,True
+Russia,1850,1893,460,True,True
+Russia,1875,3209,741,True,True
+Russia,1900,3768,769,True,True
+Russia,1925,3535,638,True,True
+Rwanda,1825,1,0,False,False
+Rwanda,1900,8,0,False,False
+Rwanda,1925,48,11,False,False
+Saint Kitts and Nevis,1875,1,1,False,False
+Saint Kitts and Nevis,1900,6,4,False,False
+Saint Kitts and Nevis,1925,9,3,False,False
+Saint Lucia,1875,1,1,False,False
+Saint Lucia,1900,8,1,False,False
+Saint Lucia,1925,16,5,False,False
+Saint Vincent and the Grenadines,1900,8,1,False,False
+Saint Vincent and the Grenadines,1925,9,2,False,False
+Samoa,1825,4,1,False,False
+Samoa,1850,1,0,False,False
+Samoa,1875,4,1,False,False
+Samoa,1900,9,1,False,False
+Samoa,1925,9,2,False,False
+San Marino,1500,2,0,False,False
+San Marino,1600,1,1,False,False
+San Marino,1775,2,1,False,False
+San Marino,1825,1,1,False,False
+San Marino,1850,2,0,False,False
+San Marino,1875,4,0,False,False
+San Marino,1900,7,5,False,False
+San Marino,1925,32,14,False,False
+Saudi Arabia,1625,1,0,False,False
+Saudi Arabia,1675,1,0,False,False
+Saudi Arabia,1700,2,0,False,False
+Saudi Arabia,1725,1,1,False,False
+Saudi Arabia,1750,2,0,False,False
+Saudi Arabia,1775,2,0,False,False
+Saudi Arabia,1825,1,0,False,False
+Saudi Arabia,1850,5,0,False,False
+Saudi Arabia,1875,15,1,False,False
+Saudi Arabia,1900,47,9,False,False
+Saudi Arabia,1925,161,39,False,False
+Scotland,1675,1,1,False,False
+Senegal,1550,1,0,False,False
+Senegal,1575,1,0,False,False
+Senegal,1700,1,0,False,False
+Senegal,1725,4,0,False,False
+Senegal,1750,1,0,False,False
+Senegal,1775,2,1,False,False
+Senegal,1800,10,1,False,False
+Senegal,1825,8,0,False,False
+Senegal,1850,6,1,False,False
+Senegal,1875,16,2,False,False
+Senegal,1900,64,18,False,False
+Senegal,1925,217,55,False,False
+Serbia,1500,3,0,False,False
+Serbia,1525,3,0,False,False
+Serbia,1550,1,0,False,False
+Serbia,1575,1,0,False,False
+Serbia,1600,3,0,False,False
+Serbia,1625,4,1,False,False
+Serbia,1650,10,1,False,False
+Serbia,1675,6,0,False,False
+Serbia,1700,5,0,False,False
+Serbia,1725,13,3,False,False
+Serbia,1750,31,15,False,False
+Serbia,1775,39,12,False,False
+Serbia,1800,46,9,False,False
+Serbia,1825,82,28,False,False
+Serbia,1850,151,39,False,False
+Serbia,1875,227,72,False,False
+Serbia,1900,201,36,False,False
+Serbia,1925,574,87,False,False
+Serbia and Montenegro,1900,1,1,False,False
+Serbia and Montenegro,1925,3,1,False,False
+Seychelles,1850,1,0,False,False
+Seychelles,1900,1,0,False,False
+Seychelles,1925,8,1,False,False
+Sierra Leone,1725,1,0,False,False
+Sierra Leone,1750,2,1,False,False
+Sierra Leone,1775,4,0,False,False
+Sierra Leone,1800,6,2,False,False
+Sierra Leone,1825,11,5,False,False
+Sierra Leone,1850,9,4,False,False
+Sierra Leone,1875,15,7,False,False
+Sierra Leone,1900,35,8,False,False
+Sierra Leone,1925,72,15,False,False
+Singapore,1750,2,0,False,False
+Singapore,1775,2,0,False,False
+Singapore,1800,12,5,False,False
+Singapore,1825,5,0,False,False
+Singapore,1850,14,3,False,False
+Singapore,1875,23,3,False,False
+Singapore,1900,79,15,False,False
+Singapore,1925,224,47,False,False
+Slovakia,1525,2,0,False,False
+Slovakia,1550,4,2,False,False
+Slovakia,1575,3,0,False,False
+Slovakia,1600,4,0,False,False
+Slovakia,1625,4,0,False,False
+Slovakia,1650,1,0,False,False
+Slovakia,1675,3,0,False,False
+Slovakia,1700,5,1,False,False
+Slovakia,1725,4,1,False,False
+Slovakia,1750,12,4,False,False
+Slovakia,1775,16,3,False,False
+Slovakia,1800,31,4,False,False
+Slovakia,1825,23,6,False,False
+Slovakia,1850,56,20,False,False
+Slovakia,1875,142,38,False,False
+Slovakia,1900,230,49,False,False
+Slovakia,1925,265,57,False,False
+Slovenia,1575,2,0,False,False
+Slovenia,1625,1,1,False,False
+Slovenia,1650,3,0,False,False
+Slovenia,1675,1,0,False,False
+Slovenia,1700,1,0,False,False
+Slovenia,1725,3,1,False,False
+Slovenia,1750,2,0,False,False
+Slovenia,1775,3,1,False,False
+Slovenia,1800,5,1,False,False
+Slovenia,1825,7,0,False,False
+Slovenia,1850,11,2,False,False
+Slovenia,1875,24,9,False,False
+Slovenia,1900,150,35,False,False
+Slovenia,1925,327,77,False,False
+Solomon Islands,1875,1,0,False,False
+Solomon Islands,1900,1,0,False,False
+Solomon Islands,1925,13,0,False,False
+Somalia,1500,1,0,False,False
+Somalia,1550,1,0,False,False
+Somalia,1800,2,1,False,False
+Somalia,1825,4,1,False,False
+Somalia,1850,2,2,False,False
+Somalia,1875,2,0,False,False
+Somalia,1900,30,6,False,False
+Somalia,1925,107,36,False,False
+South Africa,1625,1,1,False,False
+South Africa,1650,3,1,False,False
+South Africa,1675,1,0,False,False
+South Africa,1700,3,0,False,False
+South Africa,1725,1,0,False,False
+South Africa,1750,9,3,False,False
+South Africa,1775,35,16,False,False
+South Africa,1800,63,18,False,False
+South Africa,1825,125,30,False,False
+South Africa,1850,319,113,False,False
+South Africa,1875,393,90,False,False
+South Africa,1900,650,137,True,False
+South Africa,1925,1199,260,True,False
+South Korea,1500,1,0,False,False
+South Korea,1525,5,2,False,False
+South Korea,1550,8,3,False,False
+South Korea,1575,4,1,False,False
+South Korea,1600,3,1,False,False
+South Korea,1625,1,0,False,False
+South Korea,1650,2,0,False,False
+South Korea,1675,1,0,False,False
+South Korea,1700,5,3,False,False
+South Korea,1725,3,1,False,False
+South Korea,1750,7,1,False,False
+South Korea,1775,6,0,False,False
+South Korea,1800,6,3,False,False
+South Korea,1825,9,1,False,False
+South Korea,1850,31,12,False,False
+South Korea,1875,100,37,False,False
+South Korea,1900,265,70,False,False
+South Korea,1925,687,134,True,False
+South Sudan,1925,7,3,False,False
+Spain,1500,489,126,True,True
+Spain,1525,451,103,False,True
+Spain,1550,466,98,False,True
+Spain,1575,484,86,False,True
+Spain,1600,380,65,False,True
+Spain,1625,339,55,False,True
+Spain,1650,320,62,False,True
+Spain,1675,272,60,False,True
+Spain,1700,371,101,False,True
+Spain,1725,551,170,True,True
+Spain,1750,696,262,True,True
+Spain,1775,695,273,True,True
+Spain,1800,1171,348,True,True
+Spain,1825,1862,583,True,True
+Spain,1850,2439,635,True,True
+Spain,1875,3772,1076,True,True
+Spain,1900,4709,1185,True,True
+Spain,1925,7489,1576,True,True
+Sri Lanka,1500,1,0,False,False
+Sri Lanka,1525,1,0,False,False
+Sri Lanka,1550,1,0,False,False
+Sri Lanka,1675,1,0,False,False
+Sri Lanka,1700,2,0,False,False
+Sri Lanka,1725,2,0,False,False
+Sri Lanka,1750,10,2,False,False
+Sri Lanka,1775,21,6,False,False
+Sri Lanka,1800,23,8,False,False
+Sri Lanka,1825,36,10,False,False
+Sri Lanka,1850,60,15,False,False
+Sri Lanka,1875,158,33,False,False
+Sri Lanka,1900,387,69,False,False
+Sri Lanka,1925,594,132,True,False
+Sudan,1625,1,0,False,False
+Sudan,1700,1,0,False,False
+Sudan,1725,1,0,False,False
+Sudan,1775,1,1,False,False
+Sudan,1825,9,5,False,False
+Sudan,1850,5,1,False,False
+Sudan,1875,10,2,False,False
+Sudan,1900,29,12,False,False
+Sudan,1925,95,33,False,False
+Suriname,1675,2,1,False,False
+Suriname,1700,2,0,False,False
+Suriname,1725,2,1,False,False
+Suriname,1775,2,0,False,False
+Suriname,1800,3,0,False,False
+Suriname,1825,2,1,False,False
+Suriname,1850,5,0,False,False
+Suriname,1875,9,3,False,False
+Suriname,1900,21,4,False,False
+Suriname,1925,65,5,False,False
+Swaziland,1900,6,0,False,False
+Swaziland,1925,11,2,False,False
+Sweden,1500,46,8,False,True
+Sweden,1525,53,14,False,True
+Sweden,1550,95,20,False,True
+Sweden,1575,206,55,False,True
+Sweden,1600,373,99,False,True
+Sweden,1625,401,83,False,True
+Sweden,1650,492,98,False,True
+Sweden,1675,535,145,True,True
+Sweden,1700,788,186,True,True
+Sweden,1725,866,220,True,True
+Sweden,1750,1041,247,True,True
+Sweden,1775,1155,328,True,True
+Sweden,1800,1923,587,True,True
+Sweden,1825,2986,875,True,True
+Sweden,1850,4699,1128,True,True
+Sweden,1875,7022,1401,True,True
+Sweden,1900,9768,1524,True,True
+Sweden,1925,10655,2015,True,True
+Switzerland,1500,99,28,False,True
+Switzerland,1525,98,27,False,True
+Switzerland,1550,95,22,False,True
+Switzerland,1575,110,34,False,True
+Switzerland,1600,94,20,False,True
+Switzerland,1625,133,32,False,True
+Switzerland,1650,156,39,False,True
+Switzerland,1675,135,35,False,True
+Switzerland,1700,225,69,False,True
+Switzerland,1725,331,84,False,True
+Switzerland,1750,481,160,True,True
+Switzerland,1775,524,143,True,True
+Switzerland,1800,988,253,True,True
+Switzerland,1825,1097,263,True,True
+Switzerland,1850,1382,265,True,True
+Switzerland,1875,2139,382,True,True
+Switzerland,1900,2684,402,True,True
+Switzerland,1925,4167,630,True,True
+Syria,1500,1,0,False,False
+Syria,1525,1,0,False,False
+Syria,1550,2,0,False,False
+Syria,1575,2,1,False,False
+Syria,1600,3,0,False,False
+Syria,1625,4,0,False,False
+Syria,1650,1,0,False,False
+Syria,1675,3,0,False,False
+Syria,1700,1,0,False,False
+Syria,1725,4,0,False,False
+Syria,1750,1,0,False,False
+Syria,1775,5,0,False,False
+Syria,1800,3,1,False,False
+Syria,1825,18,2,False,False
+Syria,1850,31,6,False,False
+Syria,1875,83,30,False,False
+Syria,1900,107,33,False,False
+Syria,1925,260,72,False,False
+São Tomé and Príncipe,1900,2,0,False,False
+São Tomé and Príncipe,1925,11,2,False,False
+Taiwan,1650,1,0,False,False
+Taiwan,1825,2,0,False,False
+Taiwan,1850,17,5,False,False
+Taiwan,1875,59,26,False,False
+Taiwan,1900,123,33,False,False
+Taiwan,1925,343,80,False,False
+Tajikistan,1825,2,0,False,False
+Tajikistan,1850,1,0,False,False
+Tajikistan,1875,4,0,False,False
+Tajikistan,1900,22,4,False,False
+Tajikistan,1925,80,14,False,False
+Tanzania,1800,1,0,False,False
+Tanzania,1825,2,2,False,False
+Tanzania,1850,4,2,False,False
+Tanzania,1875,8,0,False,False
+Tanzania,1900,39,3,False,False
+Tanzania,1925,163,21,False,False
+Thailand,1575,1,0,False,False
+Thailand,1600,1,1,False,False
+Thailand,1675,1,0,False,False
+Thailand,1700,1,0,False,False
+Thailand,1725,2,0,False,False
+Thailand,1750,2,0,False,False
+Thailand,1775,6,0,False,False
+Thailand,1800,4,1,False,False
+Thailand,1825,7,1,False,False
+Thailand,1850,22,7,False,False
+Thailand,1875,45,19,False,False
+Thailand,1900,110,33,False,False
+Thailand,1925,283,92,False,False
+The Bahamas,1700,1,0,False,False
+The Bahamas,1725,1,0,False,False
+The Bahamas,1775,1,0,False,False
+The Bahamas,1800,1,0,False,False
+The Bahamas,1825,5,1,False,False
+The Bahamas,1850,1,0,False,False
+The Bahamas,1875,15,3,False,False
+The Bahamas,1900,28,5,False,False
+The Bahamas,1925,48,6,False,False
+Tibet,1800,1,0,False,False
+Tibet,1825,1,0,False,False
+Tibet,1850,1,0,False,False
+Tibet,1875,2,0,False,False
+Tibet,1900,13,6,False,False
+Tibet,1925,19,5,False,False
+Togo,1700,1,0,False,False
+Togo,1850,3,1,False,False
+Togo,1875,3,1,False,False
+Togo,1900,18,2,False,False
+Togo,1925,50,9,False,False
+Tonga,1800,1,0,False,False
+Tonga,1825,1,0,False,False
+Tonga,1875,2,0,False,False
+Tonga,1900,3,0,False,False
+Tonga,1925,12,1,False,False
+Transnistria,1875,1,0,False,False
+Transnistria,1925,5,1,False,False
+Trinidad and Tobago,1600,1,0,False,False
+Trinidad and Tobago,1625,1,1,False,False
+Trinidad and Tobago,1650,2,0,False,False
+Trinidad and Tobago,1775,1,0,False,False
+Trinidad and Tobago,1800,4,0,False,False
+Trinidad and Tobago,1825,8,3,False,False
+Trinidad and Tobago,1850,9,1,False,False
+Trinidad and Tobago,1875,19,3,False,False
+Trinidad and Tobago,1900,72,13,False,False
+Trinidad and Tobago,1925,136,33,False,False
+Tunisia,1550,1,0,False,False
+Tunisia,1600,1,0,False,False
+Tunisia,1650,3,1,False,False
+Tunisia,1675,4,0,False,False
+Tunisia,1700,6,1,False,False
+Tunisia,1725,2,0,False,False
+Tunisia,1750,9,1,False,False
+Tunisia,1775,8,1,False,False
+Tunisia,1800,21,5,False,False
+Tunisia,1825,13,1,False,False
+Tunisia,1850,33,8,False,False
+Tunisia,1875,57,18,False,False
+Tunisia,1900,155,27,False,False
+Tunisia,1925,410,79,False,False
+Turkey,1500,19,9,False,False
+Turkey,1525,25,11,False,False
+Turkey,1550,21,3,False,False
+Turkey,1575,12,7,False,False
+Turkey,1600,23,8,False,False
+Turkey,1625,22,11,False,False
+Turkey,1650,20,14,False,False
+Turkey,1675,15,8,False,False
+Turkey,1700,14,5,False,False
+Turkey,1725,21,7,False,False
+Turkey,1750,45,19,False,False
+Turkey,1775,55,15,False,False
+Turkey,1800,72,28,False,False
+Turkey,1825,127,53,False,False
+Turkey,1850,201,83,False,False
+Turkey,1875,439,183,True,False
+Turkey,1900,532,126,True,False
+Turkey,1925,1140,218,True,False
+Turkmenistan,1500,3,2,False,False
+Turkmenistan,1525,1,0,False,False
+Turkmenistan,1575,1,0,False,False
+Turkmenistan,1725,2,1,False,False
+Turkmenistan,1750,1,0,False,False
+Turkmenistan,1875,5,2,False,False
+Turkmenistan,1900,7,1,False,False
+Turkmenistan,1925,22,7,False,False
+Tuvalu,1900,2,0,False,False
+Tuvalu,1925,10,0,False,False
+US,1500,1,0,False,True
+US,1525,1,0,False,True
+US,1550,3,1,False,True
+US,1575,61,25,False,True
+US,1600,143,56,False,True
+US,1625,133,47,False,True
+US,1650,137,46,False,True
+US,1675,183,54,False,True
+US,1700,395,173,True,True
+US,1725,1403,588,True,True
+US,1750,2267,649,True,True
+US,1775,4217,968,True,True
+US,1800,9440,2717,True,True
+US,1825,13695,3853,True,True
+US,1850,17300,3617,True,True
+US,1875,23697,4279,True,True
+US,1900,41095,7317,True,True
+US,1925,64097,11723,True,True
+Uganda,1725,1,0,False,False
+Uganda,1825,2,0,False,False
+Uganda,1850,18,3,False,False
+Uganda,1875,8,1,False,False
+Uganda,1900,35,5,False,False
+Uganda,1925,198,68,False,False
+Ukraine,1500,1,0,False,False
+Ukraine,1550,3,0,False,False
+Ukraine,1575,2,0,False,False
+Ukraine,1600,6,4,False,False
+Ukraine,1625,9,3,False,False
+Ukraine,1650,4,1,False,False
+Ukraine,1675,5,2,False,False
+Ukraine,1700,13,2,False,False
+Ukraine,1725,13,1,False,False
+Ukraine,1750,11,0,False,False
+Ukraine,1775,16,7,False,False
+Ukraine,1800,32,10,False,False
+Ukraine,1825,43,8,False,False
+Ukraine,1850,127,33,False,False
+Ukraine,1875,294,84,False,False
+Ukraine,1900,309,65,False,False
+Ukraine,1925,489,129,True,False
+United Arab Emirates,1750,1,1,False,False
+United Arab Emirates,1775,1,0,False,False
+United Arab Emirates,1825,1,0,False,False
+United Arab Emirates,1850,1,0,False,False
+United Arab Emirates,1875,3,0,False,False
+United Arab Emirates,1900,8,0,False,False
+United Arab Emirates,1925,25,6,False,False
+United Kingdom,1500,715,137,True,True
+United Kingdom,1525,842,167,True,True
+United Kingdom,1550,1309,307,True,True
+United Kingdom,1575,1528,290,True,True
+United Kingdom,1600,1944,432,True,True
+United Kingdom,1625,1481,292,True,True
+United Kingdom,1650,1511,358,True,True
+United Kingdom,1675,1634,347,True,True
+United Kingdom,1700,1913,470,True,True
+United Kingdom,1725,2659,716,True,True
+United Kingdom,1750,3775,1032,True,True
+United Kingdom,1775,5120,1414,True,True
+United Kingdom,1800,7074,1834,True,True
+United Kingdom,1825,7684,1930,True,True
+United Kingdom,1850,10349,2360,True,True
+United Kingdom,1875,12268,2602,True,True
+United Kingdom,1900,15811,3279,True,True
+United Kingdom,1925,21302,3593,True,True
+Uruguay,1675,1,1,False,False
+Uruguay,1725,3,3,False,False
+Uruguay,1750,7,3,False,False
+Uruguay,1775,51,22,False,False
+Uruguay,1800,61,25,False,False
+Uruguay,1825,79,29,False,False
+Uruguay,1850,119,44,False,False
+Uruguay,1875,310,73,False,False
+Uruguay,1900,493,104,False,False
+Uruguay,1925,794,154,True,False
+Uzbekistan,1525,1,0,False,False
+Uzbekistan,1575,1,0,False,False
+Uzbekistan,1600,1,0,False,False
+Uzbekistan,1650,1,0,False,False
+Uzbekistan,1775,5,0,False,False
+Uzbekistan,1800,3,0,False,False
+Uzbekistan,1825,2,0,False,False
+Uzbekistan,1850,8,0,False,False
+Uzbekistan,1875,10,6,False,False
+Uzbekistan,1900,27,4,False,False
+Uzbekistan,1925,53,8,False,False
+Vanuatu,1900,1,0,False,False
+Vanuatu,1925,12,5,False,False
+Vatican City,1650,1,0,False,False
+Vatican City,1875,1,0,False,False
+Venezuela,1500,4,0,False,False
+Venezuela,1525,4,1,False,False
+Venezuela,1550,1,0,False,False
+Venezuela,1575,2,2,False,False
+Venezuela,1675,2,0,False,False
+Venezuela,1700,2,0,False,False
+Venezuela,1725,10,4,False,False
+Venezuela,1750,29,12,False,False
+Venezuela,1775,109,70,False,False
+Venezuela,1800,38,22,False,False
+Venezuela,1825,77,41,False,False
+Venezuela,1850,92,31,False,False
+Venezuela,1875,131,44,False,False
+Venezuela,1900,352,121,True,False
+Venezuela,1925,691,142,True,False
+Vietnam,1500,2,1,False,False
+Vietnam,1525,1,0,False,False
+Vietnam,1550,6,1,False,False
+Vietnam,1575,3,0,False,False
+Vietnam,1600,2,0,False,False
+Vietnam,1625,2,1,False,False
+Vietnam,1650,3,0,False,False
+Vietnam,1675,3,0,False,False
+Vietnam,1700,8,1,False,False
+Vietnam,1725,9,1,False,False
+Vietnam,1750,15,4,False,False
+Vietnam,1775,8,3,False,False
+Vietnam,1800,11,4,False,False
+Vietnam,1825,28,7,False,False
+Vietnam,1850,18,6,False,False
+Vietnam,1875,55,13,False,False
+Vietnam,1900,281,84,False,False
+Vietnam,1925,451,115,False,False
+Western Sahara,1925,4,1,False,False
+Yemen,1500,2,0,False,False
+Yemen,1525,2,0,False,False
+Yemen,1550,2,0,False,False
+Yemen,1575,1,0,False,False
+Yemen,1600,2,0,False,False
+Yemen,1625,4,0,False,False
+Yemen,1650,2,0,False,False
+Yemen,1675,3,0,False,False
+Yemen,1700,3,2,False,False
+Yemen,1725,1,1,False,False
+Yemen,1750,3,0,False,False
+Yemen,1775,1,0,False,False
+Yemen,1800,8,3,False,False
+Yemen,1825,3,1,False,False
+Yemen,1850,6,2,False,False
+Yemen,1875,3,1,False,False
+Yemen,1900,14,3,False,False
+Yemen,1925,65,17,False,False
+Yugoslavia,1825,4,0,False,False
+Yugoslavia,1850,44,10,False,False
+Yugoslavia,1875,124,36,False,False
+Yugoslavia,1900,216,53,False,False
+Yugoslavia,1925,120,14,False,False
+Zambia,1800,1,0,False,False
+Zambia,1825,2,1,False,False
+Zambia,1850,2,0,False,False
+Zambia,1875,3,1,False,False
+Zambia,1900,20,4,False,False
+Zambia,1925,86,20,False,False
+Zanzibar,1825,1,0,False,False
+Zanzibar,1925,1,0,False,False
+Zimbabwe,1850,1,0,False,False
+Zimbabwe,1875,8,3,False,False
+Zimbabwe,1900,40,7,False,False
+Zimbabwe,1925,173,55,False,False

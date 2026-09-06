@@ -1,0 +1,163 @@
+spec,shock_type,outcome,group,event_time,cohort,n_treated,n_control,att,weight,treated_countries
+main,revolutionary rupture,Economic + Security,1750,-3,1675,1,3,0.778091090318361,1,France
+main,revolutionary rupture,Economic + Security,1750,-2,1700,1,4,0.2954286634863503,1,France
+main,revolutionary rupture,Economic + Security,1750,0,1750,1,6,-0.06864351948996403,1,France
+main,revolutionary rupture,Economic + Security,1750,1,1775,1,6,-0.5547683503069947,1,France
+main,revolutionary rupture,Economic + Security,1750,2,1800,1,6,-0.5077248473747361,1,France
+main,revolutionary rupture,Economic + Security,1750,3,1825,1,6,-0.03382946958725225,1,France
+main,revolutionary rupture,Economic + Security,1875,-3,1800,3,12,-0.10079943229022569,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Economic + Security,1875,-2,1825,3,12,-0.4759096461937866,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Economic + Security,1875,0,1875,3,12,-0.21419545466127304,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Economic + Security,1875,1,1900,3,12,0.7771833085184793,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Economic + Security,1875,2,1925,3,12,-0.09378634411139253,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Economic,1750,-3,1675,1,3,-0.7748339895212446,1,France
+main,revolutionary rupture,Ideational + Economic,1750,-2,1700,1,4,-0.6740752668083347,1,France
+main,revolutionary rupture,Ideational + Economic,1750,0,1750,1,6,0.5328002845902994,1,France
+main,revolutionary rupture,Ideational + Economic,1750,1,1775,1,6,-0.17653871040176078,1,France
+main,revolutionary rupture,Ideational + Economic,1750,2,1800,1,6,-0.7120184720177196,1,France
+main,revolutionary rupture,Ideational + Economic,1750,3,1825,1,6,-0.8486302068571017,1,France
+main,revolutionary rupture,Ideational + Economic,1875,-3,1800,3,12,-0.04381482533378369,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Economic,1875,-2,1825,3,12,-0.009242383575837614,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Economic,1875,0,1875,3,12,0.2193157905150705,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Economic,1875,1,1900,3,12,0.17969152308045558,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Economic,1875,2,1925,3,12,-8.014286637100104e-06,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Security,1750,-3,1675,1,3,0.02048592146990158,1,France
+main,revolutionary rupture,Ideational + Security,1750,-2,1700,1,4,0.7692707255923982,1,France
+main,revolutionary rupture,Ideational + Security,1750,0,1750,1,6,0.05579802993930684,1,France
+main,revolutionary rupture,Ideational + Security,1750,1,1775,1,6,0.19263910713384158,1,France
+main,revolutionary rupture,Ideational + Security,1750,2,1800,1,6,0.2521272333838851,1,France
+main,revolutionary rupture,Ideational + Security,1750,3,1825,1,6,0.34629626308329675,1,France
+main,revolutionary rupture,Ideational + Security,1875,-3,1800,3,12,0.1407021129296196,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Security,1875,-2,1825,3,12,0.30624612178847627,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Security,1875,0,1875,3,12,-0.5666025332742425,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Security,1875,1,1900,3,12,-0.8440052405101215,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Ideational + Security,1875,2,1925,3,12,-0.13544846189169804,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Economic,1750,-3,1675,1,3,-0.9186472544525872,1,France
+main,revolutionary rupture,Political + Economic,1750,-2,1700,1,4,-0.2715925157047452,1,France
+main,revolutionary rupture,Political + Economic,1750,0,1750,1,6,-0.10780977149578687,1,France
+main,revolutionary rupture,Political + Economic,1750,1,1775,1,6,0.07945844574069849,1,France
+main,revolutionary rupture,Political + Economic,1750,2,1800,1,6,0.21910370468477847,1,France
+main,revolutionary rupture,Political + Economic,1750,3,1825,1,6,0.3023668966551755,1,France
+main,revolutionary rupture,Political + Economic,1875,-3,1800,3,12,0.018153555143688417,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Economic,1875,-2,1825,3,12,0.09550818216336683,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Economic,1875,0,1875,3,12,-0.24632131445830766,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Economic,1875,1,1900,3,12,-0.459586380936013,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Economic,1875,2,1925,3,12,-0.08723908852742582,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Ideational,1750,-3,1675,1,3,-0.05065122055001113,1,France
+main,revolutionary rupture,Political + Ideational,1750,-2,1700,1,4,-0.050272215207971926,1,France
+main,revolutionary rupture,Political + Ideational,1750,0,1750,1,6,-0.07351790914108403,1,France
+main,revolutionary rupture,Political + Ideational,1750,1,1775,1,6,-0.25165954027681425,1,France
+main,revolutionary rupture,Political + Ideational,1750,2,1800,1,6,-0.07516918717939092,1,France
+main,revolutionary rupture,Political + Ideational,1750,3,1825,1,6,0.0172175401596926,1,France
+main,revolutionary rupture,Political + Ideational,1875,-3,1800,3,12,0.0016369099414734042,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Ideational,1875,-2,1825,3,12,-0.09985261556411562,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Ideational,1875,0,1875,3,12,-0.018967840040232525,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Ideational,1875,1,1900,3,12,0.12814111351966118,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Ideational,1875,2,1925,3,12,0.03042929433260009,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Security,1750,-3,1675,1,3,0.9527513816306873,1,France
+main,revolutionary rupture,Political + Security,1750,-2,1700,1,4,0.33439005496716884,1,France
+main,revolutionary rupture,Political + Security,1750,0,1750,1,6,-0.10828335150029338,1,France
+main,revolutionary rupture,Political + Security,1750,1,1775,1,6,0.27206787073827415,1,France
+main,revolutionary rupture,Political + Security,1750,2,1800,1,6,0.5144474962091586,1,France
+main,revolutionary rupture,Political + Security,1750,3,1825,1,6,0.37329744455572456,1,France
+main,revolutionary rupture,Political + Security,1875,-3,1800,3,12,0.01752991040577445,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Security,1875,-2,1825,3,12,0.038782383413479865,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Security,1875,0,1875,3,12,0.3562606364003119,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Security,1875,1,1900,3,12,0.06763514453997282,3,"Austria,Germany,Russia"
+main,revolutionary rupture,Political + Security,1875,2,1925,3,12,0.12101161913517083,3,"Austria,Germany,Russia"
+main,state creation,Economic + Security,1750,-2,1700,1,4,-0.041601411693643855,1,US
+main,state creation,Economic + Security,1750,0,1750,1,6,-0.09209548387972513,1,US
+main,state creation,Economic + Security,1750,1,1775,1,6,0.3865100034462149,1,US
+main,state creation,Economic + Security,1750,2,1800,1,6,0.18817237701139458,1,US
+main,state creation,Economic + Security,1750,3,1825,1,5,0.323729018428162,1,US
+main,state creation,Economic + Security,1825,-3,1750,2,6,-0.4671570090727784,2,"Canada,Italy"
+main,state creation,Economic + Security,1825,-2,1775,2,9,-1.8824572943210967,2,"Canada,Italy"
+main,state creation,Economic + Security,1825,0,1825,2,11,-0.07974850447983994,2,"Canada,Italy"
+main,state creation,Economic + Security,1825,1,1850,2,11,-0.1679547026855578,2,"Canada,Italy"
+main,state creation,Economic + Security,1825,2,1875,2,8,0.17676876029360333,2,"Canada,Italy"
+main,state creation,Economic + Security,1825,3,1900,2,8,0.5144170084970909,2,"Canada,Italy"
+main,state creation,Economic + Security,1875,-3,1800,3,10,0.7979171271582842,3,"Australia,New Zealand,Norway"
+main,state creation,Economic + Security,1875,-2,1825,3,8,0.603423880895928,3,"Australia,New Zealand,Norway"
+main,state creation,Economic + Security,1875,0,1875,3,8,0.17027453980517163,3,"Australia,New Zealand,Norway"
+main,state creation,Economic + Security,1875,1,1900,3,8,0.45855114333381386,3,"Australia,New Zealand,Norway"
+main,state creation,Economic + Security,1875,2,1925,3,8,0.23083720827949605,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Economic,1750,-2,1700,1,4,-0.6942022127712857,1,US
+main,state creation,Ideational + Economic,1750,0,1750,1,6,-0.6052041879557732,1,US
+main,state creation,Ideational + Economic,1750,1,1775,1,6,-0.9688997315458034,1,US
+main,state creation,Ideational + Economic,1750,2,1800,1,6,-0.9324381700650409,1,US
+main,state creation,Ideational + Economic,1750,3,1825,1,5,-1.024627372705634,1,US
+main,state creation,Ideational + Economic,1825,-3,1750,2,6,-0.47455918206066017,2,"Canada,Italy"
+main,state creation,Ideational + Economic,1825,-2,1775,2,9,-0.2137300872453542,2,"Canada,Italy"
+main,state creation,Ideational + Economic,1825,0,1825,2,11,-0.012193479474257411,2,"Canada,Italy"
+main,state creation,Ideational + Economic,1825,1,1850,2,11,-0.11047055767887007,2,"Canada,Italy"
+main,state creation,Ideational + Economic,1825,2,1875,2,8,-0.45365622253903426,2,"Canada,Italy"
+main,state creation,Ideational + Economic,1825,3,1900,2,8,-0.4868079347279175,2,"Canada,Italy"
+main,state creation,Ideational + Economic,1875,-3,1800,3,10,-0.048124068051827174,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Economic,1875,-2,1825,3,8,0.03919965395074525,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Economic,1875,0,1875,3,8,-0.13573759718625286,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Economic,1875,1,1900,3,8,-0.059460490132848126,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Economic,1875,2,1925,3,8,0.09833401720641644,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Security,1750,-2,1700,1,4,0.36523589379277677,1,US
+main,state creation,Ideational + Security,1750,0,1750,1,6,0.3985545605780721,1,US
+main,state creation,Ideational + Security,1750,1,1775,1,6,0.041673696088272816,1,US
+main,state creation,Ideational + Security,1750,2,1800,1,6,0.24683941874395454,1,US
+main,state creation,Ideational + Security,1750,3,1825,1,5,0.22041683901326048,1,US
+main,state creation,Ideational + Security,1825,-3,1750,2,6,0.6225838217061603,2,"Canada,Italy"
+main,state creation,Ideational + Security,1825,-2,1775,2,9,0.7305792919733491,2,"Canada,Italy"
+main,state creation,Ideational + Security,1825,0,1825,2,11,-0.13872679963039858,2,"Canada,Italy"
+main,state creation,Ideational + Security,1825,1,1850,2,11,0.05991285333354357,2,"Canada,Italy"
+main,state creation,Ideational + Security,1825,2,1875,2,8,0.7952249270523578,2,"Canada,Italy"
+main,state creation,Ideational + Security,1825,3,1900,2,8,0.91637280037696,2,"Canada,Italy"
+main,state creation,Ideational + Security,1875,-3,1800,3,10,-0.3724957685358205,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Security,1875,-2,1825,3,8,-0.3864109930258878,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Security,1875,0,1875,3,8,-0.2820339899940274,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Security,1875,1,1900,3,8,-0.5294572166729608,3,"Australia,New Zealand,Norway"
+main,state creation,Ideational + Security,1875,2,1925,3,8,-0.736386532358505,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Economic,1750,-2,1700,1,4,0.19744533147506402,1,US
+main,state creation,Political + Economic,1750,0,1750,1,6,0.04755264712468234,1,US
+main,state creation,Political + Economic,1750,1,1775,1,6,-0.11302594073666572,1,US
+main,state creation,Political + Economic,1750,2,1800,1,6,-0.2777385134955337,1,US
+main,state creation,Political + Economic,1750,3,1825,1,5,-0.31077067414241066,1,US
+main,state creation,Political + Economic,1825,-3,1750,2,6,0.36333393799181607,2,"Canada,Italy"
+main,state creation,Political + Economic,1825,-2,1775,2,9,0.1713754590289229,2,"Canada,Italy"
+main,state creation,Political + Economic,1825,0,1825,2,11,-0.026084134688989964,2,"Canada,Italy"
+main,state creation,Political + Economic,1825,1,1850,2,11,0.0188441315498984,2,"Canada,Italy"
+main,state creation,Political + Economic,1825,2,1875,2,8,0.24936777190567477,2,"Canada,Italy"
+main,state creation,Political + Economic,1825,3,1900,2,8,0.4430645261638053,2,"Canada,Italy"
+main,state creation,Political + Economic,1875,-3,1800,3,10,-0.01673777044570523,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Economic,1875,-2,1825,3,8,-0.0866420583339443,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Economic,1875,0,1875,3,8,0.21769989383259183,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Economic,1875,1,1900,3,8,0.30276970857198204,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Economic,1875,2,1925,3,8,0.012642161817383757,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Ideational,1750,-2,1700,1,4,-0.05823771157945465,1,US
+main,state creation,Political + Ideational,1750,0,1750,1,6,0.07331575858087061,1,US
+main,state creation,Political + Ideational,1750,1,1775,1,6,0.18395504379433814,1,US
+main,state creation,Political + Ideational,1750,2,1800,1,6,0.11134446427747599,1,US
+main,state creation,Political + Ideational,1750,3,1825,1,5,0.18824013140184054,1,US
+main,state creation,Political + Ideational,1825,-3,1750,2,6,0.009184032229320408,2,"Canada,Italy"
+main,state creation,Political + Ideational,1825,-2,1775,2,9,0.014008535718371587,2,"Canada,Italy"
+main,state creation,Political + Ideational,1825,0,1825,2,11,0.02132388320424221,2,"Canada,Italy"
+main,state creation,Political + Ideational,1825,1,1850,2,11,-0.014089660087910719,2,"Canada,Italy"
+main,state creation,Political + Ideational,1825,2,1875,2,8,0.0051822187755994125,2,"Canada,Italy"
+main,state creation,Political + Ideational,1825,3,1900,2,8,-0.005122273579999212,2,"Canada,Italy"
+main,state creation,Political + Ideational,1875,-3,1800,3,10,0.08451100588565424,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Ideational,1875,-2,1825,3,8,0.10091603382467607,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Ideational,1875,0,1875,3,8,0.012537222325590701,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Ideational,1875,1,1900,3,8,-0.007019976802455072,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Ideational,1875,2,1925,3,8,0.016609695721895096,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Security,1750,-2,1700,1,4,-0.19417051075294448,1,US
+main,state creation,Political + Security,1750,0,1750,1,6,0.13342265747022336,1,US
+main,state creation,Political + Security,1750,1,1775,1,6,0.09074960029684598,1,US
+main,state creation,Political + Security,1750,2,1800,1,6,-0.02018590297372855,1,US
+main,state creation,Political + Security,1750,3,1825,1,5,-0.03735940004276139,1,US
+main,state creation,Political + Security,1825,-3,1750,2,6,0.614556881487931,2,"Canada,Italy"
+main,state creation,Political + Security,1825,-2,1775,2,9,0.06521342260814397,2,"Canada,Italy"
+main,state creation,Political + Security,1825,0,1825,2,11,-0.03385850048340269,2,"Canada,Italy"
+main,state creation,Political + Security,1825,1,1850,2,11,-0.05895141197909212,2,"Canada,Italy"
+main,state creation,Political + Security,1825,2,1875,2,8,-0.3269658102132358,2,"Canada,Italy"
+main,state creation,Political + Security,1825,3,1900,2,8,-0.7655918939241919,2,"Canada,Italy"
+main,state creation,Political + Security,1875,-3,1800,3,10,-0.0021520431277153584,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Security,1875,-2,1825,3,8,0.1285165804173241,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Security,1875,0,1875,3,8,-0.07022493941594934,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Security,1875,1,1900,3,8,0.05077440607376632,3,"Australia,New Zealand,Norway"
+main,state creation,Political + Security,1875,2,1925,3,8,0.05539049678233321,3,"Australia,New Zealand,Norway"

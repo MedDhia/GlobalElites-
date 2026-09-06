@@ -1,0 +1,13 @@
+country,year,type,event,in_panel,first_treated_cohort_main,first_treated_cohort_short,first_treated_cohort_long,first_cohort,last_cohort,n_cohorts,n_pre_main,n_post_main,n_pre_short,n_post_short,n_pre_long,n_post_long
+France,1789,revolutionary rupture,Revolution and abolition of noble privilege,True,1750,1775,1725,1575,1925,15,7,8,8,7,6,9
+Russia,1917,revolutionary rupture,October Revolution,True,1875,1900,1850,1775,1925,7,4,3,5,2,3,4
+Germany,1918,revolutionary rupture,"Fall of the empire, abolition of nobility as a legal order",True,1875,1900,1850,1500,1925,17,14,3,15,2,13,4
+Austria,1918,revolutionary rupture,"Fall of the Habsburg monarchy, Adelsaufhebungsgesetz 1919",True,1875,1900,1850,1775,1925,7,4,3,5,2,3,4
+US,1776,state creation,Declaration of Independence,True,1750,1750,1725,1700,1925,10,2,8,2,8,1,9
+Argentina,1816,state creation,Independence from Spain,True,1775,1800,1750,1775,1925,7,0,7,1,6,0,7
+Brazil,1822,state creation,Independence from Portugal,True,1775,1800,1775,1800,1925,6,0,6,0,6,0,6
+Italy,1861,state creation,Unification,True,1825,1850,1800,1725,1925,9,4,5,5,4,3,6
+Canada,1867,state creation,Confederation,True,1825,1850,1800,1750,1925,8,3,5,4,4,2,6
+Norway,1905,state creation,Dissolution of the union with Sweden,True,1875,1875,1850,1775,1925,7,4,3,4,3,3,4
+Australia,1901,state creation,Federation,True,1875,1875,1850,1800,1925,6,3,3,3,3,2,4
+New Zealand,1907,state creation,Dominion status,True,1875,1900,1850,1800,1925,6,3,3,4,2,2,4

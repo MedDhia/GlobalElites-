@@ -1,0 +1,1147 @@
+shock_type,outcome,dropped,event_time,att,n_groups,n_treated_cells,min_controls
+revolutionary rupture,Economic + Security,Argentina,-3,0.11866489504899483,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Argentina,-2,-0.2895435805825853,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Argentina,0,-0.18322507832169152,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Argentina,1,0.43696609262211206,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Argentina,2,-0.2105139764878641,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Argentina,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Argentina,-3,-0.22671560202701296,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Argentina,-2,-0.1753831054591701,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Argentina,0,0.29840956000956925,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Argentina,1,0.09066366613354808,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Argentina,2,-0.17790148497495598,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Argentina,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Argentina,-3,0.11705360100871949,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Argentina,-2,0.4308381460215838,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Argentina,0,-0.4139458746076915,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Argentina,1,-0.5827233371615969,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Argentina,2,-0.036293154635653274,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Argentina,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Argentina,-3,-0.2158134991241552,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Argentina,-2,0.003952447909823714,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Argentina,0,-0.21290657467820812,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Argentina,1,-0.32577832234446025,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Argentina,2,-0.011466992146932808,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Argentina,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Argentina,-3,-0.010816225381327564,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Argentina,-2,-0.08836913472147477,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Argentina,0,-0.03407644633242782,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Argentina,1,0.03161275278193504,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Argentina,2,0.0020134336367725117,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Argentina,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Argentina,-3,0.223136451275977,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Argentina,-2,0.10416250597947635,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Argentina,0,0.2662335278730275,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Argentina,1,0.1382238521079796,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Argentina,2,0.24911320682547405,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Argentina,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,Australia,-3,0.13602582922904907,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Australia,-2,-0.2843960686315687,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Australia,0,-0.16269862648599082,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Australia,1,0.45542937782046844,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Australia,2,-0.1866623891336505,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Australia,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Australia,-3,-0.23616473560732607,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Australia,-2,-0.17540839564930516,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Australia,0,0.29470636507732273,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Australia,1,0.08942282960824723,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Australia,2,-0.17716427198297052,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Australia,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Australia,-3,0.10788465292723658,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Australia,-2,0.42188943430859904,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Australia,0,-0.4216006985496431,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Australia,1,-0.5952832927459857,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Australia,2,-0.05647738056672438,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Australia,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Australia,-3,-0.21535986265010126,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Australia,-2,0.0035956487113304736,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Australia,0,-0.20693756890213316,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Australia,1,-0.31955410281885877,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Australia,2,-0.012493050112122053,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Australia,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Australia,-3,-0.006557110095323736,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Australia,-2,-0.08559295417732578,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Australia,0,-0.032756683714829475,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Australia,1,0.03320168507561949,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Australia,2,0.006175498124859992,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Australia,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Australia,-3,0.24799967040207624,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Australia,-2,0.11423727627487028,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Australia,0,0.23527123477735049,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Australia,1,0.11389537412699852,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Australia,2,0.2148307041476105,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Australia,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,Austria,-3,0.07818780664779805,2.0,3.0,3.0
+revolutionary rupture,Economic + Security,Austria,-2,-0.26476794458571734,2.0,3.0,4.0
+revolutionary rupture,Economic + Security,Austria,0,-0.14738307362377956,2.0,3.0,6.0
+revolutionary rupture,Economic + Security,Austria,1,0.37309416361246256,2.0,3.0,6.0
+revolutionary rupture,Economic + Security,Austria,2,-0.2143791161343659,2.0,3.0,6.0
+revolutionary rupture,Economic + Security,Austria,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Austria,-3,-0.29120595450041004,2.0,3.0,3.0
+revolutionary rupture,Ideational + Economic,Austria,-2,-0.23951769044159046,2.0,3.0,4.0
+revolutionary rupture,Ideational + Economic,Austria,0,0.33873941897818566,2.0,3.0,6.0
+revolutionary rupture,Ideational + Economic,Austria,1,0.05201669889983986,2.0,3.0,6.0
+revolutionary rupture,Ideational + Economic,Austria,2,-0.24307035626530651,2.0,3.0,6.0
+revolutionary rupture,Ideational + Economic,Austria,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Austria,-3,0.21062505217961547,2.0,3.0,3.0
+revolutionary rupture,Ideational + Security,Austria,-2,0.5834229361000575,2.0,3.0,4.0
+revolutionary rupture,Ideational + Security,Austria,0,-0.373514757568643,2.0,3.0,6.0
+revolutionary rupture,Ideational + Security,Austria,1,-0.5129316208278967,2.0,3.0,6.0
+revolutionary rupture,Ideational + Security,Austria,2,0.0057239946052871455,2.0,3.0,6.0
+revolutionary rupture,Ideational + Security,Austria,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Austria,-3,-0.289662014465361,2.0,3.0,3.0
+revolutionary rupture,Political + Economic,Austria,-2,-0.02183553239187337,2.0,3.0,4.0
+revolutionary rupture,Political + Economic,Austria,0,-0.21697807428059523,2.0,3.0,6.0
+revolutionary rupture,Political + Economic,Austria,1,-0.3434841778229932,2.0,3.0,6.0
+revolutionary rupture,Political + Economic,Austria,2,0.02073669501005963,2.0,3.0,6.0
+revolutionary rupture,Political + Economic,Austria,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Austria,-3,-0.018813888520700584,2.0,3.0,3.0
+revolutionary rupture,Political + Ideational,Austria,-2,-0.0864787022024871,2.0,3.0,4.0
+revolutionary rupture,Political + Ideational,Austria,0,-0.03567699888967215,2.0,3.0,6.0
+revolutionary rupture,Political + Ideational,Austria,1,0.028092546404825464,2.0,3.0,6.0
+revolutionary rupture,Political + Ideational,Austria,2,-0.0034779839245667834,2.0,3.0,6.0
+revolutionary rupture,Political + Ideational,Austria,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Austria,-3,0.29806867601725506,2.0,3.0,3.0
+revolutionary rupture,Political + Security,Austria,-2,0.0858900653674678,2.0,3.0,4.0
+revolutionary rupture,Political + Security,Austria,0,0.17252558511877183,2.0,3.0,6.0
+revolutionary rupture,Political + Security,Austria,1,0.09794721353026843,2.0,3.0,6.0
+revolutionary rupture,Political + Security,Austria,2,0.22267473312893926,2.0,3.0,6.0
+revolutionary rupture,Political + Security,Austria,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,Brazil,-3,0.1290060416062957,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Brazil,-2,-0.2813788419225249,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Brazil,0,-0.17587045041519042,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Brazil,1,0.4439934597405514,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Brazil,2,-0.19854882949875363,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Brazil,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Brazil,-3,-0.22783897525287838,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Brazil,-2,-0.17583208264523414,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Brazil,0,0.2947898571081684,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Brazil,1,0.08719805913262753,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Brazil,2,-0.18167049779021782,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Brazil,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Brazil,-3,0.11010882334069379,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Brazil,-2,0.4246176914560543,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Brazil,0,-0.40708550085256534,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Brazil,1,-0.581110887843463,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Brazil,2,-0.03224143179602103,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Brazil,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Brazil,-3,-0.21553290855222443,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Brazil,-2,0.003985670693049587,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Brazil,0,-0.20997413230943893,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Brazil,1,-0.32156505128202617,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Brazil,2,-0.00717154002278339,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Brazil,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Brazil,-3,-0.008387692324091318,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Brazil,-2,-0.08743667730611228,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Brazil,0,-0.027316466344472486,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Brazil,1,0.03803266339445838,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Brazil,2,0.0038707874881893437,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Brazil,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Brazil,-3,0.22517018942211728,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Brazil,-2,0.09926073613710504,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Brazil,0,0.2324763851972326,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Brazil,1,0.10948716300264819,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Brazil,2,0.19667582708544773,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Brazil,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,Canada,-3,0.12079543535823697,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Canada,-2,-0.26873273351098637,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Canada,0,-0.18194589764864125,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Canada,1,0.44406205801001075,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Canada,2,-0.19871468505774809,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Canada,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Canada,-3,-0.22256674800976806,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Canada,-2,-0.1733051385958889,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Canada,0,0.29675951473365236,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Canada,1,0.09310520913117933,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Canada,2,-0.17434005021963975,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Canada,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Canada,-3,0.10740545053459022,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Canada,-2,0.413077692147238,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Canada,0,-0.4222904218899333,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Canada,1,-0.6187364270117429,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Canada,2,-0.08449206393372782,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Canada,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Canada,-3,-0.21410889644971265,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Canada,-2,0.004744229452040977,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Canada,0,-0.19563633949953316,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Canada,1,-0.30554593697768073,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Canada,2,-0.005938305257997253,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Canada,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Canada,-3,-0.010368628758474102,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Canada,-2,-0.08331715939215814,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Canada,0,-0.03526225285500232,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Canada,1,0.031824310417530366,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Canada,2,0.0030881628691651966,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Canada,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Canada,-3,0.2568379425964289,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Canada,-2,0.11389548450891021,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Canada,0,0.2450733639956886,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Canada,1,0.12878472900994614,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Canada,2,0.22956088854475581,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Canada,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,France,-3,-0.10079943229022569,1.0,3.0,12.0
+revolutionary rupture,Economic + Security,France,-2,-0.4759096461937866,1.0,3.0,12.0
+revolutionary rupture,Economic + Security,France,0,-0.21419545466127307,1.0,3.0,12.0
+revolutionary rupture,Economic + Security,France,1,0.7771833085184793,1.0,3.0,12.0
+revolutionary rupture,Economic + Security,France,2,-0.09378634411139253,1.0,3.0,12.0
+revolutionary rupture,Ideational + Economic,France,-3,-0.04381482533378369,1.0,3.0,12.0
+revolutionary rupture,Ideational + Economic,France,-2,-0.009242383575837614,1.0,3.0,12.0
+revolutionary rupture,Ideational + Economic,France,0,0.21931579051507052,1.0,3.0,12.0
+revolutionary rupture,Ideational + Economic,France,1,0.17969152308045558,1.0,3.0,12.0
+revolutionary rupture,Ideational + Economic,France,2,-8.014286637100104e-06,1.0,3.0,12.0
+revolutionary rupture,Ideational + Security,France,-3,0.1407021129296196,1.0,3.0,12.0
+revolutionary rupture,Ideational + Security,France,-2,0.30624612178847627,1.0,3.0,12.0
+revolutionary rupture,Ideational + Security,France,0,-0.5666025332742425,1.0,3.0,12.0
+revolutionary rupture,Ideational + Security,France,1,-0.8440052405101216,1.0,3.0,12.0
+revolutionary rupture,Ideational + Security,France,2,-0.13544846189169804,1.0,3.0,12.0
+revolutionary rupture,Political + Economic,France,-3,0.018153555143688417,1.0,3.0,12.0
+revolutionary rupture,Political + Economic,France,-2,0.09550818216336683,1.0,3.0,12.0
+revolutionary rupture,Political + Economic,France,0,-0.24632131445830766,1.0,3.0,12.0
+revolutionary rupture,Political + Economic,France,1,-0.459586380936013,1.0,3.0,12.0
+revolutionary rupture,Political + Economic,France,2,-0.08723908852742583,1.0,3.0,12.0
+revolutionary rupture,Political + Ideational,France,-3,0.0016369099414734042,1.0,3.0,12.0
+revolutionary rupture,Political + Ideational,France,-2,-0.09985261556411562,1.0,3.0,12.0
+revolutionary rupture,Political + Ideational,France,0,-0.018967840040232525,1.0,3.0,12.0
+revolutionary rupture,Political + Ideational,France,1,0.12814111351966118,1.0,3.0,12.0
+revolutionary rupture,Political + Ideational,France,2,0.030429294332600092,1.0,3.0,12.0
+revolutionary rupture,Political + Security,France,-3,0.01752991040577445,1.0,3.0,12.0
+revolutionary rupture,Political + Security,France,-2,0.038782383413479865,1.0,3.0,12.0
+revolutionary rupture,Political + Security,France,0,0.35626063640031197,1.0,3.0,12.0
+revolutionary rupture,Political + Security,France,1,0.06763514453997282,1.0,3.0,12.0
+revolutionary rupture,Political + Security,France,2,0.12101161913517083,1.0,3.0,12.0
+revolutionary rupture,Economic + Security,Germany,-3,0.3572527123301241,2.0,3.0,2.0
+revolutionary rupture,Economic + Security,Germany,-2,-0.06607629841623885,2.0,3.0,3.0
+revolutionary rupture,Economic + Security,Germany,0,-0.7421627975045637,2.0,3.0,5.0
+revolutionary rupture,Economic + Security,Germany,1,-0.4884315277976805,2.0,3.0,5.0
+revolutionary rupture,Economic + Security,Germany,2,-0.4859402939838806,2.0,3.0,5.0
+revolutionary rupture,Economic + Security,Germany,3,-0.1680157570306528,1.0,1.0,5.0
+revolutionary rupture,Ideational + Economic,Germany,-3,-0.27115548296834546,2.0,3.0,2.0
+revolutionary rupture,Ideational + Economic,Germany,-2,-0.13723060801282325,2.0,3.0,3.0
+revolutionary rupture,Ideational + Economic,Germany,0,0.28880157451051985,2.0,3.0,5.0
+revolutionary rupture,Ideational + Economic,Germany,1,0.12891241362734576,2.0,3.0,5.0
+revolutionary rupture,Ideational + Economic,Germany,2,-0.16208469093275446,2.0,3.0,5.0
+revolutionary rupture,Ideational + Economic,Germany,3,-0.7050626995683134,1.0,1.0,5.0
+revolutionary rupture,Ideational + Security,Germany,-3,-0.05821003300272976,2.0,3.0,2.0
+revolutionary rupture,Ideational + Security,Germany,-2,0.09123560787948597,2.0,3.0,3.0
+revolutionary rupture,Ideational + Security,Germany,0,-0.10426356162305955,2.0,3.0,5.0
+revolutionary rupture,Ideational + Security,Germany,1,-0.012896981573595478,2.0,3.0,5.0
+revolutionary rupture,Ideational + Security,Germany,2,0.3015346636963719,2.0,3.0,5.0
+revolutionary rupture,Ideational + Security,Germany,3,0.49734159581973836,1.0,1.0,5.0
+revolutionary rupture,Political + Economic,Germany,-3,-0.503352725106427,2.0,3.0,2.0
+revolutionary rupture,Political + Economic,Germany,-2,-0.21729647093397278,2.0,3.0,3.0
+revolutionary rupture,Political + Economic,Germany,0,-0.1474617416248131,2.0,3.0,5.0
+revolutionary rupture,Political + Economic,Germany,1,-0.12066208586860173,2.0,3.0,5.0
+revolutionary rupture,Political + Economic,Germany,2,0.00443866806916036,2.0,3.0,5.0
+revolutionary rupture,Political + Economic,Germany,3,0.3266906344542852,1.0,1.0,5.0
+revolutionary rupture,Political + Ideational,Germany,-3,0.014140274142059997,2.0,3.0,2.0
+revolutionary rupture,Political + Ideational,Germany,-2,-0.04552622673968625,2.0,3.0,3.0
+revolutionary rupture,Political + Ideational,Germany,0,-0.07383862380774654,2.0,3.0,5.0
+revolutionary rupture,Political + Ideational,Germany,1,-0.16327318743983207,2.0,3.0,5.0
+revolutionary rupture,Political + Ideational,Germany,2,-0.0399566778794402,2.0,3.0,5.0
+revolutionary rupture,Political + Ideational,Germany,3,-0.05262466051794307,1.0,1.0,5.0
+revolutionary rupture,Political + Security,Germany,-3,0.480901550021003,2.0,3.0,2.0
+revolutionary rupture,Political + Security,Germany,-2,0.4072062759714566,2.0,3.0,3.0
+revolutionary rupture,Political + Security,Germany,0,0.28165062038134636,2.0,3.0,5.0
+revolutionary rupture,Political + Security,Germany,1,0.3845860992221643,2.0,3.0,5.0
+revolutionary rupture,Political + Security,Germany,2,0.2895034323004926,2.0,3.0,5.0
+revolutionary rupture,Political + Security,Germany,3,0.3497291055194472,1.0,1.0,5.0
+revolutionary rupture,Economic + Security,Italy,-3,0.11551382863800262,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Italy,-2,-0.2922471910620148,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Italy,0,-0.15022810309085113,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Italy,1,0.47732957488114147,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Italy,2,-0.13522646210090716,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Italy,3,0.03191234658930414,1.0,1.0,5.0
+revolutionary rupture,Ideational + Economic,Italy,-3,-0.22488474113192325,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Italy,-2,-0.17177361435923824,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Italy,0,0.29017771932560776,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Italy,1,0.07537720260596428,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Italy,2,-0.18238281716553473,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Italy,3,-0.8085334567826425,1.0,1.0,5.0
+revolutionary rupture,Ideational + Security,Italy,-3,0.11526964361984697,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Italy,-2,0.42389662377950366,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Italy,0,-0.3898475295511152,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Italy,1,-0.5603903907998233,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Italy,2,-0.03118708123587316,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Italy,3,0.29470714989564495,1.0,1.0,5.0
+revolutionary rupture,Political + Economic,Italy,-3,-0.21686945111695982,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Italy,-2,0.0034628473638713825,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Italy,0,-0.20848786570239683,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Italy,1,-0.31166562129693715,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Italy,2,-0.0034414524671752336,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Italy,3,0.30583333787273054,1.0,1.0,5.0
+revolutionary rupture,Political + Ideational,Italy,-3,-0.012963743825358087,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Italy,-2,-0.09475942559876771,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Italy,0,-0.021639908062774587,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Italy,1,0.047066347888304064,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Italy,2,0.011498929242996194,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Italy,3,0.02493042275194332,1.0,1.0,5.0
+revolutionary rupture,Political + Security,Italy,-3,0.26282277159919654,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Italy,-2,0.12188556617785369,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Italy,0,0.18746433395975443,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Italy,1,0.00788435862550671,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Italy,2,0.17376543813394377,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Italy,3,0.3459617572820941,1.0,1.0,5.0
+revolutionary rupture,Economic + Security,New Zealand,-3,0.11515551650521413,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,New Zealand,-2,-0.27283619317647695,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,New Zealand,0,-0.1899909742132437,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,New Zealand,1,0.4593751386937589,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,New Zealand,2,-0.19704293127815037,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,New Zealand,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,New Zealand,-3,-0.22200420874343774,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,New Zealand,-2,-0.16906741833207115,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,New Zealand,0,0.2989067692062277,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,New Zealand,1,0.09204470018056292,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,New Zealand,2,-0.1752034773010093,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,New Zealand,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,New Zealand,-3,0.10568436822744683,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,New Zealand,-2,0.41634404884585263,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,New Zealand,0,-0.41889030605343713,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,New Zealand,1,-0.6009068885252613,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,New Zealand,2,-0.04406467271743339,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,New Zealand,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,New Zealand,-3,-0.21713863516579854,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,New Zealand,-2,0.001617215079977502,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,New Zealand,0,-0.20959206152141768,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,New Zealand,1,-0.3275039714634109,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,New Zealand,2,-0.011287735878250965,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,New Zealand,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,New Zealand,-3,-0.011897988315748481,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,New Zealand,-2,-0.0867114316586303,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,New Zealand,0,-0.033687428976134075,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,New Zealand,1,0.0339559913889218,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,New Zealand,2,0.004092358632256404,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,New Zealand,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,New Zealand,-3,0.2546493499724983,2.0,4.0,3.0
+revolutionary rupture,Political + Security,New Zealand,-2,0.11482720580058745,2.0,4.0,4.0
+revolutionary rupture,Political + Security,New Zealand,0,0.24214458055136576,2.0,4.0,6.0
+revolutionary rupture,Political + Security,New Zealand,1,0.12100276156391736,2.0,4.0,6.0
+revolutionary rupture,Political + Security,New Zealand,2,0.22074434339352977,2.0,4.0,6.0
+revolutionary rupture,Political + Security,New Zealand,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,Norway,-3,0.12333588587332991,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Norway,-2,-0.28042295588512706,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Norway,0,-0.17275702344569124,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Norway,1,0.4514764654082797,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Norway,2,-0.19594329839771088,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Norway,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Norway,-3,-0.22695130890944135,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Norway,-2,-0.17631300815771464,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Norway,0,0.2978865095461559,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Norway,1,0.09267824155544203,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Norway,2,-0.17630778832925015,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Norway,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Norway,-3,0.10704735608999225,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Norway,-2,0.42101502869711654,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Norway,0,-0.4192035900208866,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Norway,1,-0.5998185471803626,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Norway,2,-0.043024941111857146,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Norway,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Norway,-3,-0.21627658427469068,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Norway,-2,0.0039641154486218105,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Norway,0,-0.21382197390156843,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Norway,1,-0.32970975409606806,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Norway,2,-0.013313910178284899,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Norway,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Norway,-3,-0.010528349373587603,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Norway,-2,-0.08721885857095915,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Norway,0,-0.03137138898791064,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Norway,1,0.034439039320058054,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Norway,2,0.004572177206466126,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Norway,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Norway,-3,0.2526573894033843,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Norway,-2,0.11231752951433513,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Norway,0,0.24235741288925086,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Norway,1,0.12431781969866565,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Norway,2,0.2223777403601998,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Norway,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,Russia,-3,0.22229979512406814,2.0,3.0,3.0
+revolutionary rupture,Economic + Security,Russia,-2,-0.2797364236614108,2.0,3.0,4.0
+revolutionary rupture,Economic + Security,Russia,0,0.05453451348131722,2.0,3.0,6.0
+revolutionary rupture,Economic + Security,Russia,1,0.6700488424309926,2.0,3.0,6.0
+revolutionary rupture,Economic + Security,Russia,2,-0.12415763663926704,2.0,3.0,6.0
+revolutionary rupture,Economic + Security,Russia,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Russia,-3,-0.29034760573818336,2.0,3.0,3.0
+revolutionary rupture,Ideational + Economic,Russia,-2,-0.2337064294044239,2.0,3.0,4.0
+revolutionary rupture,Ideational + Economic,Russia,0,0.3193509223045175,2.0,3.0,6.0
+revolutionary rupture,Ideational + Economic,Russia,1,0.06419606097678082,2.0,3.0,6.0
+revolutionary rupture,Ideational + Economic,Russia,2,-0.23617875837993915,2.0,3.0,6.0
+revolutionary rupture,Ideational + Economic,Russia,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Russia,-3,0.06843820725978268,2.0,3.0,3.0
+revolutionary rupture,Ideational + Security,Russia,-2,0.4731341465185744,2.0,3.0,4.0
+revolutionary rupture,Ideational + Security,Russia,0,-0.42415417803782174,2.0,3.0,6.0
+revolutionary rupture,Ideational + Security,Russia,1,-0.6534049885764605,2.0,3.0,6.0
+revolutionary rupture,Ideational + Security,Russia,2,-0.08757028247610125,2.0,3.0,6.0
+revolutionary rupture,Ideational + Security,Russia,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Russia,-3,-0.2925778069998003,2.0,3.0,3.0
+revolutionary rupture,Political + Economic,Russia,-2,-0.024557581685494257,2.0,3.0,4.0
+revolutionary rupture,Political + Economic,Russia,0,-0.19849271791370834,2.0,3.0,6.0
+revolutionary rupture,Political + Economic,Russia,1,-0.2766916863802736,2.0,3.0,6.0
+revolutionary rupture,Political + Economic,Russia,2,0.014210045794786205,2.0,3.0,6.0
+revolutionary rupture,Political + Economic,Russia,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Russia,-3,-0.015542996381293098,2.0,3.0,3.0
+revolutionary rupture,Political + Ideational,Russia,-2,-0.08517071842035535,2.0,3.0,4.0
+revolutionary rupture,Political + Ideational,Russia,0,-0.029939339924429983,2.0,3.0,6.0
+revolutionary rupture,Political + Ideational,Russia,1,0.014206214705754486,2.0,3.0,6.0
+revolutionary rupture,Political + Ideational,Russia,2,-0.0006791528116846107,2.0,3.0,6.0
+revolutionary rupture,Political + Ideational,Russia,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Russia,-3,0.3235532575408721,2.0,3.0,3.0
+revolutionary rupture,Political + Security,Russia,-2,0.08126759477682771,2.0,3.0,4.0
+revolutionary rupture,Political + Security,Russia,0,0.20282882639778255,2.0,3.0,6.0
+revolutionary rupture,Political + Security,Russia,1,0.07820838594786772,2.0,3.0,6.0
+revolutionary rupture,Political + Security,Russia,2,0.2682990186912703,2.0,3.0,6.0
+revolutionary rupture,Political + Security,Russia,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,Spain,-3,0.121053762041726,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Spain,-2,-0.2864800924659337,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Spain,0,-0.15919419476030552,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Spain,1,0.42684941964925693,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Spain,2,-0.1977691297917021,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Spain,3,-0.12304104984578518,1.0,1.0,5.0
+revolutionary rupture,Ideational + Economic,Spain,-3,-0.21886872252144818,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Spain,-2,-0.1717513139342594,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Spain,0,0.2982928546288691,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Spain,1,0.09316640775778832,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Spain,2,-0.1849391950503772,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Spain,3,-0.8523740722754958,1.0,1.0,5.0
+revolutionary rupture,Ideational + Security,Spain,-3,0.09890936975560226,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Spain,-2,0.4220276738954508,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Spain,0,-0.4099084902882143,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Spain,1,-0.5814095326377043,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Spain,2,-0.03835961496229008,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Spain,3,0.23946120130905146,1.0,1.0,5.0
+revolutionary rupture,Political + Economic,Spain,-3,-0.2164985586970871,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Spain,-2,0.00353168844229812,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Spain,0,-0.2103732077559971,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Spain,1,-0.32421742606632437,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Spain,2,-0.007335491044339823,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Spain,3,0.3066750664004328,1.0,1.0,5.0
+revolutionary rupture,Political + Ideational,Spain,-3,-0.011984551246632145,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Spain,-2,-0.0894638826230028,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Spain,0,-0.03357118136117404,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Spain,1,0.031662161600056915,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Spain,2,0.004215830945604779,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Spain,3,0.01392932043606615,1.0,1.0,5.0
+revolutionary rupture,Political + Security,Spain,-3,0.23820460411950972,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Spain,-2,0.11217516655247511,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Spain,0,0.2302324917836942,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Spain,1,0.10681323228470727,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Spain,2,0.20339949217158226,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Spain,3,0.42342367619472926,1.0,1.0,5.0
+revolutionary rupture,Economic + Security,Sweden,-3,0.13373009530457272,2.0,4.0,2.0
+revolutionary rupture,Economic + Security,Sweden,-2,-0.2904610968922309,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Sweden,0,-0.1523962250174233,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Sweden,1,0.4710174881904888,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Sweden,2,-0.16371977034244073,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,Sweden,3,-0.025952552929198403,1.0,1.0,5.0
+revolutionary rupture,Ideational + Economic,Sweden,-3,-0.21288985535285324,2.0,4.0,2.0
+revolutionary rupture,Ideational + Economic,Sweden,-2,-0.15595866916883247,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Sweden,0,0.2877325372427113,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Sweden,1,0.08189292540443457,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Sweden,2,-0.1740466380441389,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,Sweden,3,-0.8422776369493801,1.0,1.0,5.0
+revolutionary rupture,Ideational + Security,Sweden,-3,0.16158752512068958,2.0,4.0,2.0
+revolutionary rupture,Ideational + Security,Sweden,-2,0.3879325689427179,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Sweden,0,-0.44231620582598313,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Sweden,1,-0.6540333726948617,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Sweden,2,-0.10665326136977166,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,Sweden,3,0.25921180988776515,1.0,1.0,5.0
+revolutionary rupture,Political + Economic,Sweden,-3,-0.22059473493962756,2.0,4.0,2.0
+revolutionary rupture,Political + Economic,Sweden,-2,0.00048800913742948204,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Sweden,0,-0.22140832776885216,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Sweden,1,-0.33593195286126326,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Sweden,2,-0.01911937633284315,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,Sweden,3,0.30397303384702135,1.0,1.0,5.0
+revolutionary rupture,Political + Ideational,Sweden,-3,-0.012564077512418281,2.0,4.0,2.0
+revolutionary rupture,Political + Ideational,Sweden,-2,-0.09089108526401346,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Sweden,0,-0.029554879017027462,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Sweden,1,0.03577221008196016,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Sweden,2,0.006054177993629839,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,Sweden,3,0.017822982762106865,1.0,1.0,5.0
+revolutionary rupture,Political + Security,Sweden,-3,0.2155208851530923,2.0,4.0,2.0
+revolutionary rupture,Political + Security,Sweden,-2,0.12609035636441612,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Sweden,0,0.2508005310282714,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Sweden,1,0.15143189705081553,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Sweden,2,0.25925734416526225,2.0,4.0,5.0
+revolutionary rupture,Political + Security,Sweden,3,0.36094148435065304,1.0,1.0,5.0
+revolutionary rupture,Economic + Security,Switzerland,-3,0.11351113595725502,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,Switzerland,-2,-0.28037886483569036,2.0,4.0,4.0
+revolutionary rupture,Economic + Security,Switzerland,0,-0.17822977674490034,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Switzerland,1,0.4412278081666279,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Switzerland,2,-0.19505026303531903,2.0,4.0,6.0
+revolutionary rupture,Economic + Security,Switzerland,3,-0.03382946958725225,1.0,1.0,6.0
+revolutionary rupture,Ideational + Economic,Switzerland,-3,-0.2220722396506104,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,Switzerland,-2,-0.17934144669067184,2.0,4.0,4.0
+revolutionary rupture,Ideational + Economic,Switzerland,0,0.29867177209978024,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Switzerland,1,0.09202858297998424,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Switzerland,2,-0.1782164805778803,2.0,4.0,6.0
+revolutionary rupture,Ideational + Economic,Switzerland,3,-0.8486302068571017,1.0,1.0,6.0
+revolutionary rupture,Ideational + Security,Switzerland,-3,0.11047488329264048,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,Switzerland,-2,0.4224108353230599,2.0,4.0,4.0
+revolutionary rupture,Ideational + Security,Switzerland,0,-0.4130045410197569,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Switzerland,1,-0.5861003968264836,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Switzerland,2,-0.03918780418333176,2.0,4.0,6.0
+revolutionary rupture,Ideational + Security,Switzerland,3,0.34629626308329675,1.0,1.0,6.0
+revolutionary rupture,Political + Economic,Switzerland,-3,-0.21612870737452164,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,Switzerland,-2,0.003840357808053474,2.0,4.0,4.0
+revolutionary rupture,Political + Economic,Switzerland,0,-0.21287248148172536,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Switzerland,1,-0.32616103948357855,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Switzerland,2,-0.010993468188169972,2.0,4.0,6.0
+revolutionary rupture,Political + Economic,Switzerland,3,0.3023668966551755,1.0,1.0,6.0
+revolutionary rupture,Political + Ideational,Switzerland,-3,-0.014797940240200588,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,Switzerland,-2,-0.08680773959381809,2.0,4.0,4.0
+revolutionary rupture,Political + Ideational,Switzerland,0,-0.03227786533994052,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Switzerland,1,0.03240885471133065,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Switzerland,2,0.00385682529632049,2.0,4.0,6.0
+revolutionary rupture,Political + Ideational,Switzerland,3,0.0172175401596926,1.0,1.0,6.0
+revolutionary rupture,Political + Security,Switzerland,-3,0.2536011345892141,2.0,4.0,3.0
+revolutionary rupture,Political + Security,Switzerland,-2,0.11174198985807224,2.0,4.0,4.0
+revolutionary rupture,Political + Security,Switzerland,0,0.24222946252516367,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Switzerland,1,0.12196726817784277,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Switzerland,2,0.2200753477244825,2.0,4.0,6.0
+revolutionary rupture,Political + Security,Switzerland,3,0.37329744455572456,1.0,1.0,6.0
+revolutionary rupture,Economic + Security,US,-3,0.0742738774260136,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,US,-2,-0.2948538861498658,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,US,0,-0.39611875163571686,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,US,1,0.13410691731087987,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,US,2,-0.5097910755331929,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,US,3,0.09274490898752846,1.0,1.0,5.0
+revolutionary rupture,Ideational + Economic,US,-3,-0.20795927827454638,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,US,-2,-0.1896417415500178,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,US,0,0.32741409904533836,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,US,1,0.13019030800561215,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,US,2,-0.13808002830472102,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,US,3,-0.8900623170718527,1.0,1.0,5.0
+revolutionary rupture,Ideational + Security,US,-3,0.08219752891208543,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,US,-2,0.4158344954730557,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,US,0,-0.4134679942631395,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,US,1,-0.5593534567561612,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,US,2,-0.020295685203076924,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,US,3,0.3753696551344121,1.0,1.0,5.0
+revolutionary rupture,Political + Economic,US,-3,-0.21889699576487848,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,US,-2,0.030560686071866724,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,US,0,-0.21502198293972896,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,US,1,-0.3472286934584304,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,US,2,-0.05173647688412146,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,US,3,0.14839285162727772,1.0,1.0,5.0
+revolutionary rupture,Political + Ideational,US,-3,-0.01698676653489079,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,US,-2,-0.08525002983023718,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,US,0,-0.042968695245385574,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,US,1,0.015187628045686234,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,US,2,-0.007177295091252221,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,US,3,0.03281541855434974,1.0,1.0,5.0
+revolutionary rupture,Political + Security,US,-3,0.29576013767921633,2.0,4.0,3.0
+revolutionary rupture,Political + Security,US,-2,0.12557176557185984,2.0,4.0,3.0
+revolutionary rupture,Political + Security,US,0,0.31625861599512034,2.0,4.0,5.0
+revolutionary rupture,Political + Security,US,1,0.24175230083974897,2.0,4.0,5.0
+revolutionary rupture,Political + Security,US,2,0.33960462098381083,2.0,4.0,5.0
+revolutionary rupture,Political + Security,US,3,0.4957159242718681,1.0,1.0,5.0
+revolutionary rupture,Economic + Security,United Kingdom,-3,0.03628616088430465,2.0,4.0,2.0
+revolutionary rupture,Economic + Security,United Kingdom,-2,-0.2790615813512083,2.0,4.0,3.0
+revolutionary rupture,Economic + Security,United Kingdom,0,-0.07383394904835061,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,United Kingdom,1,0.6013379640559027,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,United Kingdom,2,-0.10419679115806138,2.0,4.0,5.0
+revolutionary rupture,Economic + Security,United Kingdom,3,0.05759017121088708,1.0,1.0,5.0
+revolutionary rupture,Ideational + Economic,United Kingdom,-3,-0.27270774940671766,2.0,4.0,2.0
+revolutionary rupture,Ideational + Economic,United Kingdom,-2,-0.20076640909274662,2.0,4.0,3.0
+revolutionary rupture,Ideational + Economic,United Kingdom,0,0.3009460928641974,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,United Kingdom,1,0.06734541663661184,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,United Kingdom,2,-0.2203019676691565,2.0,4.0,5.0
+revolutionary rupture,Ideational + Economic,United Kingdom,3,-0.9224139165202107,1.0,1.0,5.0
+revolutionary rupture,Ideational + Security,United Kingdom,-3,0.15050975095000402,2.0,4.0,2.0
+revolutionary rupture,Ideational + Security,United Kingdom,-2,0.4577437931897403,2.0,4.0,3.0
+revolutionary rupture,Ideational + Security,United Kingdom,0,-0.34685763737279446,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,United Kingdom,1,-0.48045640523381267,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,United Kingdom,2,0.09551685253431476,2.0,4.0,5.0
+revolutionary rupture,Ideational + Security,United Kingdom,3,0.42371904682331063,1.0,1.0,5.0
+revolutionary rupture,Political + Economic,United Kingdom,-3,-0.1366935018747462,2.0,4.0,2.0
+revolutionary rupture,Political + Economic,United Kingdom,-2,-0.0006887999081214985,2.0,4.0,3.0
+revolutionary rupture,Political + Economic,United Kingdom,0,-0.22134093193063636,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,United Kingdom,1,-0.33154165960262366,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,United Kingdom,2,0.0056337548448816555,2.0,4.0,5.0
+revolutionary rupture,Political + Economic,United Kingdom,3,0.35201417483691644,1.0,1.0,5.0
+revolutionary rupture,Political + Ideational,United Kingdom,-3,-0.01256608464982353,2.0,4.0,2.0
+revolutionary rupture,Political + Ideational,United Kingdom,-2,-0.08680529815832827,2.0,4.0,3.0
+revolutionary rupture,Political + Ideational,United Kingdom,0,-0.03505418769308364,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,United Kingdom,1,0.03875325853942087,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,United Kingdom,2,0.012757723191574977,2.0,4.0,5.0
+revolutionary rupture,Political + Ideational,United Kingdom,3,0.05059314525797565,1.0,1.0,5.0
+revolutionary rupture,Political + Security,United Kingdom,-3,0.24452847440764017,2.0,4.0,2.0
+revolutionary rupture,Political + Security,United Kingdom,-2,0.08410540930457093,2.0,4.0,3.0
+revolutionary rupture,Political + Security,United Kingdom,0,0.18471174547421665,2.0,4.0,5.0
+revolutionary rupture,Political + Security,United Kingdom,1,0.06520734398813059,2.0,4.0,5.0
+revolutionary rupture,Political + Security,United Kingdom,2,0.14051247121408478,2.0,4.0,5.0
+revolutionary rupture,Political + Security,United Kingdom,3,0.34602034267384807,1.0,1.0,5.0
+state creation,Economic + Security,Argentina,-3,0.2918874726658592,2.0,5.0,6.0
+state creation,Economic + Security,Argentina,-2,-0.3327073929413422,3.0,6.0,4.0
+state creation,Economic + Security,Argentina,0,0.043205187762684984,3.0,6.0,6.0
+state creation,Economic + Security,Argentina,1,0.23770900467942346,3.0,6.0,6.0
+state creation,Economic + Security,Argentina,2,0.20570358707284822,3.0,6.0,6.0
+state creation,Economic + Security,Argentina,3,0.4508543451407813,2.0,3.0,5.0
+state creation,Ideational + Economic,Argentina,-3,-0.21869811365536038,2.0,5.0,6.0
+state creation,Ideational + Economic,Argentina,-2,-0.16734390423495973,3.0,6.0,4.0
+state creation,Ideational + Economic,Argentina,0,-0.1728006564105078,3.0,6.0,6.0
+state creation,Ideational + Economic,Argentina,1,-0.22803705288368134,3.0,6.0,6.0
+state creation,Ideational + Economic,Argentina,2,-0.25745809392064334,3.0,6.0,6.0
+state creation,Ideational + Economic,Argentina,3,-0.6660810807204897,2.0,3.0,5.0
+state creation,Ideational + Security,Argentina,-3,0.02553606756097184,2.0,5.0,6.0
+state creation,Ideational + Security,Argentina,-2,0.11119358311030199,3.0,6.0,4.0
+state creation,Ideational + Security,Argentina,0,-0.12083350144413456,3.0,6.0,6.0
+state creation,Ideational + Security,Argentina,1,-0.23781204121058705,3.0,6.0,6.0
+state creation,Ideational + Security,Argentina,2,-0.06197838737114081,3.0,6.0,6.0
+state creation,Ideational + Security,Argentina,3,0.6843874799223935,2.0,3.0,5.0
+state creation,Political + Economic,Argentina,-3,0.1352909129293033,2.0,5.0,6.0
+state creation,Political + Economic,Argentina,-2,0.046711679088512814,3.0,6.0,4.0
+state creation,Political + Economic,Argentina,0,0.10808067654074632,3.0,6.0,6.0
+state creation,Political + Economic,Argentina,1,0.1388285746798462,3.0,6.0,6.0
+state creation,Political + Economic,Argentina,2,0.04315391929466119,3.0,6.0,6.0
+state creation,Political + Economic,Argentina,3,0.19178612606173331,2.0,3.0,5.0
+state creation,Political + Ideational,Argentina,-3,0.05438021642312071,2.0,5.0,6.0
+state creation,Political + Ideational,Argentina,-2,0.045421243555219454,3.0,6.0,4.0
+state creation,Political + Ideational,Argentina,0,0.025595865327687855,3.0,6.0,6.0
+state creation,Political + Ideational,Argentina,1,0.022452632201858575,3.0,6.0,6.0
+state creation,Political + Ideational,Argentina,2,0.028589664832393353,3.0,6.0,6.0
+state creation,Political + Ideational,Argentina,3,0.05933186141394737,2.0,3.0,5.0
+state creation,Political + Security,Argentina,-3,0.2445315267185432,2.0,5.0,6.0
+state creation,Political + Security,Argentina,-2,0.05363434595255264,3.0,6.0,4.0
+state creation,Political + Security,Argentina,0,-0.02416152695740501,3.0,6.0,6.0
+state creation,Political + Security,Argentina,1,0.020861665759993448,3.0,6.0,6.0
+state creation,Political + Security,Argentina,2,-0.08465767217553342,3.0,6.0,6.0
+state creation,Political + Security,Argentina,3,-0.5228477292970485,2.0,3.0,5.0
+state creation,Economic + Security,Australia,-3,-0.08013181674736697,2.0,4.0,6.0
+state creation,Economic + Security,Australia,-2,-0.4884231368782393,3.0,5.0,4.0
+state creation,Economic + Security,Australia,0,-0.14522604614285106,3.0,5.0,6.0
+state creation,Economic + Security,Australia,1,0.14938698787154248,3.0,5.0,6.0
+state creation,Economic + Security,Australia,2,0.05754163122131799,3.0,5.0,6.0
+state creation,Economic + Security,Australia,3,0.4508543451407813,2.0,3.0,5.0
+state creation,Ideational + Economic,Australia,-3,-0.17628783611994436,2.0,4.0,6.0
+state creation,Ideational + Economic,Australia,-2,-0.19515543156252366,3.0,5.0,4.0
+state creation,Ideational + Economic,Australia,0,-0.15203353099024924,3.0,5.0,6.0
+state creation,Ideational + Economic,Australia,1,-0.2345929034041921,3.0,5.0,6.0
+state creation,Ideational + Economic,Australia,2,-0.315918718977526,3.0,5.0,6.0
+state creation,Ideational + Economic,Australia,3,-0.6660810807204897,2.0,3.0,5.0
+state creation,Ideational + Security,Australia,-3,0.08612534190428203,2.0,4.0,6.0
+state creation,Ideational + Security,Australia,-2,0.18041909053636168,3.0,5.0,4.0
+state creation,Ideational + Security,Australia,0,-0.08355658011656442,3.0,5.0,6.0
+state creation,Ideational + Security,Australia,1,-0.2543576662503034,3.0,5.0,6.0
+state creation,Ideational + Security,Australia,2,0.12391357206550095,3.0,5.0,6.0
+state creation,Ideational + Security,Australia,3,0.6843874799223935,2.0,3.0,5.0
+state creation,Political + Economic,Australia,-3,0.14679477989623652,2.0,4.0,6.0
+state creation,Political + Economic,Australia,-2,0.0525065171236032,3.0,5.0,4.0
+state creation,Political + Economic,Australia,0,0.06437039432768502,3.0,5.0,6.0
+state creation,Political + Economic,Australia,1,0.028912691077880314,3.0,5.0,6.0
+state creation,Political + Economic,Australia,2,0.04026038434670744,3.0,5.0,6.0
+state creation,Political + Economic,Australia,3,0.19178612606173331,2.0,3.0,5.0
+state creation,Political + Ideational,Australia,-3,0.01972796369038043,2.0,4.0,6.0
+state creation,Political + Ideational,Australia,-2,0.03534333311106762,3.0,5.0,4.0
+state creation,Political + Ideational,Australia,0,0.028284284116525928,3.0,5.0,6.0
+state creation,Political + Ideational,Australia,1,0.03815110091768337,3.0,5.0,6.0
+state creation,Political + Ideational,Australia,2,0.02162997962665874,3.0,5.0,6.0
+state creation,Political + Ideational,Australia,3,0.05933186141394737,2.0,3.0,5.0
+state creation,Political + Security,Australia,-3,0.4663225248219875,2.0,4.0,6.0
+state creation,Political + Security,Australia,-2,0.05303941818582105,3.0,5.0,4.0
+state creation,Political + Security,Australia,0,0.11757100612843543,3.0,5.0,6.0
+state creation,Political + Security,Australia,1,0.19224048207564687,3.0,5.0,6.0
+state creation,Political + Security,Australia,2,0.02779325073337451,3.0,5.0,6.0
+state creation,Political + Security,Australia,3,-0.5228477292970485,2.0,3.0,5.0
+state creation,Economic + Security,Austria,-3,0.31579849127683113,2.0,5.0,6.0
+state creation,Economic + Security,Austria,-2,-0.3358765079447972,3.0,6.0,4.0
+state creation,Economic + Security,Austria,0,0.027967694961880157,3.0,6.0,6.0
+state creation,Economic + Security,Austria,1,0.22515343412676322,3.0,6.0,6.0
+state creation,Economic + Security,Austria,2,0.18235281813529816,3.0,6.0,6.0
+state creation,Economic + Security,Austria,3,0.4135127963852862,2.0,3.0,5.0
+state creation,Ideational + Economic,Austria,-3,-0.21789591284147206,2.0,5.0,6.0
+state creation,Ideational + Economic,Austria,-2,-0.16261928358048644,3.0,6.0,4.0
+state creation,Ideational + Economic,Austria,0,-0.1709854256878888,3.0,6.0,6.0
+state creation,Ideational + Economic,Austria,1,-0.22353903377934,3.0,6.0,6.0
+state creation,Ideational + Economic,Austria,2,-0.2547251641244111,3.0,6.0,6.0
+state creation,Ideational + Economic,Austria,3,-0.6628252946631066,2.0,3.0,5.0
+state creation,Ideational + Security,Austria,-3,-0.002237690247120039,2.0,5.0,6.0
+state creation,Ideational + Security,Austria,-2,0.08064442315389002,3.0,6.0,4.0
+state creation,Ideational + Security,Austria,0,-0.132413510382865,3.0,6.0,6.0
+state creation,Ideational + Security,Austria,1,-0.23583756532831882,3.0,6.0,6.0
+state creation,Ideational + Security,Austria,2,-0.062888688668429,3.0,6.0,6.0
+state creation,Ideational + Security,Austria,3,0.6826624721563189,2.0,3.0,5.0
+state creation,Political + Economic,Austria,-3,0.13486359187184876,2.0,5.0,6.0
+state creation,Political + Economic,Austria,-2,0.044023440115869956,3.0,6.0,4.0
+state creation,Political + Economic,Austria,0,0.10916994342184595,3.0,6.0,6.0
+state creation,Political + Economic,Austria,1,0.1502391307855239,3.0,6.0,6.0
+state creation,Political + Economic,Austria,2,0.0398862554039982,3.0,6.0,6.0
+state creation,Political + Economic,Austria,3,0.19870358133818647,2.0,3.0,5.0
+state creation,Political + Ideational,Austria,-3,0.056101047401073155,2.0,5.0,6.0
+state creation,Political + Ideational,Austria,-2,0.044616550110217444,3.0,6.0,4.0
+state creation,Political + Ideational,Austria,0,0.023645688355915937,3.0,6.0,6.0
+state creation,Political + Ideational,Austria,1,0.016261694046880427,3.0,6.0,6.0
+state creation,Political + Ideational,Austria,2,0.026696601282412538,3.0,6.0,6.0
+state creation,Political + Ideational,Austria,3,0.05203281645652597,2.0,3.0,5.0
+state creation,Political + Security,Austria,-3,0.24858032311057526,2.0,5.0,6.0
+state creation,Political + Security,Austria,-2,0.06830016764067415,3.0,6.0,4.0
+state creation,Political + Security,Austria,0,-0.011114077076412718,3.0,6.0,6.0
+state creation,Political + Security,Austria,1,0.02676953520412095,3.0,6.0,6.0
+state creation,Political + Security,Austria,2,-0.06986764262695465,3.0,6.0,6.0
+state creation,Political + Security,Austria,3,-0.5159070768842272,2.0,3.0,5.0
+state creation,Economic + Security,Brazil,-3,0.2918874726658592,2.0,5.0,6.0
+state creation,Economic + Security,Brazil,-2,-0.3327073929413422,3.0,6.0,4.0
+state creation,Economic + Security,Brazil,0,0.043205187762684984,3.0,6.0,6.0
+state creation,Economic + Security,Brazil,1,0.23770900467942346,3.0,6.0,6.0
+state creation,Economic + Security,Brazil,2,0.20570358707284822,3.0,6.0,6.0
+state creation,Economic + Security,Brazil,3,0.4508543451407813,2.0,3.0,5.0
+state creation,Ideational + Economic,Brazil,-3,-0.21869811365536038,2.0,5.0,6.0
+state creation,Ideational + Economic,Brazil,-2,-0.16734390423495973,3.0,6.0,4.0
+state creation,Ideational + Economic,Brazil,0,-0.1728006564105078,3.0,6.0,6.0
+state creation,Ideational + Economic,Brazil,1,-0.22803705288368134,3.0,6.0,6.0
+state creation,Ideational + Economic,Brazil,2,-0.25745809392064334,3.0,6.0,6.0
+state creation,Ideational + Economic,Brazil,3,-0.6660810807204897,2.0,3.0,5.0
+state creation,Ideational + Security,Brazil,-3,0.02553606756097184,2.0,5.0,6.0
+state creation,Ideational + Security,Brazil,-2,0.11119358311030199,3.0,6.0,4.0
+state creation,Ideational + Security,Brazil,0,-0.12083350144413456,3.0,6.0,6.0
+state creation,Ideational + Security,Brazil,1,-0.23781204121058705,3.0,6.0,6.0
+state creation,Ideational + Security,Brazil,2,-0.06197838737114081,3.0,6.0,6.0
+state creation,Ideational + Security,Brazil,3,0.6843874799223935,2.0,3.0,5.0
+state creation,Political + Economic,Brazil,-3,0.1352909129293033,2.0,5.0,6.0
+state creation,Political + Economic,Brazil,-2,0.046711679088512814,3.0,6.0,4.0
+state creation,Political + Economic,Brazil,0,0.10808067654074632,3.0,6.0,6.0
+state creation,Political + Economic,Brazil,1,0.1388285746798462,3.0,6.0,6.0
+state creation,Political + Economic,Brazil,2,0.04315391929466119,3.0,6.0,6.0
+state creation,Political + Economic,Brazil,3,0.19178612606173331,2.0,3.0,5.0
+state creation,Political + Ideational,Brazil,-3,0.05438021642312071,2.0,5.0,6.0
+state creation,Political + Ideational,Brazil,-2,0.045421243555219454,3.0,6.0,4.0
+state creation,Political + Ideational,Brazil,0,0.025595865327687855,3.0,6.0,6.0
+state creation,Political + Ideational,Brazil,1,0.022452632201858575,3.0,6.0,6.0
+state creation,Political + Ideational,Brazil,2,0.028589664832393353,3.0,6.0,6.0
+state creation,Political + Ideational,Brazil,3,0.05933186141394737,2.0,3.0,5.0
+state creation,Political + Security,Brazil,-3,0.2445315267185432,2.0,5.0,6.0
+state creation,Political + Security,Brazil,-2,0.05363434595255264,3.0,6.0,4.0
+state creation,Political + Security,Brazil,0,-0.02416152695740501,3.0,6.0,6.0
+state creation,Political + Security,Brazil,1,0.020861665759993448,3.0,6.0,6.0
+state creation,Political + Security,Brazil,2,-0.08465767217553342,3.0,6.0,6.0
+state creation,Political + Security,Brazil,3,-0.5228477292970485,2.0,3.0,5.0
+state creation,Economic + Security,Canada,-3,0.40178602771244043,2.0,4.0,6.0
+state creation,Economic + Security,Canada,-2,-0.2056173127127657,3.0,5.0,4.0
+state creation,Economic + Security,Canada,0,-0.028081390480472267,3.0,5.0,6.0
+state creation,Economic + Security,Canada,1,0.3487688489053444,3.0,5.0,6.0
+state creation,Economic + Security,Canada,2,0.29291287830245294,3.0,5.0,6.0
+state creation,Economic + Security,Canada,3,0.6871711548446976,2.0,2.0,5.0
+state creation,Ideational + Economic,Canada,-3,-0.15394352074901793,2.0,4.0,6.0
+state creation,Ideational + Economic,Canada,-2,-0.1525316338609476,3.0,5.0,4.0
+state creation,Ideational + Economic,Canada,0,-0.19254128481453875,3.0,5.0,6.0
+state creation,Ideational + Economic,Canada,1,-0.24066748039651586,3.0,5.0,6.0
+state creation,Ideational + Economic,Canada,2,-0.21921327373405738,3.0,5.0,6.0
+state creation,Ideational + Economic,Canada,3,-0.8801633874822805,2.0,2.0,5.0
+state creation,Ideational + Security,Canada,-3,-0.13935011289438312,2.0,4.0,6.0
+state creation,Ideational + Security,Canada,-2,-0.00020423436373873116,3.0,5.0,4.0
+state creation,Ideational + Security,Canada,0,-0.11290099017092811,3.0,5.0,6.0
+state creation,Ideational + Security,Canada,1,-0.3168694349799186,3.0,5.0,6.0
+state creation,Ideational + Security,Canada,2,-0.2236876344134119,3.0,5.0,6.0
+state creation,Ideational + Security,Canada,3,0.6551508230716967,2.0,2.0,5.0
+state creation,Political + Economic,Canada,-3,-0.1291725022577576,2.0,4.0,6.0
+state creation,Political + Economic,Canada,-2,0.01794280366741393,3.0,5.0,4.0
+state creation,Political + Economic,Canada,0,0.1736854927996251,3.0,5.0,6.0
+state creation,Political + Economic,Canada,1,0.20906101600044114,3.0,5.0,6.0
+state creation,Political + Economic,Canada,2,0.06385803966593953,3.0,5.0,6.0
+state creation,Political + Economic,Canada,3,0.272632150669468,2.0,2.0,5.0
+state creation,Political + Ideational,Canada,-3,0.06957998037617592,2.0,4.0,6.0
+state creation,Political + Ideational,Canada,-2,0.0495859601977736,3.0,5.0,4.0
+state creation,Political + Ideational,Canada,0,0.021302281939546013,3.0,5.0,6.0
+state creation,Political + Ideational,Canada,1,0.03118503003258798,3.0,5.0,6.0
+state creation,Political + Ideational,Canada,2,0.04106821216921778,3.0,5.0,6.0
+state creation,Political + Ideational,Canada,3,0.13987353623794457,2.0,2.0,5.0
+state creation,Political + Security,Canada,-3,0.22353244440553652,2.0,4.0,6.0
+state creation,Political + Security,Canada,-2,0.05638402819483727,3.0,5.0,4.0
+state creation,Political + Security,Canada,0,-0.01586975640751142,3.0,5.0,6.0
+state creation,Political + Security,Canada,1,0.04297707381931693,3.0,5.0,6.0
+state creation,Political + Security,Canada,2,-0.042776262309505333,3.0,5.0,6.0
+state creation,Political + Security,Canada,3,-0.5047160358514553,2.0,2.0,5.0
+state creation,Economic + Security,France,-3,0.1961191758777176,2.0,5.0,5.0
+state creation,Economic + Security,France,-2,-0.38307032425611537,3.0,6.0,3.0
+state creation,Economic + Security,France,0,-0.01942338630144153,3.0,6.0,5.0
+state creation,Economic + Security,France,1,0.12579933691844877,3.0,6.0,5.0
+state creation,Economic + Security,France,2,0.20069458656106873,3.0,6.0,5.0
+state creation,Economic + Security,France,3,0.4717901987782956,2.0,3.0,4.0
+state creation,Ideational + Economic,France,-3,-0.14551360559240428,2.0,5.0,5.0
+state creation,Ideational + Economic,France,-2,-0.16026812417841793,3.0,6.0,3.0
+state creation,Ideational + Economic,France,0,-0.1703936067500952,3.0,6.0,5.0
+state creation,Ideational + Economic,France,1,-0.22361382474334254,3.0,6.0,5.0
+state creation,Ideational + Economic,France,2,-0.285703550006094,3.0,6.0,5.0
+state creation,Ideational + Economic,France,3,-0.6927135697099954,2.0,3.0,4.0
+state creation,Ideational + Security,France,-3,0.015171953368914349,2.0,5.0,5.0
+state creation,Ideational + Security,France,-2,0.15506461380550052,3.0,6.0,3.0
+state creation,Ideational + Security,France,0,-0.066098840021985,3.0,6.0,5.0
+state creation,Ideational + Security,France,1,-0.17689524543430712,3.0,6.0,5.0
+state creation,Ideational + Security,France,2,0.020479166594026637,3.0,6.0,5.0
+state creation,Ideational + Security,France,3,0.806459429101872,2.0,3.0,4.0
+state creation,Political + Economic,France,-3,0.11963635407938238,2.0,5.0,5.0
+state creation,Political + Economic,France,-2,0.040595842516891884,3.0,6.0,3.0
+state creation,Political + Economic,France,0,0.11079901722000757,3.0,6.0,5.0
+state creation,Political + Economic,France,1,0.14303167468226122,3.0,6.0,5.0
+state creation,Political + Economic,France,2,0.06153023041627199,3.0,6.0,5.0
+state creation,Political + Economic,France,3,0.2159178233005877,2.0,3.0,4.0
+state creation,Political + Ideational,France,-3,0.04368235314171657,2.0,5.0,5.0
+state creation,Political + Ideational,France,-2,0.032420414587554854,3.0,6.0,3.0
+state creation,Political + Ideational,France,0,0.02437380592140076,3.0,6.0,5.0
+state creation,Political + Ideational,France,1,0.00526453486744765,3.0,6.0,5.0
+state creation,Political + Ideational,France,2,0.022287792349594045,3.0,6.0,5.0
+state creation,Political + Ideational,France,3,0.05524176754800835,2.0,3.0,4.0
+state creation,Political + Security,France,-3,0.16950142108219904,2.0,5.0,5.0
+state creation,Political + Security,France,-2,0.06420842216516741,3.0,6.0,3.0
+state creation,Political + Security,France,0,-0.04676035445015992,3.0,6.0,5.0
+state creation,Political + Security,France,1,0.0343916881833891,3.0,6.0,5.0
+state creation,Political + Security,France,2,-0.08432625035792223,3.0,6.0,5.0
+state creation,Political + Security,France,3,-0.5548337642114731,2.0,3.0,4.0
+state creation,Economic + Security,Germany,-3,0.30311462844676507,2.0,5.0,5.0
+state creation,Economic + Security,Germany,-2,-0.36469809839695705,3.0,6.0,3.0
+state creation,Economic + Security,Germany,0,0.03902741113393268,3.0,6.0,5.0
+state creation,Economic + Security,Germany,1,0.3520588389148289,3.0,6.0,5.0
+state creation,Economic + Security,Germany,2,0.18615146187488732,3.0,6.0,5.0
+state creation,Economic + Security,Germany,3,0.510527408747615,2.0,3.0,4.0
+state creation,Ideational + Economic,Germany,-3,-0.38547284197412107,2.0,5.0,5.0
+state creation,Ideational + Economic,Germany,-2,-0.18124612963051143,3.0,6.0,3.0
+state creation,Ideational + Economic,Germany,0,-0.14814330185139357,3.0,6.0,5.0
+state creation,Ideational + Economic,Germany,1,-0.18273106509163453,3.0,6.0,5.0
+state creation,Ideational + Economic,Germany,2,-0.17473076394871132,3.0,6.0,5.0
+state creation,Ideational + Economic,Germany,3,-0.5288711814933937,2.0,3.0,4.0
+state creation,Ideational + Security,Germany,-3,0.04852118658296043,2.0,5.0,5.0
+state creation,Ideational + Security,Germany,-2,0.17511861241749696,3.0,6.0,3.0
+state creation,Ideational + Security,Germany,0,-0.1868634918178357,3.0,6.0,5.0
+state creation,Ideational + Security,Germany,1,-0.3829928968601342,3.0,6.0,5.0
+state creation,Ideational + Security,Germany,2,-0.18244231311007106,3.0,6.0,5.0
+state creation,Ideational + Security,Germany,3,0.5242451015055524,2.0,3.0,4.0
+state creation,Political + Economic,Germany,-3,0.1705909169397454,2.0,5.0,5.0
+state creation,Political + Economic,Germany,-2,0.08169987159922706,3.0,6.0,3.0
+state creation,Political + Economic,Germany,0,0.08832475370148975,3.0,6.0,5.0
+state creation,Political + Economic,Germany,1,0.06944705538284722,3.0,6.0,5.0
+state creation,Political + Economic,Germany,2,-0.006423861514201328,3.0,6.0,5.0
+state creation,Political + Economic,Germany,3,0.06483291841464978,2.0,3.0,4.0
+state creation,Political + Ideational,Germany,-3,0.07468744271270873,2.0,5.0,5.0
+state creation,Political + Ideational,Germany,-2,0.04446354528076841,3.0,6.0,3.0
+state creation,Political + Ideational,Germany,0,0.01918404040258344,3.0,6.0,5.0
+state creation,Political + Ideational,Germany,1,0.06315371182309058,3.0,6.0,5.0
+state creation,Political + Ideational,Germany,2,0.028340540409944676,3.0,6.0,5.0
+state creation,Political + Ideational,Germany,3,0.0968346471581157,2.0,3.0,4.0
+state creation,Political + Security,Germany,-3,0.2609193068306378,2.0,5.0,5.0
+state creation,Political + Security,Germany,-2,0.050429757852354484,3.0,6.0,3.0
+state creation,Political + Security,Germany,0,0.003998729146447854,3.0,6.0,5.0
+state creation,Political + Security,Germany,1,0.008368844863044926,3.0,6.0,5.0
+state creation,Political + Security,Germany,2,-0.04458282009055225,3.0,6.0,5.0
+state creation,Political + Security,Germany,3,-0.5436781306341916,2.0,3.0,4.0
+state creation,Economic + Security,Italy,-3,0.5335524131186944,2.0,4.0,6.0
+state creation,Economic + Security,Italy,-2,0.3611591971646996,3.0,5.0,4.0
+state creation,Economic + Security,Italy,0,0.18695169325467237,3.0,5.0,5.0
+state creation,Economic + Security,Italy,1,0.2550879011000512,3.0,5.0,5.0
+state creation,Economic + Security,Italy,2,0.07645474887492905,3.0,5.0,5.0
+state creation,Economic + Security,Italy,3,-0.14401289961522704,2.0,2.0,5.0
+state creation,Ideational + Economic,Italy,-3,-0.1292902408571264,2.0,4.0,6.0
+state creation,Ideational + Economic,Italy,-2,-0.16684722167484317,3.0,5.0,4.0
+state creation,Ideational + Economic,Italy,0,-0.22074019166303943,3.0,5.0,5.0
+state creation,Ideational + Economic,Italy,1,-0.26845227202914435,3.0,5.0,5.0
+state creation,Ideational + Economic,Italy,2,-0.20863613570197392,3.0,5.0,5.0
+state creation,Ideational + Economic,Italy,3,-0.5693040276917116,2.0,2.0,5.0
+state creation,Ideational + Security,Italy,-3,-0.05450708282448338,2.0,4.0,6.0
+state creation,Ideational + Security,Italy,-2,-0.09649576895157472,3.0,5.0,4.0
+state creation,Ideational + Security,Italy,0,-0.14708742047421713,3.0,5.0,5.0
+state creation,Ideational + Security,Italy,1,-0.1820404625533499,3.0,5.0,5.0
+state creation,Ideational + Security,Italy,2,-0.3196885105015067,3.0,5.0,5.0
+state creation,Ideational + Security,Italy,3,-0.07707687854020764,2.0,2.0,5.0
+state creation,Political + Economic,Italy,-3,0.07748764225576378,2.0,4.0,6.0
+state creation,Political + Economic,Italy,-2,0.021786360975701413,3.0,5.0,4.0
+state creation,Political + Economic,Italy,0,0.1348855000737194,3.0,5.0,5.0
+state creation,Political + Economic,Italy,1,0.16362315131397734,3.0,5.0,5.0
+state creation,Political + Economic,Italy,2,0.001364923011281416,3.0,5.0,5.0
+state creation,Political + Economic,Italy,3,0.05993363522112366,2.0,2.0,5.0
+state creation,Political + Ideational,Italy,-3,0.04073899538329519,2.0,4.0,6.0
+state creation,Political + Ideational,Italy,-2,0.05838887565857888,3.0,5.0,4.0
+state creation,Political + Ideational,Italy,0,0.038159250367324205,3.0,5.0,5.0
+state creation,Political + Ideational,Italy,1,0.03174731081204616,3.0,5.0,5.0
+state creation,Political + Ideational,Italy,2,0.023008427050275677,3.0,5.0,5.0
+state creation,Political + Ideational,Italy,3,0.03918568715144859,2.0,2.0,5.0
+state creation,Political + Security,Italy,-3,0.06290317059239497,2.0,4.0,6.0
+state creation,Political + Security,Italy,-2,0.03780237277120282,3.0,5.0,4.0
+state creation,Political + Security,Italy,0,-0.061297958292601894,3.0,5.0,5.0
+state creation,Political + Security,Italy,1,-0.006563643119617791,3.0,5.0,5.0
+state creation,Political + Security,Italy,2,-0.013632239106959371,3.0,5.0,5.0
+state creation,Political + Security,Italy,3,-0.009829543335249947,2.0,2.0,5.0
+state creation,Economic + Security,New Zealand,-3,0.398720496779156,2.0,4.0,6.0
+state creation,Economic + Security,New Zealand,-2,-0.613514767449891,3.0,5.0,4.0
+state creation,Economic + Security,New Zealand,0,0.23298185631478424,3.0,5.0,6.0
+state creation,Economic + Security,New Zealand,1,0.20748908789937254,3.0,5.0,6.0
+state creation,Economic + Security,New Zealand,2,0.26086625255614326,3.0,5.0,6.0
+state creation,Economic + Security,New Zealand,3,0.4508543451407813,2.0,3.0,5.0
+state creation,Ideational + Economic,New Zealand,-3,-0.30486706893377646,2.0,4.0,6.0
+state creation,Ideational + Economic,New Zealand,-2,-0.22862133171999116,3.0,5.0,4.0
+state creation,Ideational + Economic,New Zealand,0,-0.20703799806009138,3.0,5.0,6.0
+state creation,Ideational + Economic,New Zealand,1,-0.27011212325891193,3.0,5.0,6.0
+state creation,Ideational + Economic,New Zealand,2,-0.3353989588650137,3.0,5.0,6.0
+state creation,Ideational + Economic,New Zealand,3,-0.6660810807204897,2.0,3.0,5.0
+state creation,Ideational + Security,New Zealand,-3,0.16864859706413105,2.0,4.0,6.0
+state creation,Ideational + Security,New Zealand,-2,0.2760676177571497,3.0,5.0,4.0
+state creation,Ideational + Security,New Zealand,0,-0.09670692358168782,3.0,5.0,6.0
+state creation,Ideational + Security,New Zealand,1,-0.12940294220995857,3.0,5.0,6.0
+state creation,Ideational + Security,New Zealand,2,0.03857654836997813,3.0,5.0,6.0
+state creation,Ideational + Security,New Zealand,3,0.6843874799223935,2.0,3.0,5.0
+state creation,Political + Economic,New Zealand,-3,0.18268373121924916,2.0,4.0,6.0
+state creation,Political + Economic,New Zealand,-2,0.08104377155265777,3.0,5.0,4.0
+state creation,Political + Economic,New Zealand,0,0.07648300046549542,3.0,5.0,6.0
+state creation,Political + Economic,New Zealand,1,0.11855432634070676,3.0,5.0,6.0
+state creation,Political + Economic,New Zealand,2,0.04932488376076566,3.0,5.0,6.0
+state creation,Political + Economic,New Zealand,3,0.19178612606173331,2.0,3.0,5.0
+state creation,Political + Ideational,New Zealand,-3,0.05317811493668412,2.0,4.0,6.0
+state creation,Political + Ideational,New Zealand,-2,0.031771964684352984,3.0,5.0,4.0
+state creation,Political + Ideational,New Zealand,0,0.039434227449122394,3.0,5.0,6.0
+state creation,Political + Ideational,New Zealand,1,0.023566071710145683,3.0,5.0,6.0
+state creation,Political + Ideational,New Zealand,2,0.031955965180018635,3.0,5.0,6.0
+state creation,Political + Ideational,New Zealand,3,0.05933186141394737,2.0,3.0,5.0
+state creation,Political + Security,New Zealand,-3,0.20106256787381532,2.0,4.0,6.0
+state creation,Political + Security,New Zealand,-2,0.002878710164021789,3.0,5.0,4.0
+state creation,Political + Security,New Zealand,0,-0.03470316658533539,3.0,5.0,6.0
+state creation,Political + Security,New Zealand,1,-0.006412763526921816,3.0,5.0,6.0
+state creation,Political + Security,New Zealand,2,-0.12503833678796225,3.0,5.0,6.0
+state creation,Political + Security,New Zealand,3,-0.5228477292970485,2.0,3.0,5.0
+state creation,Economic + Security,Norway,-3,0.17350111794000175,2.0,4.0,6.0
+state creation,Economic + Security,Norway,-2,-0.5132222521118288,3.0,5.0,4.0
+state creation,Economic + Security,Norway,0,-0.016196108895026273,3.0,5.0,6.0
+state creation,Economic + Security,Norway,1,0.20492010302761177,3.0,5.0,6.0
+state creation,Economic + Security,Norway,2,0.225004483251114,3.0,5.0,6.0
+state creation,Economic + Security,Norway,3,0.4508543451407813,2.0,3.0,5.0
+state creation,Ideational + Economic,Norway,-3,-0.26246115958359095,2.0,4.0,6.0
+state creation,Ideational + Economic,Norway,-2,-0.2030845584983889,3.0,5.0,4.0
+state creation,Ideational + Economic,Norway,0,-0.18695128712017703,3.0,5.0,6.0
+state creation,Ideational + Economic,Norway,1,-0.2768554441045631,3.0,5.0,6.0
+state creation,Ideational + Economic,Norway,2,-0.3325081358059149,3.0,5.0,6.0
+state creation,Ideational + Economic,Norway,3,-0.6660810807204897,2.0,3.0,5.0
+state creation,Ideational + Security,Norway,-3,0.10303456646420442,2.0,4.0,6.0
+state creation,Ideational + Security,Norway,-2,0.109086898837456,3.0,5.0,4.0
+state creation,Ideational + Security,Norway,0,-0.08565997370577755,3.0,5.0,6.0
+state creation,Ideational + Security,Norway,1,-0.16320640388081492,3.0,5.0,6.0
+state creation,Ideational + Security,Norway,2,0.0746679398343058,3.0,5.0,6.0
+state creation,Ideational + Security,Norway,3,0.6843874799223935,2.0,3.0,5.0
+state creation,Political + Economic,Norway,-3,0.17463819497970873,2.0,4.0,6.0
+state creation,Political + Economic,Norway,-2,0.07973043398693791,3.0,5.0,4.0
+state creation,Political + Economic,Norway,0,0.1046230471764789,3.0,5.0,6.0
+state creation,Political + Economic,Norway,1,0.12647683189156492,3.0,5.0,6.0
+state creation,Political + Economic,Norway,2,0.054402331577114126,3.0,5.0,6.0
+state creation,Political + Economic,Norway,3,0.19178612606173331,2.0,3.0,5.0
+state creation,Political + Ideational,Norway,-3,0.056365699246557044,2.0,4.0,6.0
+state creation,Political + Ideational,Norway,-2,0.036591840855067496,3.0,5.0,4.0
+state creation,Political + Ideational,Norway,0,0.005411992024743223,3.0,5.0,6.0
+state creation,Political + Ideational,Norway,1,0.023288483246082396,3.0,5.0,6.0
+state creation,Political + Ideational,Norway,2,0.038545885488563046,3.0,5.0,6.0
+state creation,Political + Ideational,Norway,3,0.05933186141394737,2.0,3.0,5.0
+state creation,Political + Security,Norway,-3,0.2678906216322523,2.0,4.0,6.0
+state creation,Political + Security,Norway,-2,0.08206412566972063,3.0,5.0,4.0
+state creation,Political + Security,Norway,0,-0.04283865394212294,3.0,5.0,6.0
+state creation,Political + Security,Norway,1,-0.0400301838860452,3.0,5.0,6.0
+state creation,Political + Security,Norway,2,-0.1459147719891789,3.0,5.0,6.0
+state creation,Political + Security,Norway,3,-0.5228477292970485,2.0,3.0,5.0
+state creation,Economic + Security,Russia,-3,0.2987585999723346,2.0,5.0,6.0
+state creation,Economic + Security,Russia,-2,-0.3272620422919697,3.0,6.0,4.0
+state creation,Economic + Security,Russia,0,0.005841768227206973,3.0,6.0,6.0
+state creation,Economic + Security,Russia,1,0.20722691365852822,3.0,6.0,6.0
+state creation,Economic + Security,Russia,2,0.14077906957056882,3.0,6.0,6.0
+state creation,Economic + Security,Russia,3,0.3812602688589171,2.0,3.0,5.0
+state creation,Ideational + Economic,Russia,-3,-0.21776615340984398,2.0,5.0,6.0
+state creation,Ideational + Economic,Russia,-2,-0.16639684237612642,3.0,6.0,4.0
+state creation,Ideational + Economic,Russia,0,-0.16959104280015214,3.0,6.0,6.0
+state creation,Ideational + Economic,Russia,1,-0.2281034422315433,3.0,6.0,6.0
+state creation,Ideational + Economic,Russia,2,-0.25670305186884873,3.0,6.0,6.0
+state creation,Ideational + Economic,Russia,3,-0.6672836403001092,2.0,3.0,5.0
+state creation,Ideational + Security,Russia,-3,0.03662377601270674,2.0,5.0,6.0
+state creation,Ideational + Security,Russia,-2,0.11554953305390663,3.0,6.0,4.0
+state creation,Ideational + Security,Russia,0,-0.12411889386051729,3.0,6.0,6.0
+state creation,Ideational + Security,Russia,1,-0.2291960752247939,3.0,6.0,6.0
+state creation,Ideational + Security,Russia,2,-0.05176754642717193,3.0,6.0,6.0
+state creation,Ideational + Security,Russia,3,0.7061785833010603,2.0,3.0,5.0
+state creation,Political + Economic,Russia,-3,0.13513363461800254,2.0,5.0,6.0
+state creation,Political + Economic,Russia,-2,0.04596552854137215,3.0,6.0,4.0
+state creation,Political + Economic,Russia,0,0.10712227275358306,3.0,6.0,6.0
+state creation,Political + Economic,Russia,1,0.13745361174614829,3.0,6.0,6.0
+state creation,Political + Economic,Russia,2,0.04369674781081336,3.0,6.0,6.0
+state creation,Political + Economic,Russia,3,0.1921588410619539,2.0,3.0,5.0
+state creation,Political + Ideational,Russia,-3,0.05436957578189293,2.0,5.0,6.0
+state creation,Political + Ideational,Russia,-2,0.04600661453692198,3.0,6.0,4.0
+state creation,Political + Ideational,Russia,0,0.022121105672496675,3.0,6.0,6.0
+state creation,Political + Ideational,Russia,1,0.019144352600638962,3.0,6.0,6.0
+state creation,Political + Ideational,Russia,2,0.026153746142619352,3.0,6.0,6.0
+state creation,Political + Ideational,Russia,3,0.05753358218216965,2.0,3.0,5.0
+state creation,Political + Security,Russia,-3,0.24367589927445196,2.0,5.0,6.0
+state creation,Political + Security,Russia,-2,0.05816054475200222,3.0,6.0,4.0
+state creation,Political + Security,Russia,0,-0.008134391862491102,3.0,6.0,6.0
+state creation,Political + Security,Russia,1,0.03398598723410667,3.0,6.0,6.0
+state creation,Political + Security,Russia,2,-0.07422872342875589,3.0,6.0,6.0
+state creation,Political + Security,Russia,3,-0.5119263331339874,2.0,3.0,5.0
+state creation,Economic + Security,Spain,-3,0.34376042543443175,2.0,5.0,5.0
+state creation,Economic + Security,Spain,-2,-0.3262128502577153,3.0,6.0,4.0
+state creation,Economic + Security,Spain,0,0.04795118008024809,3.0,6.0,5.0
+state creation,Economic + Security,Spain,1,0.22275079456060154,3.0,6.0,5.0
+state creation,Economic + Security,Spain,2,0.19002615538476422,3.0,6.0,5.0
+state creation,Economic + Security,Spain,3,0.38517757188781054,2.0,3.0,4.0
+state creation,Ideational + Economic,Spain,-3,-0.2174396698729076,2.0,5.0,5.0
+state creation,Ideational + Economic,Spain,-2,-0.1654490052743999,3.0,6.0,4.0
+state creation,Ideational + Economic,Spain,0,-0.17555902479644006,3.0,6.0,5.0
+state creation,Ideational + Economic,Spain,1,-0.23007877213311898,3.0,6.0,5.0
+state creation,Ideational + Economic,Spain,2,-0.26263901918707505,3.0,6.0,5.0
+state creation,Ideational + Economic,Spain,3,-0.6723465306278484,2.0,3.0,4.0
+state creation,Ideational + Security,Spain,-3,0.03279161442359313,2.0,5.0,5.0
+state creation,Ideational + Security,Spain,-2,0.11418605052433506,3.0,6.0,4.0
+state creation,Ideational + Security,Spain,0,-0.11323867910275842,3.0,6.0,5.0
+state creation,Ideational + Security,Spain,1,-0.22506589813783587,3.0,6.0,5.0
+state creation,Ideational + Security,Spain,2,-0.05200458497392472,3.0,6.0,5.0
+state creation,Ideational + Security,Spain,3,0.6714630068013253,2.0,3.0,4.0
+state creation,Political + Economic,Spain,-3,0.13521961752579473,2.0,5.0,5.0
+state creation,Political + Economic,Spain,-2,0.04660493555298468,3.0,6.0,4.0
+state creation,Political + Economic,Spain,0,0.11301649603593938,3.0,6.0,5.0
+state creation,Political + Economic,Spain,1,0.14562946499393445,3.0,6.0,5.0
+state creation,Political + Economic,Spain,2,0.052638522037667564,3.0,6.0,5.0
+state creation,Political + Economic,Spain,3,0.20218156455562777,2.0,3.0,4.0
+state creation,Political + Ideational,Spain,-3,0.057375271991827514,2.0,5.0,5.0
+state creation,Political + Ideational,Spain,-2,0.04983357332304115,3.0,6.0,4.0
+state creation,Political + Ideational,Spain,0,0.026467636135973152,3.0,6.0,5.0
+state creation,Political + Ideational,Spain,1,0.016793589832909524,3.0,6.0,5.0
+state creation,Political + Ideational,Spain,2,0.027457425711613758,3.0,6.0,5.0
+state creation,Political + Ideational,Spain,3,0.05296183663028883,2.0,3.0,4.0
+state creation,Political + Security,Spain,-3,0.21328095926288934,2.0,5.0,5.0
+state creation,Political + Security,Spain,-2,0.025423142391898676,3.0,6.0,4.0
+state creation,Political + Security,Spain,0,-0.02211485320148512,3.0,6.0,5.0
+state creation,Political + Security,Spain,1,0.020932496932178708,3.0,6.0,5.0
+state creation,Political + Security,Spain,2,-0.09615395224993266,3.0,6.0,5.0
+state creation,Political + Security,Spain,3,-0.47286899748929745,2.0,3.0,4.0
+state creation,Economic + Security,Sweden,-3,0.303275854124318,2.0,5.0,5.0
+state creation,Economic + Security,Sweden,-2,-0.31791530742733937,3.0,6.0,3.0
+state creation,Economic + Security,Sweden,0,0.06326017920376602,3.0,6.0,5.0
+state creation,Economic + Security,Sweden,1,0.26000192361839836,3.0,6.0,5.0
+state creation,Economic + Security,Sweden,2,0.24659062827638226,3.0,6.0,5.0
+state creation,Economic + Security,Sweden,3,0.48165019188308605,2.0,3.0,4.0
+state creation,Ideational + Economic,Sweden,-3,-0.22630522305681383,2.0,5.0,5.0
+state creation,Ideational + Economic,Sweden,-2,-0.16396606700292568,3.0,6.0,3.0
+state creation,Ideational + Economic,Sweden,0,-0.19105531038465884,3.0,6.0,5.0
+state creation,Ideational + Economic,Sweden,1,-0.24980936140136475,3.0,6.0,5.0
+state creation,Ideational + Economic,Sweden,2,-0.2598275261109856,3.0,6.0,5.0
+state creation,Ideational + Economic,Sweden,3,-0.6737115784006239,2.0,3.0,4.0
+state creation,Ideational + Security,Sweden,-3,0.03696765298812412,2.0,5.0,5.0
+state creation,Ideational + Security,Sweden,-2,0.04835084035851889,3.0,6.0,3.0
+state creation,Ideational + Security,Sweden,0,-0.14497542202944821,3.0,6.0,5.0
+state creation,Ideational + Security,Sweden,1,-0.27446233585399943,3.0,6.0,5.0
+state creation,Ideational + Security,Sweden,2,-0.12395930635438601,3.0,6.0,5.0
+state creation,Ideational + Security,Sweden,3,0.6139961572836126,2.0,3.0,4.0
+state creation,Political + Economic,Sweden,-3,0.13489449194351136,2.0,5.0,5.0
+state creation,Political + Economic,Sweden,-2,0.032387797839859865,3.0,6.0,3.0
+state creation,Political + Economic,Sweden,0,0.11775980259934477,3.0,6.0,5.0
+state creation,Political + Economic,Sweden,1,0.15856394255664077,3.0,6.0,5.0
+state creation,Political + Economic,Sweden,2,0.030818418214616613,3.0,6.0,5.0
+state creation,Political + Economic,Sweden,3,0.20557143985849324,2.0,3.0,4.0
+state creation,Political + Ideational,Sweden,-3,0.05358405549862919,2.0,5.0,5.0
+state creation,Political + Ideational,Sweden,-2,0.04470816261216685,3.0,6.0,3.0
+state creation,Political + Ideational,Sweden,0,0.028283682536222144,3.0,6.0,5.0
+state creation,Political + Ideational,Sweden,1,0.024989749947765833,3.0,6.0,5.0
+state creation,Political + Ideational,Sweden,2,0.03198499478219867,3.0,6.0,5.0
+state creation,Political + Ideational,Sweden,3,0.06220918534037884,2.0,3.0,4.0
+state creation,Political + Security,Sweden,-3,0.2601445059500521,2.0,5.0,5.0
+state creation,Political + Security,Sweden,-2,0.0694878589450707,3.0,6.0,3.0
+state creation,Political + Security,Sweden,0,-0.007672336075366433,3.0,6.0,5.0
+state creation,Political + Security,Sweden,1,0.048415628061935,3.0,6.0,5.0
+state creation,Political + Security,Sweden,2,-0.03464626698287377,3.0,6.0,5.0
+state creation,Political + Security,Sweden,3,-0.4923306319792519,2.0,3.0,4.0
+state creation,Economic + Security,Switzerland,-3,0.2902562303913113,2.0,5.0,5.0
+state creation,Economic + Security,Switzerland,-2,-0.3219698801224879,3.0,6.0,4.0
+state creation,Economic + Security,Switzerland,0,0.04980646068838553,3.0,6.0,6.0
+state creation,Economic + Security,Switzerland,1,0.2377386121822073,3.0,6.0,6.0
+state creation,Economic + Security,Switzerland,2,0.20898605355121044,3.0,6.0,6.0
+state creation,Economic + Security,Switzerland,3,0.44938095653442073,2.0,3.0,5.0
+state creation,Ideational + Economic,Switzerland,-3,-0.21923242632429857,2.0,5.0,5.0
+state creation,Ideational + Economic,Switzerland,-2,-0.17156260181672925,3.0,6.0,4.0
+state creation,Ideational + Economic,Switzerland,0,-0.17848875108572282,3.0,6.0,6.0
+state creation,Ideational + Economic,Switzerland,1,-0.2319303673633951,3.0,6.0,6.0
+state creation,Ideational + Economic,Switzerland,2,-0.26037620098206393,3.0,6.0,6.0
+state creation,Ideational + Economic,Switzerland,3,-0.6720333215814054,2.0,3.0,5.0
+state creation,Ideational + Security,Switzerland,-3,0.024715431131895248,2.0,5.0,5.0
+state creation,Ideational + Security,Switzerland,-2,0.11011708946481802,3.0,6.0,4.0
+state creation,Ideational + Security,Switzerland,0,-0.1214281177749093,3.0,6.0,6.0
+state creation,Ideational + Security,Switzerland,1,-0.23708800463670976,3.0,6.0,6.0
+state creation,Ideational + Security,Switzerland,2,-0.06250761012777468,3.0,6.0,6.0
+state creation,Ideational + Security,Switzerland,3,0.6867632389585802,2.0,3.0,5.0
+state creation,Political + Economic,Switzerland,-3,0.139239318687345,2.0,5.0,5.0
+state creation,Political + Economic,Switzerland,-2,0.04682997214194707,3.0,6.0,4.0
+state creation,Political + Economic,Switzerland,0,0.10848835283382426,3.0,6.0,6.0
+state creation,Political + Economic,Switzerland,1,0.1424310226214193,3.0,6.0,6.0
+state creation,Political + Economic,Switzerland,2,0.04472932800130852,3.0,6.0,6.0
+state creation,Political + Economic,Switzerland,3,0.19998141980658854,2.0,3.0,5.0
+state creation,Political + Ideational,Switzerland,-3,0.055606591666533034,2.0,5.0,5.0
+state creation,Political + Ideational,Switzerland,-2,0.053178517143704196,3.0,6.0,4.0
+state creation,Political + Ideational,Switzerland,0,0.02905913051982854,3.0,6.0,6.0
+state creation,Political + Ideational,Switzerland,1,0.020010816463221743,3.0,6.0,6.0
+state creation,Political + Ideational,Switzerland,2,0.029185236866957426,3.0,6.0,6.0
+state creation,Political + Ideational,Switzerland,3,0.05469696627831094,2.0,3.0,5.0
+state creation,Political + Security,Switzerland,-3,0.24841369947878666,2.0,5.0,5.0
+state creation,Political + Security,Switzerland,-2,0.05202221805313482,3.0,6.0,4.0
+state creation,Political + Security,Switzerland,0,-0.025374171793620278,3.0,6.0,6.0
+state creation,Political + Security,Switzerland,1,0.02215398467954578,3.0,6.0,6.0
+state creation,Political + Security,Switzerland,2,-0.08296285490471476,3.0,6.0,6.0
+state creation,Political + Security,Switzerland,3,-0.5184822871943412,2.0,3.0,5.0
+state creation,Economic + Security,US,-3,0.2918874726658592,2.0,5.0,6.0
+state creation,Economic + Security,US,-2,-0.39092858919088186,2.0,5.0,8.0
+state creation,Economic + Security,US,0,0.07026532209116701,2.0,5.0,8.0
+state creation,Economic + Security,US,1,0.2079488049260652,2.0,5.0,8.0
+state creation,Economic + Security,US,2,0.20920982908513897,2.0,5.0,8.0
+state creation,Economic + Security,US,3,0.5144170084970909,1.0,2.0,8.0
+state creation,Ideational + Economic,US,-3,-0.21869811365536038,2.0,5.0,6.0
+state creation,Ideational + Economic,US,-2,-0.06197224252769453,2.0,5.0,8.0
+state creation,Ideational + Economic,US,0,-0.08631995010145468,2.0,5.0,8.0
+state creation,Ideational + Economic,US,1,-0.0798645171512569,2.0,5.0,8.0
+state creation,Ideational + Economic,US,2,-0.12246207869176384,2.0,5.0,8.0
+state creation,Ideational + Economic,US,3,-0.4868079347279175,1.0,2.0,8.0
+state creation,Ideational + Security,US,-3,0.02553606756097184,2.0,5.0,6.0
+state creation,Ideational + Security,US,-2,0.060385120973807015,2.0,5.0,8.0
+state creation,Ideational + Security,US,0,-0.22471111384857587,2.0,5.0,8.0
+state creation,Ideational + Security,US,1,-0.293709188670359,2.0,5.0,8.0
+state creation,Ideational + Security,US,2,-0.12374194859415985,2.0,5.0,8.0
+state creation,Ideational + Security,US,3,0.91637280037696,1.0,2.0,8.0
+state creation,Political + Economic,US,-3,0.1352909129293033,2.0,5.0,6.0
+state creation,Political + Economic,US,-2,0.016564948611202578,2.0,5.0,8.0
+state creation,Political + Economic,US,0,0.12018628242395912,2.0,5.0,8.0
+state creation,Political + Economic,US,1,0.18919947776314858,2.0,5.0,8.0
+state creation,Political + Economic,US,2,0.10733240585270017,2.0,5.0,8.0
+state creation,Political + Economic,US,3,0.4430645261638053,1.0,2.0,8.0
+state creation,Political + Ideational,US,-3,0.05438021642312071,2.0,5.0,6.0
+state creation,Political + Ideational,US,-2,0.06615303458215427,2.0,5.0,8.0
+state creation,Political + Ideational,US,0,0.016051886677051302,2.0,5.0,8.0
+state creation,Political + Ideational,US,1,-0.00984785011663733,2.0,5.0,8.0
+state creation,Political + Ideational,US,2,0.012038704943376824,2.0,5.0,8.0
+state creation,Political + Ideational,US,3,-0.005122273579999212,1.0,2.0,8.0
+state creation,Political + Security,US,-3,0.2445315267185432,2.0,5.0,6.0
+state creation,Political + Security,US,-2,0.10319531729365206,2.0,5.0,8.0
+state creation,Political + Security,US,0,-0.05567836384293068,2.0,5.0,8.0
+state creation,Political + Security,US,1,0.006884078852622944,2.0,5.0,8.0
+state creation,Political + Security,US,2,-0.09755202601589438,2.0,5.0,8.0
+state creation,Political + Security,US,3,-0.7655918939241919,1.0,2.0,8.0
+state creation,Economic + Security,United Kingdom,-3,0.2553303528325213,2.0,5.0,5.0
+state creation,Economic + Security,United Kingdom,-2,-0.255520880879756,3.0,6.0,3.0
+state creation,Economic + Security,United Kingdom,0,0.1557076099131793,3.0,6.0,5.0
+state creation,Economic + Security,United Kingdom,1,0.29877010313602315,3.0,6.0,5.0
+state creation,Economic + Security,United Kingdom,2,0.29101148683472133,3.0,6.0,5.0
+state creation,Economic + Security,United Kingdom,3,0.5430800939259858,2.0,3.0,4.0
+state creation,Ideational + Economic,United Kingdom,-3,-0.20787876833309618,2.0,5.0,5.0
+state creation,Ideational + Economic,United Kingdom,-2,-0.16943306798073524,3.0,6.0,3.0
+state creation,Ideational + Economic,United Kingdom,0,-0.1776302460261244,3.0,6.0,5.0
+state creation,Ideational + Economic,United Kingdom,1,-0.2459732911860808,3.0,6.0,5.0
+state creation,Ideational + Economic,United Kingdom,2,-0.2791392992214173,3.0,6.0,5.0
+state creation,Ideational + Economic,United Kingdom,3,-0.7025984998584512,2.0,3.0,4.0
+state creation,Ideational + Security,United Kingdom,-3,0.017320643554533798,2.0,5.0,5.0
+state creation,Ideational + Security,United Kingdom,-2,0.1017137387748522,3.0,6.0,3.0
+state creation,Ideational + Security,United Kingdom,0,-0.0642216180227791,3.0,6.0,5.0
+state creation,Ideational + Security,United Kingdom,1,-0.13726369772925642,3.0,6.0,5.0
+state creation,Ideational + Security,United Kingdom,2,0.035396914050552786,3.0,6.0,5.0
+state creation,Ideational + Security,United Kingdom,3,0.7883797165018267,2.0,3.0,4.0
+state creation,Political + Economic,United Kingdom,-3,0.12328279617203537,2.0,5.0,5.0
+state creation,Political + Economic,United Kingdom,-2,0.042068166312004864,3.0,6.0,3.0
+state creation,Political + Economic,United Kingdom,0,0.10479323866483788,3.0,6.0,5.0
+state creation,Political + Economic,United Kingdom,1,0.1361099092949312,3.0,6.0,5.0
+state creation,Political + Economic,United Kingdom,2,0.05188761784277331,3.0,6.0,5.0
+state creation,Political + Economic,United Kingdom,3,0.19717916706849756,2.0,3.0,4.0
+state creation,Political + Ideational,United Kingdom,-3,0.045466759161444624,2.0,5.0,5.0
+state creation,Political + Ideational,United Kingdom,-2,0.04975411422693621,3.0,6.0,3.0
+state creation,Political + Ideational,United Kingdom,0,0.02761543505700916,3.0,6.0,5.0
+state creation,Political + Ideational,United Kingdom,1,0.024568990935837327,3.0,6.0,5.0
+state creation,Political + Ideational,United Kingdom,2,0.033495715030043345,3.0,6.0,5.0
+state creation,Political + Ideational,United Kingdom,3,0.06255592454213664,2.0,3.0,4.0
+state creation,Political + Security,United Kingdom,-3,0.27058413605687553,2.0,5.0,5.0
+state creation,Political + Security,United Kingdom,-2,0.023546769898374825,3.0,6.0,3.0
+state creation,Political + Security,United Kingdom,0,-0.10102083227792391,3.0,6.0,5.0
+state creation,Political + Security,United Kingdom,1,-0.028228005222780888,3.0,6.0,5.0
+state creation,Political + Security,United Kingdom,2,-0.18795965529951028,3.0,6.0,5.0
+state creation,Political + Security,United Kingdom,3,-0.5879192797948244,2.0,3.0,4.0
